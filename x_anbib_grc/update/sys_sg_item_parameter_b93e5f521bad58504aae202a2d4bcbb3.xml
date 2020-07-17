@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Task business_service</name>
+        <parent>bd3e5f521bad58504aae202a2d4bcba7</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-06-24 12:40:59</sys_created_on>
+        <sys_id>b93e5f521bad58504aae202a2d4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task business_service</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_b93e5f521bad58504aae202a2d4bcbb3</sys_update_name>
+        <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-06-24 12:40:59</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

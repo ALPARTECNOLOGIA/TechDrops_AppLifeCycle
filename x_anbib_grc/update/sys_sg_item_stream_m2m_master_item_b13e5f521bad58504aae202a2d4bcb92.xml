@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Task Item Stream">393e5f521bad58504aae202a2d4bcb8e</item_stream>
+        <master_item display_value="Task master_item">7d3e5f521bad58504aae202a2d4bcb90</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-06-24 12:40:59</sys_created_on>
+        <sys_id>b13e5f521bad58504aae202a2d4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_b13e5f521bad58504aae202a2d4bcb92</sys_update_name>
+        <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-06-24 12:40:59</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

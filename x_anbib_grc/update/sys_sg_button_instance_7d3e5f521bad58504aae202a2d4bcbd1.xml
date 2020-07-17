@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="New Button (Task)">f13e5f521bad58504aae202a2d4bcbb6</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>New</label>
+        <location>top</location>
+        <name>New (Task)</name>
+        <order/>
+        <parent>313e5f521bad58504aae202a2d4bcb88</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-06-24 12:40:59</sys_created_on>
+        <sys_id>7d3e5f521bad58504aae202a2d4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New (Task)</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_sg_button_instance_7d3e5f521bad58504aae202a2d4bcbd1</sys_update_name>
+        <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-06-24 12:40:59</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d3e5f521bad58504aae202a2d4bcbd1"/>
+</record_update>

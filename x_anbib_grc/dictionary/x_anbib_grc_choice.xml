@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="GRC Choice" max_length="40" name="x_anbib_grc_choice" type="collection">
+        <element default="type" label="Choice category" max_length="40" name="choice_category" type="string"/>
+        <element label="Domain" max_length="255" name="domain" type="domain_id"/>
+        <element label="Domain Path" max_length="255" name="domain_path" type="domain_id"/>
+        <element attributes="serializer=com.glide.script.TranslatedTextXMLSerializer" label="Label" max_length="150" name="label" type="translated_text"/>
+        <element label="Name" max_length="150" name="name" type="string"/>
+        <element label="Order" max_length="30" name="order" type="integer"/>
+        <element label="Set" max_length="40" name="set" type="string"/>
+        <index name="index">
+            <element name="domain"/>
+        </index>
+    </element>
+</database>
