@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="customer_contact" name="customer_contact" sys_domain="global" view="Default view">e5a206871b6ddc504aae202a2d4bcb34</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="customer_contact" sys_domain="global" view="Default view">e9a206871b6ddc504aae202a2d4bcb37</sys_ui_section>
+            <sys_ui_section display_value="">e9a206871b6ddc504aae202a2d4bcb37</sys_ui_section>
             <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
             <sys_updated_on>2020-06-26 13:56:23</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="customer_contact" name="customer_contact" sys_domain="global" view="Default view">e5a206871b6ddc504aae202a2d4bcb34</sys_ui_form>
-            <sys_ui_section caption="Contact" display_value="Contact" name="customer_contact" sys_domain="global" view="Default view">69a2cacb1b6ddc504aae202a2d4bcba2</sys_ui_section>
+            <sys_ui_section display_value="">69a2cacb1b6ddc504aae202a2d4bcba2</sys_ui_section>
             <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
             <sys_updated_on>2020-06-26 13:56:23</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="customer_contact" name="customer_contact" sys_domain="global" view="Default view">e5a206871b6ddc504aae202a2d4bcb34</sys_ui_form>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="customer_contact" sys_domain="global" view="Default view">25a2cacb1b6ddc504aae202a2d4bcbba</sys_ui_section>
+            <sys_ui_section display_value="">25a2cacb1b6ddc504aae202a2d4bcbba</sys_ui_section>
             <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
             <sys_updated_on>2020-06-26 13:56:23</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="customer_contact" name="customer_contact" sys_domain="global" view="Default view">e5a206871b6ddc504aae202a2d4bcb34</sys_ui_form>
-            <sys_ui_section caption="PagerDuty" display_value="PagerDuty" name="customer_contact" sys_domain="global" view="Default view">e1a2cacb1b6ddc504aae202a2d4bcbaa</sys_ui_section>
+            <sys_ui_section display_value="">e1a2cacb1b6ddc504aae202a2d4bcbaa</sys_ui_section>
             <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
             <sys_updated_on>2020-06-26 13:56:23</sys_updated_on>
         </sys_ui_form_section>
