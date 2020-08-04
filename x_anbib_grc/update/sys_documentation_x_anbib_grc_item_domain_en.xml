@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="domain" label="Domain" language="en" table="x_anbib_grc_item">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>domain</element>
+            <help/>
+            <hint/>
+            <label>Domain</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <plural>Domains</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>gabriel.madeira@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 13:55:46</sys_created_on>
+            <sys_id>bb658177db0e585002085bd05b9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Domain</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_documentation_x_anbib_grc_item_domain_en</sys_update_name>
+            <sys_updated_by>gabriel.madeira@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 13:55:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="enforcement" table="x_anbib_grc_control" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enforcement</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mandated</label>
+            <language>en</language>
+            <name>x_anbib_grc_control</name>
+            <sequence>0</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:10:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41a84d3bdb4a1090faa711494b9619f4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:10:22</sys_updated_on>
+            <value>mandated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enforcement</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Voluntary</label>
+            <language>en</language>
+            <name>x_anbib_grc_control</name>
+            <sequence>1</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74b8813bdb4a1090faa711494b9619ae</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:10:39</sys_updated_on>
+            <value>voluntary</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>enforcement</element>
+            <name>x_anbib_grc_control</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:10:02</sys_created_on>
+            <sys_id>f0b8897bdb4a1090faa711494b9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>enforcement</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_choice_x_anbib_grc_control_enforcement</sys_update_name>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:10:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_anbib_grc_item" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>0</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:26:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>873c8577db8a1090faa711494b961984</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:27:04</sys_updated_on>
+            <value>draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>0</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:24:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b42bc137db8a1090faa711494b961964</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:24:33</sys_updated_on>
+            <value>draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assess</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>1</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:27:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a38c853fdb8a1090faa711494b9619b8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:27:34</sys_updated_on>
+            <value>assess</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attest</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>1</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:24:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6fbc137db8a1090faa711494b961969</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:24:53</sys_updated_on>
+            <value>attest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Respond</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>2</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:28:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbac017fdb8a1090faa711494b961948</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:28:17</sys_updated_on>
+            <value>respond</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Review</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>2</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:25:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>170ccdbbdb8a1090faa711494b96194e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:25:21</sys_updated_on>
+            <value>review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monitor</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>3</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:25:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a2c8db7db8a1090faa711494b96190d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:25:51</sys_updated_on>
+            <value>monitor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Review</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>3</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:29:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89dc09f7db8a1090faa711494b961990</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:29:24</sys_updated_on>
+            <value>review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monitor</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>4</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:16:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>152ac5b3db8a1090faa711494b96196e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:16:54</sys_updated_on>
+            <value>monitor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retired</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>4</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e2dc1ffdb8a1090faa711494b961946</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:30:29</sys_updated_on>
+            <value>retired</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retired</label>
+            <language>en</language>
+            <name>x_anbib_grc_item</name>
+            <sequence>5</sequence>
+            <sys_created_by>jonathan.andrade@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:16:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e1a41b3db8a1090faa711494b961901</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jonathan.andrade@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:16:33</sys_updated_on>
+            <value>retired</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_anbib_grc_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>gabriel.madeira@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-07-23 14:15:20</sys_created_on>
+            <sys_id>96e981ffdb4e585002085bd05b96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_choice_x_anbib_grc_item_state</sys_update_name>
+            <sys_updated_by>gabriel.madeira@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-07-23 14:15:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

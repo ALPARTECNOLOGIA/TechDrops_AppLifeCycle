@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Layer to Citation" max_length="40" name="x_anbib_grc_m2m_layer_citation" sizeclass="0" type="collection">
+        <element label="Citation" max_length="32" name="citation" reference="x_anbib_grc_document_citation" type="reference"/>
+        <element label="Layer" max_length="32" name="layer" reference="x_anbib_grc_layer_control" type="reference"/>
+        <index name="index">
+            <element name="citation"/>
+        </index>
+        <index name="index2">
+            <element name="layer"/>
+        </index>
+    </element>
+</database>

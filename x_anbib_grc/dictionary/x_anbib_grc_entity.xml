@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="1" type="collection">
+        <element label="Application" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
+        <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bank / Payment Tool" sequence="1" value="bank_payment_tool"/>
+                <element inactive_on_update="false" label="Collaboration / Communication System" sequence="2" value="collaboration_communication_system"/>
+                <element inactive_on_update="false" label="Consolidation Tool" sequence="3" value="consolidation_tool"/>
+                <element inactive_on_update="false" label="Data Management Tool" sequence="4" value="data_management_tool"/>
+                <element inactive_on_update="false" label="Developer Tool" sequence="5" value="developer_tool"/>
+                <element inactive_on_update="false" label="Device Management System" sequence="6" value="device_management_system"/>
+                <element inactive_on_update="false" label="Document Management System" sequence="7" value="document_management_system"/>
+                <element inactive_on_update="false" label="ETL Tool" sequence="8" value="etl_tool"/>
+                <element inactive_on_update="false" label="License Management System" sequence="9" value="license_management_system"/>
+                <element inactive_on_update="false" label="Middleware Tool" sequence="10" value="middleware_tool"/>
+                <element inactive_on_update="false" label="Monitoring Tool" sequence="11" value="monitoring_tool"/>
+                <element inactive_on_update="false" label="Release Management Tool" sequence="12" value="release_management_tool"/>
+                <element inactive_on_update="false" label="Reporting System" sequence="13" value="reporting_system"/>
+                <element inactive_on_update="false" label="Security Tool" sequence="14" value="security_tool"/>
+                <element inactive_on_update="false" label="TBC" sequence="15" value="tbc"/>
+                <element inactive_on_update="false" label="Transactional System" sequence="16" value="transactional_system"/>
+                <element inactive_on_update="false" label="User Management System" sequence="17" value="user_management_system"/>
+                <element inactive_on_update="false" label="Website / Web Portal" sequence="18" value="website_web_portal"/>
+            </choice>
+        </element>
+        <element label="Business Function" max_length="32" name="business_function" reference="cmn_department" type="reference"/>
+        <element label="Crown Jewel" max_length="40" name="crown_jewel" type="boolean"/>
+        <element label="Decommissioning Date" max_length="40" name="decommissioning_date" type="glide_date"/>
+        <element choice="1" label="Decommissioning Strategy" max_length="40" name="decommissioning_strategy" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Business decision" sequence="0" value="business_decision"/>
+                <element inactive_on_update="false" label="To Be Decommissioned" sequence="1" value="to_be_decommissioned"/>
+                <element inactive_on_update="false" label="N/A" sequence="3" value="n_a"/>
+            </choice>
+        </element>
+        <element label="Decommission / Migration Saving (estimate)" max_length="40" name="decommission_migration_saving_estimate" type="string"/>
+        <element label="External Facing" max_length="40" name="external_facing" type="boolean"/>
+        <element label="Financial Reporting Relevant" max_length="40" name="financial_reporting_relevant" type="boolean"/>
+        <element choice="1" label="Hosting type" max_length="40" name="hosting_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cloud" sequence="1" value="cloud"/>
+                <element inactive_on_update="false" label="IaaS" sequence="2" value="iaas"/>
+                <element inactive_on_update="false" label="On Premise" sequence="3" value="on_premise"/>
+                <element inactive_on_update="false" label="PaaS" sequence="4" value="paas"/>
+                <element inactive_on_update="false" label="SaaS" sequence="5" value="saas"/>
+            </choice>
+        </element>
+        <element label="Layer" max_length="4000" name="layer" reference="x_anbib_grc_layer_control" type="glide_list"/>
+        <element label="MICS relevance" max_length="40" name="mics_relevance" type="boolean"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Operating System" max_length="40" name="operating_system" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Windows 10; Unix" sequence="0" value="windows_10_unix"/>
+                <element inactive_on_update="false" label="Linux" sequence="1" value="linux"/>
+                <element inactive_on_update="false" label="N/A - SaaS" sequence="2" value="n_a_saas"/>
+                <element inactive_on_update="false" label="Unix" sequence="3" value="unix"/>
+                <element inactive_on_update="false" label="Win Svr 2012" sequence="4" value="win_svr_2012"/>
+                <element inactive_on_update="false" label="Windows" sequence="5" value="windows"/>
+                <element inactive_on_update="false" label="Windows Mobile; Android; iOS; Linux" sequence="6" value="windows_mobile_android_ios_linux"/>
+                <element inactive_on_update="false" label="Windows; Linux" sequence="7" value="windows_linux"/>
+            </choice>
+        </element>
+        <element label="Personal Data" max_length="40" name="personal_data" type="boolean"/>
+        <element choice="1" label="Service: Record Type" max_length="40" name="service_record_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Add-On" sequence="0" value="add-on"/>
+                <element inactive_on_update="false" label="Business Application" sequence="1" value="business_application"/>
+                <element inactive_on_update="false" label="Infra Component" sequence="2" value="infra_component"/>
+                <element inactive_on_update="false" label="Mobile application" sequence="3" value="mobile_application"/>
+                <element inactive_on_update="false" label="Platform" sequence="4" value="platform"/>
+                <element inactive_on_update="false" label="Website" sequence="5" value="website"/>
+                <element inactive_on_update="false" label="Workspace/Model" sequence="6" value="workspace_model"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status AFR" max_length="40" name="status_afr" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="0" value="partially_in_bau"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="1" value="decommissioned"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="2" value="in_archive_mode"/>
+                <element inactive_on_update="false" label="In BAU" sequence="3" value="in_bau"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="4" value="in_project_mode"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="5" value="in_shaping"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="not_used_not_active"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status APC" max_length="40" name="status_apc" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="0" value="partially_in_bau"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="1" value="decommissioned"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="2" value="in_archive_mode"/>
+                <element inactive_on_update="false" label="In BAU" sequence="3" value="in_bau"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="4" value="in_project_mode"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="5" value="in_shaping"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="not_used_not_active"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status EUR" max_length="40" name="status_eur" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="0" value="partially_in_bau"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="1" value="decommissioned"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="2" value="in_archive_mode"/>
+                <element inactive_on_update="false" label="In BAU" sequence="3" value="in_bau"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="4" value="in_project_mode"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="5" value="in_shaping"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="not_used_not_active"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status GHQ" max_length="40" name="status_ghq" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="0" value="partially_in_bau"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="1" value="decommissioned"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="2" value="in_archive_mode"/>
+                <element inactive_on_update="false" label="In BAU" sequence="3" value="in_bau"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="4" value="in_project_mode"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="5" value="in_shaping"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="not_used_not_active"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status MAZ" max_length="40" name="status_maz" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="0" value="partially_in_bau"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="1" value="decommissioned"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="2" value="in_archive_mode"/>
+                <element inactive_on_update="false" label="In BAU" sequence="3" value="in_bau"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="4" value="in_project_mode"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="5" value="in_shaping"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="not_used_not_active"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status NAZ" max_length="40" name="status_naz" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="0" value="partially_in_bau"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="1" value="decommissioned"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="2" value="in_archive_mode"/>
+                <element inactive_on_update="false" label="In BAU" sequence="3" value="in_bau"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="4" value="in_project_mode"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="5" value="in_shaping"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="not_used_not_active"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status SAZ" max_length="40" name="status_saz" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="0" value="partially_in_bau"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="1" value="decommissioned"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="2" value="in_archive_mode"/>
+                <element inactive_on_update="false" label="In BAU" sequence="3" value="in_bau"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="4" value="in_project_mode"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="5" value="in_shaping"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="not_used_not_active"/>
+            </choice>
+        </element>
+        <element label="Supplier Service Name" max_length="32" name="supplier_service_name" reference="customer_contact" type="reference"/>
+        <element label="Tier" max_length="32" name="tier" reference="x_anbib_grc_tier" type="reference"/>
+        <element label="To be Decommissioned With" max_length="32" name="to_be_decommissioned_with" reference="x_anbib_grc_entity" type="reference"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="application"/>
+        </index>
+        <index name="index2">
+            <element name="tier"/>
+        </index>
+        <index name="index3">
+            <element name="supplier_service_name"/>
+        </index>
+        <index name="index4">
+            <element name="to_be_decommissioned_with"/>
+        </index>
+        <index name="index5">
+            <element name="business_function"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Layer to Citation">87acae57dbda54d002085bd05b9619a5</application>
+        <filter/>
+        <name>Layer to Citations</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_anbib_grc.layer_to_citation_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-03 18:25:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03acae57dbda54d002085bd05b9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Layer to Citations</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_ui_module_03acae57dbda54d002085bd05b9619a8</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-03 18:25:33</sys_updated_on>
+        <table>x_anbib_grc_layer_to_citation</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_ui_module_03acae57dbda54d002085bd05b9619a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Layer to Citation">87acae57dbda54d002085bd05b9619a5</application><filter/><name>Layer to Citations</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_anbib_grc.layer_to_citation_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-03 18:25:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>03acae57dbda54d002085bd05b9619a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Layer to Citations</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_ui_module_03acae57dbda54d002085bd05b9619a8</sys_update_name><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-03 18:25:33</sys_updated_on><table>x_anbib_grc_layer_to_citation</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1067406001</payload_hash>
+        <record_name>Layer to Citations</record_name>
+        <reverted_from/>
+        <source>8e137321db5a189002085bd05b961997</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-03 18:25:33</sys_created_on>
+        <sys_id>c7acae57dbda54d002085bd05b9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173b59258b90000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-03 18:25:33</sys_updated_on>
+        <type>Module</type>
+        <update_guid>cfacae57e1da54d0b3301f61f6475ba9</update_guid>
+        <update_guid_history>cfacae57e1da54d0b3301f61f6475ba9:1067406001</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-03 18:26:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>07a5caf56b0149009564ceaff33e4000</sys_id>
+        <sys_metadata>03acae57dbda54d002085bd05b9619a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Layer to Citations</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_ui_module_03acae57dbda54d002085bd05b9619a8</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_03acae57dbda54d002085bd05b9619a8">c7acae57dbda54d002085bd05b9619aa</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-03 18:26:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

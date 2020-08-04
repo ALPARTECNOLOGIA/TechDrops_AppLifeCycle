@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="valid_from" label="Valid from" language="en" table="x_anbib_grc_document_audit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>valid_from</element>
+            <help/>
+            <hint/>
+            <label>Valid from</label>
+            <language>en</language>
+            <name>x_anbib_grc_document_audit</name>
+            <plural>Valid froms</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-03 18:05:04</sys_created_on>
+            <sys_id>3ef7e29fdb9a54d002085bd05b9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Valid from</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_documentation_x_anbib_grc_document_audit_valid_from_en</sys_update_name>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-03 18:05:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

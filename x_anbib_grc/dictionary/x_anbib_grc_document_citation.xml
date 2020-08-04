@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Document Citation" max_length="40" name="x_anbib_grc_document_citation" sizeclass="0" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Compliance Score Percentage" max_length="40" name="compliance_score" read_only="true" type="integer"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Document" max_length="32" name="document" reference="x_anbib_grc_document_audit" type="reference"/>
+        <element label="Name" mandatory="true" max_length="255" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_anbib_grc_document_citation" type="reference"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="document"/>
+        </index>
+    </element>
+</database>

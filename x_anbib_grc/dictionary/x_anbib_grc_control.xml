@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="0" type="collection">
+        <element label="Control" max_length="32" name="control" reference="x_anbib_grc_control_template" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Enforcement" max_length="40" name="enforcement" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mandated" sequence="0" value="mandated"/>
+                <element inactive_on_update="false" label="Voluntary" sequence="1" value="voluntary"/>
+            </choice>
+        </element>
+        <element label="Entity" max_length="32" name="entity" reference="x_anbib_grc_entity" type="reference"/>
+        <element label="Exempt" max_length="40" name="exempt" type="boolean"/>
+        <element default="0" label="Failed indicators" max_length="40" name="failed_indicators" type="integer"/>
+        <element label="Frequency" max_length="40" name="frequency" type="string"/>
+        <element label="From configuration check" max_length="40" name="from_configuration_check" type="boolean"/>
+        <element label="Key control" max_length="40" name="key_control" type="boolean"/>
+        <element default="0" label="Open Issues" max_length="40" name="open_issues" type="integer"/>
+        <element label="Partially exempt" max_length="40" name="partially_exempt" type="boolean"/>
+        <element default="0" label="Passed indicators" max_length="40" name="passed_indicators" type="integer"/>
+        <element label="Supplemental guidance" max_length="4000" name="supplemental_guidance" type="string"/>
+        <element default="10" label="Weighting" max_length="40" name="weighting" type="integer"/>
+        <index name="index">
+            <element name="control"/>
+        </index>
+        <index name="index2">
+            <element name="entity"/>
+        </index>
+    </element>
+</database>

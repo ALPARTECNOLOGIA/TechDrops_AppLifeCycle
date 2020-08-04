@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Control Template" max_length="40" name="x_anbib_grc_control_template" sizeclass="2" type="collection">
+        <element label="ABI Key" max_length="40" name="abi_key" type="boolean"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Ambev Key" max_length="40" name="ambev_key" type="boolean"/>
+        <element choice="1" label="Automation" max_length="40" name="automation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Automated" sequence="0" value="automated"/>
+                <element inactive_on_update="false" label="IT dependent" sequence="1" value="it_dependent"/>
+                <element inactive_on_update="false" label="Manual" sequence="2" value="manual"/>
+            </choice>
+        </element>
+        <element label="2020 MICS L3 - Best in Class (Excellence)" max_length="4000" name="excellence" type="string"/>
+        <element label="FCPA" max_length="40" name="fcpa" type="boolean"/>
+        <element choice="1" label="Frequency" max_length="40" name="frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Daily" sequence="0" value="daily"/>
+                <element inactive_on_update="false" label="Weekly" sequence="1" value="weekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="2" value="monthly"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="3" value="quarterly"/>
+                <element inactive_on_update="false" label="Semi-annually" sequence="4" value="semi_annually"/>
+                <element inactive_on_update="false" label="Annually" sequence="5" value="annually"/>
+                <element inactive_on_update="false" label="Event based" sequence="6" value="event_based"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
+            </choice>
+        </element>
+        <element label="Maturity Relevant" max_length="40" name="maturity_relevant" type="boolean"/>
+        <element label="Mega Process" max_length="255" name="mega_process" type="string"/>
+        <element label="2020 MICS L1 - Minimal Requirements To Protect Financial Statement From Material" max_length="4000" name="minimal_requirements_external" type="string"/>
+        <element label="2020 MICS L2 - Minimal Requirements To Avoid Surprises (Internal Compliance)" max_length="4000" name="minimal_requirements_internal" type="string"/>
+        <element label="Name" mandatory="true" max_length="250" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" label="Number" mandatory="true" max_length="40" name="number" type="string" unique="true"/>
+        <element choice="1" label="Preventive/Detective" max_length="40" name="preventive_detective" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Preventive" sequence="0" value="preventive"/>
+                <element inactive_on_update="false" label="Detective" sequence="1" value="detective"/>
+            </choice>
+        </element>
+        <element choice="1" label="Recommended Level" max_length="40" name="recommended_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NoCC" sequence="0" value="nocc"/>
+                <element inactive_on_update="false" label="Zone Solutions" sequence="1" value="zone_solutions"/>
+            </choice>
+        </element>
+        <element label="Risk" max_length="255" name="risk" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Large change" sequence="0" value="large_change"/>
+                <element inactive_on_update="false" label="New control" sequence="1" value="new_control"/>
+                <element inactive_on_update="false" label="Small change" sequence="2" value="small_change"/>
+            </choice>
+        </element>
+        <element label="Sub Process" max_length="255" name="sub_process" type="string"/>
+        <element label="Weighting" max_length="40" name="weighting" type="integer"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+    </element>
+</database>
