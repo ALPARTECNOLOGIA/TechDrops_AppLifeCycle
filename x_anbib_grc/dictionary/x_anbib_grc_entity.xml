@@ -47,7 +47,7 @@
         </element>
         <element label="Layer" max_length="4000" name="layer" reference="x_anbib_grc_layer_control" type="glide_list"/>
         <element label="MICS relevance" max_length="40" name="mics_relevance" type="boolean"/>
-        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element choice="1" label="Operating System" max_length="40" name="operating_system" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Windows 10; Unix" sequence="0" value="windows_10_unix"/>

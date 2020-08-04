@@ -10,9 +10,23 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_anbib_grc_entity" name="x_anbib_grc_entity" sys_domain="global" view="Default view">e6a39a97db9654d002085bd05b961999</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_entity" sys_domain="global" view="Default view">221c5f92db569c9002085bd05b961968</sys_ui_section>
+            <sys_ui_section caption="Entity" display_value="Entity" name="x_anbib_grc_entity" sys_domain="global" view="Default view">221c5f92db569c9002085bd05b961968</sys_ui_section>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
             <sys_updated_on>2020-08-03 16:36:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-04 13:06:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f93d6ae3db5ad4d002085bd05b961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_anbib_grc_entity" name="x_anbib_grc_entity" sys_domain="global" view="Default view">e6a39a97db9654d002085bd05b961999</sys_ui_form>
+            <sys_ui_section caption="Status Entity" display_value="Status Entity" name="x_anbib_grc_entity" sys_domain="global" view="Default view">393d6ae3db5ad4d002085bd05b961972</sys_ui_section>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-04 13:06:24</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_anbib_grc_entity</name>

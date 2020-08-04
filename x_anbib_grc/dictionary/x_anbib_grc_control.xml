@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="0" type="collection">
-        <element label="Control" max_length="32" name="control" reference="x_anbib_grc_control_template" type="reference"/>
+        <element label="Control template" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control_template" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Enforcement" max_length="40" name="enforcement" type="string">
             <choice>
                 <element inactive_on_update="false" label="Mandated" sequence="0" value="mandated"/>
