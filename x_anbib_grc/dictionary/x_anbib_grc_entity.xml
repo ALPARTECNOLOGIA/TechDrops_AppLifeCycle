@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="1" type="collection">
-        <element label="Application" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
+        <element display="true" label="Application" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Bank / Payment Tool" sequence="1" value="bank_payment_tool"/>
@@ -45,7 +45,6 @@
                 <element inactive_on_update="false" label="SaaS" sequence="5" value="saas"/>
             </choice>
         </element>
-        <element label="Layer" max_length="4000" name="layer" reference="x_anbib_grc_layer_control" type="glide_list"/>
         <element label="MICS relevance" max_length="40" name="mics_relevance" type="boolean"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element choice="1" label="Operating System" max_length="40" name="operating_system" type="choice">

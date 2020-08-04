@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Control/Risk</name>
+        <order>100</order>
+        <roles>x_anbib_grc.control_risk_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>gabriel.madeira@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-07-17 18:04:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7d4cbb5db0e9c9002085bd05b9619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Control/Risk</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_app_application_f7d4cbb5db0e9c9002085bd05b9619c8</sys_update_name>
+        <sys_updated_by>gabriel.madeira@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-07-17 18:04:42</sys_updated_on>
+        <title>Control/Risk</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_app_application_f7d4cbb5db0e9c9002085bd05b9619c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Control/Risk</name>
+        <order>100</order>
+        <roles>x_anbib_grc.control_risk_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>gabriel.madeira@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-07-17 18:04:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7d4cbb5db0e9c9002085bd05b9619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Control/Risk</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_app_application_f7d4cbb5db0e9c9002085bd05b9619c8</sys_update_name>
+        <sys_updated_by>gabriel.madeira@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-07-17 18:04:42</sys_updated_on>
+        <title>Control/Risk</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>1651008759</payload_hash>
+        <record_name>Control/Risk</record_name>
+        <reverted_from/>
+        <source>5fdc1236db02d410faa711494b961936</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-07-20 17:43:53</sys_created_on>
+        <sys_id>00ec5236db02d410faa711494b96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1736d53291b0000001</sys_recorded_at>
+        <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-07-20 17:43:53</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>4cec5236b502d41062dc53c62a5dc92b</update_guid>
+        <update_guid_history>4cec5236b502d41062dc53c62a5dc92b:0,eddc9ef22102d410add174851df9e721:-1366182279,addc9ef24e02d410f4c9693ba39a481d:1893299717</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Control/Risk">278eb367db1a18d002085bd05b9619e5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-04 19:01:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>6ccf954125924447941b93fd9c8240b9</sys_id>
+        <sys_metadata>f7d4cbb5db0e9c9002085bd05b9619c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Control/Risk</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_app_application_f7d4cbb5db0e9c9002085bd05b9619c8</sys_update_name>
+        <sys_update_version display_value="sys_app_application_f7d4cbb5db0e9c9002085bd05b9619c8">00ec5236db02d410faa711494b96192c</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-04 19:01:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="application_type" label="Application Type" language="en" table="x_anbib_grc_tier">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>application_type</element>
+            <help/>
+            <hint/>
+            <label>Application Type</label>
+            <language>en</language>
+            <name>x_anbib_grc_tier</name>
+            <plural>Application Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-04 17:40:43</sys_created_on>
+            <sys_id>bffbe72fdb9618d002085bd05b9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Application Type</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_documentation_x_anbib_grc_tier_application_type_en</sys_update_name>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-04 17:40:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

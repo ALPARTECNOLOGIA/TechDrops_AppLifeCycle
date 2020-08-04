@@ -4,7 +4,7 @@
         <element label="Category" max_length="32" name="category" reference="x_anbib_grc_choice" type="reference"/>
         <element label="Compliance Score Percentage" max_length="40" name="compliance_score" read_only="true" type="integer"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
-        <element label="Name" max_length="255" name="name" type="string"/>
+        <element display="true" label="Name" max_length="255" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
         <element label="Valid from" max_length="40" name="valid_from" type="glide_date"/>

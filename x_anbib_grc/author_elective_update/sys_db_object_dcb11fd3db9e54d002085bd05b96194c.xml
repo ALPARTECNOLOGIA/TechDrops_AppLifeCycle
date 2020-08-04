@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Layer to Control Template</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_anbib_grc_m2m_layer_control_template</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-03 21:08:47</sys_created_on>
+        <sys_id>dcb11fd3db9e54d002085bd05b96194c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Layer to Control Template</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_db_object_dcb11fd3db9e54d002085bd05b96194c</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-04 16:05:13</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_anbib_grc.admin" name="x_anbib_grc.admin">f08d1bde1b6d58504aae202a2d4bcb73</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_db_object_dcb11fd3db9e54d002085bd05b96194c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Layer to Control Template</label><live_feed_enabled>false</live_feed_enabled><name>x_anbib_grc_m2m_layer_control_template</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-03 21:08:47</sys_created_on><sys_id>dcb11fd3db9e54d002085bd05b96194c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Layer to Control Template</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_db_object_dcb11fd3db9e54d002085bd05b96194c</sys_update_name><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-04 16:05:13</sys_updated_on><update_access>false</update_access><user_role display_value="x_anbib_grc.admin" name="x_anbib_grc.admin">f08d1bde1b6d58504aae202a2d4bcb73</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1115239769</payload_hash>
+        <record_name>Layer to Control Template</record_name>
+        <reverted_from/>
+        <source>252e56a3db1ad4d002085bd05b9619e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-04 16:05:14</sys_created_on>
+        <sys_id>9d26576fdb5218d002085bd05b9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173ba383c8f0000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-04 16:05:14</sys_updated_on>
+        <type>Table</type>
+        <update_guid>9526576fcb5218d0491732fd8fe3ddee</update_guid>
+        <update_guid_history>9526576fcb5218d0491732fd8fe3ddee:1115239769,da0253173a9e54d0fefe19d43d05ec87:-741087760</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-04 18:43:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>65ac8d490a504928a89816e8ac372840</sys_id>
+        <sys_metadata>dcb11fd3db9e54d002085bd05b96194c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Layer to Control Template</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_db_object_dcb11fd3db9e54d002085bd05b96194c</sys_update_name>
+        <sys_update_version display_value="sys_db_object_dcb11fd3db9e54d002085bd05b96194c">9d26576fdb5218d002085bd05b9619ee</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-04 18:43:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

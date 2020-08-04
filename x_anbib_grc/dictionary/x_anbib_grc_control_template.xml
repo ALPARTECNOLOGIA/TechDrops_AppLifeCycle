@@ -25,11 +25,11 @@
             </choice>
         </element>
         <element label="Maturity Relevant" max_length="40" name="maturity_relevant" type="boolean"/>
-        <element label="Mega Process" max_length="255" name="mega_process" type="string"/>
+        <element label="Mega Process" max_length="255" name="mega_process" reference="x_anbib_grc_mega_process" type="reference"/>
         <element label="2020 MICS L1 - Minimal Requirements To Protect Financial Statement From Material" max_length="4000" name="minimal_requirements_external" type="string"/>
         <element label="2020 MICS L2 - Minimal Requirements To Avoid Surprises (Internal Compliance)" max_length="4000" name="minimal_requirements_internal" type="string"/>
         <element label="Name" mandatory="true" max_length="250" name="name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" label="Number" mandatory="true" max_length="40" name="number" type="string" unique="true"/>
+        <element attributes="ignore_filter_on_new=true" label="Prefix" mandatory="true" max_length="40" name="number" type="string" unique="true"/>
         <element choice="1" label="Preventive/Detective" max_length="40" name="preventive_detective" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Preventive" sequence="0" value="preventive"/>
@@ -42,7 +42,7 @@
                 <element inactive_on_update="false" label="Zone Solutions" sequence="1" value="zone_solutions"/>
             </choice>
         </element>
-        <element label="Risk" max_length="255" name="risk" type="string"/>
+        <element label="Risk" max_length="255" name="risk" reference="x_anbib_grc_risk" type="reference"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Large change" sequence="0" value="large_change"/>
@@ -50,7 +50,7 @@
                 <element inactive_on_update="false" label="Small change" sequence="2" value="small_change"/>
             </choice>
         </element>
-        <element label="Sub Process" max_length="255" name="sub_process" type="string"/>
+        <element label="Sub Process" max_length="255" name="sub_process" reference="x_anbib_grc_sub_process" type="reference"/>
         <element label="Weighting" max_length="40" name="weighting" type="integer"/>
         <index name="index">
             <element name="number"/>

@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_anbib_grc_entity" name="x_anbib_grc_entity" sys_domain="global" view="Default view">e6a39a97db9654d002085bd05b961999</sys_ui_form>
-            <sys_ui_section caption="Status Entity" display_value="Status Entity" name="x_anbib_grc_entity" sys_domain="global" view="Default view">393d6ae3db5ad4d002085bd05b961972</sys_ui_section>
+            <sys_ui_section caption="Zones" display_value="Zones" name="x_anbib_grc_entity" sys_domain="global" view="Default view">393d6ae3db5ad4d002085bd05b961972</sys_ui_section>
             <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
             <sys_updated_on>2020-08-04 13:06:24</sys_updated_on>
         </sys_ui_form_section>

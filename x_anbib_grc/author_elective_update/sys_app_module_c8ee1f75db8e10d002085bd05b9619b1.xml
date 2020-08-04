@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>GRC Choices</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_anbib_grc_choice</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_anbib_grc.grc_choice_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>gabriel.madeira@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-07-17 19:58:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8ee1f75db8e10d002085bd05b9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC Choices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_app_module_c8ee1f75db8e10d002085bd05b9619b1</sys_update_name>
+        <sys_updated_by>gabriel.madeira@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-07-17 19:58:19</sys_updated_on>
+        <timeline_page/>
+        <title>GRC Choices</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_app_module_c8ee1f75db8e10d002085bd05b9619b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>GRC Choices</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_anbib_grc_choice</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_anbib_grc.grc_choice_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>gabriel.madeira@alparservice.com.br</sys_created_by><sys_created_on>2020-07-17 19:58:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c8ee1f75db8e10d002085bd05b9619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GRC Choices</sys_name><sys_overrides/><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_app_module_c8ee1f75db8e10d002085bd05b9619b1</sys_update_name><sys_updated_by>gabriel.madeira@alparservice.com.br</sys_updated_by><sys_updated_on>2020-07-17 19:58:19</sys_updated_on><timeline_page/><title>GRC Choices</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-117848755</payload_hash>
+        <record_name>GRC Choices</record_name>
+        <reverted_from/>
+        <source>f13667a3db9618d002085bd05b9619cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-04 20:13:25</sys_created_on>
+        <sys_id>70fe40fbdb5a18d002085bd05b96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173bb1b74990000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-04 20:13:25</sys_updated_on>
+        <type>Module</type>
+        <update_guid>bcfe40fb8b5a18d05c7b1481a2d98b99</update_guid>
+        <update_guid_history>bcfe40fb8b5a18d05c7b1481a2d98b99:0,8cec52364502d410751a5c5248fa793b:0,5fcc9af29802d410b3d1aad24049864a:-1579113255,dbcc9af2cd02d4109903ef4709229f08:1349672138</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="GRC Choices">551f80fbdb5a18d002085bd05b961913</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-04 20:14:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0ca7d55a327d441a819f9709ae509b01</sys_id>
+        <sys_metadata>c8ee1f75db8e10d002085bd05b9619b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC Choices</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_app_module_c8ee1f75db8e10d002085bd05b9619b1</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c8ee1f75db8e10d002085bd05b9619b1">70fe40fbdb5a18d002085bd05b96199a</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-04 20:14:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
