@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_anbib_grc.layer_to_citation_user" name="x_anbib_grc.layer_to_citation_user">feacaa57dbda54d002085bd05b961901</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-03 18:25:33</sys_created_on>

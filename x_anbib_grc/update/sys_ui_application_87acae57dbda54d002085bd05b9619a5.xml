@@ -4,7 +4,7 @@
         <hint/>
         <name>Layer to Citation</name>
         <order/>
-        <roles>x_anbib_grc.layer_to_citation_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-03 18:25:33</sys_created_on>

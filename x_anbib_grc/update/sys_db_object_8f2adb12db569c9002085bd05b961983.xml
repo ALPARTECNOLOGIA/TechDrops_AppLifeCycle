@@ -14,7 +14,7 @@
         <label>Entity</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_anbib_grc_entity</name>
-        <number_ref display_value="ENT">3bd0c69fdb1254d002085bd05b961962</number_ref>
+        <number_ref display_value="GRCENT">3bd0c69fdb1254d002085bd05b961962</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

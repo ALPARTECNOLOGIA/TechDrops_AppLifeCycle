@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Tier" max_length="40" name="x_anbib_grc_tier" sizeclass="0" type="collection">
+        <element label="Entity Type" mandatory="true" max_length="32" name="entity_type" reference="x_anbib_grc_type" type="reference"/>
+        <element choice="1" label="Frequency" mandatory="true" max_length="40" name="frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Daily" sequence="0" value="daily"/>
+                <element inactive_on_update="false" label="Weekly" sequence="1" value="weekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="2" value="monthly"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="3" value="quarterly"/>
+                <element inactive_on_update="false" label="Semi-annually" sequence="4" value="semi_annually"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="255" name="name" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <index name="index">
+            <element name="entity_type"/>
+        </index>
     </element>
 </database>

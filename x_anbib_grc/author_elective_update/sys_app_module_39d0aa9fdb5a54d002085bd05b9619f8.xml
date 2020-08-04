@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Document Audit">bdd0e61fdb5a54d002085bd05b9619c8</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Document Audits</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_anbib_grc_document_audit</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_anbib_grc.document_audit_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-03 17:33:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>39d0aa9fdb5a54d002085bd05b9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Audits</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_app_module_39d0aa9fdb5a54d002085bd05b9619f8</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-03 17:33:51</sys_updated_on>
+        <timeline_page/>
+        <title>Document Audits</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_app_module_39d0aa9fdb5a54d002085bd05b9619f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Document Audit">bdd0e61fdb5a54d002085bd05b9619c8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Document Audits</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_anbib_grc_document_audit</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_anbib_grc.document_audit_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-03 17:33:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>39d0aa9fdb5a54d002085bd05b9619f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Document Audits</sys_name><sys_overrides/><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_app_module_39d0aa9fdb5a54d002085bd05b9619f8</sys_update_name><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-03 17:33:51</sys_updated_on><timeline_page/><title>Document Audits</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>31314755</payload_hash>
+        <record_name>Document Audits</record_name>
+        <reverted_from/>
+        <source>8e137321db5a189002085bd05b961997</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-03 17:33:51</sys_created_on>
+        <sys_id>f9d0aa9fdb5a54d002085bd05b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173b56303c80000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-03 17:33:51</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f1d0aa9f355a54d02bedc49d8aedb0fa</update_guid>
+        <update_guid_history>f1d0aa9f355a54d02bedc49d8aedb0fa:31314755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Document Audits">1540d3a3db1218d002085bd05b9619c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-04 15:39:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0f0bf3f5b6c44d068d134501159b7211</sys_id>
+        <sys_metadata>39d0aa9fdb5a54d002085bd05b9619f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Audits</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_app_module_39d0aa9fdb5a54d002085bd05b9619f8</sys_update_name>
+        <sys_update_version display_value="sys_app_module_39d0aa9fdb5a54d002085bd05b9619f8">f9d0aa9fdb5a54d002085bd05b9619fa</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-04 15:39:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

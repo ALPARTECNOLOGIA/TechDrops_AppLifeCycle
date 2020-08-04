@@ -42,7 +42,7 @@
         <read_roles/>
         <reference display_value="" name="x_anbib_grc_control_template">x_anbib_grc_control_template</reference>
         <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
+        <reference_floats>true</reference_floats>
         <reference_key/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -54,14 +54,14 @@
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-03 21:10:42</sys_created_on>
         <sys_id>5d525b17db9e54d002085bd05b961963</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Control Template</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_dictionary_x_anbib_grc_m2m_layer_control_template_control_template</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-03 21:10:59</sys_updated_on>
+        <sys_updated_on>2020-08-04 13:50:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

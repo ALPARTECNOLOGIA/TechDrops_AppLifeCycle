@@ -7,7 +7,7 @@
         <order/>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
-        <roles>x_anbib_grc.control_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>gabriel.madeira@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-07-23 14:01:02</sys_created_on>

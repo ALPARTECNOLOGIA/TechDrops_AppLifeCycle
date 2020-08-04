@@ -4,7 +4,7 @@
         <hint/>
         <name>Control Template</name>
         <order/>
-        <roles>x_anbib_grc.control_template_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-03 15:56:18</sys_created_on>
