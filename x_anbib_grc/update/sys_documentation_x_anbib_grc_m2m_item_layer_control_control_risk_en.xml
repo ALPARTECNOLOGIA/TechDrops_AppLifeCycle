@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="control_risk" label="Control/Risk" language="en" table="x_anbib_grc_m2m_item_layer_control">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>control_risk</element>
+            <help/>
+            <hint/>
+            <label>Control/Risk</label>
+            <language>en</language>
+            <name>x_anbib_grc_m2m_item_layer_control</name>
+            <plural>Control/Risks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-04 21:48:53</sys_created_on>
+            <sys_id>57c42473db1a5014faa711494b9619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Control/Risk</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_documentation_x_anbib_grc_m2m_item_layer_control_control_risk_en</sys_update_name>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-04 21:48:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
