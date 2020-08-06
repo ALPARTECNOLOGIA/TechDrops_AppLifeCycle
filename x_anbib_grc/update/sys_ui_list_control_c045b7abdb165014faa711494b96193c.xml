@@ -2,7 +2,7 @@
     <sys_ui_list_control action="INSERT_OR_UPDATE">
         <columns_condition/>
         <edit_condition/>
-        <edit_default_filter table="x_anbib_grc_layer_control">entity_typeSAMEASentity_type...^EQ<item endquery="false" field="entity_type" goto="false" newquery="false" operator="SAMEAS" or="false" value="entity_type..."/>
+        <edit_default_filter table="x_anbib_grc_layer_control">entity_typeSAMEASentity_type^EQ<item endquery="false" field="entity_type" goto="false" newquery="false" operator="SAMEAS" or="false" value="entity_type"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </edit_default_filter>
         <edit_roles/>
@@ -36,14 +36,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c045b7abdb165014faa711494b96193c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>x_anbib_grc_entity</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_list_control_c045b7abdb165014faa711494b96193c</sys_update_name>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-06 18:42:49</sys_updated_on>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-06 18:59:51</sys_updated_on>
     </sys_ui_list_control>
 </record_update>

@@ -164,9 +164,7 @@
         <element label="Supplier Service Name" max_length="32" name="supplier_service_name" reference="customer_contact" type="reference"/>
         <element label="Tier" max_length="32" name="tier" reference="x_anbib_grc_tier" type="reference"/>
         <element label="To be Decommissioned With" max_length="32" name="to_be_decommissioned_with" reference="x_anbib_grc_entity" type="reference"/>
-        <element choice="1" label="Type" max_length="40" name="type" reference="x_anbib_grc_type" type="reference">
-            <choice/>
-        </element>
+        <element label="Type" max_length="32" name="type" reference="x_anbib_grc_type" type="reference"/>
         <element label="Updated by App360" max_length="40" name="updated_by_app360" type="boolean"/>
         <index name="index">
             <element name="application"/>
@@ -182,6 +180,9 @@
         </index>
         <index name="index5">
             <element name="business_function"/>
+        </index>
+        <index name="index6">
+            <element name="type"/>
         </index>
     </element>
 </database>
