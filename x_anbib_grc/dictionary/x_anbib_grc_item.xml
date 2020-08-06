@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Control/Risk" max_length="40" name="x_anbib_grc_item" sizeclass="2" type="collection">
+    <element label="Control/Risk" max_length="40" name="x_anbib_grc_item" sizeclass="3" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Additional comments" max_length="4000" name="additional_comments" type="journal_input"/>
         <element label="Additional Information" max_length="4000" name="additional_information" type="string"/>
         <element label="Attestation" max_length="32" name="attestation" reference="asmt_metric_type" type="reference"/>
-        <element label="Category" max_length="32" name="category" reference="x_anbib_grc_choice" type="reference"/>
-        <element attributes="encode_utf8=false,readonly_clickthrough=true,ref_auto_completer=AJAXReferenceChoice,ref_sequence=order" label="Classification" max_length="32" name="classification" reference="x_anbib_grc_choice" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Created Manually" max_length="40" name="created_manually" read_only="true" type="boolean"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
         <element default="global" label="Domain" max_length="32" name="domain" type="domain_id"/>
@@ -55,15 +53,9 @@
             <element name="owning_group"/>
         </index>
         <index name="index5">
-            <element name="category"/>
-        </index>
-        <index name="index6">
-            <element name="classification"/>
-        </index>
-        <index name="index7">
             <element name="type"/>
         </index>
-        <index name="index8">
+        <index name="index6">
             <element name="sys_class_name"/>
         </index>
     </element>

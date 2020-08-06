@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Document Audit" max_length="40" name="x_anbib_grc_document_audit" sizeclass="1" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Category" max_length="32" name="category" reference="x_anbib_grc_choice" type="reference"/>
         <element label="Compliance Score Percentage" max_length="40" name="compliance_score" read_only="true" type="integer"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
         <element display="true" label="Name" max_length="255" name="name" type="string"/>
@@ -10,8 +9,5 @@
         <element label="Valid from" max_length="40" name="valid_from" type="glide_date"/>
         <element label="Valid to" max_length="40" name="valid_to" type="glide_date"/>
         <element label="Version" max_length="40" name="version" type="string"/>
-        <index name="index">
-            <element name="category"/>
-        </index>
     </element>
 </database>

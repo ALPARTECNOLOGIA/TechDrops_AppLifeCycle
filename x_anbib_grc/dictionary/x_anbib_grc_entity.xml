@@ -24,6 +24,14 @@
             </choice>
         </element>
         <element label="Business Function" max_length="32" name="business_function" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Criticality" max_length="40" name="criticality" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1 - Most critical"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2 - Somewhat critical"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3 - Less critical"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4 - Not critical"/>
+            </choice>
+        </element>
         <element label="Crown Jewel" max_length="40" name="crown_jewel" type="boolean"/>
         <element label="Decommissioning Date" max_length="40" name="decommissioning_date" type="glide_date"/>
         <element choice="1" label="Decommissioning Strategy" max_length="40" name="decommissioning_strategy" type="choice">
@@ -69,6 +77,11 @@
                 <element inactive_on_update="false" label="Platform" sequence="4" value="platform"/>
                 <element inactive_on_update="false" label="Website" sequence="5" value="website"/>
                 <element inactive_on_update="false" label="Workspace/Model" sequence="6" value="workspace_model"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Valid" sequence="0" value="valid"/>
             </choice>
         </element>
         <element choice="1" label="Status AFR" max_length="40" name="status_afr" type="choice">
@@ -151,14 +164,10 @@
         <element label="Supplier Service Name" max_length="32" name="supplier_service_name" reference="customer_contact" type="reference"/>
         <element label="Tier" max_length="32" name="tier" reference="x_anbib_grc_tier" type="reference"/>
         <element label="To be Decommissioned With" max_length="32" name="to_be_decommissioned_with" reference="x_anbib_grc_entity" type="reference"/>
-        <element choice="1" label="Type" max_length="40" name="type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
-            </choice>
+        <element choice="1" label="Type" max_length="40" name="type" reference="x_anbib_grc_type" type="reference">
+            <choice/>
         </element>
+        <element label="Updated by App360" max_length="40" name="updated_by_app360" type="boolean"/>
         <index name="index">
             <element name="application"/>
         </index>

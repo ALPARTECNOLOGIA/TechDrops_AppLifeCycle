@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_item" label="Risk" max_length="40" name="x_anbib_grc_risk" sizeclass="0" type="collection"/>
+    <element extends="x_anbib_grc_item" label="Risk" max_length="40" name="x_anbib_grc_risk" sizeclass="0" type="collection">
+        <element label="Category" max_length="32" name="category" reference="x_anbib_grc_risk_category" type="reference"/>
+        <index name="index">
+            <element name="category"/>
+        </index>
+    </element>
 </database>

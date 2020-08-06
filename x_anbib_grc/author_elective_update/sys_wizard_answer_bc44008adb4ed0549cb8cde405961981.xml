@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>GRC Choice</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>GRC Choice</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">dbc5a9301b210010df9565386e4bcbad</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>Daniel.Dias-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-07-17 22:41:40</sys_created_on>
+        <sys_id>bc44008adb4ed0549cb8cde405961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC Choice</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_wizard_answer_bc44008adb4ed0549cb8cde405961981</sys_update_name>
+        <sys_updated_by>Daniel.Dias-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-07-17 22:41:40</sys_updated_on>
+        <table/>
+        <target_url>x_anbib_grc_choice.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_wizard_answer_bc44008adb4ed0549cb8cde405961981</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>GRC Choice</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>GRC Choice</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">dbc5a9301b210010df9565386e4bcbad</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>Daniel.Dias-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-07-17 22:41:40</sys_created_on>
+        <sys_id>bc44008adb4ed0549cb8cde405961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC Choice</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_wizard_answer_bc44008adb4ed0549cb8cde405961981</sys_update_name>
+        <sys_updated_by>Daniel.Dias-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-07-17 22:41:40</sys_updated_on>
+        <table/>
+        <target_url>x_anbib_grc_choice.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>]]></payload>
+        <payload_hash>-2025053154</payload_hash>
+        <record_name>GRC Choice</record_name>
+        <reverted_from/>
+        <source>5fdc1236db02d410faa711494b961936</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-07-20 17:43:58</sys_created_on>
+        <sys_id>55ecd236db02d410faa711494b961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1736d533dfe0000001</sys_recorded_at>
+        <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-07-20 17:43:58</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>91ecd2361702d4109b266bd9328cfb87</update_guid>
+        <update_guid_history>91ecd2361702d4109b266bd9328cfb87:0,77cc1ef25602d4106b8386297f65d900:1213194040,7bccdaf2de02d4102fde8a1e212257fe:-216302396</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-05 14:23:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>5d243137faee4088953fee9503185324</sys_id>
+        <sys_metadata>bc44008adb4ed0549cb8cde405961981</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC Choice</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Application File">dbc5a9301b210010df9565386e4bcbad</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_bc44008adb4ed0549cb8cde405961981</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_bc44008adb4ed0549cb8cde405961981">55ecd236db02d410faa711494b961987</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:23:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

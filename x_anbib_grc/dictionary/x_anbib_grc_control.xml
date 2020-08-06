@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="2" type="collection">
+    <element audit="true" extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="3" type="collection">
         <element label="Control template" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control_template" type="reference"/>
+        <element label="Control automated" max_length="40" name="control_automated" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Control level" max_length="40" name="control_level" type="string">
+            <choice>
+                <element inactive_on_update="false" label="L1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="L2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="L3" sequence="2" value="3"/>
+            </choice>
+        </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Enforcement" max_length="40" name="enforcement" type="string">
             <choice>
                 <element inactive_on_update="false" label="Mandated" sequence="0" value="mandated"/>
                 <element inactive_on_update="false" label="Voluntary" sequence="1" value="voluntary"/>
             </choice>
         </element>
-        <element label="Entity" max_length="32" name="entity" reference="x_anbib_grc_entity" type="reference"/>
+        <element label="Entity" max_length="32" name="entity" read_only="true" reference="x_anbib_grc_entity" type="reference"/>
         <element label="Exempt" max_length="40" name="exempt" type="boolean"/>
         <element default="0" label="Failed indicators" max_length="40" name="failed_indicators" type="integer"/>
         <element label="Frequency" max_length="40" name="frequency" type="string"/>
         <element label="From configuration check" max_length="40" name="from_configuration_check" type="boolean"/>
         <element label="Key control" max_length="40" name="key_control" type="boolean"/>
+        <element label="Layer" max_length="32" name="layer" read_only="true" reference="x_anbib_grc_layer_control" type="reference"/>
         <element default="0" label="Open Issues" max_length="40" name="open_issues" type="integer"/>
         <element label="Partially exempt" max_length="40" name="partially_exempt" type="boolean"/>
         <element default="0" label="Passed indicators" max_length="40" name="passed_indicators" type="integer"/>
@@ -23,6 +32,9 @@
         </index>
         <index name="index2">
             <element name="entity"/>
+        </index>
+        <index name="index3">
+            <element name="layer"/>
         </index>
     </element>
 </database>
