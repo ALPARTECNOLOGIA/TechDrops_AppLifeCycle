@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Plan schedule" section_id="d6f7cea5dbaed410faa711494b9619a7" sys_domain="global" table="x_anbib_grc_action_plan_of_control_inplementation" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>planned_duration</element>
+            <position>0</position>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-10 15:40:49</sys_created_on>
+            <sys_id>9e1a86a9dbaed410faa711494b961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plan schedule" display_value="Plan schedule" name="x_anbib_grc_action_plan_of_control_inplementation" sys_domain="global" view="Default view">d6f7cea5dbaed410faa711494b9619a7</sys_ui_section>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-10 15:40:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>planned_start_date</element>
+            <position>1</position>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-10 15:40:49</sys_created_on>
+            <sys_id>161a86a9dbaed410faa711494b961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plan schedule" display_value="Plan schedule" name="x_anbib_grc_action_plan_of_control_inplementation" sys_domain="global" view="Default view">d6f7cea5dbaed410faa711494b9619a7</sys_ui_section>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-10 15:40:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>planned_end_date</element>
+            <position>2</position>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-10 15:40:49</sys_created_on>
+            <sys_id>9a1a86a9dbaed410faa711494b961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plan schedule" display_value="Plan schedule" name="x_anbib_grc_action_plan_of_control_inplementation" sys_domain="global" view="Default view">d6f7cea5dbaed410faa711494b9619a7</sys_ui_section>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-10 15:40:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-10 15:40:49</sys_created_on>
+            <sys_id>121a86a9dbaed410faa711494b961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plan schedule" display_value="Plan schedule" name="x_anbib_grc_action_plan_of_control_inplementation" sys_domain="global" view="Default view">d6f7cea5dbaed410faa711494b9619a7</sys_ui_section>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-10 15:40:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_duration</element>
+            <position>4</position>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-10 15:40:49</sys_created_on>
+            <sys_id>961a86a9dbaed410faa711494b961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plan schedule" display_value="Plan schedule" name="x_anbib_grc_action_plan_of_control_inplementation" sys_domain="global" view="Default view">d6f7cea5dbaed410faa711494b9619a7</sys_ui_section>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-10 15:40:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_start</element>
+            <position>5</position>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-10 15:40:49</sys_created_on>
+            <sys_id>1e1a86a9dbaed410faa711494b961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plan schedule" display_value="Plan schedule" name="x_anbib_grc_action_plan_of_control_inplementation" sys_domain="global" view="Default view">d6f7cea5dbaed410faa711494b9619a7</sys_ui_section>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-10 15:40:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_end</element>
+            <position>6</position>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-10 15:40:49</sys_created_on>
+            <sys_id>921a86a9dbaed410faa711494b961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plan schedule" display_value="Plan schedule" name="x_anbib_grc_action_plan_of_control_inplementation" sys_domain="global" view="Default view">d6f7cea5dbaed410faa711494b9619a7</sys_ui_section>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-10 15:40:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Plan schedule</caption>
+            <header>false</header>
+            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-10 15:31:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6f7cea5dbaed410faa711494b9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Plan schedule</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_ui_section_d6f7cea5dbaed410faa711494b9619a7</sys_update_name>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-10 15:31:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

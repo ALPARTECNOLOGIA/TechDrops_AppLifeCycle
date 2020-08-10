@@ -33,10 +33,9 @@
 	current.updated_by_app360 = false;
 	var w = new global.Workflow();
 	var inputs = {
-		operation: current.operation(),
-		old_type: previous.type.toString()
+		u_operation: current.operation(),
+		u_old_type: previous.type.toString()
 	};
-	gs.info('[ALP0608] br inputs: ' + JSON.stringify(inputs));
 	w.startFlow(w.getWorkflowFromName('GRC - Design Assessment'), current, current.operation(), inputs);
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -45,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0b9188cdbe2901002085bd05b9619ad</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Start Design Assessment Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -53,7 +52,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_c0b9188cdbe2901002085bd05b9619ad</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-06 20:17:01</sys_updated_on>
+        <sys_updated_on>2020-08-06 20:40:11</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

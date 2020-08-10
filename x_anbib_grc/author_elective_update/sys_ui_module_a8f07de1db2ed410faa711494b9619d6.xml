@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Action Plan Inplementation">60f07de1db2ed410faa711494b9619d4</application>
+        <filter/>
+        <name>Action Plan of Control Inplementations</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_anbib_grc.action_plan_of_control_inplementation_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-10 13:50:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8f07de1db2ed410faa711494b9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Plan of Control Inplementations</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_ui_module_a8f07de1db2ed410faa711494b9619d6</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-10 13:50:56</sys_updated_on>
+        <table>x_anbib_grc_action_plan_control_inplementation</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_ui_module_a8f07de1db2ed410faa711494b9619d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Action Plan Inplementation">60f07de1db2ed410faa711494b9619d4</application><filter/><name>Action Plan of Control Inplementations</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_anbib_grc.action_plan_of_control_inplementation_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-08-10 13:50:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a8f07de1db2ed410faa711494b9619d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Action Plan of Control Inplementations</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_ui_module_a8f07de1db2ed410faa711494b9619d6</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-10 13:50:56</sys_updated_on><table>x_anbib_grc_action_plan_control_inplementation</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-2094624976</payload_hash>
+        <record_name>Action Plan of Control Inplementations</record_name>
+        <reverted_from/>
+        <source>4a70d6dcdbe61814faa711494b96194e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-10 13:50:57</sys_created_on>
+        <sys_id>20f07de1db2ed410faa711494b9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173d8a372240000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-10 13:50:57</sys_updated_on>
+        <type>Module</type>
+        <update_guid>28f07de1002ed410e037659b8625b8f1</update_guid>
+        <update_guid_history>28f07de1002ed410e037659b8625b8f1:-2094624976</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-10 13:51:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>7535e173581d4377835fdd9e6e56d721</sys_id>
+        <sys_metadata>a8f07de1db2ed410faa711494b9619d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Plan of Control Inplementations</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_ui_module_a8f07de1db2ed410faa711494b9619d6</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_a8f07de1db2ed410faa711494b9619d6">20f07de1db2ed410faa711494b9619f2</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-10 13:51:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
