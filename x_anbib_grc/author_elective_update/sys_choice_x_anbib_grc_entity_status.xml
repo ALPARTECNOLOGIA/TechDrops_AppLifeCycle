@@ -5,6 +5,25 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Controls in validation</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence/>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-10 17:32:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39836261db661810faa711494b961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-10 17:32:48</sys_updated_on>
+            <value>controls_validation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Valid</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>

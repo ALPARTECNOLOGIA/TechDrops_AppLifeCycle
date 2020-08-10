@@ -81,6 +81,7 @@
         </element>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Controls in validation" value="controls_validation"/>
                 <element inactive_on_update="false" label="Valid" sequence="0" value="valid"/>
             </choice>
         </element>

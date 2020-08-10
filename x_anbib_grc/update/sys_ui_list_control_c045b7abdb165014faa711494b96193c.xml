@@ -3,7 +3,7 @@
         <columns_condition/>
         <edit_condition/>
         <edit_default_filter/>
-        <edit_roles/>
+        <edit_roles>x_anbib_grc.admin,x_anbib_grc.analyst</edit_roles>
         <empty_condition/>
         <filter_condition/>
         <filter_roles/>
@@ -21,11 +21,11 @@
         <omit_count>false</omit_count>
         <omit_count_views>false</omit_count_views>
         <omit_count_views_list/>
-        <omit_drilldown_link>true</omit_drilldown_link>
+        <omit_drilldown_link>false</omit_drilldown_link>
         <omit_edit_button>false</omit_edit_button>
-        <omit_filters>true</omit_filters>
+        <omit_filters>false</omit_filters>
         <omit_if_empty>false</omit_if_empty>
-        <omit_links>true</omit_links>
+        <omit_links>false</omit_links>
         <omit_new_button>true</omit_new_button>
         <related_list>x_anbib_grc_m2m_entities_layer_controls.entity</related_list>
         <sys_class_name>sys_ui_list_control</sys_class_name>
@@ -34,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c045b7abdb165014faa711494b96193c</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>x_anbib_grc_entity</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -42,6 +42,6 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_list_control_c045b7abdb165014faa711494b96193c</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-10 16:47:47</sys_updated_on>
+        <sys_updated_on>2020-08-10 17:01:48</sys_updated_on>
     </sys_ui_list_control>
 </record_update>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>true</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_anbib_grc_layer_control</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Return Itens Type Entity</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var query = current.getEncodedQuery();
+// 	var sysIdEntity = getSysIdEntity(query);
+// 	if(sysIdEntity){
+// 		var typeEntity = getTypeEntity(sysIdEntity);
+// 		if(typeEntity) current.addQuery('layer_control.entity_type',typeEntity);
+// 		return null;
+// 	}
+	gs.info('### current query: '+query);
+
+})(current, previous);
+function getSysIdEntity(query){
+	if((/entity=[a-fA-F0-9]{32}/g).test(query))	{
+		var matchStr = query.match(/[a-fA-F0-9]{32}/g);
+		return matchStr[0];
+	}
+	return null;
+}
+
+function getTypeEntity(sysIdEntity){
+	var grEntity = new GlideRecord('x_anbib_grc_entity');
+	grEntity.addQuery('sys_id', sysIdEntity);
+	grEntity.query();
+	if(grEntity.next()) return grEntity.type.sys_id.toString();
+	return null;
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-10 18:25:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb1f66a5db2a1810faa711494b9619a0</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Return Itens Type Entity</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_bb1f66a5db2a1810faa711494b9619a0</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-10 18:49:14</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=bb1f66a5db2a1810faa711494b9619a0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_script_bb1f66a5db2a1810faa711494b9619a0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_anbib_grc_layer_control&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Return Itens Type Entity&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var query = current.getEncodedQuery();
+// 	var sysIdEntity = getSysIdEntity(query);
+// 	if(sysIdEntity){
+// 		var typeEntity = getTypeEntity(sysIdEntity);
+// 		if(typeEntity) current.addQuery('layer_control.entity_type',typeEntity);
+// 		return null;
+// 	}
+	gs.info('### current query: '+query);
+
+})(current, previous);
+function getSysIdEntity(query){
+	if((/entity=[a-fA-F0-9]{32}/g).test(query))	{
+		var matchStr = query.match(/[a-fA-F0-9]{32}/g);
+		return matchStr[0];
+	}
+	return null;
+}
+
+function getTypeEntity(sysIdEntity){
+	var grEntity = new GlideRecord('x_anbib_grc_entity');
+	grEntity.addQuery('sys_id', sysIdEntity);
+	grEntity.query();
+	if(grEntity.next()) return grEntity.type.sys_id.toString();
+	return null;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;marcos.michalski@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-10 18:25:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bb1f66a5db2a1810faa711494b9619a0&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Return Itens Type Entity&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_bb1f66a5db2a1810faa711494b9619a0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;marcos.michalski@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-10 18:49:14&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=bb1f66a5db2a1810faa711494b9619a0"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>695405974</payload_hash>
+        <record_name>Return Itens Type Entity</record_name>
+        <reverted_from/>
+        <source>4a70d6dcdbe61814faa711494b96194e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-10 18:49:14</sys_created_on>
+        <sys_id>4635b6e1db6a1810faa711494b9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173d9b488c90000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-10 18:49:14</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>4a35b6e1966a181045be4dc1476d82d4</update_guid>
+        <update_guid_history>4a35b6e1966a181045be4dc1476d82d4:695405974,0605f6e1a86a18101fe4b34f4b383004:2102529211,1694baa1e66a1810d42c67e2f70fbcae:-1452695489,89e1beadbb2a18102321488d3d8988c0:126644863,fbc17aedf02a1810cb5e62bead69486b:-1088195809,78b13aedb52a18101c4920b6941c6e96:-1551027486,b5213ead372a18109182c0f35576df38:-864905926,81017aadd62a18104db6cce7c2429288:-2088997052,72e0be2d0a2a18101b23b066bc3061db:-1889244401,3650f2e9522a1810feb4c89821dba15d:-1334564040,69ffee69c32a1810a85ae7669ae70a07:-774847095,7adf6669c12a181046cb53fa238065c3:-1267650227</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-10 18:56:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>063fbfb6c2a048cc80c1095f1a331fa9</sys_id>
+        <sys_metadata>bb1f66a5db2a1810faa711494b9619a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Return Itens Type Entity</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Layer Control">5c9f391bdb1254d002085bd05b9619f3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_script_bb1f66a5db2a1810faa711494b9619a0</sys_update_name>
+        <sys_update_version display_value="sys_script_bb1f66a5db2a1810faa711494b9619a0">4635b6e1db6a1810faa711494b9619d5</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-10 18:56:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
