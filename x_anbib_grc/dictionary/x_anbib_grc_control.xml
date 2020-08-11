@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="7" type="collection">
-        <element label="Control template" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control_template" type="reference"/>
+    <element audit="true" extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="8" type="collection">
+        <element display="true" label="Control template" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control_template" type="reference"/>
         <element label="Control automated" max_length="40" name="control_automated" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Control level" max_length="40" name="control_level" type="string">
             <choice>

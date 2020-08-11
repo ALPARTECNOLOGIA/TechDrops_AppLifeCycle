@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="Action Plan of Control Inplementation" max_length="40" name="x_anbib_grc_action_plan_of_control_inplementation" type="collection">
+    <element extends="x_anbib_grc_task" label="Action Plan of Control Inplementation" max_length="40" name="x_anbib_grc_action_plan_of_control_inplementation" sizeclass="0" type="collection">
         <element label="Action plan" max_length="65536" name="action_plan_description" type="html"/>
         <element attributes="encode_utf8=false" label="Control" mandatory="true" max_length="32" name="control" reference="x_anbib_grc_control" type="reference"/>
-        <element attributes="encode_utf8=false" label="Incident" max_length="32" name="incident" reference="incident" type="reference"/>
     </element>
 </database>

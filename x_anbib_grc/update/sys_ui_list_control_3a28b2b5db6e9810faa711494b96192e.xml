@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="INSERT_OR_UPDATE">
+        <columns_condition/>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type>disabled</list_edit_type>
+        <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+        <new_condition/>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>true</omit_drilldown_link>
+        <omit_edit_button>false</omit_edit_button>
+        <omit_filters>true</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>true</omit_links>
+        <omit_new_button>true</omit_new_button>
+        <related_list>x_anbib_grc_m2m_change_request_action_plan_control.action_plan</related_list>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-11 13:40:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a28b2b5db6e9810faa711494b96192e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_anbib_grc_action_plan_of_control_inplementation</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_ui_list_control_3a28b2b5db6e9810faa711494b96192e</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-11 13:41:04</sys_updated_on>
+    </sys_ui_list_control>
+</record_update>
