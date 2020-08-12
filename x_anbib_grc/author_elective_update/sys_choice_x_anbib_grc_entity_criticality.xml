@@ -5,26 +5,26 @@
             <element>criticality</element>
             <hint/>
             <inactive>false</inactive>
-            <label>1</label>
+            <label>BIA Critical</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
             <sequence>0</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-05 17:48:53</sys_created_on>
+            <sys_created_on>2020-08-11 19:23:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1d77f484dbaa901002085bd05b9619d8</sys_id>
+            <sys_id>f6a60886dba6981002085bd05b96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-05 17:48:53</sys_updated_on>
-            <value>1 - Most critical</value>
+            <sys_updated_on>2020-08-11 19:23:34</sys_updated_on>
+            <value>0</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>criticality</element>
             <hint/>
             <inactive>false</inactive>
-            <label>2</label>
+            <label>High</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
             <sequence>1</sequence>
@@ -32,18 +32,18 @@
             <sys_created_on>2020-08-05 17:48:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1177f484dbaa901002085bd05b9619da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>1d77f484dbaa901002085bd05b9619d8</sys_id>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-05 17:48:53</sys_updated_on>
-            <value>2 - Somewhat critical</value>
+            <sys_updated_on>2020-08-11 19:23:41</sys_updated_on>
+            <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>criticality</element>
             <hint/>
             <inactive>false</inactive>
-            <label>3</label>
+            <label>Medium</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
             <sequence>2</sequence>
@@ -51,18 +51,18 @@
             <sys_created_on>2020-08-05 17:48:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5177f484dbaa901002085bd05b9619db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>1177f484dbaa901002085bd05b9619da</sys_id>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-05 17:48:53</sys_updated_on>
-            <value>3 - Less critical</value>
+            <sys_updated_on>2020-08-11 19:23:44</sys_updated_on>
+            <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>criticality</element>
             <hint/>
             <inactive>false</inactive>
-            <label>4</label>
+            <label>Low</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
             <sequence>3</sequence>
@@ -70,11 +70,30 @@
             <sys_created_on>2020-08-05 17:48:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9177f484dbaa901002085bd05b9619dc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>5177f484dbaa901002085bd05b9619db</sys_id>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-05 17:48:53</sys_updated_on>
-            <value>4 - Not critical</value>
+            <sys_updated_on>2020-08-11 19:23:48</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>criticality</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Very low</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>4</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-05 17:48:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9177f484dbaa901002085bd05b9619dc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-11 19:23:51</sys_updated_on>
+            <value>4</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>criticality</element>

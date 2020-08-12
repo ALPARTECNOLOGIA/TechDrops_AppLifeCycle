@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_anbib_grc_action_plan_of_control_inplementation" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Action Plan of Control Inplementation - Default view" name="x_anbib_grc_action_plan_of_control_inplementation" related_list="NULL" sys_domain="global" view="Default view">1d6f3eb1dbae9810faa711494b9619d7</list_id>
+            <list_id display_value="Control Implementation Action Plan - Default view" name="x_anbib_grc_action_plan_of_control_inplementation" related_list="NULL" sys_domain="global" view="Default view">1d6f3eb1dbae9810faa711494b9619d7</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_anbib_grc_m2m_action_plan_incidents.action_plan</related_list>
@@ -16,7 +16,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Action Plan of Control Inplementation - Default view" name="x_anbib_grc_action_plan_of_control_inplementation" related_list="NULL" sys_domain="global" view="Default view">1d6f3eb1dbae9810faa711494b9619d7</list_id>
+            <list_id display_value="Control Implementation Action Plan - Default view" name="x_anbib_grc_action_plan_of_control_inplementation" related_list="NULL" sys_domain="global" view="Default view">1d6f3eb1dbae9810faa711494b9619d7</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_anbib_grc_m2m_change_request_action_plan_control.action_plan</related_list>
@@ -29,7 +29,7 @@
             <sys_updated_on>2020-08-11 14:12:10</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Action Plan of Control Inplementation - Default view</calculated_name>
+            <calculated_name>Control Implementation Action Plan - Default view</calculated_name>
             <filter/>
             <name>x_anbib_grc_action_plan_of_control_inplementation</name>
             <order_by/>

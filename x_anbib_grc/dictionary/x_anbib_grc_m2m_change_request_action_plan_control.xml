@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Grc M2m Change Request Action Plan Control" max_length="40" name="x_anbib_grc_m2m_change_request_action_plan_control" type="collection">
+    <element label="Grc M2m Change Request Action Plan Control" max_length="40" name="x_anbib_grc_m2m_change_request_action_plan_control" sizeclass="1" type="collection">
         <element attributes="encode_utf8=false" label="Action Plan of Control Inplementation" max_length="32" name="action_plan" reference="x_anbib_grc_action_plan_of_control_inplementation" reference_floats="true" type="reference"/>
         <element attributes="encode_utf8=false" label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
         <index name="index">

@@ -31,6 +31,7 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	current.updated_by_app360 = false;
+	current.elect_to_audit_scope = current.mics_relevance;
 	var w = new global.Workflow();
 	var inputs = {
 		u_operation: current.operation(),
@@ -44,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0b9188cdbe2901002085bd05b9619ad</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Start Design Assessment Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -52,7 +53,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_c0b9188cdbe2901002085bd05b9619ad</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-10 21:08:49</sys_updated_on>
+        <sys_updated_on>2020-08-11 19:44:39</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

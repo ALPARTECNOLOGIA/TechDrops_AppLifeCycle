@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="3" type="collection">
+    <element label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="4" type="collection">
         <element display="true" label="Application" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
@@ -26,10 +26,11 @@
         <element label="Business Function" max_length="32" name="business_function" reference="cmn_department" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Criticality" max_length="40" name="criticality" type="string">
             <choice>
-                <element inactive_on_update="false" label="1" sequence="0" value="1 - Most critical"/>
-                <element inactive_on_update="false" label="2" sequence="1" value="2 - Somewhat critical"/>
-                <element inactive_on_update="false" label="3" sequence="2" value="3 - Less critical"/>
-                <element inactive_on_update="false" label="4" sequence="3" value="4 - Not critical"/>
+                <element inactive_on_update="false" label="BIA Critical" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Very low" sequence="4" value="4"/>
             </choice>
         </element>
         <element label="Crown Jewel" max_length="40" name="crown_jewel" type="boolean"/>
@@ -42,6 +43,7 @@
             </choice>
         </element>
         <element label="Decommission / Migration Saving (estimate)" max_length="40" name="decommission_migration_saving_estimate" type="string"/>
+        <element default="true" label="Elect to audit scope" max_length="40" name="elect_to_audit_scope" type="boolean"/>
         <element label="External Facing" max_length="40" name="external_facing" type="boolean"/>
         <element label="Financial Reporting Relevant" max_length="40" name="financial_reporting_relevant" type="boolean"/>
         <element choice="1" label="Hosting type" max_length="40" name="hosting_type" type="choice">
@@ -81,8 +83,13 @@
         </element>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Controls in validation" value="controls_validation"/>
-                <element inactive_on_update="false" label="Valid" sequence="0" value="valid"/>
+                <element inactive_on_update="false" label="Backlog" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Application valid" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Controls in validation" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Controls in place" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Review" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Retired" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Out of scope" sequence="6" value="6"/>
             </choice>
         </element>
         <element choice="1" label="Status AFR" max_length="40" name="status_afr" type="choice">
