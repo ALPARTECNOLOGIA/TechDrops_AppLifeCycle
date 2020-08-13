@@ -84,11 +84,11 @@
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Backlog" sequence="0" value="0"/>
-                <element inactive_on_update="false" label="Application valid" sequence="1" value="1"/>
-                <element inactive_on_update="false" label="Controls in validation" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="Controls in place" sequence="3" value="3"/>
-                <element inactive_on_update="false" label="Review" sequence="4" value="4"/>
-                <element inactive_on_update="false" label="Retired" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Review" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Application added to scope" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Controls in validation" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Application validated" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="5" value="5"/>
                 <element inactive_on_update="false" label="Out of scope" sequence="6" value="6"/>
             </choice>
         </element>

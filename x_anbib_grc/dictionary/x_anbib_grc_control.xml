@@ -18,13 +18,34 @@
         <element label="Entity" max_length="32" name="entity" read_only="true" reference="x_anbib_grc_entity" type="reference"/>
         <element label="Exempt" max_length="40" name="exempt" type="boolean"/>
         <element default="0" label="Failed indicators" max_length="40" name="failed_indicators" type="integer"/>
-        <element label="Frequency" max_length="40" name="frequency" type="string"/>
+        <element label="Fist Evidence" max_length="40" name="fist_date" type="glide_date"/>
+        <element choice="1" label="Frequency" max_length="40" name="frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Daily" sequence="0" value="daily"/>
+                <element inactive_on_update="false" label="Weekly" sequence="1" value="weekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="2" value="monthly"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="3" value="quarterly"/>
+                <element inactive_on_update="false" label="Semi-annually" sequence="4" value="semi_annually"/>
+                <element inactive_on_update="false" label="Annually" sequence="5" value="annually"/>
+                <element inactive_on_update="false" label="Event based" sequence="6" value="event_based"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
+            </choice>
+        </element>
         <element label="From configuration check" max_length="40" name="from_configuration_check" type="boolean"/>
         <element label="Key control" max_length="40" name="key_control" type="boolean"/>
         <element label="Layer" max_length="32" name="layer" read_only="true" reference="x_anbib_grc_layer_control" type="reference"/>
         <element default="0" label="Open Issues" max_length="40" name="open_issues" type="integer"/>
         <element label="Partially exempt" max_length="40" name="partially_exempt" type="boolean"/>
         <element default="0" label="Passed indicators" max_length="40" name="passed_indicators" type="integer"/>
+        <element label="Period" max_length="40" name="period" type="integer"/>
+        <element choice="1" label="Period Unit" max_length="40" name="period_unit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Days" sequence="0" value="days"/>
+                <element inactive_on_update="false" label="Weeks" sequence="1" value="weeks"/>
+                <element inactive_on_update="false" label="Months" sequence="2" value="months"/>
+                <element inactive_on_update="false" label="Years" sequence="3" value="years"/>
+            </choice>
+        </element>
         <element label="Supplemental guidance" max_length="4000" name="supplemental_guidance" type="string"/>
         <element default="10" label="Weighting" max_length="40" name="weighting" type="integer"/>
         <index name="index">
