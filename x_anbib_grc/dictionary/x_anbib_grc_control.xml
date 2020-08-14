@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="6" type="collection">
+    <element audit="true" extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="8" type="collection">
+        <element label="Change default schedule" max_length="40" name="change_default_schedule" type="boolean"/>
         <element display="true" label="Control template" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control_template" type="reference"/>
         <element label="Control automated" max_length="40" name="control_automated" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Control level" max_length="40" name="control_level" type="string">
-            <choice>
-                <element inactive_on_update="false" label="L1" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="L2" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="L3" sequence="2" value="3"/>
-            </choice>
-        </element>
+        <element attributes="edge_encryption_enabled=true" label="Control level" max_length="40" name="control_level" reference="x_anbib_grc_maturity_level" reference_qual="javascript:'control_template='+current.control" type="reference" use_reference_qualifier="advanced"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Enforcement" max_length="40" name="enforcement" type="string">
             <choice>
                 <element inactive_on_update="false" label="Mandated" sequence="0" value="mandated"/>
@@ -29,6 +24,7 @@
                 <element inactive_on_update="false" label="Annually" sequence="5" value="annually"/>
                 <element inactive_on_update="false" label="Event based" sequence="6" value="event_based"/>
                 <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
+                <element inactive_on_update="false" label="Fixed dates" sequence="8" value="fixed_date"/>
             </choice>
         </element>
         <element label="From configuration check" max_length="40" name="from_configuration_check" type="boolean"/>

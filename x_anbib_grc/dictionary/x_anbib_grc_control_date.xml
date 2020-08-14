@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Control Date" max_length="40" name="x_anbib_grc_control_date" type="collection">
+        <element label="Control" max_length="32" name="control" reference="x_anbib_grc_control" type="reference"/>
+        <element display="true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <index name="index">
+            <element name="control"/>
+        </index>
+    </element>
+</database>

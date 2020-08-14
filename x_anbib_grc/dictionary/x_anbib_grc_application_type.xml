@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Application Type" max_length="40" name="x_anbib_grc_application_type" sizeclass="1" type="collection">
-        <element display="true" label="Name" mandatory="true" max_length="255" name="name" type="string"/>
-    </element>
-</database>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Tier" max_length="40" name="x_anbib_grc_tier" sizeclass="1" type="collection">
-        <element label="Application Type" mandatory="true" max_length="32" name="application_type" reference="x_anbib_grc_application_type" type="reference"/>
         <element choice="1" label="Frequency" mandatory="true" max_length="40" name="frequency" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Daily" sequence="0" value="daily"/>
@@ -22,8 +21,5 @@
                 <element inactive_on_update="false" label="Years" sequence="3" value="years"/>
             </choice>
         </element>
-        <index name="index">
-            <element name="application_type"/>
-        </index>
     </element>
 </database>

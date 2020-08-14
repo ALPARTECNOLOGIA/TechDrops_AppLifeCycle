@@ -1,44 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Descriptions" section_id="c0918040db2a1414faa711494b961911" sys_domain="global" table="x_anbib_grc_control" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>0</position>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-05 13:55:28</sys_created_on>
-            <sys_id>9e028480db2a1414faa711494b961990</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Descriptions" display_value="Descriptions" name="x_anbib_grc_control" sys_domain="global" view="Default view">c0918040db2a1414faa711494b961911</sys_ui_section>
-            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-05 13:55:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>source</element>
-            <position>1</position>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-05 13:55:28</sys_created_on>
-            <sys_id>16028480db2a1414faa711494b961991</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Descriptions" display_value="Descriptions" name="x_anbib_grc_control" sys_domain="global" view="Default view">c0918040db2a1414faa711494b961911</sys_ui_section>
-            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-05 13:55:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>additional_information</element>
-            <position>2</position>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-05 13:55:28</sys_created_on>
-            <sys_id>9a028480db2a1414faa711494b961991</sys_id>
+            <position>0</position>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-14 14:43:04</sys_created_on>
+            <sys_id>df3326b6db2a9810faa711494b961937</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Descriptions" display_value="Descriptions" name="x_anbib_grc_control" sys_domain="global" view="Default view">c0918040db2a1414faa711494b961911</sys_ui_section>
-            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-05 13:55:28</sys_updated_on>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-14 14:43:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

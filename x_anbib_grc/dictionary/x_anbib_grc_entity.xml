@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="5" type="collection">
+    <element label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="8" type="collection">
         <element display="true" label="Application" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
@@ -81,6 +81,7 @@
                 <element inactive_on_update="false" label="Workspace/Model" sequence="6" value="workspace_model"/>
             </choice>
         </element>
+        <element label="SSO" max_length="40" name="sso" type="boolean"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Backlog" sequence="0" value="0"/>

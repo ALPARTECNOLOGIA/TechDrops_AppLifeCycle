@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="change_default_schedule" label="Change default schedule" language="en" table="x_anbib_grc_control">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>change_default_schedule</element>
+            <help/>
+            <hint/>
+            <label>Change default schedule</label>
+            <language>en</language>
+            <name>x_anbib_grc_control</name>
+            <plural>Change default schedules</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-14 17:56:39</sys_created_on>
+            <sys_id>7a8fc37adba6d810faa711494b961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Change default schedule</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_documentation_x_anbib_grc_control_change_default_schedule_en</sys_update_name>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-14 17:56:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -2,6 +2,7 @@
     <element label="Control Template" max_length="40" name="x_anbib_grc_control_template" sizeclass="2" type="collection">
         <element label="ABI Key" max_length="40" name="abi_key" type="boolean"/>
         <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Additional Information" max_length="4000" name="additional_information" type="string"/>
         <element label="Ambev Key" max_length="40" name="ambev_key" type="boolean"/>
         <element choice="1" label="Automation" max_length="40" name="automation" type="choice">
             <choice>

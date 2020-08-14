@@ -76,25 +76,6 @@
             <sys_updated_on>2020-08-13 13:09:12</sys_updated_on>
             <value>4</value>
         </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Canceled</label>
-            <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
-            <sequence/>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-13 13:11:28</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>314489e6dbe2dc1002085bd05b961969</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-13 13:11:28</sys_updated_on>
-            <value>5</value>
-        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>state</element>
             <name>x_anbib_grc_action_plan_of_control_inplementation</name>
