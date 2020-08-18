@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="8" type="collection">
+    <element audit="true" extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="12" type="collection">
         <element label="Change default schedule" max_length="40" name="change_default_schedule" type="boolean"/>
         <element display="true" label="Control template" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control_template" type="reference"/>
         <element label="Control automated" max_length="40" name="control_automated" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Control level" max_length="40" name="control_level" reference="x_anbib_grc_maturity_level" reference_qual="javascript:'control_template='+current.control" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="Control level" mandatory="true" max_length="40" name="control_level" reference="x_anbib_grc_maturity_level" reference_qual="javascript:'control_template='+current.control" type="reference" use_reference_qualifier="advanced"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Enforcement" max_length="40" name="enforcement" type="string">
             <choice>
                 <element inactive_on_update="false" label="Mandated" sequence="0" value="mandated"/>
@@ -14,7 +14,7 @@
         <element label="Exempt" max_length="40" name="exempt" type="boolean"/>
         <element default="0" label="Failed indicators" max_length="40" name="failed_indicators" type="integer"/>
         <element label="Fist Evidence" max_length="40" name="fist_date" type="glide_date"/>
-        <element choice="1" label="Frequency" max_length="40" name="frequency" type="choice">
+        <element choice="1" label="Frequency" mandatory="true" max_length="40" name="frequency" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Daily" sequence="0" value="daily"/>
                 <element inactive_on_update="false" label="Weekly" sequence="1" value="weekly"/>
@@ -42,6 +42,7 @@
                 <element inactive_on_update="false" label="Years" sequence="3" value="years"/>
             </choice>
         </element>
+        <element default="true" label="Restart workflow" max_length="40" name="restart_workflow" type="boolean"/>
         <element label="Supplemental guidance" max_length="4000" name="supplemental_guidance" type="string"/>
         <element default="10" label="Weighting" max_length="40" name="weighting" type="integer"/>
         <index name="index">

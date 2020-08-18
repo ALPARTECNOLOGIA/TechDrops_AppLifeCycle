@@ -28,22 +28,7 @@
         <name>Restart Workflow</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[// var wfName = '';
-// var gr = new GlideRecord('wf_context');
-// gr.addEncodedQuery('id='+current.sys_id.toString());
-// gr.query();
-// if(gr.next()){
-// 	wfName = gr.workflow_version.name.toString();	
-// }
-
-// //cancel workflow.
-// var workflow = new global.Workflow();
-// workflow.cancel(current);
-
-// //start workflow
-// var newWorkflow = new global.Workflow();
-// newWorkflow.startFlow(new global.Workflow().getWorkflowFromName(wfName), current , '');
-new global.Workflow().restartWorkflow(current);
+        <script><![CDATA[new global.Workflow().restartWorkflow(current);
 action.setRedirectURL(current);]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -55,7 +40,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2d0bdebedba6145002085bd05b96191d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Restart Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -63,7 +48,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_2d0bdebedba6145002085bd05b96191d</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-14 14:54:37</sys_updated_on>
+        <sys_updated_on>2020-08-17 17:42:42</sys_updated_on>
         <table>x_anbib_grc_action_plan_of_control_inplementation</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

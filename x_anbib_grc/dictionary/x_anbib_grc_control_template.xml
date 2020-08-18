@@ -11,6 +11,7 @@
                 <element inactive_on_update="false" label="Manual" sequence="2" value="manual"/>
             </choice>
         </element>
+        <element label="SaaS application control via SOC 2 Report Type 2" max_length="40" name="control_type_saas" type="boolean"/>
         <element label="L3 - Best in Class (Excellence)" max_length="4000" name="excellence" type="string"/>
         <element label="FCPA" max_length="40" name="fcpa" type="boolean"/>
         <element choice="1" label="Frequency" max_length="40" name="frequency" type="choice">

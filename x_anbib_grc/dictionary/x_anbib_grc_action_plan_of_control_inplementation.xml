@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="Control Implementation Action Plan" max_length="40" name="x_anbib_grc_action_plan_of_control_inplementation" sizeclass="5" type="collection">
+    <element extends="x_anbib_grc_task" label="Control Implementation Action Plan" max_length="40" name="x_anbib_grc_action_plan_of_control_inplementation" sizeclass="2" type="collection">
         <element label="Action plan" max_length="65536" name="action_plan_description" type="html"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Complexity" max_length="40" name="complexity" type="string">
             <choice>
