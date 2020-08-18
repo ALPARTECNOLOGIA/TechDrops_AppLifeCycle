@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="control_type_saas" label="SaaS application control via SOC 2 Report Type 2" language="en" table="x_anbib_grc_control_template">
+    <sys_documentation element="control_type_saas" label="SaaS application control by SOC2 Report" language="en" table="x_anbib_grc_control_template">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>control_type_saas</element>
             <help/>
             <hint/>
-            <label>SaaS application control via SOC 2 Report Type 2</label>
+            <label>SaaS application control by SOC2 Report</label>
             <language>en</language>
             <name>x_anbib_grc_control_template</name>
-            <plural>SaaS application control via SOC 2 Report Type 2s</plural>
+            <plural>SaaS application control by SOC2 Reports</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-18 12:56:09</sys_created_on>
             <sys_id>9021720cdbbed09002085bd05b96197b</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>SaaS application control via SOC 2 Report Type 2</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>SaaS application control by SOC2 Report</sys_name>
             <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
             <sys_policy/>
             <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
             <sys_update_name>sys_documentation_x_anbib_grc_control_template_control_type_saas_en</sys_update_name>
             <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-18 12:56:33</sys_updated_on>
+            <sys_updated_on>2020-08-18 13:23:15</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

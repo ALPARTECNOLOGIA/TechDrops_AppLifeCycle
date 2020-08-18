@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="SOP Evidence" max_length="40" name="x_anbib_grc_sop_evidence" sizeclass="3" type="collection">
-        <element label="Control" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control" type="reference"/>
         <element label="Evidence limit date" mandatory="true" max_length="40" name="limit_date" type="glide_date"/>
         <element label="Evidence request list" max_length="5000" name="request_list" type="string"/>
         <element choice="1" label="State" max_length="40" name="state" read_only="true" type="choice">
@@ -11,6 +10,7 @@
                 <element inactive_on_update="false" label="Approved" sequence="3" value="3"/>
             </choice>
         </element>
+        <element label="Control" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control" type="reference"/>
         <index name="index">
             <element name="control"/>
         </index>

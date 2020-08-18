@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="SOP" max_length="40" name="x_anbib_grc_sop" type="collection">
-        <element label="Control" max_length="32" name="control" reference="x_anbib_grc_control" type="reference"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
@@ -9,8 +8,5 @@
                 <element inactive_on_update="false" label="Approved" sequence="2" value="2"/>
             </choice>
         </element>
-        <index name="index">
-            <element name="control"/>
-        </index>
     </element>
 </database>
