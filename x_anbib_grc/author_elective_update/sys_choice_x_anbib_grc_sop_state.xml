@@ -57,6 +57,25 @@
             <sys_updated_on>2020-08-18 12:47:16</sys_updated_on>
             <value>2</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No approval required</label>
+            <language>en</language>
+            <name>x_anbib_grc_sop</name>
+            <sequence>3</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-18 13:15:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74757e4cdbfed09002085bd05b961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-18 13:15:02</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>state</element>
             <name>x_anbib_grc_sop</name>
