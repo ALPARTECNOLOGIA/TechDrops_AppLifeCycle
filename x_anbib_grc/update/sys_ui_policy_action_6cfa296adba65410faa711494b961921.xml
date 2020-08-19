@@ -17,7 +17,7 @@
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-08-13 15:58:39</sys_updated_on>
         <table>x_anbib_grc_control</table>
-        <ui_policy display_value="Show other frquency option">60fa296adba65410faa711494b96191f</ui_policy>
+        <ui_policy display_value="Show other frequency option">60fa296adba65410faa711494b96191f</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

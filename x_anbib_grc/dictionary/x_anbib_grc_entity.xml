@@ -83,7 +83,7 @@
             </choice>
         </element>
         <element label="SSO" max_length="40" name="sso" type="boolean"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+        <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Backlog" sequence="0" value="0"/>
                 <element inactive_on_update="false" label="Review" sequence="1" value="1"/>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>destructive</form_style>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Decommissioned</name>
+        <onclick>onSubmit()</onclick>
+        <order>400</order>
+        <script><![CDATA[// Check layers
+// if (current.elect_to_audit_scope) {
+// 	var grEntityLayer = new GlideRecord("x_anbib_grc_m2m_entities_layer_controls");
+// 	grEntityLayer.addQuery("entity", current.sys_id);
+// 	grEntityLayer.query();
+// 	if (!grEntityLayer.next()) {
+// 		gs.addErrorMessage("No layer selected for the application, select at least one layer.");
+// 		redirect();
+// 	} else {
+		current.status = '5';
+		current.update();
+		redirect();
+// 	}
+// } else {
+// 	gs.addErrorMessage("Entity is not marked for audit scope. If you want to include, mark 'Elect to audit scope' field.");
+// 	redirect();
+// }
+
+function redirect() {
+	var isList = action.getGlideURI().get('sys_is_list');
+	if (!isList) //Not from list form
+		action.setRedirectURL(current);
+}
+
+
+
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-19 13:13:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a9eff5cdbb6189002085bd05b961935</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Decommissioned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_ui_action_0a9eff5cdbb6189002085bd05b961935</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-19 13:54:54</sys_updated_on>
+        <table>x_anbib_grc_entity</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="SOP Evidence" max_length="40" name="x_anbib_grc_sop_evidence" sizeclass="2" type="collection">
+        <element label="Additional Information" max_length="4000" name="additional_information" type="string"/>
         <element label="Evidence limit date" mandatory="true" max_length="40" name="limit_date" type="glide_date"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="255" name="number" type="string"/>
         <element label="Evidence request list" max_length="5000" name="request_list" type="string"/>

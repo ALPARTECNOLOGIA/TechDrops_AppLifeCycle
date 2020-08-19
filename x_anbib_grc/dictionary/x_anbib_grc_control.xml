@@ -42,6 +42,13 @@
                 <element inactive_on_update="false" label="Years" sequence="3" value="years"/>
             </choice>
         </element>
+        <element choice="1" label="Process" max_length="40" name="process" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In place" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Not applicable" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Rely on ISAE3402" sequence="2" value="2"/>
+            </choice>
+        </element>
         <element default="true" label="Restart workflow" max_length="40" name="restart_workflow" type="boolean"/>
         <element label="Supplemental guidance" max_length="4000" name="supplemental_guidance" type="string"/>
         <element default="10" label="Weighting" max_length="40" name="weighting" type="integer"/>
