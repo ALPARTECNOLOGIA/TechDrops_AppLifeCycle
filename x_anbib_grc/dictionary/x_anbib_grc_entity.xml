@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="10" type="collection">
+    <element label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="5" type="collection">
         <element display="true" label="Application" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
@@ -55,6 +55,7 @@
                 <element inactive_on_update="false" label="SaaS" sequence="5" value="saas"/>
             </choice>
         </element>
+        <element label="ITC Responsible" max_length="32" name="itc_responsible" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Last application update" max_length="40" name="last_application_update" read_only="true" type="glide_date"/>
         <element label="MICS relevance" max_length="40" name="mics_relevance" type="boolean"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
@@ -88,8 +89,6 @@
                 <element inactive_on_update="false" label="Backlog" sequence="0" value="0"/>
                 <element inactive_on_update="false" label="Review" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="Application added to scope" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="Controls in validation" sequence="3" value="3"/>
-                <element inactive_on_update="false" label="Application validated" sequence="4" value="4"/>
                 <element inactive_on_update="false" label="Decommissioned" sequence="5" value="5"/>
                 <element inactive_on_update="false" label="Out of scope" sequence="6" value="6"/>
             </choice>
@@ -172,7 +171,7 @@
             </choice>
         </element>
         <element label="Supplier Service Name" max_length="32" name="supplier_service_name" reference="customer_contact" type="reference"/>
-        <element label="Tier" max_length="32" name="tier" reference="x_anbib_grc_tier" type="reference"/>
+        <element label="Tier" mandatory="true" max_length="32" name="tier" reference="x_anbib_grc_tier" type="reference"/>
         <element label="To be Decommissioned With" max_length="32" name="to_be_decommissioned_with" reference="x_anbib_grc_entity" type="reference"/>
         <element label="MICs Category" max_length="32" name="type" reference="x_anbib_grc_type" type="reference"/>
         <element label="Updated by App360" max_length="40" name="updated_by_app360" type="boolean"/>
@@ -183,15 +182,18 @@
             <element name="tier"/>
         </index>
         <index name="index3">
-            <element name="supplier_service_name"/>
+            <element name="itc_responsible"/>
         </index>
         <index name="index4">
-            <element name="to_be_decommissioned_with"/>
+            <element name="supplier_service_name"/>
         </index>
         <index name="index5">
-            <element name="business_function"/>
+            <element name="to_be_decommissioned_with"/>
         </index>
         <index name="index6">
+            <element name="business_function"/>
+        </index>
+        <index name="index7">
             <element name="type"/>
         </index>
     </element>

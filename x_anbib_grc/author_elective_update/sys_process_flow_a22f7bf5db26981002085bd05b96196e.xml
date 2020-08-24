@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_anbib_grc_entity">status=3^EQ<item display_value="Controls in validation" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Controls in validation</label>
+        <name>Controls in validation</name>
+        <order>400</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-11 18:51:40</sys_created_on>
+        <sys_id>a22f7bf5db26981002085bd05b96196e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Controls in validation</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_process_flow_a22f7bf5db26981002085bd05b96196e</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-17 18:38:01</sys_updated_on>
+        <table>x_anbib_grc_entity</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_process_flow_a22f7bf5db26981002085bd05b96196e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_anbib_grc_entity">status=3^EQ<item display_value="Controls in validation" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="3"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Controls in validation</label><name>Controls in validation</name><order>400</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-11 18:51:40</sys_created_on><sys_id>a22f7bf5db26981002085bd05b96196e</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Controls in validation</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_process_flow_a22f7bf5db26981002085bd05b96196e</sys_update_name><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-17 18:38:01</sys_updated_on><table>x_anbib_grc_entity</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>1878176634</payload_hash>
+        <record_name>Controls in validation</record_name>
+        <reverted_from/>
+        <source>2e41573edba6d810faa711494b9619c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-17 18:38:01</sys_created_on>
+        <sys_id>4ac57a3bdb66d450faa711494b961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173fdb6c8330000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-17 18:38:01</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>42c57a3bab66d4502ddb1f2587476738</update_guid>
+        <update_guid_history>42c57a3bab66d4502ddb1f2587476738:1878176634,f3a1a1a20c2654101f7fc2f3787daafa:707912888,8bb09c8e0fe69810213a69db73e06dcc:1772880119,af5fb3f91a269810590a8063f75d310e:-189717351</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-21 14:25:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>51ae2514fdb34766b68471d7652d2bb1</sys_id>
+        <sys_metadata>a22f7bf5db26981002085bd05b96196e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Controls in validation</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_process_flow_a22f7bf5db26981002085bd05b96196e</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_a22f7bf5db26981002085bd05b96196e">4ac57a3bdb66d450faa711494b961938</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-21 14:25:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

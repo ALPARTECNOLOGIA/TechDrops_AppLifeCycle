@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(current.state == "0" || current.state == "1")</condition>
+        <condition>current.state != "5" &amp;&amp; current.process != "1"</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -28,10 +28,32 @@
         <name>Not applicable</name>
         <onclick>onSubmit()</onclick>
         <order>200</order>
-        <script><![CDATA[current.process = '1';
-current.state = '2';
-current.update();
-redirect();
+        <script><![CDATA[// if (current.process.toString()) {
+// 	new global.Workflow().restartWorkflow(current);
+// }
+
+// current.process = '1';
+// current.state = '2';
+// current.update();
+// redirect();
+
+var state = current.state.toString();
+if (state == "2" && current.status == "1") {   // não precisa reiniciar o processo, a evidencia ainda não foi validada
+	current.process = '1';
+	current.update();
+	redirect();
+} else if (state == "0" || state == "1") {
+	current.process = '1';
+	current.state = '2';
+	current.update();
+	redirect();
+} else {
+	new global.Workflow().restartWorkflow(current);
+	current.process = '1';
+	current.state = '2';
+	current.update();
+	redirect();
+}
 
 function redirect() {
 	var isList = action.getGlideURI().get('sys_is_list');
@@ -48,7 +70,7 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>98be11ecdb3e589002085bd05b961961</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Not applicable</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -56,7 +78,7 @@ function redirect() {
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_98be11ecdb3e589002085bd05b961961</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-19 20:12:57</sys_updated_on>
+        <sys_updated_on>2020-08-21 19:47:36</sys_updated_on>
         <table>x_anbib_grc_control</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

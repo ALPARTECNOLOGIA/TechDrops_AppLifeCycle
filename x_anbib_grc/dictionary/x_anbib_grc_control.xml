@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="13" type="collection">
+    <element audit="true" extends="x_anbib_grc_item" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="4" type="collection">
         <element label="Change default schedule" max_length="40" name="change_default_schedule" type="boolean"/>
         <element display="true" label="Control template" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control_template" type="reference"/>
         <element label="Control automated" max_length="40" name="control_automated" type="boolean"/>
@@ -42,7 +42,7 @@
                 <element inactive_on_update="false" label="Years" sequence="3" value="years"/>
             </choice>
         </element>
-        <element choice="1" label="Process" max_length="40" name="process" type="choice">
+        <element choice="1" label="Expected state" max_length="40" name="process" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="In place" sequence="0" value="0"/>
                 <element inactive_on_update="false" label="Not applicable" sequence="1" value="1"/>

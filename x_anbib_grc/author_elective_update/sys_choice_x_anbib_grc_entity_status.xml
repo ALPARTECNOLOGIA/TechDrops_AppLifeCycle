@@ -62,44 +62,6 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Controls in validation</label>
-            <language>en</language>
-            <name>x_anbib_grc_entity</name>
-            <sequence>3</sequence>
-            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-10 17:32:48</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>39836261db661810faa711494b961990</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-13 15:23:28</sys_updated_on>
-            <value>3</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Application validated</label>
-            <language>en</language>
-            <name>x_anbib_grc_entity</name>
-            <sequence>4</sequence>
-            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-11 14:58:57</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b21a8ffddbaa581002085bd05b961979</sys_id>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-13 15:23:30</sys_updated_on>
-            <value>4</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Decommissioned</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>

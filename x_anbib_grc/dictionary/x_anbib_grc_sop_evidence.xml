@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="SOP Evidence" max_length="40" name="x_anbib_grc_sop_evidence" sizeclass="2" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Additional Information" max_length="4000" name="additional_information" type="string"/>
         <element label="Evidence limit date" mandatory="true" max_length="40" name="limit_date" type="glide_date"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="255" name="number" type="string"/>
@@ -10,6 +11,7 @@
                 <element inactive_on_update="false" label="Waiting for evidence" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="Waiting for approval" sequence="2" value="2"/>
                 <element inactive_on_update="false" label="Approved" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Canceled" sequence="10" value="-1"/>
             </choice>
         </element>
     </element>

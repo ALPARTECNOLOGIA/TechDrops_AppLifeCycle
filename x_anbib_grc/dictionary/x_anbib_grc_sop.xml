@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="SOP" max_length="40" name="x_anbib_grc_sop" sizeclass="2" type="collection">
+    <element label="SOP" max_length="40" name="x_anbib_grc_sop" sizeclass="1" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="255" name="number" read_only="true" type="string"/>
         <element choice="1" label="State" max_length="40" name="state" read_only="true" type="choice">
@@ -8,6 +9,7 @@
                 <element inactive_on_update="false" label="Waiting for approval" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="Approved" sequence="2" value="2"/>
                 <element inactive_on_update="false" label="No approval required" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Canceled" sequence="10" value="-1"/>
             </choice>
         </element>
     </element>

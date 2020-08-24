@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(current.state == "0" || current.state == "1")</condition>
+        <condition>current.state != "6" &amp;&amp; current.process != "2"</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -28,10 +28,23 @@
         <name>Rely on ISAE3402</name>
         <onclick>onSubmit()</onclick>
         <order>200</order>
-        <script><![CDATA[current.process = '3';
-current.state = '2';
-current.update();
-redirect();
+        <script><![CDATA[var state = current.state.toString();
+if (state == "2" && current.status == "1") {   // não precisa reiniciar o processo, a evidencia ainda não foi validada
+	current.process = '2';
+	current.update();
+	redirect();
+} else if (state == "0" || state == "1") {
+	current.process = '2';
+	current.state = '2';
+	current.update();
+	redirect();
+} else {
+	new global.Workflow().restartWorkflow(current);
+	current.process = '2';
+	current.state = '2';
+	current.update();
+	redirect();
+}
 
 function redirect() {
 	var isList = action.getGlideURI().get('sys_is_list');
@@ -48,7 +61,7 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a6ce95acdb3e589002085bd05b961915</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Rely on ISAE3402</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -56,7 +69,7 @@ function redirect() {
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_a6ce95acdb3e589002085bd05b961915</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-19 20:13:22</sys_updated_on>
+        <sys_updated_on>2020-08-21 19:46:54</sys_updated_on>
         <table>x_anbib_grc_control</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
