@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_anbib_grc_extension_test">x_anbib_grc_extension_test</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>EXT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-08-26 19:26:26</sys_created_on>
+        <sys_id>cf27dd3adb769410faa711494b961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EXT</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_number_cf27dd3adb769410faa711494b961993</sys_update_name>
+        <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-08-26 19:26:26</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_number_cf27dd3adb769410faa711494b961993</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_anbib_grc_extension_test">x_anbib_grc_extension_test</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>EXT</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by><sys_created_on>2020-08-26 19:26:26</sys_created_on><sys_id>cf27dd3adb769410faa711494b961993</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EXT</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_number_cf27dd3adb769410faa711494b961993</sys_update_name><sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by><sys_updated_on>2020-08-26 19:26:26</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1294132784</payload_hash>
+        <record_name>EXT</record_name>
+        <reverted_from/>
+        <source>2d0795b2db769410faa711494b961945</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-08-26 19:26:26</sys_created_on>
+        <sys_id>4727dd3adb769410faa711494b9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1742c3c59f60000001</sys_recorded_at>
+        <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-08-26 19:26:26</sys_updated_on>
+        <type>Number</type>
+        <update_guid>4f27dd3a697694104b02f683855a81ce</update_guid>
+        <update_guid_history>4f27dd3a697694104b02f683855a81ce:-1294132784</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-08-26 19:40:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>36ed02d437a640beb1abd4ea585e82f9</sys_id>
+        <sys_metadata>cf27dd3adb769410faa711494b961993</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EXT</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="">d517553adb769410faa711494b96193b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_number_cf27dd3adb769410faa711494b961993</sys_update_name>
+        <sys_update_version display_value="sys_number_cf27dd3adb769410faa711494b961993">4727dd3adb769410faa711494b9619cf</sys_update_version>
+        <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-08-26 19:40:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
