@@ -2,12 +2,12 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.status != '0' &amp;&amp; current.status != '1' &amp;&amp; current.status != '6'</condition>
+        <condition>current.status != '0' &amp;&amp; current.status != '1'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -26,35 +26,14 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <name>Review</name>
-        <onclick>onSubmit()</onclick>
+        <onclick>showConfirmDialog()</onclick>
         <order>200</order>
-        <script><![CDATA[// Check layers
-// if (current.elect_to_audit_scope) {
-// 	var grEntityLayer = new GlideRecord("x_anbib_grc_m2m_entities_layer_controls");
-// 	grEntityLayer.addQuery("entity", current.sys_id);
-// 	grEntityLayer.query();
-// 	if (!grEntityLayer.next()) {
-// 		gs.addErrorMessage("No layer selected for the application, select at least one layer.");
-// 		redirect();
-// 	} else {
-		current.status = '1';
-		current.update();
-		redirect();
-// 	}
-// } else {
-// 	gs.addErrorMessage("Entity is not marked for audit scope. If you want to include, mark 'Elect to audit scope' field.");
-// 	redirect();
-// }
-
-function redirect() {
-	var isList = action.getGlideURI().get('sys_is_list');
-	if (!isList) //Not from list form
-		action.setRedirectURL(current);
-}
-
-
-
-]]></script>
+        <script><![CDATA[function showConfirmDialog() {
+	var modal = new GlideModal("x_anbib_grc_review_entity", true, 520); //Render the dialog containing the UI Page
+	modal.setTitle("Entity Review");
+	modal.setPreference("sysparm_obj", g_form.getUniqueValue());
+	modal.render();
+}]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -65,7 +44,7 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>492eff5cdbb6189002085bd05b9619d9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Review</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -73,7 +52,7 @@ function redirect() {
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_492eff5cdbb6189002085bd05b9619d9</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-20 17:18:06</sys_updated_on>
+        <sys_updated_on>2020-08-26 16:12:03</sys_updated_on>
         <table>x_anbib_grc_entity</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

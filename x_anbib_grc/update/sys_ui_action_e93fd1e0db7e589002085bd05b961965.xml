@@ -28,7 +28,8 @@
         <name>Review</name>
         <onclick>onSubmit()</onclick>
         <order>200</order>
-        <script><![CDATA[current.state = '1';
+        <script><![CDATA[new global.Workflow().restartWorkflow(current);
+current.state = '1';
 current.update();
 redirect();
 
@@ -47,7 +48,7 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e93fd1e0db7e589002085bd05b961965</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Review</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -55,7 +56,7 @@ function redirect() {
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_e93fd1e0db7e589002085bd05b961965</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-20 17:39:59</sys_updated_on>
+        <sys_updated_on>2020-08-26 13:18:06</sys_updated_on>
         <table>x_anbib_grc_control</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

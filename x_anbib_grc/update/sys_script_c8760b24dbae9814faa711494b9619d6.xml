@@ -15,7 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_anbib_grc_m2m_entities_layer_controls">entity.statusIN2,3,4^EQ<item display_value="2,3,4" endquery="false" field="entity.status" goto="false" newquery="false" operator="IN" or="false" value="2,3,4"/>
+        <filter_condition table="x_anbib_grc_m2m_entities_layer_controls">entity.statusIN1,2^EQ<item display_value="1,2" endquery="false" field="entity.status" goto="false" newquery="false" operator="IN" or="false" value="1,2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -84,7 +84,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c8760b24dbae9814faa711494b9619d6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Update entity layers</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -92,7 +92,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_c8760b24dbae9814faa711494b9619d6</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-13 15:37:46</sys_updated_on>
+        <sys_updated_on>2020-08-26 16:52:10</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

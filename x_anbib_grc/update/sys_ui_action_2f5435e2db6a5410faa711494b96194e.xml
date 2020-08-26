@@ -36,12 +36,14 @@
 var state = current.state.toString();
 if (state == "0" || state == "1") {
 	current.process = '';
+	current.status = '';
 	current.state = '4';
 	current.update();
 	redirect();
 } else {
-	new global.Workflow().restartWorkflow(current);
+	new global.Workflow().restartWorkflow(current);	
 	current.process = '';
+	current.status = '';
 	current.state = '4';
 	current.update();
 	redirect();
@@ -62,7 +64,7 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2f5435e2db6a5410faa711494b96194e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Set as not in place</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -70,7 +72,7 @@ function redirect() {
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_2f5435e2db6a5410faa711494b96194e</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-21 19:43:19</sys_updated_on>
+        <sys_updated_on>2020-08-24 13:23:58</sys_updated_on>
         <table>x_anbib_grc_control</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
