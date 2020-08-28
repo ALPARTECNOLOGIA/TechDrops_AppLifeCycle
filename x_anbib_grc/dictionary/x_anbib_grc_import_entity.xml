@@ -9,21 +9,21 @@
         <element attributes="import_attribute_name=archiving_duration_months" label="archiving_duration_months" max_length="40" name="u_archiving_duration_months" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=authentication" label="authentication" max_length="40" name="u_authentication" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=backup_frequency" label="backup_frequency" max_length="40" name="u_backup_frequency" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=browser_compatability" label="browser_compatability" max_length="217" name="u_browser_compatability" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=browser_compatability" label="browser_compatability" max_length="1000" name="u_browser_compatability" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=business_function" label="business_function" max_length="40" name="u_business_function" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=business_subfunction" label="business_subfunction" max_length="40" name="u_business_subfunction" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=client_type" label="client_type" max_length="40" name="u_client_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=cloud_strategy" label="cloud_strategy" max_length="40" name="u_cloud_strategy" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=cmdblink" label="cmdblink" max_length="40" name="u_cmdblink" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=contract_cluster" label="contract_cluster" max_length="40" name="u_contract_cluster" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=core_functionality" label="core_functionality" max_length="55" name="u_core_functionality" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=country_scope" label="country_scope" max_length="342" name="u_country_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=core_functionality" label="core_functionality" max_length="100" name="u_core_functionality" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=country_scope" label="country_scope" max_length="1000" name="u_country_scope" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=criticality" label="criticality" max_length="40" name="u_criticality" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=critical_period" label="critical_period" max_length="40" name="u_critical_period" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=crown_jewel" label="crown_jewel" max_length="40" name="u_crown_jewel" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=database" label="database" max_length="40" name="u_database" type="string"/>
         <element attributes="import_attribute_name=data_retention_period" label="data_retention_period" max_length="40" name="u_data_retention_period" type="integer"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=data_sensitivity" label="data_sensitivity" max_length="44" name="u_data_sensitivity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=data_sensitivity" label="data_sensitivity" max_length="100" name="u_data_sensitivity" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=date_live" label="date_live" max_length="40" name="u_date_live" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=decommissioning_date" label="decommissioning_date" max_length="40" name="u_decommissioning_date" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=decommissioning_strategy" label="decommissioning_strategy" max_length="40" name="u_decommissioning_strategy" type="string"/>
@@ -32,7 +32,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=device_management" label="device_management" max_length="40" name="u_device_management" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=disaster_recovery" label="disaster_recovery" max_length="40" name="u_disaster_recovery" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=distribution_platform" label="distribution_platform" max_length="40" name="u_distribution_platform" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=encryption" label="encryption" max_length="48" name="u_encryption" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=encryption" label="encryption" max_length="100" name="u_encryption" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=end_game" label="end_game" max_length="40" name="u_end_game" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=end_of_life_app" label="end_of_life_app" max_length="40" name="u_end_of_life_app" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=end_of_life_os_db" label="end_of_life_os_db" max_length="40" name="u_end_of_life_os_db" type="string"/>
@@ -44,8 +44,8 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=hosting_type" label="hosting_type" max_length="40" name="u_hosting_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=incident_volume" label="incident_volume" max_length="40" name="u_incident_volume" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=level_of_customization" label="level_of_customization" max_length="40" name="u_level_of_customization" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=link_to_sharepoint" label="link_to_sharepoint" max_length="134" name="u_link_to_sharepoint" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=long_description" label="long_description" max_length="255" name="u_long_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=link_to_sharepoint" label="link_to_sharepoint" max_length="1000" name="u_link_to_sharepoint" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=long_description" label="long_description" max_length="1000" name="u_long_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=managed_by" label="managed_by" max_length="40" name="u_managed_by" type="string"/>
         <element attributes="import_attribute_name=max_latency" label="max_latency" max_length="40" name="u_max_latency" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=mics_relevance" label="mics_relevance" max_length="40" name="u_mics_relevance" type="string"/>
@@ -53,8 +53,8 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=network_segmentation" label="network_segmentation" max_length="40" name="u_network_segmentation" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=network_traffic" label="network_traffic" max_length="40" name="u_network_traffic" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=operating_system" label="operating_system" max_length="40" name="u_operating_system" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=os_compatibility_client" label="os_compatibility_client" max_length="207" name="u_os_compatibility_client" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=os_compatibility_server" label="os_compatibility_server" max_length="52" name="u_os_compatibility_server" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=os_compatibility_client" label="os_compatibility_client" max_length="1000" name="u_os_compatibility_client" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=os_compatibility_server" label="os_compatibility_server" max_length="100" name="u_os_compatibility_server" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=pace_layer" label="pace_layer" max_length="40" name="u_pace_layer" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=parent_service" label="parent_service" max_length="40" name="u_parent_service" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=personal_data" label="personal_data" max_length="40" name="u_personal_data" type="string"/>
@@ -64,7 +64,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=sanctioned" label="sanctioned" max_length="40" name="u_sanctioned" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=service_owner_name" label="service_owner_name" max_length="40" name="u_service_owner_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=service_record_type" label="service_record_type" max_length="40" name="u_service_record_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=service_service_name" label="service_service_name" max_length="59" name="u_service_service_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=service_service_name" label="service_service_name" max_length="100" name="u_service_service_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=short_description" label="short_description" max_length="100" name="u_short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=sla_service_request" label="sla_service_request" max_length="40" name="u_sla_service_request" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=sla_sev1" label="sla_sev1" max_length="40" name="u_sla_sev1" type="string"/>
@@ -83,7 +83,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=technical_fit" label="technical_fit" max_length="40" name="u_technical_fit" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=ticket_volume" label="ticket_volume" max_length="40" name="u_ticket_volume" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=time" label="time" max_length="40" name="u_time" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=to_be_decommissioned_with" label="to_be_decommissioned_with" max_length="59" name="u_to_be_decommissioned_with" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=to_be_decommissioned_with" label="to_be_decommissioned_with" max_length="100" name="u_to_be_decommissioned_with" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=user_base_afr" label="user_base_afr" max_length="40" name="u_user_base_afr" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=user_base_apc" label="user_base_apc" max_length="40" name="u_user_base_apc" type="string"/>
         <element attributes="import_attribute_name=user_base_eur" label="user_base_eur" max_length="40" name="u_user_base_eur" type="integer"/>
@@ -92,7 +92,7 @@
         <element attributes="import_attribute_name=user_base_naz" label="user_base_naz" max_length="40" name="u_user_base_naz" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=user_base_saz" label="user_base_saz" max_length="40" name="u_user_base_saz" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=vendor_degree_of_satisfaction" label="vendor_degree_of_satisfaction" max_length="40" name="u_vendor_degre_f_satisfaction" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=web_urls" label="web_urls" max_length="75" name="u_web_urls" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=web_urls" label="web_urls" max_length="100" name="u_web_urls" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=zone" label="zone" max_length="40" name="u_zone" type="string"/>
     </element>
 </database>
