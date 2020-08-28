@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Import Entity" max_length="40" name="x_anbib_grc_import_entity" sizeclass="514" type="collection">
+    <element audit="true" extends="sys_import_set_row" label="Import Entity" max_length="40" name="x_anbib_grc_import_entity" sizeclass="514" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=1yp_status" label="1yp_status" max_length="40" name="u_1yp_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=1yp_status_apc" label="1yp_status_apc" max_length="40" name="u_1yp_status_apc" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=application_type" label="application_type" max_length="40" name="u_application_type" type="string"/>

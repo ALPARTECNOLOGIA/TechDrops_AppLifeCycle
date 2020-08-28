@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">glide_date</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_anbib_grc_sop_evidence</name>
         <next_element/>
@@ -52,8 +52,8 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-08-17 15:02:29</sys_created_on>
-        <sys_id>4a34863bdb6a9450faa711494b961935</sys_id>
+        <sys_created_on>2020-08-27 19:13:42</sys_created_on>
+        <sys_id>256d968bdb36981002085bd05b9619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Evidence limit date</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_dictionary_x_anbib_grc_sop_evidence_limit_date</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-17 15:02:29</sys_updated_on>
+        <sys_updated_on>2020-08-27 19:13:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

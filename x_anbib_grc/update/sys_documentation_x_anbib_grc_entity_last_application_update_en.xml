@@ -9,17 +9,17 @@
             <name>x_anbib_grc_entity</name>
             <plural>Last application updates</plural>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-17 18:02:39</sys_created_on>
-            <sys_id>d8bd223fdba6109002085bd05b9619bb</sys_id>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-28 17:15:08</sys_created_on>
+            <sys_id>134c4b5fdb7a9c1002085bd05b9619bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Last application update</sys_name>
             <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
             <sys_policy/>
             <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
             <sys_update_name>sys_documentation_x_anbib_grc_entity_last_application_update_en</sys_update_name>
-            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-17 18:02:39</sys_updated_on>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-28 17:15:08</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

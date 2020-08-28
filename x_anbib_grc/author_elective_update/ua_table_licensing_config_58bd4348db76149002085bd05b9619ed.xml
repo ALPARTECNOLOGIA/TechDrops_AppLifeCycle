@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_anbib_grc_m2m_sop_evidences_controls</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-18 15:00:57</sys_created_on>
+        <sys_id>58bd4348db76149002085bd05b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_m2m_sop_evidences_controls</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>ua_table_licensing_config_58bd4348db76149002085bd05b9619ed</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-18 15:00:57</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>ua_table_licensing_config_58bd4348db76149002085bd05b9619ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_anbib_grc_m2m_sop_evidences_controls</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-18 15:00:57</sys_created_on><sys_id>58bd4348db76149002085bd05b9619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_anbib_grc_m2m_sop_evidences_controls</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>ua_table_licensing_config_58bd4348db76149002085bd05b9619ed</sys_update_name><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-18 15:00:57</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>1133727752</payload_hash>
+        <record_name>x_anbib_grc_m2m_sop_evidences_controls</record_name>
+        <reverted_from/>
+        <source>1d81be4cdbbed09002085bd05b96199c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-18 15:00:57</sys_created_on>
+        <sys_id>54bd4348db76149002085bd05b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17402166bd60000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-18 15:00:57</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>5cbd43481b761490caca18f8462ec6ee</update_guid>
+        <update_guid_history>5cbd43481b761490caca18f8462ec6ee:1133727752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-27 18:23:09</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>37de7a22ad9e497c8ffe6c30745a0729</sys_id>
+        <sys_metadata>58bd4348db76149002085bd05b9619ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_m2m_sop_evidences_controls</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_58bd4348db76149002085bd05b9619ed</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_58bd4348db76149002085bd05b9619ed">54bd4348db76149002085bd05b9619ef</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-27 18:23:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

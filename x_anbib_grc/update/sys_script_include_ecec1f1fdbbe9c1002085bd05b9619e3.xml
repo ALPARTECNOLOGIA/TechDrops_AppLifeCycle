@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_anbib_grc.GRCImportEntityHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GRCImportEntityHelper</name>
+        <script><![CDATA[var GRCImportEntityHelper = Class.create();
+GRCImportEntityHelper.prototype = {
+    initialize: function() {
+    },
+	
+	separateFields: function(data){
+		var obj = {};
+		var fieldList = ["service_service_name", "parent_service", "supplier_service_name", "short_description", "service_record_type", "service_owner_name", "status_ghq", "status_eur", "status_afr", "1yp_status_apc", "status_maz", "status_naz", "status_saz", "user_base_ghq", "user_base_eur", "user_base_afr", "user_base_apc", "user_base_maz", "user_base_naz", "user_base_saz", "long_description", "zone", "managed_by", "business_function", "business_subfunction", "core_functionality", "country_scope", "department", "link_to_sharepoint", "hosting_location_legal_requirement", "application_technology_family", "application_version", "level_of_customization", "application_type", "client_type", "rto", "rpo", "network_segmentation", "high_availability", "min_bandwidth", "network_traffic", "hosting_type", "max_latency", "cloud_strategy", "distribution_platform", "database", "operating_system", "web_urls", "browser_compatability", "backup_frequency", "encryption", "os_compatibility_client", "os_compatibility_server", "technical_fit", "authentication", "device_management", "cmdblink", "firewall_traffic", "disaster_recovery", "crown_jewel", "personal_data", "criticality", "financial_reporting_relevant", "external_facing", "sod_auto_validation", "privacy_impact_assessment", "data_sensitivity", "mics_relevance", "end_game", "time", "pace_layer", "sanctioned", "decommissioning_strategy", "decommissionmigration_saving_estimate", "1yp_status", "date_live", "archive_date", "archiving_duration_months", "decommissioning_date", "to_be_decommissioned_with", "data_retention_period", "sla_sev1", "sla_sev2", "sla_sev3", "sla_sev4", "sla_service_request", "end_of_life_app", "end_of_life_os_db", "contract_cluster", "software_support_end_date", "critical_period", "ticket_volume", "incident_volume", "vendor_degree_of_satisfaction"];
+		
+		fieldList.forEach(function(field){
+			if(!!data[field]){
+				obj[field] = data[field];
+			}
+		});
+		
+		return obj;
+	},
+
+    type: 'GRCImportEntityHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>luiz.junior@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-28 18:27:35</sys_created_on>
+        <sys_id>ecec1f1fdbbe9c1002085bd05b9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRCImportEntityHelper</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_include_ecec1f1fdbbe9c1002085bd05b9619e3</sys_update_name>
+        <sys_updated_by>luiz.junior@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-28 18:27:35</sys_updated_on>
+    </sys_script_include>
+</record_update>

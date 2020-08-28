@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="67957fabdb165014faa711494b96191d" sys_domain="global" table="x_anbib_grc_m2m_entities_layer_controls" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-06 18:41:26</sys_created_on>
+            <sys_id>b41d0e58dbe61814faa711494b961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-06 18:41:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity</element>
+            <position>1</position>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-06 18:41:26</sys_created_on>
+            <sys_id>b41d4e58dbe61814faa711494b96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-06 18:41:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-06 18:41:26</sys_created_on>
+            <sys_id>3c1d4e58dbe61814faa711494b96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-06 18:41:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>layer_control</element>
+            <position>3</position>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-06 18:41:26</sys_created_on>
+            <sys_id>b01d4e58dbe61814faa711494b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-06 18:41:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-06 18:41:26</sys_created_on>
+            <sys_id>381d4e58dbe61814faa711494b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-06 18:41:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>layer_control.entity_type</element>
+            <position>5</position>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-06 18:41:26</sys_created_on>
+            <sys_id>bc1d4e58dbe61814faa711494b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-06 18:41:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_anbib_grc_m2m_entities_layer_controls</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by>
+            <sys_created_on>2020-08-04 18:22:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67957fabdb165014faa711494b96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_anbib_grc_m2m_entities_layer_controls</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_ui_section_67957fabdb165014faa711494b96191d</sys_update_name>
+            <sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by>
+            <sys_updated_on>2020-08-04 18:22:45</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_ui_section_67957fabdb165014faa711494b96191d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="67957fabdb165014faa711494b96191d" sys_domain="global" table="x_anbib_grc_m2m_entities_layer_controls" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-06 18:41:26</sys_created_on><sys_id>b41d0e58dbe61814faa711494b961918</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-06 18:41:26</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>entity</element><position>1</position><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-06 18:41:26</sys_created_on><sys_id>b41d4e58dbe61814faa711494b96195c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-06 18:41:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-06 18:41:26</sys_created_on><sys_id>3c1d4e58dbe61814faa711494b96195c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-06 18:41:26</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>layer_control</element><position>3</position><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-06 18:41:26</sys_created_on><sys_id>b01d4e58dbe61814faa711494b96195d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-06 18:41:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-06 18:41:26</sys_created_on><sys_id>381d4e58dbe61814faa711494b96195d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-06 18:41:26</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>layer_control.entity_type</element><position>5</position><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-08-06 18:41:26</sys_created_on><sys_id>bc1d4e58dbe61814faa711494b96195d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_anbib_grc_m2m_entities_layer_controls" sys_domain="global" view="Default view">67957fabdb165014faa711494b96191d</sys_ui_section><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-06 18:41:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_anbib_grc_m2m_entities_layer_controls</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by><sys_created_on>2020-08-04 18:22:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>67957fabdb165014faa711494b96191d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_anbib_grc_m2m_entities_layer_controls</sys_name><sys_overrides/><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_ui_section_67957fabdb165014faa711494b96191d</sys_update_name><sys_updated_by>Marcos.Santos-ext@ab-Inbev.com</sys_updated_by><sys_updated_on>2020-08-04 18:22:45</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1232317591</payload_hash>
+        <record_name>Grc M2m Entities Layer Controls</record_name>
+        <reverted_from/>
+        <source>690f133bdbda501002085bd05b9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-06 18:41:26</sys_created_on>
+        <sys_id>301d4e58dbe61814faa711494b961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173c513f5610000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-06 18:41:26</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>381d4e582ae61814d0f0a426252e475f</update_guid>
+        <update_guid_history>381d4e582ae61814d0f0a426252e475f:1232317591,a7957fabe61650141e20bd8ab8948025:-1314260111,23957fab52165014999508358bb8d320:1969132961</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-27 18:20:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>01531aa0a8e341b48207aada5161f164</sys_id>
+        <sys_metadata>67957fabdb165014faa711494b96191d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_m2m_entities_layer_controls</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="">3bf4776bdb165014faa711494b96192d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_ui_section_67957fabdb165014faa711494b96191d</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_67957fabdb165014faa711494b96191d">301d4e58dbe61814faa711494b961960</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-27 18:20:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

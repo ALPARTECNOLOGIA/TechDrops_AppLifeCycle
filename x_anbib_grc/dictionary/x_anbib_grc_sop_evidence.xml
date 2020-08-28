@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="SOP Evidence" max_length="40" name="x_anbib_grc_sop_evidence" sizeclass="1" type="collection">
-        <element default="true" label="Active" max_length="40" name="active" read_only="true" type="boolean"/>
-        <element label="Additional Information" max_length="4000" name="additional_information" type="string"/>
-        <element label="Evidence limit date" mandatory="true" max_length="40" name="limit_date" type="glide_date"/>
-        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="255" name="number" type="string"/>
-        <element label="Evidence request list" max_length="5000" name="request_list" type="string"/>
-        <element choice="1" label="State" max_length="40" name="state" read_only="true" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Waiting for request list" sequence="0" value="0"/>
-                <element inactive_on_update="false" label="Waiting for evidence" sequence="1" value="1"/>
-                <element inactive_on_update="false" label="Waiting for approval" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="Approved" sequence="3" value="3"/>
-                <element inactive_on_update="false" label="Canceled" sequence="10" value="-1"/>
-            </choice>
-        </element>
+    <element extends="x_anbib_grc_task" label="SOP Evidence" max_length="40" name="x_anbib_grc_sop_evidence" sizeclass="0" type="collection">
+        <element label="Evidence limit date" max_length="40" name="limit_date" type="glide_date"/>
+        <element label="Request list" max_length="5000" name="request_list" type="string"/>
     </element>
 </database>

@@ -11,9 +11,9 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
-        <choice_field/>
-        <choice_table/>
+        <choice>3</choice>
+        <choice_field>status_ghq</choice_field>
+        <choice_table>x_anbib_grc_entity</choice_table>
         <column_label>Status EUR</column_label>
         <comments/>
         <create_roles/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-07-31 21:03:16</sys_created_on>
-        <sys_id>f8f3b71edb969c9002085bd05b961969</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-08-28 17:29:31</sys_created_on>
+        <sys_id>949f079fdbba9c1002085bd05b961924</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Status EUR</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_dictionary_x_anbib_grc_entity_status_eur</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-07-31 21:03:16</sys_updated_on>
+        <sys_updated_on>2020-08-28 19:01:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

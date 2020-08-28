@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="DELETE">
+        <from_table>x_anbib_grc_document_citation</from_table>
+        <m2m_from_field>document_citation</m2m_from_field>
+        <m2m_from_label>Document audit</m2m_from_label>
+        <m2m_table>x_anbib_grc_m2m_document_aud_document_cit</m2m_table>
+        <m2m_to_field>document_audit</m2m_to_field>
+        <m2m_to_label>Citations</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-04 18:48:06</sys_created_on>
+        <sys_id>e16a37afdbd618d002085bd05b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_m2m_document_aud_document_cit</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_m2m_e16a37afdbd618d002085bd05b96193e</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-04 18:48:06</sys_updated_on>
+        <to_table>x_anbib_grc_document_audit</to_table>
+    </sys_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_m2m_e16a37afdbd618d002085bd05b96193e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m"><sys_m2m action="INSERT_OR_UPDATE"><from_table>x_anbib_grc_document_citation</from_table><m2m_from_field>document_citation</m2m_from_field><m2m_from_label>Document audit</m2m_from_label><m2m_table>x_anbib_grc_m2m_document_aud_document_cit</m2m_table><m2m_to_field>document_audit</m2m_to_field><m2m_to_label>Citations</m2m_to_label><sys_class_name>sys_m2m</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-08-04 18:48:06</sys_created_on><sys_id>e16a37afdbd618d002085bd05b96193e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_anbib_grc_m2m_document_aud_document_cit</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_m2m_e16a37afdbd618d002085bd05b96193e</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-08-04 18:48:06</sys_updated_on><to_table>x_anbib_grc_document_audit</to_table></sys_m2m></record_update>]]></payload>
+        <payload_hash>122829370</payload_hash>
+        <record_name>x_anbib_grc_m2m_document_aud_document_cit</record_name>
+        <reverted_from/>
+        <source>562c9623db1ad4d002085bd05b96194f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-04 18:48:07</sys_created_on>
+        <sys_id>9b6b7fefdbd618d002085bd05b9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173bacd5e2d0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-04 18:48:07</sys_updated_on>
+        <type>Many to Many Definition</type>
+        <update_guid>936b7fef31d618d0b7682f4c59c138c7</update_guid>
+        <update_guid_history>936b7fef31d618d0b7682f4c59c138c7:122829370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-27 13:45:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_m2m">sys_m2m</sys_db_object>
+        <sys_id>3f5b954e061d43aeb961fe390a863541</sys_id>
+        <sys_metadata>e16a37afdbd618d002085bd05b96193e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_m2m_document_aud_document_cit</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_m2m_e16a37afdbd618d002085bd05b96193e</sys_update_name>
+        <sys_update_version display_value="sys_m2m_e16a37afdbd618d002085bd05b96193e">9b6b7fefdbd618d002085bd05b9619c7</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-27 13:45:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_anbib_grc_task" label="Entity Control" max_length="40" name="x_anbib_grc_entity_control" sizeclass="1" type="collection">
+        <element label="Change default schedule" max_length="40" name="change_default_schedule" type="boolean"/>
+        <element label="Control automated" max_length="40" name="control_automated" type="boolean"/>
+        <element display="true" label="Control template" max_length="32" name="control_template" read_only="true" reference="x_anbib_grc_control_template" type="reference"/>
+        <element choice="1" label="Expected state" max_length="40" name="expected_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In place" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Not applicable" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Rely on ISAE3402" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="Fist Evidence" max_length="40" name="fist_date" type="glide_date"/>
+        <element choice="1" label="Frequency" max_length="40" name="frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Daily" sequence="0" value="daily"/>
+                <element inactive_on_update="false" label="Weekly" sequence="1" value="weekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="2" value="monthly"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="3" value="quarterly"/>
+                <element inactive_on_update="false" label="Semi-annually" sequence="4" value="semi_annually"/>
+                <element inactive_on_update="false" label="Annually" sequence="5" value="annually"/>
+                <element inactive_on_update="false" label="Event based" sequence="6" value="event_based"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
+                <element inactive_on_update="false" label="Fixed dates" sequence="8" value="fixed_date"/>
+            </choice>
+        </element>
+        <element label="Layer" max_length="32" name="layer" read_only="true" reference="x_anbib_grc_layer_control" type="reference"/>
+        <element label="Maturity level" max_length="32" name="maturity_level" reference="x_anbib_grc_maturity_level" reference_qual="javascript:'control_template='+current.control" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Owner" mandatory="true" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Period" max_length="40" name="period" type="integer"/>
+        <element choice="1" label="Period Unit" max_length="40" name="period_unit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Days" sequence="0" value="days"/>
+                <element inactive_on_update="false" label="Weeks" sequence="1" value="weeks"/>
+                <element inactive_on_update="false" label="Months" sequence="2" value="months"/>
+                <element inactive_on_update="false" label="Years" sequence="3" value="years"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Waiting for evidence request list" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Waiting for evidence" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Waiting for SOP upload" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Waiting for SOP" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="SOP approved" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Weighting" max_length="40" name="weighting" type="integer"/>
+    </element>
+</database>

@@ -10,8 +10,8 @@
             <plural>Status AFRs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-07-31 19:22:46</sys_created_on>
-            <sys_id>b3fc5316db569c9002085bd05b96196c</sys_id>
+            <sys_created_on>2020-08-28 17:29:01</sys_created_on>
+            <sys_id>227f079fdbba9c1002085bd05b961997</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Status AFR</sys_name>
             <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -19,7 +19,7 @@
             <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
             <sys_update_name>sys_documentation_x_anbib_grc_entity_status_afr_en</sys_update_name>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-07-31 19:22:46</sys_updated_on>
+            <sys_updated_on>2020-08-28 17:29:01</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

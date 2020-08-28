@@ -9,6 +9,5 @@
                 <element inactive_on_update="false" label="Low" sequence="3" value="1"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" label="Control" mandatory="true" max_length="32" name="control" reference="x_anbib_grc_control" type="reference"/>
     </element>
 </database>
