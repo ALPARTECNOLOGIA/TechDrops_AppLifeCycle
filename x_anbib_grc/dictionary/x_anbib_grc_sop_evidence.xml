@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="SOP Evidence" max_length="40" name="x_anbib_grc_sop_evidence" type="collection">
-        <element label="Evidence limit date" max_length="40" name="limit_date" type="glide_date"/>
-        <element label="Request list" max_length="5000" name="request_list" type="string"/>
-    </element>
-</database>
