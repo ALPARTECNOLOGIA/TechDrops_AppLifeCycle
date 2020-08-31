@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
     <sys_number action="INSERT_OR_UPDATE">
-        <category display_value="" name="x_anbib_grc_sop">x_anbib_grc_sop</category>
+        <category display_value="">x_anbib_grc_sop</category>
         <maximum_digits>7</maximum_digits>
         <number>1000</number>
         <prefix>GRCSOP</prefix>

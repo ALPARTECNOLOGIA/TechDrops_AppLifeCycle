@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Sub Process" max_length="40" name="x_anbib_grc_sub_process" sizeclass="4" type="collection">
+    <element label="Sub Process" max_length="40" name="x_anbib_grc_sub_process" sizeclass="0" type="collection">
         <element label="Mega Process" mandatory="true" max_length="32" name="mega_process" reference="x_anbib_grc_mega_process" type="reference"/>
         <element display="true" label="Name" mandatory="true" max_length="255" name="name" type="string"/>
         <index name="index">

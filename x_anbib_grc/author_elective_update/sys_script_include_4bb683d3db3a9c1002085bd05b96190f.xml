@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_anbib_grc.GRCImportEntityUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GRCImportEntityUtils</name>
+        <script><![CDATA[var GRCImportEntityUtils = Class.create();
+GRCImportEntityUtils.prototype = {
+    initialize: function() {
+    },
+	
+	transferApplToEntity: function(source){
+		var obj = new GRCImportEntityHelper().separateFields(source);
+		var transferResponse = new GRCImportEntityPersistence().insertIntoEntityTable(obj);
+		
+		return transferResponse;
+	},
+	
+
+    type: 'GRCImportEntityUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>luiz.junior@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-28 17:09:13</sys_created_on>
+        <sys_id>4bb683d3db3a9c1002085bd05b96190f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>GRCImportEntityUtils</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_include_4bb683d3db3a9c1002085bd05b96190f</sys_update_name>
+        <sys_updated_by>luiz.junior@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-28 18:31:27</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_script_include_4bb683d3db3a9c1002085bd05b96190f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_anbib_grc.GRCImportEntityUtils&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;GRCImportEntityUtils&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var GRCImportEntityUtils = Class.create();
+GRCImportEntityUtils.prototype = {
+    initialize: function() {
+    },
+	
+	transferApplToEntity: function(source){
+		var obj = new GRCImportEntityHelper().separateFields(source);
+		var transferResponse = new GRCImportEntityPersistence().insertIntoEntityTable(obj);
+		
+		return transferResponse;
+	},
+	
+
+    type: 'GRCImportEntityUtils'
+};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;luiz.junior@alparservice.com.br&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-08-28 17:09:13&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;4bb683d3db3a9c1002085bd05b96190f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;GRCImportEntityUtils&lt;/sys_name&gt;
+        &lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_4bb683d3db3a9c1002085bd05b96190f&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;luiz.junior@alparservice.com.br&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-08-28 18:31:27&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1639958689</payload_hash>
+        <record_name>GRCImportEntityUtils</record_name>
+        <reverted_from/>
+        <source>17227397db36dc1002085bd05b961953</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-28 20:05:09</sys_created_on>
+        <sys_id>7533b79fdb36dc1002085bd05b961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17436ac83430000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-28 20:05:09</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>b133b79ffe36dc1060d75d7d6c760031</update_guid>
+        <update_guid_history>b133b79ffe36dc1060d75d7d6c760031:0,6fa2f79bad36dc10fb43c82d2b7c3e2a:1611096037,1a7e6f1f73f2dc10b32b391dbe8b153d:0,c0fd2b5b68f2dc10b03fa367aa9a9393:1611096037,5fbc6b5306f2dc10d83a53345c4502d6:0,f32cef5f58b2dc10278f9dc4bcec1db4:1611096037,d5cd5f13edfe9c102be3197049efdbda:-666391439,811ddb5fd0be9c10c94b66f44c32d7c8:-1513977352,7b7c1f9b99be9c1087970aed55511b2e:-587818455,6c7c9b9bedbe9c10557c6a1071772e7d:-593097678,a1f3d3d3bb3e9c10ac43274450e13a30:-119670033,9a3c475f677a9c10fd839f24aa54ee27:1103403688,64fa8797dd7a9c10fa2d229111f21773:-1337691217</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>luiz.junior@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-28 20:26:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>890911a4c2d14170ac244f93a17bcae4</sys_id>
+        <sys_metadata>4bb683d3db3a9c1002085bd05b96190f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRCImportEntityUtils</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_script_include_4bb683d3db3a9c1002085bd05b96190f</sys_update_name>
+        <sys_update_version display_value="sys_script_include_4bb683d3db3a9c1002085bd05b96190f">7533b79fdb36dc1002085bd05b961931</sys_update_version>
+        <sys_updated_by>luiz.junior@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-28 20:26:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

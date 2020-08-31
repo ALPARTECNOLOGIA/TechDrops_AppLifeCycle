@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_anbib_grc.GRCImportEntityHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GRCImportEntityHelper</name>
+        <script><![CDATA[var GRCImportEntityHelper = Class.create();
+GRCImportEntityHelper.prototype = {
+    initialize: function() {
+    },
+	
+	separateFields: function(data){
+		var obj = {};
+		var fieldList = ["service_service_name", "parent_service", "supplier_service_name", "short_description", "service_record_type", "service_owner_name", "status_ghq", "status_eur", "status_afr", "1yp_status_apc", "status_maz", "status_naz", "status_saz", "user_base_ghq", "user_base_eur", "user_base_afr", "user_base_apc", "user_base_maz", "user_base_naz", "user_base_saz", "long_description", "zone", "managed_by", "business_function", "business_subfunction", "core_functionality", "country_scope", "department", "link_to_sharepoint", "hosting_location_legal_requirement", "application_technology_family", "application_version", "level_of_customization", "application_type", "client_type", "rto", "rpo", "network_segmentation", "high_availability", "min_bandwidth", "network_traffic", "hosting_type", "max_latency", "cloud_strategy", "distribution_platform", "database", "operating_system", "web_urls", "browser_compatability", "backup_frequency", "encryption", "os_compatibility_client", "os_compatibility_server", "technical_fit", "authentication", "device_management", "cmdblink", "firewall_traffic", "disaster_recovery", "crown_jewel", "personal_data", "criticality", "financial_reporting_relevant", "external_facing", "sod_auto_validation", "privacy_impact_assessment", "data_sensitivity", "mics_relevance", "end_game", "time", "pace_layer", "sanctioned", "decommissioning_strategy", "decommissionmigration_saving_estimate", "1yp_status", "date_live", "archive_date", "archiving_duration_months", "decommissioning_date", "to_be_decommissioned_with", "data_retention_period", "sla_sev1", "sla_sev2", "sla_sev3", "sla_sev4", "sla_service_request", "end_of_life_app", "end_of_life_os_db", "contract_cluster", "software_support_end_date", "critical_period", "ticket_volume", "incident_volume", "vendor_degree_of_satisfaction"];
+		
+		fieldList.forEach(function(field){
+			if(!!data[field]){
+				obj[field] = data[field];
+			}
+		});
+		
+		return obj;
+	},
+
+    type: 'GRCImportEntityHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>luiz.junior@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-28 18:27:35</sys_created_on>
+        <sys_id>ecec1f1fdbbe9c1002085bd05b9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRCImportEntityHelper</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_include_ecec1f1fdbbe9c1002085bd05b9619e3</sys_update_name>
+        <sys_updated_by>luiz.junior@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-28 18:27:35</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_script_include_ecec1f1fdbbe9c1002085bd05b9619e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_anbib_grc.GRCImportEntityHelper&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;GRCImportEntityHelper&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var GRCImportEntityHelper = Class.create();
+GRCImportEntityHelper.prototype = {
+    initialize: function() {
+    },
+	
+	separateFields: function(data){
+		var obj = {};
+		var fieldList = ["service_service_name", "parent_service", "supplier_service_name", "short_description", "service_record_type", "service_owner_name", "status_ghq", "status_eur", "status_afr", "1yp_status_apc", "status_maz", "status_naz", "status_saz", "user_base_ghq", "user_base_eur", "user_base_afr", "user_base_apc", "user_base_maz", "user_base_naz", "user_base_saz", "long_description", "zone", "managed_by", "business_function", "business_subfunction", "core_functionality", "country_scope", "department", "link_to_sharepoint", "hosting_location_legal_requirement", "application_technology_family", "application_version", "level_of_customization", "application_type", "client_type", "rto", "rpo", "network_segmentation", "high_availability", "min_bandwidth", "network_traffic", "hosting_type", "max_latency", "cloud_strategy", "distribution_platform", "database", "operating_system", "web_urls", "browser_compatability", "backup_frequency", "encryption", "os_compatibility_client", "os_compatibility_server", "technical_fit", "authentication", "device_management", "cmdblink", "firewall_traffic", "disaster_recovery", "crown_jewel", "personal_data", "criticality", "financial_reporting_relevant", "external_facing", "sod_auto_validation", "privacy_impact_assessment", "data_sensitivity", "mics_relevance", "end_game", "time", "pace_layer", "sanctioned", "decommissioning_strategy", "decommissionmigration_saving_estimate", "1yp_status", "date_live", "archive_date", "archiving_duration_months", "decommissioning_date", "to_be_decommissioned_with", "data_retention_period", "sla_sev1", "sla_sev2", "sla_sev3", "sla_sev4", "sla_service_request", "end_of_life_app", "end_of_life_os_db", "contract_cluster", "software_support_end_date", "critical_period", "ticket_volume", "incident_volume", "vendor_degree_of_satisfaction"];
+		
+		fieldList.forEach(function(field){
+			if(!!data[field]){
+				obj[field] = data[field];
+			}
+		});
+		
+		return obj;
+	},
+
+    type: 'GRCImportEntityHelper'
+};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;luiz.junior@alparservice.com.br&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-08-28 18:27:35&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ecec1f1fdbbe9c1002085bd05b9619e3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;GRCImportEntityHelper&lt;/sys_name&gt;
+        &lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_ecec1f1fdbbe9c1002085bd05b9619e3&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;luiz.junior@alparservice.com.br&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-08-28 18:27:35&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>277032066</payload_hash>
+        <record_name>GRCImportEntityHelper</record_name>
+        <reverted_from/>
+        <source>17227397db36dc1002085bd05b961953</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-28 20:05:09</sys_created_on>
+        <sys_id>3d33b79fdb36dc1002085bd05b961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17436ac83bc0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-28 20:05:09</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>7933b79f3536dc1035b682ee6907ac49</update_guid>
+        <update_guid_history>7933b79f3536dc1035b682ee6907ac49:0,aed2fbdb1536dc1034d862c1f89edd89:-1058537294,1a7e6f1f5af2dc103d1bc42b5c13bb49:0,471e6b9b51f2dc10437fc55aaad17dac:-1058537294,5fbc6b535bf2dc109809229ee5e4fde2:0,4a5caf9f74b2dc10a63898a93d3214ad:-1058537294,a8ec1f1f3dbe9c109e6c4c94322401e6:-865299546</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>luiz.junior@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-28 20:26:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>258503404e0546879d1751ecac4099a1</sys_id>
+        <sys_metadata>ecec1f1fdbbe9c1002085bd05b9619e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRCImportEntityHelper</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_script_include_ecec1f1fdbbe9c1002085bd05b9619e3</sys_update_name>
+        <sys_update_version display_value="sys_script_include_ecec1f1fdbbe9c1002085bd05b9619e3">3d33b79fdb36dc1002085bd05b961949</sys_update_version>
+        <sys_updated_by>luiz.junior@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-28 20:26:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

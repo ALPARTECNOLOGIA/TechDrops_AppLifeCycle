@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="DELETE" field="status_apc" table="x_anbib_grc_entity" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="status_apc" table="x_anbib_grc_entity" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>status_apc</element>
@@ -36,49 +36,4 @@
             <sys_updated_on>2020-07-31 19:35:51</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
-    <sys_update_version action="INSERT_OR_UPDATE">
-        <action>DELETE</action>
-        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
-        <file_path/>
-        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
-        <instance_name>abinbevwwqa</instance_name>
-        <name>sys_choice_x_anbib_grc_entity_status_apc</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="status_apc" table="x_anbib_grc_entity" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>status_apc</element><hint/><inactive>false</inactive><label>Not Used / Not Active</label><language>en</language><name>x_anbib_grc_entity</name><sequence>6</sequence><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-07-31 19:38:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ec90efd6db569c9002085bd05b961976</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-07-31 19:38:22</sys_updated_on><value>not_used_not_active</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>status_apc</element><name>x_anbib_grc_entity</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-07-31 19:35:51</sys_created_on><sys_id>d7ff97d6db569c9002085bd05b9619a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>status_apc</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_choice_x_anbib_grc_entity_status_apc</sys_update_name><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-07-31 19:35:51</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
-        <payload_hash>2048974235</payload_hash>
-        <record_name>x_anbib_grc_entity.status_apc</record_name>
-        <reverted_from/>
-        <source>e8a63036dbbe5410faa711494b961925</source>
-        <source_table>sys_update_set</source_table>
-        <state>previous</state>
-        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-08-28 15:56:57</sys_created_on>
-        <sys_id>426af25fdb769c1002085bd05b9619b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>17435c948ec0000001</sys_recorded_at>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-28 15:56:57</sys_updated_on>
-        <type>Choice list</type>
-        <update_guid>c66af25f1b769c10a0862ac1aacfd0b4</update_guid>
-        <update_guid_history>c66af25f1b769c10a0862ac1aacfd0b4:2048974235,026af25f2e769c108bf1c3e31ff700ae:942818054,4a6af25fd2769c1082147fb8449165a7:1008851369,826af25f9a769c100e6a8e5abf9c17a1:1522049506,ca6af25fd2769c10a627ca7803a5449a:205842727,866af25fcc769c10b80fda4e1f072c94:1589509663,2c90efd6f7569c9076a3fbce82f00678:348099986,4970a31a38569c9099dd6000c167c7c5:289752193,bc60631ade569c904ebe058af0a38aa7:229825558,39406fd65f569c9007aa8d261fdf3cdd:421344947,713063d680569c90fa6e1d383949978f:1102640954,1f10e3d600569c90593bb7e4b766dbde:-557378699,1fff97d6e3569c90b8d57d7a21d8cfa2:-54771971</update_guid_history>
-    </sys_update_version>
-    <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete/>
-        <sys_class_name>sys_metadata_delete</sys_class_name>
-        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-08-28 15:56:57</sys_created_on>
-        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
-        <sys_id>d7ff97d6db569c9002085bd05b9619a1</sys_id>
-        <sys_metadata>d7ff97d6db569c9002085bd05b9619a1</sys_metadata>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>status_apc</sys_name>
-        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
-        <sys_parent/>
-        <sys_policy/>
-        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
-        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
-        <sys_update_name>sys_choice_x_anbib_grc_entity_status_apc</sys_update_name>
-        <sys_update_version display_value="sys_choice_x_anbib_grc_entity_status_apc">426af25fdb769c1002085bd05b9619b5</sys_update_version>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-28 15:56:57</sys_updated_on>
-    </sys_metadata_delete>
 </record_update>

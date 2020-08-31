@@ -33,10 +33,10 @@
         <sys_created_by/>
         <sys_created_on>2020-08-08 05:15:22</sys_created_on>
         <sys_id>a57a2a1bdb729c1002085bd05b9619d4</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>173cc7eb2100000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-28 20:06:17</sys_updated_on>
         <type>Access Roles</type>
         <update_guid>657a2a1ba6729c10f57e1fb0a52ed6d4</update_guid>
         <update_guid_history>657a2a1ba6729c10f57e1fb0a52ed6d4:-1585469655</update_guid_history>
