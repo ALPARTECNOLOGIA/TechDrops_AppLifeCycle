@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="SOP Evidence" max_length="40" name="x_anbib_grc_sop_evidence" type="collection"/>
+    <element extends="x_anbib_grc_task" label="SOP Evidence" max_length="40" name="x_anbib_grc_sop_evidence" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Evidence limit date" max_length="40" name="limit_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Evidence Request List" max_length="4000" name="request_list" type="string"/>
+    </element>
 </database>
