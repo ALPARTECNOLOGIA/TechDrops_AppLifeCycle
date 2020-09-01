@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" type="collection"/>
+</database>
