@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="Control" max_length="40" name="x_anbib_grc_control" type="collection">
+    <element extends="x_anbib_grc_task" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="0" type="collection">
         <element label="Change default schedule" max_length="40" name="change_default_schedule" type="boolean"/>
         <element display="true" label="Control template" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control_template" type="reference"/>
         <element label="Control automated" max_length="40" name="control_automated" type="boolean"/>
         <element label="Entity" max_length="32" name="entity" read_only="true" reference="x_anbib_grc_entity" type="reference"/>
         <element choice="1" label="Expected state" max_length="40" name="expected_state" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Waiting for evidence request list" sequence="0" value="0"/>
-                <element inactive_on_update="false" label="Waiting for evidence" sequence="1" value="1"/>
-                <element inactive_on_update="false" label="Waiting for SOP upload" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="Waiting for SOP" sequence="3" value="3"/>
-                <element inactive_on_update="false" label="SOP approved" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="In place" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Not applicable" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Rely on ISAE3402" sequence="2" value="2"/>
             </choice>
         </element>
         <element label="Fist Evidence" max_length="40" name="fist_evidence" type="glide_date"/>
@@ -40,11 +38,11 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" read_only="true" type="string">
             <choice>
-                <element inactive_on_update="false" label="In place" sequence="0" value="0"/>
-                <element inactive="true" inactive_on_update="true" label="Waiting for SOP" sequence="0" value="3"/>
-                <element inactive_on_update="false" label="Not applicable" sequence="1" value="1"/>
-                <element inactive="true" inactive_on_update="true" label="SOP approved" sequence="1" value="4"/>
-                <element inactive_on_update="false" label="Rely on ISAE3402" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Waiting for evidence request list" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Waiting for evidence" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Waiting for SOP upload" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Waiting for SOP" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="SOP approved" sequence="4" value="4"/>
             </choice>
         </element>
         <element label="Weighting" max_length="40" name="weighting" type="integer"/>
