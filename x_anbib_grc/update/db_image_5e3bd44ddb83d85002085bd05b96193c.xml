@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>30</height>
+        <image/>
+        <name>flag.png</name>
+        <size_bytes>124</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-02 14:50:50</sys_created_on>
+        <sys_id>5e3bd44ddb83d85002085bd05b96193c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>flag.png</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>db_image_5e3bd44ddb83d85002085bd05b96193c</sys_update_name>
+        <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-02 14:50:50</sys_updated_on>
+        <thumbnail/>
+        <width>15</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>213a61a32bda5b1ebb5d22225e93a3c9bdbfa80657421b72e0721e7d84145556</hash>
+        <image_height>30</image_height>
+        <image_width>15</image_width>
+        <size_bytes>124</size_bytes>
+        <size_compressed>135</size_compressed>
+        <state>available</state>
+        <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-02 14:50:50</sys_created_on>
+        <sys_id>5e3bd44ddb83d85002085bd05b96193e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-02 14:50:50</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>5e3bd44ddb83d85002085bd05b96193c</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="5e3bd44ddb83d85002085bd05b96193e">5e3bd44ddb83d85002085bd05b96193e</sys_attachment>
+        <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-02 14:50:50</sys_created_on>
+        <sys_id>9e3bd44ddb83d85002085bd05b96193e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLS/EAsx8ECJCNDe/4DKWdPF8eQiltLL28UZDDgYDb8Fh918wF3u5iozIPHqzwcmIQmNLCoKDByQpmb6m79zvgd9W3ym/cb9j+Sa+YJVP3AmJZ6z8Bmvnga0DgGT1c/l3VOCU0AcheeI3wAAAA=</data>
+        <length>168</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="5e3bd44ddb83d85002085bd05b96193e">5e3bd44ddb83d85002085bd05b96193e</sys_attachment>
+        <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-02 14:50:50</sys_created_on>
+        <sys_id>123bd44ddb83d85002085bd05b96193f</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="application_type" table="x_anbib_grc_entity" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bank / Payment Tool</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>0</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8b5a0cddb47d85002085bd05b961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Collaboration / Communication System</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>1</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fcb5a0cddb47d85002085bd05b961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consolidation Tool</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>2</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30b5a0cddb47d85002085bd05b961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Management Tool</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>3</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70b5a0cddb47d85002085bd05b961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Developer Tool</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>4</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0b5a0cddb47d85002085bd05b96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Device Management System</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>5</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8b5a0cddb47d85002085bd05b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Document Management System</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>6</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8b5a0cddb47d85002085bd05b96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ETL Tool</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>7</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3cb5a0cddb47d85002085bd05b96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>License Management System</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>8</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7cb5a0cddb47d85002085bd05b96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Middleware Tool</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>9</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcb5a0cddb47d85002085bd05b9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monitoring Tool</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>10</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fcb5a0cddb47d85002085bd05b9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Release Management Tool</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>11</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcb5a0cddb47d85002085bd05b9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reporting System</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>12</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fcb5a0cddb47d85002085bd05b9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security Tool</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>13</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30b5a0cddb47d85002085bd05b9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TBC</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>14</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70b5a0cddb47d85002085bd05b9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transactional System</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>15</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0b5a0cddb47d85002085bd05b9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User Management System</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>16</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0b5a0cddb47d85002085bd05b9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Website / Web Portal</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>17</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34b5a0cddb47d85002085bd05b9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>application_type</element>
+            <name>x_anbib_grc_entity</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:37</sys_created_on>
+            <sys_id>34b5a0cddb47d85002085bd05b961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>application_type</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_choice_x_anbib_grc_entity_application_type</sys_update_name>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-02 15:36:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
