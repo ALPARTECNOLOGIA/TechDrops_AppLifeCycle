@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="status_naz" table="x_anbib_grc_entity" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status_naz</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Choice 1</label>
-            <language>en</language>
-            <name>x_anbib_grc_entity</name>
-            <sequence>0</sequence>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-02 13:49:10</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b21d40c5db43d85002085bd05b961905</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 13:49:10</sys_updated_on>
-            <value>Choice 1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status_naz</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Choice 2</label>
-            <language>en</language>
-            <name>x_anbib_grc_entity</name>
-            <sequence>1</sequence>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-02 13:49:10</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b61d40c5db43d85002085bd05b961907</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 13:49:10</sys_updated_on>
-            <value>Choice 2</value>
-        </sys_choice>
+    <sys_choice action="DELETE" field="status_naz" table="x_anbib_grc_entity" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>status_naz</element>
@@ -74,4 +36,49 @@
             <sys_updated_on>2020-09-02 13:49:10</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_choice_x_anbib_grc_entity_status_naz</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="status_naz" table="x_anbib_grc_entity" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>status_naz</element><hint/><inactive>false</inactive><label>Choice 3</label><language>en</language><name>x_anbib_grc_entity</name><sequence>2</sequence><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-02 13:49:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f61d40c5db43d85002085bd05b961909</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-02 13:49:10</sys_updated_on><value>Choice 3</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>status_naz</element><name>x_anbib_grc_entity</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-02 13:49:10</sys_created_on><sys_id>fa1d40c5db43d85002085bd05b961905</sys_id><sys_mod_count>0</sys_mod_count><sys_name>status_naz</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_choice_x_anbib_grc_entity_status_naz</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-02 13:49:10</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-445206075</payload_hash>
+        <record_name>Entity.Status NAZ</record_name>
+        <reverted_from/>
+        <source>df4288c1db8f985002085bd05b961985</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-02 16:20:04</sys_created_on>
+        <sys_id>95af24cddbc7d85002085bd05b9619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744f9e3ccb0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-02 16:20:04</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>1daf24cdf3c7d85055fe4580986279d2</update_guid>
+        <update_guid_history>1daf24cdf3c7d85055fe4580986279d2:-445206075,d5af24cd49c7d8501ca06193fe044cce:2007894490,071d40c5b443d8500464a9b72a043f0c:-117638416,e8ef53d00e4fd45020e4ad0adfaa15b8:-1135324360,0870d7d8b28bd450ab5e6ade8219d382:0,89df47949f8bd450d8eabd088495fb9f:-1135324360,72cc0754764bd450a408c6d68f4952c8:0,791cc3dc420bd450b432742ee42e9fe7:-1135324360,3c59c3dcc5c7d450fa8af597e871fdcd:0,4038079452c7d4506f947679877f2090:-1135324360,0c380794f4c7d450dfc27ee7a2520e8c:550166351,fb280794ecc7d450a233f77af671ed89:-305957561,bb28079417c7d450bcc61ebc72a6f886:-766825097,7b280794a5c7d4500d151019043e4783:-124147971,3b2807940cc7d4501518891103147880:441856911,3b28079447c7d45070114a971c1e1b7d:-1609434732,e8720b1c4b47d45052381e4134104930:0,6631c3906447d450aa88c025087acf48:-1135324360,6631c3902247d45090b01b7bccec5843:550166351,6a31c3903c47d45077b9ca1469f75f3e:-305957561,6e31c3906347d450061686ed67646439:-766825097,6231c390d647d450009950ea49b85b35:-124147971,6631c390d047d450a381aec3e397a730:441856911,aa31c3903e47d45031ece3fce988932b:-1609434732,60bffa186f07d450661d9839fc2e7875:0,28ae7adcdfc3d450128a18a3ebfcc3bd:-1135324360,e0ae7adc79c3d4504bc2c5d7f5a22cba:550166351,e8ae7adc2bc3d450ebf7c6661bdae8aa:-305957561,a8ae7adcffc3d45072ca06295fcd08a7:-766825097,68ae7adc90c3d45063075dac333863a4:-124147971,28ae7adcfdc3d450c92b2a2c283361a1:441856911,28ae7adcd1c3d45015164f995a6c149e:-1609434732,3f8cb690e5c3d45071052a3122799e18:0,177bf2581a83d450fa4b88bc2a74c159:-1135324360,df7bf2580883d450c41e91a67b8a9855:550166351,9f7bf2580e83d4502815c7b882a35a52:-305957561,df7bf2581d83d450f6c14a7650322c36:-766825097,9f7bf258b283d4501b723175de7bff33:-124147971,5f7bf258af83d450a86af82f208b2730:441856911,5f7bf2588583d450f591f9ed44fc1a2d:-1609434732,bb69325c9043d4505ee62acef2312809:0,c46876d0e243d45039497dd9211ec405:-1135324360,806876d03d43d450e7d5cac8e712f002:550166351,406836d00643d4501f53c13993e06bff:-305957561,006836d03543d450faeeb63eb6646dfc:-766825097,cc6836d0e343d450e9574ab0776467f8:-124147971,8c6836d0d143d4507456211df90619f5:441856911,8c6836d0da43d4505259612f955acef2:-1609434732,60a3361c06cf945092ca5a35ac308b5e:0,8b52be1053cf9450c568a6f36d5576b7:-1135324360,4752be1005cf94505d2937430397d4b4:550166351,0752be1045cf94509ad97017c49a91b1:-305957561,c352be1061cf9450403f415d12879eae:-766825097,8352be10d9cf94501379b4f2974ea4ab:-124147971,4352be1003cf945042670a8b4c652ca8:441856911,4352be10f6cf94502f22ccf9d6ff44a5:-1609434732,6fc9221c244f9450fe88bd048044d864:0,a0a86254c84f9450afeb44c21247d317:-1135324360,6ca86254714f94506103c948a569e213:550166351,2ca86254934f94505bdc5e599483e610:-305957561,e8a86254964f94507e8933381a50d10d:-766825097,a8a86254334f94504e53f51ca9134d0a:-124147971,68a86254384f945048bb6823ed85e107:441856911,68a86254954f94506c21a815c9889f04:-1609434732,36770ed8888b94503e680a5966e55f38:0,83964a94738b94502c19c242187008b4:-1135324360,0783c29cb94b9450960981c1468ecc10:0,d8b20e585c4b9450547ea4bc183b59d6:-1135324360,a9dffd10ab4b9450611aeca5b009ba1f:0,010f391c070b9450addd4e6b535362f0:-1135324360,b99cb9d0820b9450fa6f27220a910956:0,efab39dc03c794509c26920361907608:-1135324360,43fee150df879450803ef1d231956114:0,180eed1c47479450e15247f8ade87e49:-1135324360,ea63fbdfd736dc104cec6a35cb14e07a:0,5663fbdfc936dc10fdc46d4dd7cf0479:0,37c2b7dbf236dc1022732dfa8266abf2:-1135324360,e4be279f75f2dc10afb2ae2a14d6f278:0,60be279f7ff2dc1058929cf07e4de177:0,891ee79b30f2dc106f89e7ed94b03108:-1135324360,92fca3d3b6f2dc10de57de4b1acfea46:0,1efca3d337f2dc10ebb4d38eba862c44:0,45e9635755b2dc1018cffcd484de6c76:-2036873229,38e963573cb2dc109c3fd7a96e144648:321156980,3ce963572fb2dc10255263bd555c4939:1549069572,e0e92357c8b2dc10912d28dba36ea7ad:1971525242,84e923571db2dc10757ba5a58328da2f:-555266004,80e9ef17b4b2dc10414c1a06a8d9dde0:719578421,4671ab936232dc1058c38d33f9982c72:521380662,aa51e393cd32dc108a5c201d7b704307:-189141075,24112f13a532dc10a3e9ab44d9b0e279:1485458909,82f0e713eb32dc10954d47ea8df5cc16:273758055,42a02b9f64fe9c10564eef192d3a0d4f:1480151797,3e806f5f1dfe9c10fe9c0bc4f5e7ccba:321156980,fe6a365f7a769c10a159cef013dff2e2:-466631733,3a6a365f11769c1008cbb07506febddb:550166351,f26a365f4e769c10be2a70583e10cebc:-305957561,326a365f41769c100dc627b080ef7384:-766825097,7a6a365f0d769c1031f81c25568fd77d:-124147971,fa6a365f50769c10033c65fe8c84366a:441856911,b66a365f12769c109c0309e7c5300c64:-1609434732,f9c32bda83569c90e9fcc7b59daf739c:-701419116,b7b3a7da17569c90a4ee4f8644dc4f62:-1609434732,e4b3a7dafb569c90065f70634c31f452:441856911,2aa3e3da04569c90a5e4d58f1e2cab08:-124147971,90a3a79abe569c90027e5ba8442aa041:-766825097,a99363dad3569c906fdb5bb41c06714d:-305957561,ff83a3daa1569c900746c88fcdc2d2d6:550166351</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-02 16:20:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>fa1d40c5db43d85002085bd05b961905</sys_id>
+        <sys_metadata>fa1d40c5db43d85002085bd05b961905</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status_naz</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_choice_x_anbib_grc_entity_status_naz</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_anbib_grc_entity_status_naz">95af24cddbc7d85002085bd05b9619d3</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-02 16:20:04</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function confirm() {
+	var ajaxHelper = new GlideAjax('x_anbib_grc.EntityUtils');
+	ajaxHelper.addParam('sysparm_name', 'reviewAction');
+    ajaxHelper.addParam('sysparm_entity', '${JS:sysparm_obj}');
+    ajaxHelper.getXMLAnswer(function(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+	});
+	
+	GlideDialogWindow.get().destroy();
+	return true;
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_anbib_grc_x_anbib_grc_review_entity.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<div style="text-align:left;">
+		<br/>
+		<div>${gs.getMessage('When reviewing the entity, all controls will be changed to Review status. Are you sure you want to review the entity?')}</div>
+		<br/>
+		<div align="right" class="modal-footer">
+			<g:dialog_buttons_ok_cancel ok="return confirm()" ok_text="${gs.getMessage('Yes')}" cancel="return cancel()" ok_type="button" cancel_type="button"/>
+		</div>
+	</div>
+	<script>
+		document.getElementById("ok_button").focus();
+	</script>
+</j:jelly>]]></html>
+        <name>x_anbib_grc_review_entity</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-02 20:50:07</sys_created_on>
+        <sys_id>cdfced89db431c5002085bd05b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_review_entity</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_ui_page_cdfced89db431c5002085bd05b96199e</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-02 20:50:07</sys_updated_on>
+    </sys_ui_page>
+</record_update>
