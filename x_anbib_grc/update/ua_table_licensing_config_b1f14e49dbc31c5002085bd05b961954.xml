@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+        <name>x_anbib_grc_control_template</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
-        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-08-10 15:18:12</sys_created_on>
-        <sys_id>4b42c8c1db8f985002085bd05b96193f</sys_id>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-03 15:56:19</sys_created_on>
+        <sys_id>b1f14e49dbc31c5002085bd05b961954</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_anbib_grc_action_plan_of_control_inplementation</sys_name>
+        <sys_name>x_anbib_grc_control_template</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
-        <sys_update_name>ua_table_licensing_config_4b42c8c1db8f985002085bd05b96193f</sys_update_name>
-        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-10 15:18:12</sys_updated_on>
+        <sys_update_name>ua_table_licensing_config_b1f14e49dbc31c5002085bd05b961954</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-03 15:56:19</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
