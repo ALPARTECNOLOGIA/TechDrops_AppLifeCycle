@@ -6,7 +6,7 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_anbib_grc_entity</collection>
+        <collection>x_anbib_grc_sop_evidence</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -22,7 +22,7 @@
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
-        <event_name>x_anbib_grc.grc.notification.ITCResponsi</event_name>
+        <event_name>x_anbib_grc.notification.newSopEvidence</event_name>
         <event_parm_1>true</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -30,7 +30,7 @@
         <from/>
         <generation_type>event</generation_type>
         <importance/>
-        <include_attachments>false</include_attachments>
+        <include_attachments>true</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
@@ -93,8 +93,8 @@
 <tbody>
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #202020; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px;" valign="top">
-<h1 style="display: block; margin: 0px; padding: 0px; color: #b2b2b2; font-family: Helvetica; font-size: 30px; font-style: normal; font-weight: bold; line-height: 200%; letter-spacing: normal;">Ola, ${itc_responsible.name}<strong>!</strong></h1>
-<h3 style="display: block; margin: 0px; padding: 0px; color: #303030; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: left;">Foi adicionada uma nova entrada GRC.</h3>
+<h1 style="display: block; margin: 0px; padding: 0px; color: #b2b2b2; font-family: Helvetica; font-size: 30px; font-style: normal; font-weight: bold; line-height: 200%; letter-spacing: normal;">Ol&aacute;, ${assigned_to.name}<strong>!</strong></h1>
+<h3 style="display: block; margin: 0px; padding: 0px; color: #303030; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: left;">Existem evidencias do SOP pendentes.</h3>
 </td>
 </tr>
 </tbody>
@@ -175,7 +175,7 @@
 <table class="mcnButtonContentContainer" style="background-color: #c92d2d; text-size-adjust: 100%; border-collapse: separate;" border="0" width="100%" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
-<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.ITCResponsible}" target="_blank" rel="noopener">Clique aqui para visualizar</a></td>
+<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.newSopEvidence}" target="_blank" rel="noopener">Clique aqui para visualizar</a></td>
 </tr>
 </tbody>
 </table>
@@ -698,7 +698,7 @@ p{
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>ITC Responsible</name>
+        <name>GRC: SOP Evidence</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -709,7 +709,7 @@ p{
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>ITC Responsible</subject>
+        <subject>GRC: SOP Evidence</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
@@ -717,15 +717,15 @@ p{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>16c99489db83d85002085bd05b961990</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>ITC Responsible</sys_name>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>GRC: SOP Evidence</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_email_action_16c99489db83d85002085bd05b961990</sys_update_name>
         <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-02 21:21:32</sys_updated_on>
+        <sys_updated_on>2020-09-03 16:37:16</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

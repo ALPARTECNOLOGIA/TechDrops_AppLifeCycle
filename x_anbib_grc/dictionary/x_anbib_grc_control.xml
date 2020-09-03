@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="Control" max_length="40" name="x_anbib_grc_control" type="collection">
+    <element extends="x_anbib_grc_task" label="Control" max_length="40" name="x_anbib_grc_control" sizeclass="1" type="collection">
         <element label="Change default schedule" max_length="40" name="change_default_schedule" type="boolean"/>
         <element display="true" label="Control template" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control_template" type="reference"/>
         <element label="Control automated" max_length="40" name="control_automated" type="boolean"/>

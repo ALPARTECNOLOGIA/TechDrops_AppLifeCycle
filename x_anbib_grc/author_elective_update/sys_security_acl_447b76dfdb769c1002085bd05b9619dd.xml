@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_anbib_grc_entity</description>
+        <name>x_anbib_grc_entity</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-28 16:01:27</sys_created_on>
+        <sys_id>447b76dfdb769c1002085bd05b9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_entity</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_security_acl_447b76dfdb769c1002085bd05b9619dd</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-28 16:01:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_security_acl_447b76dfdb769c1002085bd05b9619dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_anbib_grc_entity</description>
+        <name>x_anbib_grc_entity</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-28 16:01:27</sys_created_on>
+        <sys_id>447b76dfdb769c1002085bd05b9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_entity</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_security_acl_447b76dfdb769c1002085bd05b9619dd</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-28 16:01:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>-1785504660</payload_hash>
+        <record_name>x_anbib_grc_entity</record_name>
+        <reverted_from/>
+        <source>7d6acd95db879c50faa711494b9619b5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-03 12:59:32</sys_created_on>
+        <sys_id>e15b8d1ddb879c50faa711494b96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174540d001f0000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-03 12:59:32</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>215b8d1d72879c508726f6739cd6f55d</update_guid>
+        <update_guid_history>215b8d1d72879c508726f6739cd6f55d:0,e47a05d518879c50972390042657566d:-993609686,717405d509479c5071be046d31411ad9:0,1a83015164479c50ada22a5b1fe01091:-993609686,a03202c936c31c50fbbe7d35d674a41b:0,13014e05b7c31c50ab312422b0d5fb7a:-993609686,e9924c459d8f9850d499443f1d641db1:0,b031000d2c4f98502e421bae90fc5c71:-993609686,74f340b8f7075850e11762259eb0afe8:0,161384746d0758506f1b1313e4a8ef65:-993609686,da7aa624a7cb18508c7152e49e964844:0,da792220f6cb1850596638de741d0055:-993609686,22f42a28298b18506c2206c9df137e19:0,4bf3eee0638b185060e100e0846a49f1:-993609686,dc19435c73c7d450a67c7785c756592b:0,18986614394f9450967906aafa9365e4:-993609686,23bcab5371f2dc10369668eceab1d139:0,662a679773b2dc100da52b2d18c86d5b:1334056504,8c7b76df11769c10e3c5b33ab29d65e0:-425671138</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-03 14:58:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1522110613344b308c7e9d1cc6570004</sys_id>
+        <sys_metadata>447b76dfdb769c1002085bd05b9619dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_entity</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="x_anbib_grc_entity">d92b85d9db879c50faa711494b961976</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_security_acl_447b76dfdb769c1002085bd05b9619dd</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_447b76dfdb769c1002085bd05b9619dd">e15b8d1ddb879c50faa711494b96195d</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-03 14:58:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
