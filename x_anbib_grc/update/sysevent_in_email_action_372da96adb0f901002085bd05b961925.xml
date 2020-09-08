@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>This inbound email action is triggered when an email is sent to ServiceNow and:&#13;
+&#13;
+1. The email is a reply.&#13;
+2. The email being replied to was sent by ServiceNow due to creation or update of an Approval Request.&#13;
+&#13;
+This inbound email action can update the state field of an Approval Request, if the subject of the email contains either "approve" or "reject", or if the state is set within the body of the email.&#13;
+&#13;
+In addition to being able to explicitly set the value of the state field, the whole email is added to the Approval Request as a comment.&#13;
+&#13;
+Example reply email: this reply will update comments for the Approval Request with "This seems fine.", and set the state to "approved". &#13;
+&#13;
+-----&#13;
+&#13;
+From: 	Fred Luddy &lt;fred.luddy@example.com&gt;&#13;
+Subject: 	Re: Approval request has been assigned to you&#13;
+Date: 	June 11, 2013 3:10:54 PM PDT&#13;
+To: 	        ServiceNow&#13;
+&#13;
+This seems fine.&#13;
+&#13;
+state: approved&#13;
+&#13;
+On Jun 11, 2013, at 3:08 PM, IT Service Desk wrote:&#13;
+&#13;
+Ref:MSG0000107&#13;
+&#13;
+----- </description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Atualizar Aprovação</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+	var gr = new GlideRecord('x_anbib_grc_entity');
+	gr.get('9d5c27a2db0fd01002085bd05b96199d');
+	gr.decommission_migration_saving_estimate = email;
+	gr.update();
+	
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-07 12:41:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>372da96adb0f901002085bd05b961925</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Atualizar Aprovação</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sysevent_in_email_action_372da96adb0f901002085bd05b961925</sys_update_name>
+        <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-08 13:57:33</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

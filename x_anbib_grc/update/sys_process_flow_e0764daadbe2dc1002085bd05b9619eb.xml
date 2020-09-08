@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
     <sys_process_flow action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_anbib_grc_action_plan_of_control_inplementation">state=4^EQ<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+        <condition table="x_anbib_grc_action_plan_of_control_inplementation">state=4^EQ<item display_value="Approved - Wait for Implementation" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Sys id of Action Plan definition SLA.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_anbib_grc.sys_id.sla_action_plan_definition</name>
+        <read_roles/>
+        <suffix>sys_id.sla_action_plan_definition</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 12:20:20</sys_created_on>
+        <sys_id>9be17272db075410faa711494b961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc.sys_id.sla_action_plan_definition</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_properties_9be17272db075410faa711494b961963</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-08 12:20:20</sys_updated_on>
+        <type>string</type>
+        <value>5aee521adb039010faa711494b9619dd</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=9be17272db075410faa711494b961963"/>
+</record_update>

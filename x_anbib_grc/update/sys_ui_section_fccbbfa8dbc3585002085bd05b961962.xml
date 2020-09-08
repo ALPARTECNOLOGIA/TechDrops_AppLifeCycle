@@ -4,15 +4,29 @@
             <element>work_notes</element>
             <position>0</position>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-01 17:54:57</sys_created_on>
-            <sys_id>adcbffa8dbc3585002085bd05b9619be</sys_id>
+            <sys_created_on>2020-09-04 12:19:46</sys_created_on>
+            <sys_id>74db4eaddb4b1090faa711494b9619de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Audit" display_value="Audit" name="x_anbib_grc_control" sys_domain="global" view="Default view">fccbbfa8dbc3585002085bd05b961962</sys_ui_section>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-01 17:54:57</sys_updated_on>
+            <sys_updated_on>2020-09-04 12:19:46</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-04 12:19:46</sys_created_on>
+            <sys_id>f8db4eaddb4b1090faa711494b9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Audit" display_value="Audit" name="x_anbib_grc_control" sys_domain="global" view="Default view">fccbbfa8dbc3585002085bd05b961962</sys_ui_section>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-04 12:19:46</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Audit</caption>

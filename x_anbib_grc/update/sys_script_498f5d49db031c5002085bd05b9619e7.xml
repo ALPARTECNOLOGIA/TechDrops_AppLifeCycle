@@ -44,7 +44,7 @@
 		while (grLayerControlTpl.next()) {
 			var template = grLayerControlTpl.control_template.toString();
 
-			// Insert control
+			// control
 			var grControl = new GlideRecord("x_anbib_grc_control");
 			grControl.addQuery("entity", entity);
 			grControl.addQuery("control", template);
@@ -57,7 +57,16 @@
 				grControl.entity = entity;
 				grControl.control = template;
 				grControl.layer = layer;
-				grControl.insert();
+				var control_sys_id = grControl.insert();  // inserted control sys_id
+				
+				var grControlInsert = new GlideRecord('x_anbib_grc_control');
+				grControlInsert.get(control_sys_id);      // inserted control record
+				
+				var wf = new global.Workflow();
+				var inputs = {                            // Parametros para subflow
+					u_record: entity
+				};
+				var wf_sys_id = wf.startFlow(gs.getProperty("x_anbib_grc.workflow_control"), grControlInsert, "insert", inputs);
 			} else {
 				if (!grControl.active) {
 					grControl.active = true;
@@ -85,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>498f5d49db031c5002085bd05b9619e7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Update entity layers</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -93,7 +102,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_498f5d49db031c5002085bd05b9619e7</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-03 15:24:51</sys_updated_on>
+        <sys_updated_on>2020-09-04 13:14:35</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

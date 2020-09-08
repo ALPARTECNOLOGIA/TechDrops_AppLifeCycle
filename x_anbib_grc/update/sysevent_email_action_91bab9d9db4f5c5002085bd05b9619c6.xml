@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
-        <action_insert>true</action_insert>
+        <action_insert>false</action_insert>
         <action_update>true</action_update>
         <active>true</active>
         <advanced_condition/>
@@ -23,7 +23,7 @@
         <digest_text/>
         <digestable>false</digestable>
         <event_name>x_anbib_grc.grc.notification.ITCResponsi</event_name>
-        <event_parm_1>true</event_parm_1>
+        <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
@@ -699,18 +699,18 @@ p{
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>GRC: ITC Responsible</name>
+        <name>GRC - ITC Responsible</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
+        <recipient_fields>itc_responsible</recipient_fields>
         <recipient_groups/>
-        <recipient_users/>
+        <recipient_users>c33ad2f0db7e5490faa711494b96196d,f00c74d0db8e18149cb8cde40596193b</recipient_users>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>ITC Responsible</subject>
+        <subject>GRC: ITC Responsible</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
@@ -718,15 +718,15 @@ p{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>91bab9d9db4f5c5002085bd05b9619c6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>GRC: ITC Responsible</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>GRC - ITC Responsible</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_email_action_91bab9d9db4f5c5002085bd05b9619c6</sys_update_name>
         <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-03 16:26:30</sys_updated_on>
+        <sys_updated_on>2020-09-03 20:17:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

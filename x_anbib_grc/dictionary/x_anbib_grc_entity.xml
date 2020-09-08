@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="1" type="collection">
-        <element label="Application" mandatory="true" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
+    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="11" type="collection">
+        <element display="true" label="Application" mandatory="true" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Bank / Payment Tool" sequence="0" value="1"/>
@@ -90,7 +90,7 @@
                 <element inactive_on_update="false" label="Workspace/Model" sequence="6" value="6"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="6" label="Status" max_length="40" name="status" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="0" label="Status" max_length="40" name="status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Backlog" sequence="0" value="0"/>
                 <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>

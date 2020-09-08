@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Grc M2m Entities Layer Controls" max_length="40" name="x_anbib_grc_m2m_entities_layer_controls" type="collection">
+    <element label="Grc M2m Entities Layer Controls" max_length="40" name="x_anbib_grc_m2m_entities_layer_controls" sizeclass="10" type="collection">
         <element attributes="encode_utf8=false" label="Entity" max_length="32" name="entity" reference="x_anbib_grc_entity" type="reference"/>
         <element attributes="encode_utf8=false" label="Layer Control" max_length="32" name="layer_control" reference="x_anbib_grc_layer_control" type="reference"/>
         <index name="index">

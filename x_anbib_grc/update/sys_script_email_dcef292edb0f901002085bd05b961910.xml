@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>grc.notification.aprovacao</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	
+	var attachLink = '<p style="text-align: center;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"> <span style="color: #3287b5;"> <strong>&nbsp; &nbsp; <a href="mailto:' + gs.getProperty('instance_name') + '@service-now.com?subject=Re%3A%20Aprovar - ${sysapproval.number}&amp;body=-- Aviso: É necessário enviar o e-mail para confirmar a aprovação/rejeição do chamado. --%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A${watermark}"> <img style="cursor: pointer;" title="Clique aqui para aprovar" src="like_icon.png" alt="Aprovar" width="100" height="100" /></a><span style="color: #000000;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span> </strong></span><strong><a href="mailto:'+ gs.getProperty('instance_name') + '@service-now.com?subject=Re%3A%20Rejeitar - ${sysapproval.number}&amp;body=-- Aviso: É necessário enviar o e-mail para confirmar a aprovação/rejeição do chamado. -- %0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A${watermark}"><img style="cursor: pointer;" title="Clique aqui para reprovar" src="dislike_icon.png" alt="" width="100" height="100" /></a></strong></span></p>';
+
+	template.print(attachLink + '\n');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-07 12:52:18</sys_created_on>
+        <sys_id>dcef292edb0f901002085bd05b961910</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>grc.notification.aprovacao</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_email_dcef292edb0f901002085bd05b961910</sys_update_name>
+        <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-07 20:21:09</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>grc.notification.getCommetRejected</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+		/* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+		/* Optional GlideRecord */ event) {
+
+		// Add your code here
+	
+		var note = '';
+		var gRecord = new GlideRecord('sysapproval_approver');
+		var query = 'document_id='+current.sys_id+'^state=rejected';
+		gRecord.addEncodedQuery(query);
+		gRecord.orderByDesc('sys_created_on');
+		gRecord.query();
+		if(gRecord.next()){
+		
+			var comments = gRecord.comments.getJournalEntry(1);
+			var regex = new RegExp('\n'); // searching for the first line break
+			var comments2 = comments;
+			var i = comments.search(regex);
+			if (i>0){
+				// taking everything after the first line break, he-he.
+				comments2 = comments.substring(i+1, comments.length);
+			}
+		
+			note = comments2;
+		}
+		  
+		template.print(note);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-04 13:51:31</sys_created_on>
+        <sys_id>09d0ee25dbcfdc5002085bd05b96198b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>grc.notification.getCommetRejected</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_email_09d0ee25dbcfdc5002085bd05b96198b</sys_update_name>
+        <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-04 19:07:51</sys_updated_on>
+    </sys_script_email>
+</record_update>
