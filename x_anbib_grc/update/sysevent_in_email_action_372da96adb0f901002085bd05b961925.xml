@@ -34,17 +34,123 @@ Ref:MSG0000107&#13;
         <event_name>email.read</event_name>
         <filter_condition/>
         <from/>
-        <name>Atualizar Aprovação</name>
+        <name>GRC - Approve</name>
         <order>100</order>
         <reply_email/>
         <required_roles/>
-        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+        <script><![CDATA[(function runAction( /*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
 
-	var gr = new GlideRecord('x_anbib_grc_entity');
-	gr.get('9d5c27a2db0fd01002085bd05b96199d');
-	gr.decommission_migration_saving_estimate = email;
-	gr.update();
+	// var gr = new GlideRecord('x_anbib_grc_control');
+	// gr.get('ba371ffedb4f141002085bd05b9619eb');
+	// gr.description = "number: "+current.sysapproval.number+" - approver: "+current.approver.name;
+	// gr.update();
 	
+
+	// current.state = "approved";
+
+
+	/*global current, email, gs, GlideController, GlideRecord*/
+	/*eslint-disable eqeqeq*/
+	processApprovalEmail();
+
+	function processApprovalEmail() {
+		
+		"use strict";
+		var errorMsg = "";
+		var msgArray = [];
+
+		//var grUser = new GlideRecord("sys_user");
+
+		if (current.getTableName() != "sysapproval_approver")
+			return;
+
+		var displayValue = getApprovalDisplayValue(current);
+		//gs.info("### [ALPAR: Atualizar Aprovação - Inbound Action] ### => displayValue = "+ displayValue);
+
+		if (!validUser()) {
+			// gs.log(getFailurePreamble() + "Sender email does not match approval assignee.");
+
+			var gr = new GlideRecord('x_anbib_grc_control');
+			gr.get('ba371ffedb4f141002085bd05b9619eb');
+			gr.description = getFailurePreamble() + "Sender email does not match approval assignee.";
+			gr.update();
+			
+			msgArray.push(displayValue);
+			msgArray.push(current.approver.getDisplayValue());
+			msgArray.push(current.approver.email);
+			errorMsg = gs.getMessage("approvalInvalidUser", msgArray);
+			createEmailEvent(errorMsg);
+			return;
+		}
+
+		if (email.subject.indexOf("Aprovar") >= 0)
+			current.state = "approved";
+
+		if (email.subject.indexOf("Rejeitar") >= 0)
+			current.state = "rejected";
+
+		if (current.state != "approved" && current.state != "rejected") {
+			// gs.log(getFailurePreamble() + "The subject is malformed. The approver probably did not click the approve or reject button on the email.");
+
+			var gr = new GlideRecord('x_anbib_grc_control');
+			gr.get('ba371ffedb4f141002085bd05b9619eb');
+			gr.description = getFailurePreamble() + "The subject is malformed. The approver probably did not click the approve or reject button on the email.";
+			gr.update();
+
+			msgArray.push(displayValue);
+			errorMsg = gs.getMessage("approvalFailed", msgArray);
+			createEmailEvent(errorMsg);
+			return;
+		}
+
+		var formatComments = email.body_text.split('--')[2];
+		formatComments = formatComments.split('Ref:')[0];
+		current.comments = formatComments;
+		//current.comments = email.body_text.split("--","");
+
+		var controller = new GlideController();
+		controller.putGlobal("approvalSource", "email");
+		current.update();
+		controller.removeGlobal("approvalSource");
+
+		function validUser() {
+			if (current.approver == email.from_sys_id)
+				return true;
+
+			// check if the email is from a delegate of the approver
+			var g = new GlideRecord("sys_user_delegate");
+			g.addQuery("user", current.approver.toString());
+			g.addQuery("delegate", email.from_sys_id);
+			g.addQuery("approvals", "true");
+			g.addQuery("starts", "<=", gs.daysAgo(0));
+			g.addQuery("ends", ">=", gs.daysAgo(0));
+			g.query();
+			return g.hasNext();
+		}
+
+		function createEmailEvent(msg) {
+			gs.eventQueue("approval.email.errorMsg", current, email.from, msg);
+		}
+
+		function getFailurePreamble() {
+			return 'Approval email from ' + email.from + ' for task "' + displayValue + '" assigned to "' + current.approver.getDisplayValue() +
+				'" failed because: ';
+		}
+
+		function getApprovalDisplayValue(approval) {
+			if (!gs.nil(approval.sysapproval))
+				return approval.getDisplayValue();
+			else {
+				var target = new GlideRecord(approval.source_table);
+				if (target.get(approval.document_id))
+					return target.getDisplayValue();
+			}
+			gs.warn("Target for sysapproval_approver:" + approval.getUniqueValue() + " not found. Target=" + approval.source_table + ":" + approval.document_id);
+			return "Unknown";
+		}
+
+	}
+
 })(current, event, email, logger, classifier);]]></script>
         <stop_processing>true</stop_processing>
         <sys_class_name>sysevent_in_email_action</sys_class_name>
@@ -53,15 +159,15 @@ Ref:MSG0000107&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>372da96adb0f901002085bd05b961925</sys_id>
-        <sys_mod_count>22</sys_mod_count>
-        <sys_name>Atualizar Aprovação</sys_name>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>GRC - Approve</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_in_email_action_372da96adb0f901002085bd05b961925</sys_update_name>
         <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-08 13:57:33</sys_updated_on>
+        <sys_updated_on>2020-09-08 17:35:40</sys_updated_on>
         <table>sysapproval_approver</table>
         <template/>
         <type>reply</type>

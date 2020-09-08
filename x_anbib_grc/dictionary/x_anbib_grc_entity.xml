@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="11" type="collection">
+    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="1" type="collection">
         <element display="true" label="Application" mandatory="true" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
@@ -58,7 +58,7 @@
         </element>
         <element label="SSO" max_length="40" name="is_sso" type="boolean"/>
         <element attributes="encode_utf8=false" label="ITC Responsible" max_length="32" name="itc_responsible" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Last application update" max_length="40" name="last_application_update" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Last application update" max_length="40" name="last_application_update" read_only="true" type="glide_date"/>
         <element attributes="encode_utf8=false" label="MICs Category" max_length="32" name="mics_category" reference="x_anbib_grc_type" type="reference"/>
         <element label="MICs relevance" max_length="40" name="mics_relevance" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="0" label="Operating System" max_length="40" name="operating_system" type="string">
@@ -90,7 +90,7 @@
                 <element inactive_on_update="false" label="Workspace/Model" sequence="6" value="6"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="0" label="Status" max_length="40" name="status" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="0" label="Status" max_length="40" name="status" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Backlog" sequence="0" value="0"/>
                 <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
@@ -105,17 +105,38 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" choice_field="status_ghq" choice_table="x_anbib_grc_entity" label="Status AFR" max_length="40" name="status_afr" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="In BAU" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="6"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" choice_field="status_ghq" choice_table="x_anbib_grc_entity" label="Status APC" max_length="40" name="status_apc" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="In BAU" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="6"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" choice_field="status_ghq" choice_table="x_anbib_grc_entity" label="Status EUR" max_length="40" name="status_eur" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="In BAU" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="6"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status GHQ" max_length="40" name="status_ghq" type="string">
@@ -134,17 +155,38 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" choice_field="status_ghq" choice_table="x_anbib_grc_entity" label="Status MAZ" max_length="40" name="status_maz" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="In BAU" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="6"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" choice_field="status_ghq" choice_table="x_anbib_grc_entity" label="Status NAZ" max_length="40" name="status_naz" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="In BAU" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="6"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" choice_field="status_ghq" choice_table="x_anbib_grc_entity" label="Status SAZ" max_length="40" name="status_saz" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="In BAU" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Partially in BAU" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Project Mode" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="In Shaping" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="In Archive Mode" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Not Used / Not Active" sequence="6" value="6"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Supplier Service Name" max_length="32" name="supplier_service_name" reference="customer_contact" type="reference"/>
