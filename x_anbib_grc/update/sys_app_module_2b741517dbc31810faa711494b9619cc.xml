@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="GRC">b72edb521bad58504aae202a2d4bcbaa</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Action Plan of Control Inplementations</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_anbib_grc_entity</name>
+        <order>520</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_anbib_grc.analyst</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 18:47:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b741517dbc31810faa711494b9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Applications</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_app_module_2b741517dbc31810faa711494b9619cc</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 18:47:23</sys_updated_on>
+        <timeline_page/>
+        <title>All Applications</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

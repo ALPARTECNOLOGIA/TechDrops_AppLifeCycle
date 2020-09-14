@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_crown_jewel" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_crown_jewel</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Crown jewel</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_crown_jewel</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>93fb0c87db87541002085bd05b961980</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Crown jewel</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_crown_jewel</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_crown_jewel</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_crown_jewel" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_crown_jewel</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Crown jewel</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_crown_jewel</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>93fb0c87db87541002085bd05b961980</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Crown jewel</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_crown_jewel</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:23</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>898258224</payload_hash>
+        <record_name>Import Entity.Crown jewel</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:23</sys_created_on>
+        <sys_id>ec9737c7dbcb941002085bd05b9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472bdedf50000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:23</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>649737c7a2cb9410da082aeccae111a2</update_guid>
+        <update_guid_history>649737c7a2cb9410da082aeccae111a2:898258224,c40c4c87c9875410467853d298316653:260921635,7e7fd7501f4fd4500971f69da287190e:-1573096285,3c205f18f08bd450dbec5a14dbd77c2a:0,9c8f4fd02a8bd450b9651ccdb0fad527:-1573096285,c36c4390a54bd450c412911c8c478881:0,2dbb471c4f0bd450c6b83941a0337b7d:-1573096285,79f8831c94c7d450ce4c900fdd420aa7:0,f6580fd46cc7d45035a2b0ca1fd48dce:-1573096285,09128f188847d4509cc84dc5c962d3ea:0,2f614fd01b47d4500584251ea681aa7e:-1573096285,6a5f3a545107d450f473ee5afcc00011:0,f1cefe109907d450eb22ec4bacf1e2f0:-1573096285,c93cb2dc0583d450f3543c010ecc8dc9:0,34abba98ee83d450b703e6afa70541ed:-1573096285,2619ba58c343d450f73b08396b96976d:0,d6887e147543d450dcae7221e5896c47:-1573096285,2b23b618eccf94505c65753c34fcb46b:0,a982ba90a6cf9450f13b9eca6493db1a:-1573096285,8979aa589f4f945088297a311968ef84:0,77c8a2943c4f9450efee2f9cd07b2df8:-1573096285,eb070658288b94500342375ba2133531:0,6036ca14138b94506a06767d8bd47298:-1573096285,3c134ed8884b94506f206c835deaf68e:0,b5420218c14b94509a068a68bc3d923d:-1573096285,4b6f7d9ce60b945047c3b7efcf0c0ceb:0,559eb198c90b945031d10c5f65f8cf4d:-1573096285,fd1cb550920b945046b5a312d16b465b:0,473bb15cabc79450bf38560bb629093a:-1573096285,e57e61dccc4794503032a2076a168c3c:0,d99d61d82247945001e7ef8311a2933d:-1573096285,4c23fb5f1f36dc103210ae83df7e6f9c:0,c182b35bce36dc102e998875534e8069:-1573096285,706ee31fc3f2dc105ae45dfa47c106b3:0,ffbda31bf4f2dc10a56cdf86219415b1:-1573096285,3dac235302f2dc10c841d5da3843aa7d:0,00fb2b1f4ab2dc10f52649d51f6bcd15:-1573096285,8fa9070e08b6101452d849be6f5e89a0:448676079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:13:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>09ac1fd32c9b4ffc831984cc44e7a864</sys_id>
+        <sys_metadata>93fb0c87db87541002085bd05b961980</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Crown jewel</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_crown_jewel</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_crown_jewel">ec9737c7dbcb941002085bd05b9619a2</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:13:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

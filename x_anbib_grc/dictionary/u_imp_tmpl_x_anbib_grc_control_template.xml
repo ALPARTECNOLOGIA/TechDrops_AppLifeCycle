@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Anbib Grc Control Template" max_length="40" name="u_imp_tmpl_x_anbib_grc_control_template" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ABI Key" label="ABI Key" max_length="40" name="u_abi_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Active" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Additional Information" label="Additional Information" max_length="4000" name="u_additional_information" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ambev Key" label="Ambev Key" max_length="40" name="u_ambev_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Automation" label="Automation" max_length="40" name="u_automation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FCPA" label="FCPA" max_length="40" name="u_fcpa" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Frequency" label="Frequency" max_length="40" name="u_frequency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=L1 - Minimal Requirements To Protect Financial Statement From Material" label="L1 - Minimal Requirements To Protect Financial Statement From Material" max_length="4000" name="u_l1___minimal__from_material" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=L2 - Minimal Requirements To Avoid Surprises (Internal Compliance)" label="L2 - Minimal Requirements To Avoid Surprises (Internal Compliance)" max_length="4000" name="u_l2___minimal_al_compliance_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=L3 - Best in Class (Excellence)" label="L3 - Best in Class (Excellence)" max_length="4000" name="u_l3___best_in_s__excellence_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Maturity Relevant" label="Maturity Relevant" max_length="40" name="u_maturity_relevant" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mega Process" label="Mega Process" max_length="255" name="u_mega_process" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="250" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Period" label="Period" max_length="40" name="u_period" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Period Unit" label="Period Unit" max_length="40" name="u_period_unit" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Prefix" label="Prefix" max_length="40" name="u_prefix" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Preventive/Detective" label="Preventive/Detective" max_length="40" name="u_preventive_detective" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Recommended Level" label="Recommended Level" max_length="40" name="u_recommended_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Risk" label="Risk" max_length="255" name="u_risk" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SaaS application control by SOC2 Report" label="SaaS application control by SOC2 Report" max_length="40" name="u_saas_applica_by_soc2_report" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sub Process" label="Sub Process" max_length="255" name="u_sub_process" type="string"/>
+        <element attributes="import_attribute_name=Weighting" label="Weighting" max_length="40" name="u_weighting" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_anbib_grc_action_plan_of_control_inplementation">state=15^ORstate=21^EQ<item display_value="Approved - Wait for Implementation" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="15"/>
+            <item display_value="ETA approved - Wait for Implementation" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="21"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Implementation</label>
+        <name>Implementation</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 18:25:31</sys_created_on>
+        <sys_id>09199627db831c10faa711494b96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Implementation</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_process_flow_09199627db831c10faa711494b96197c</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-10 18:25:31</sys_updated_on>
+        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+    </sys_process_flow>
+</record_update>

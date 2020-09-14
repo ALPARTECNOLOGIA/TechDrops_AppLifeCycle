@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_link_to_sharepoint" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_link_to_sharepoint</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Link to sharepoint</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_link_to_sharepoint</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>2bfb0c87db87541002085bd05b9619ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Link to sharepoint</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_link_to_sharepoint</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:36:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_link_to_sharepoint</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_link_to_sharepoint" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_link_to_sharepoint</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Link to sharepoint</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_link_to_sharepoint</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>2bfb0c87db87541002085bd05b9619ca</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Link to sharepoint</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_link_to_sharepoint</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:36:25</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-991729029</payload_hash>
+        <record_name>Import Entity.Link to sharepoint</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:36:26</sys_created_on>
+        <sys_id>759f7bc3db0f941002085bd05b961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472de01940000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:36:26</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>f99f7bc3a40f941018e2a58b2aefcd62</update_guid>
+        <update_guid_history>f99f7bc3a40f941018e2a58b2aefcd62:-991729029,940c4c87ef875410cb7bb734869bdb9c:-68943588,337f1b501f4fd4503e002498da582331:708916239,b920df183a8bd450fc5cd215c03e788e:0,598fcfd0368bd450a8358ca9b2b03074:708916239,c07cc390f24bd4505d8066db683c75c1:0,72bb871cfc0bd450ce9049b7ab6bafea:708916239,8bf8071c91c7d450f9369800f7987b38:0,b3588fd4f0c7d450e81482b1c2fd6d54:-1421645946,8a1243580647d450480a0cbf3c82cae0:0,7471cfd02b47d450e0767775aeff680c:-1421645946,6b5fba546c07d4508e7edf2bd5f5a1bb:0,a2ceb250bf07d4504f1c91972b4d9b0b:-1421645946,f53cf2dcd583d450c0d5bf8aedf5a4b5:0,e9ab7e981483d45094cb598c6e523b03:-1421645946,af197e584143d4507e0a3e1be4a35d61:0,9388be148443d450fe3f4465c4e8eb65:-1421645946,64333a18ddcf94501ecbaa983786506d:0,92823e90cacf945008b7ca597dc12c29:-1421645946,c6792e586a4f94508950fca9e3f4e92f:0,49d826948a4f9450618fd34dc61379d4:-1421645946,20178658298b9450d1c5ed9cbfb40f32:0,29360e141d8b94502a3193f9b84b8fdf:708916239,8e138ed8554b94500fe9cc6141858e97:0,f2424218784b94503048383f744225aa:708916239,6c7ffd9c840b94509b515f5c832cfc32:0,6a9ef198a40b9450b1156671387356c6:708916239,361cf5505c0b94504fb901e1c27167fa:0,504bf15cedc794503bc39d76cf3a5f50:708916239,3e7ea1dc9e479450e6918e1860be86e5:0,669da1d811479450c0d385b0a1fcfd6c:708916239,b4237f5f1f36dc10f7decc2a55c25660:0,7182f35bbd36dc10400aa2d8e8afa4bd:708916239,6d6e671f6cf2dc10eca347cd23ad9006:0,74cd271bd4f2dc106f19e7828e3d0112:708916239,76aca3533af2dc102c66a547bee79c02:0,b8fb6b1f17b2dc1098fe1b2287ea5c43:708916239,226f7cc7d0be181009b152eaffa9083c:1471506243,0fa9070efbb61014a42d78051cb895c3:1235353042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>849481fc52e94896a111218812f44744</sys_id>
+        <sys_metadata>2bfb0c87db87541002085bd05b9619ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to sharepoint</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_link_to_sharepoint</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_link_to_sharepoint">759f7bc3db0f941002085bd05b961963</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

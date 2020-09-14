@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>work_end</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set actual duration (end change)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	if(newValue && g_form.getValue('work_start')){
+		var startDate = new Date(g_form.getValue('work_start').replace(/-/g,'/'));
+		var endDate = new Date(newValue.replace(/-/g,'/'));
+
+		startDate.setTime( startDate.getTime() + startDate.getTimezoneOffset()*60*1000 );
+		endDate.setTime( endDate.getTime() + endDate.getTimezoneOffset()*60*1000 );
+		
+		if(endDate > startDate){
+			var startDateFormated = _formatDate(startDate);
+			var endDateFormated = _formatDate(endDate);
+			var ga = new GlideAjax('DurationAjax');
+			ga.addParam('sysparm_name', 'getDurationBetweenDates');
+			ga.addParam('sysparm_start_date', startDateFormated);
+			ga.addParam('sysparm_end_date', endDateFormated);
+			ga.getXML(_getDateDuration);
+		} else return;
+	}
+	function _formatDate(date){
+		var dateString="";
+
+		var day = date.getDate().toString().length > 1 ? date.getDate() : "0"+ date.getDate();
+		var month = date.getMonth() + 1;
+		month = month.toString().length > 1 ? month : "0"+ month;
+		var year = date.getFullYear();
+		var hours = date.getHours().toString().length > 1 ? date.getHours() : "0"+ date.getHours();
+		var minutes = date.getMinutes().toString().length > 1 ? date.getMinutes() : "0"+ date.getMinutes();
+		var seconds = date.getSeconds().toString().length > 1 ? date.getSeconds() : "0"+ date.getSeconds();
+		dateString = year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
+
+		return dateString;
+	}
+
+	function _getDateDuration(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('work_duration', answer);
+	}   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 17:32:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83dcce67dbcfd810faa711494b96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set actual duration (end change)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_client_83dcce67dbcfd810faa711494b96190b</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:32:08</sys_updated_on>
+        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_script_client_83dcce67dbcfd810faa711494b96190b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;work_end&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set actual duration (end change)&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	if(newValue &amp;&amp; g_form.getValue('work_start')){
+		var startDate = new Date(g_form.getValue('work_start').replace(/-/g,'/'));
+		var endDate = new Date(newValue.replace(/-/g,'/'));
+
+		startDate.setTime( startDate.getTime() + startDate.getTimezoneOffset()*60*1000 );
+		endDate.setTime( endDate.getTime() + endDate.getTimezoneOffset()*60*1000 );
+		
+		if(endDate &gt; startDate){
+			var startDateFormated = _formatDate(startDate);
+			var endDateFormated = _formatDate(endDate);
+			var ga = new GlideAjax('DurationAjax');
+			ga.addParam('sysparm_name', 'getDurationBetweenDates');
+			ga.addParam('sysparm_start_date', startDateFormated);
+			ga.addParam('sysparm_end_date', endDateFormated);
+			ga.getXML(_getDateDuration);
+		} else return;
+	}
+	function _formatDate(date){
+		var dateString="";
+
+		var day = date.getDate().toString().length &gt; 1 ? date.getDate() : "0"+ date.getDate();
+		var month = date.getMonth() + 1;
+		month = month.toString().length &gt; 1 ? month : "0"+ month;
+		var year = date.getFullYear();
+		var hours = date.getHours().toString().length &gt; 1 ? date.getHours() : "0"+ date.getHours();
+		var minutes = date.getMinutes().toString().length &gt; 1 ? date.getMinutes() : "0"+ date.getMinutes();
+		var seconds = date.getSeconds().toString().length &gt; 1 ? date.getSeconds() : "0"+ date.getSeconds();
+		dateString = year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
+
+		return dateString;
+	}
+
+	function _getDateDuration(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('work_duration', answer);
+	}   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-10 17:32:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;83dcce67dbcfd810faa711494b96190b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set actual duration (end change)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_83dcce67dbcfd810faa711494b96190b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-10 17:32:08&lt;/sys_updated_on&gt;&lt;table&gt;x_anbib_grc_action_plan_of_control_inplementation&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-886770892</payload_hash>
+        <record_name>Set actual duration (end change)</record_name>
+        <reverted_from/>
+        <source>5b8b4776dbc75410faa711494b9619e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 17:32:08</sys_created_on>
+        <sys_id>43dcce67dbcfd810faa711494b96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174791315f90000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:32:08</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4bdcce67c3cfd810adb403a96c5a2a0d</update_guid>
+        <update_guid_history>4bdcce67c3cfd810adb403a96c5a2a0d:-886770892</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 17:56:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>064c47ed959f42c08105296c61921141</sys_id>
+        <sys_metadata>83dcce67dbcfd810faa711494b96190b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set actual duration (end change)</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Control Implementation Action Plan">3da4c261dbaed410faa711494b961924</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_script_client_83dcce67dbcfd810faa711494b96190b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_83dcce67dbcfd810faa711494b96190b">43dcce67dbcfd810faa711494b96190e</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:56:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

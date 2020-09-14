@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_min_bandwidth" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>import_attribute_name=u_min_bandwidth</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Min bandwidth</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_min_bandwidth</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>97fb0c87db87541002085bd05b961982</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Min bandwidth</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_min_bandwidth</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:36:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_min_bandwidth</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_min_bandwidth" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=u_min_bandwidth</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Min bandwidth</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_min_bandwidth</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>97fb0c87db87541002085bd05b961982</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Min bandwidth</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_min_bandwidth</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:36:22</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1058028159</payload_hash>
+        <record_name>Import Entity.Min bandwidth</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:36:23</sys_created_on>
+        <sys_id>059f3bc3db0f941002085bd05b9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472ddf57b0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:36:23</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>899f3bc3840f9410be884682789156ca</update_guid>
+        <update_guid_history>899f3bc3840f9410be884682789156ca:1058028159,c00c4c877687541020c9d1683f1b0e56:-110896256,7f7f1b50714fd450aa983f937c6fbb85:-669691240,b9201358398bd450bedee19d4f7f7f00:0,d98fcfd0dc8bd450d22a2961da4fe6ee:-669691240,947c07902b4bd4503a837d945ac9134c:0,32bbc71cea0bd450964f655b66c0e326:-669691240,8bf8071cf5c7d4507bee2e6e736e2faa:0,88688fd4e0c7d450bb1c5bb7adafd883:-669691240,12128358c847d45097cecad5d26362a9:0,4971cfd05e47d4507064e83de1302d6c:-669691240,3b5ffa54db07d450bf9eb2aa483e1045:0,3aceb2505b07d4508f8257d69b573053:-669691240,ce3c36dc4383d4501cee5c3b78ad520d:0,35ab7e985483d450ff4fd3b76aed2932:-669691240,b7197e587243d450d42f65d33cab1ddf:0,5b88be149443d45015105f89d76134ac:-669691240,74337a1859cf9450f95ddc5d7bd0c011:0,6a823e90c4cf945011b8079fa7cb55c8:-669691240,92792e58be4f94509c919c0e0dce0a57:0,5dd866946a4f9450affd093ec3e0d435:-669691240,34178658498b9450c1a7b7b1ff2b2f72:0,f5364e140a8b94507fccad00bc033d1b:-669691240,9e138ed8654b94503998ccdfaa51c5e4:0,cb424218104b9450d79090dda8626fd9:-669691240,347ffd9ca70b9450a84d37884fe89d8c:0,3a9e3598e80b9450f4b48c13e6d12a02:-669691240,4f1c39505d0b9450caa034969138933a:0,204bf15c6ec79450e142ae74d551018c:-669691240,8f7ee1dcec47945006529d18a596c83e:0,079da1d8534794505fbdf7da6ff166a8:-669691240,cd237f5fbf36dc1024e29cb21a0b9ca0:0,8282375b2436dc10d14440900c2c8f37:-669691240,fd6e671fa2f2dc108519fd9bb4a0253a:0,34cd271ba9f2dc1033fa7f6b82f4c24e:-669691240,76aca353b9f2dc104fb9f685d1ca9374:0,81fb6b1faab2dc107784373122329373:-669691240,b6a9070e4fb61014059c07e54717e878:-70929204</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>7676cb058feb42168310848a2bb3aac9</sys_id>
+        <sys_metadata>97fb0c87db87541002085bd05b961982</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Min bandwidth</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_min_bandwidth</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_min_bandwidth">059f3bc3db0f941002085bd05b9619cb</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

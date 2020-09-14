@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_decommission_aving_estimate" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>import_attribute_name=u_decommission_migration_saving_estimate</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Decommission migration saving estimate</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_decommission_aving_estimate</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>67fb0c87db87541002085bd05b96199c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Decommission migration saving estimate</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_decommission_aving_estimate</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 13:00:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_decommission_aving_estimate</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_decommission_aving_estimate" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=u_decommission_migration_saving_estimate</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Decommission migration saving estimate</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_decommission_aving_estimate</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>67fb0c87db87541002085bd05b96199c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Decommission migration saving estimate</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_decommission_aving_estimate</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 13:00:53</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>827052926</payload_hash>
+        <record_name>Import Entity.Decommission migration saving estimate</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 13:00:53</sys_created_on>
+        <sys_id>4c35c4dbdb0f941002085bd05b96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472f466d00000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 13:00:53</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>c035c4db220f9410702849c8a8014c2b</update_guid>
+        <update_guid_history>c035c4db220f9410702849c8a8014c2b:827052926,3c9f3bc3530f9410e66f50da8ce2bebd:1876469204,c80c4c87ce875410642a7e21742acd66:1062978729,0f7fd750e34fd450801e42531618125d:1930398190,89205f18008bd450ee3fb7c50b6deeb5:0,208f4fd0bf8bd450e5a164802b4231b5:1930398190,9b6c43900d4bd450a782b36c5542e0da:0,42bb871ce50bd450a3c65eec72f69917:1930398190,caf8831c96c7d4505a5e0945009d78db:0,87584fd436c7d450d2765cad45a7441d:1930398190,5112cf180947d450e758dd91d43bed9a:0,b7614fd0ed47d4503c546a0da9b033cc:1930398190,ba5f3a54bb07d4507987115891b81c82:0,8ece3250a407d45081beff3a17738570:1930398190,9d3cb2dc0a83d450d6a7876d2b9e5ffc:0,c5abfa982083d4501307b05ffac9baf5:1930398190,3619fa581843d450caacfb5ba9873c4e:0,2a887e14ed43d450dfc0aec52ed6bba1:1930398190,7323b61806cf9450fc1a9a1ef823aeac:0,3d82ba9055cf945004161907e7b6f5a7:1930398190,1579ea58544f94503f9b6226f9ae101c:0,14d8e294a24f945054ca5142240119c3:1930398190,b3070658d88b9450d6e23ab7290c16b0:0,74360e14608b9450b0b887ea5e3b350c:1930398190,8d134ed8da4b94504eea1ad875897ac2:0,96420218f24b94500c8d02e4b66cd2e3:1930398190,5b6fbd9cdf0b9450ae3212c9687afc38:0,a19eb198a40b945085d85272fe3b18b5:1930398190,861cb550130b9450de6c6109a704c6b5:0,173bb15cf4c79450bca9bad358dbe589:1930398190,f57e61dcbf479450188a85582dee57ae:0,b59d61d893479450fe1e790669296bbe:1930398190,98233f5fca36dc10a333100356a3a802:0,1182b35bdc36dc105df09007115691d1:1930398190,706e271f15f2dc1094e76d9884032000:0,44cde31be2f2dc10dcbce1ac02eae20d:1930398190,8eac23531ff2dc109a5d456d6d7d28b1:0,94fb2b1f97b2dc1095fddc2823d9d770:1930398190,baa9070e7bb6101493622879d2dc367a:1743929890</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:13:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>415c2705942841f4967df806d431a6f1</sys_id>
+        <sys_metadata>67fb0c87db87541002085bd05b96199c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Decommission migration saving estimate</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_decommission_aving_estimate</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_decommission_aving_estimate">4c35c4dbdb0f941002085bd05b96192b</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:13:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

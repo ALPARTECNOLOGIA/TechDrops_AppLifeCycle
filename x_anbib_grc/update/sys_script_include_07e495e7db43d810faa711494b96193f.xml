@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_anbib_grc.DurationAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DurationAjax</name>
+        <script><![CDATA[var DurationAjax = Class.create();
+DurationAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getDurationBetweenDates:function() {
+		try {
+			var startDate = new GlideDateTime(this.getParameter('sysparm_start_date'));
+			var endDate = new GlideDateTime(this.getParameter('sysparm_end_date'));
+			var duration = GlideDuration.subtract(startDate, endDate);
+			return duration.getDurationValue();
+		} catch(ex) {
+			gs.info("### [DurationAjax] ERROR ### => "+ex);
+		}
+	},
+	
+	getNowDate: function(){
+		return gs.now();
+	},
+    
+	type: 'DurationAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 13:31:45</sys_created_on>
+        <sys_id>07e495e7db43d810faa711494b96193f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DurationAjax</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_include_07e495e7db43d810faa711494b96193f</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-10 15:14:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

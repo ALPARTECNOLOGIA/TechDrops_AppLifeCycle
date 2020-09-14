@@ -3,17 +3,17 @@
         <action_insert>true</action_insert>
         <action_update>false</action_update>
         <active>true</active>
-        <advanced_condition><![CDATA[// var grCurrent = new GlideRecord('x_anbib_grc_sop');
-// var query = 'number='+current.sysapproval.number;
-// grCurrent.addEncodedQuery(query);
-// grCurrent.query();
-// if(grCurrent.next()){
-//     answer = true;
-// }else{
-//     answer = false;
-// }
+        <advanced_condition><![CDATA[var grCurrent = new GlideRecord('x_anbib_grc_sop');
+var query = 'number='+current.sysapproval.number;
+grCurrent.addEncodedQuery(query);
+grCurrent.query();
+if(grCurrent.next()){
+    answer = true;
+}else{
+    answer = false;
+}
 
-answer = true;]]></advanced_condition>
+// answer = true;]]></advanced_condition>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>sysapproval_approver</collection>
@@ -103,8 +103,8 @@ answer = true;]]></advanced_condition>
 <tbody>
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #202020; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px;" valign="top">
-<h1 style="display: block; margin: 0px; padding: 0px; color: #b2b2b2; font-family: Helvetica; font-size: 30px; font-style: normal; font-weight: bold; line-height: 200%; letter-spacing: normal;">Ol&aacute;, ${approver.name}<strong>!</strong></h1>
-<h3 style="display: block; margin: 0px; padding: 0px; color: #303030; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: left;">Existe uma SOP em aprova&ccedil;&atilde;o.</h3>
+<h1 style="display: block; margin: 0px; padding: 0px; color: #b2b2b2; font-family: Helvetica; font-size: 30px; font-style: normal; font-weight: bold; line-height: 200%; letter-spacing: normal;">Hello, ${approver.name}<strong>!</strong></h1>
+<h3 style="display: block; margin: 0px; padding: 0px; color: #303030; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: left;">There is an SOP in approval.</h3>
 </td>
 </tr>
 </tbody>
@@ -151,9 +151,25 @@ answer = true;]]></advanced_condition>
 <tbody>
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px;" valign="top">
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Clique nos bot&otilde;es ao lado para aprovar ou reprovar,<br /></span></p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Click the buttons on the side to approve or disapprove.</span></p>
 <p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">${mail_script:grc.notification.aprovacao}</span></p>
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Equipe de Relacionamento.</strong></span></p>
+<table class="mcnButtonBlock" style="min-width: 100%; border-collapse: collapse; text-size-adjust: 100%;" border="0" cellspacing="0" cellpadding="0">
+<tbody class="mcnButtonBlockOuter">
+<tr>
+<td class="mcnButtonBlockInner" style="text-size-adjust: 100%; padding: 0px 18px 18px; width: 136px;" align="center" valign="top">
+<table class="mcnButtonContentContainer" style="background-color: #c92d2d; text-size-adjust: 100%; border-collapse: separate; width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%; width: 100%;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.getSopApprove}" target="_blank" rel="noopener">View SOP</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;">&nbsp;</p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Compliance team.</strong></span></p>
 </td>
 </tr>
 </tbody>
@@ -178,7 +194,23 @@ answer = true;]]></advanced_condition>
 <table id="templateSidebar" style="border-collapse: collapse; text-size-adjust: 100%; border-top: 0px; border-bottom: 0px; padding-top: 9px; padding-bottom: 9px; height: 115px;" border="0" width="181" cellspacing="0" cellpadding="0" align="left">
 <tbody>
 <tr style="height: 115px;">
-<td style="text-size-adjust: 100%; height: 115px; width: 179px;" valign="top">&nbsp;</td>
+<td style="text-size-adjust: 100%; height: 115px; width: 179px;" valign="top">
+<table id="templateSidebar" style="border-collapse: collapse; text-size-adjust: 100%; border-top: 0px; border-bottom: 0px; padding-top: 9px; padding-bottom: 9px;" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td style="text-size-adjust: 100%; width: 206.667px;" valign="top">
+<table class="mcnButtonBlock" style="min-width: 100%; border-collapse: collapse; text-size-adjust: 100%; height: 109px; width: 114px;" border="0" width="184" cellspacing="0" cellpadding="0">
+<tbody class="mcnButtonBlockOuter">
+<tr>
+<td class="mcnButtonBlockInner" style="text-size-adjust: 100%; padding: 0px 18px 18px; width: 136px;" align="center" valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
 </tr>
 </tbody>
 </table>
@@ -219,7 +251,7 @@ answer = true;]]></advanced_condition>
 <table class="mcnTextContentContainer" style="max-width: 100%; min-width: 100%; border-collapse: collapse; text-size-adjust: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
 <tbody>
 <tr>
-<td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 12px; line-height: 150%; text-align: center; padding: 0px 18px 9px;" valign="top">&nbsp;<span style="font-family: arial, helvetica, sans-serif; font-size: 8pt;"><em><strong>NOTA:</strong>&nbsp;E-mail gerado automaticamente. Por favor, n&atilde;o responda a esse email.</em></span></td>
+<td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 12px; line-height: 150%; text-align: center; padding: 0px 18px 9px;" valign="top"><span style="font-family: arial, helvetica, sans-serif; font-size: 8pt;"><em><strong>NOTE:</strong> This is an automatic email, please do not reply.</em></span></td>
 </tr>
 </tbody>
 </table>
@@ -246,7 +278,7 @@ answer = true;]]></advanced_condition>
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 12px; line-height: 150%; text-align: center; padding: 0px 18px 9px;" valign="top">
 <div style="text-align: left;"><hr />
-<div style="text-align: center;"><em><img style="width: 107px; height: 36px; margin: 0px; outline: none; text-decoration: none;" src="logo_abinbev.png" width="107" height="36" align="center" data-file-id="2761013" /></em><strong>Unindo as pessoas por um mundo melhor.</strong></div>
+<div style="text-align: center;"><em><img style="width: 107px; height: 36px; margin: 0px; outline: none; text-decoration: none;" src="logo_abinbev.png" width="107" height="36" align="center" data-file-id="2761013" /></em></div>
 </div>
 </td>
 </tr>
@@ -693,7 +725,7 @@ p{
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>GRC - SOP Approve</name>
+        <name>GRC - SOP Approve Email</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -712,15 +744,15 @@ p{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bf73f922db4f901002085bd05b96192a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>GRC - SOP Approve</sys_name>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>GRC - SOP Approve Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_email_action_bf73f922db4f901002085bd05b96192a</sys_update_name>
         <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-07 21:54:57</sys_updated_on>
+        <sys_updated_on>2020-09-09 20:03:40</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

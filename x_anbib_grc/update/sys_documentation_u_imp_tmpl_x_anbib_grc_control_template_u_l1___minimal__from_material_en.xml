@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_l1___minimal__from_material" label="L1 - Minimal Requirements To Protect Financial Statement From Material" language="en" table="u_imp_tmpl_x_anbib_grc_control_template">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_l1___minimal__from_material</element>
+            <help/>
+            <hint/>
+            <label>L1 - Minimal Requirements To Protect Financial Statement From Material</label>
+            <language>en</language>
+            <name>u_imp_tmpl_x_anbib_grc_control_template</name>
+            <plural>L1 - Minimal Requirements To Protect Financial Statement From Materials</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:18:09</sys_created_on>
+            <sys_id>0b7b8bf8dbdb5c5002085bd05b96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>L1 - Minimal Requirements To Protect Financial Statement From Material</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_x_anbib_grc_control_template_u_l1___minimal__from_material_en</sys_update_name>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:18:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

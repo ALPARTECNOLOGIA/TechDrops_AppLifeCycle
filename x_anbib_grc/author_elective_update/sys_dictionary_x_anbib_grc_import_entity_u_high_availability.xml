@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_high_availability" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_high_availability</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>High availability</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_high_availability</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>2ffb0c87db87541002085bd05b9619cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>High availability</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_high_availability</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_high_availability</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_high_availability" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_high_availability</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>High availability</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_high_availability</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>2ffb0c87db87541002085bd05b9619cc</sys_id><sys_mod_count>1</sys_mod_count><sys_name>High availability</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_high_availability</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>2010859763</payload_hash>
+        <record_name>Import Entity.High availability</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:08</sys_created_on>
+        <sys_id>e08773c7dbcb941002085bd05b9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472bdb07a0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:08</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>688773c756cb94102e9f1b8f21a45de4</update_guid>
+        <update_guid_history>688773c756cb94102e9f1b8f21a45de4:2010859763,900c4c87d787541058727a3829d2409f:56293150,e37fd750a74fd45094afccd9fa8d6edc:-992882918,65209f18268bd450f9f736d940356df7:0,498f8fd06c8bd450cb6d41a9598df7e1:-992882918,336cc390ec4bd45003c184c695b75936:0,6abb871c370bd450ae07aa4ec04e35ba:-992882918,3af8c31c82c7d45096d6ba30bdc46edf:0,af584fd4c6c7d45081f3cd6286128af2:-992882918,b5124358b247d450e38038700014fd56:0,ac718fd01047d450eaff05454de536c4:-992882918,575fba54b607d4502f5508ea4f67230c:0,6ace72508407d450bf93867c86e30784:-992882918,f93cf2dc5d83d450b477ddbcca3ea18e:0,d9ab3e984a83d4503e0b0e88238286c8:-992882918,1b193e587143d45075175f1e99d4adcb:0,8388be143743d450811c69d7ce463d2a:-992882918,2433f6184ecf94504c1b44daffe9dec9:0,5682fa9065cf945072fb1559666533d4:-992882918,3179ea58a54f945030c8f2c5659d45d6:0,89d82694884f9450ef2cccdadb7dd198:-992882918,1c174658a08b9450f2570333acc9aa9a:0,11360e148f8b94505bc76bbe08a905b0:-992882918,3d138ed8874b9450738cadae8e05c163:0,fa424218c24b94508e13b7b294cdba7a:-992882918,c87fbd9c210b94503ab359f7e89336fe:0,9a9ef198760b94504976d06893e9458a:-992882918,6e1cf550890b945000483eebd11e0ea0:0,c84bf15c69c794509b03b23599c36807:-992882918,2a7ea1dc4647945071a79eb7a0968ca5:0,a69da1d86f4794508f77f7c337fac930:-992882918,f8233f5f3b36dc100ffe32b6fb5579e1:0,f982f35b4d36dc10f38ae0379a024174:-992882918,e96e271f65f2dc1084d530c6d697f6d2:0,a4cde31ba6f2dc108999c5e9b5d965d6:-992882918,eaac63530df2dc1008639b94ebdd7bb5:0,f8fb6b1f24b2dc10d48e2cf188164307:-992882918,83a9070e97b61014ab90207b614d19ac:-633205146</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0130413cce564047abe02602c66f0c99</sys_id>
+        <sys_metadata>2ffb0c87db87541002085bd05b9619cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>High availability</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_high_availability</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_high_availability">e08773c7dbcb941002085bd05b9619e5</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

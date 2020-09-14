@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_data_retention_period" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>import_attribute_name=u_data_retention_period</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Data retention period</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_data_retention_period</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>e7fb0c87db87541002085bd05b9619a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Data retention period</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_data_retention_period</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:36:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_data_retention_period</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_data_retention_period" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=u_data_retention_period</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Data retention period</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_data_retention_period</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>e7fb0c87db87541002085bd05b9619a6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Data retention period</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_data_retention_period</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:36:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-978517370</payload_hash>
+        <record_name>Import Entity.Data retention period</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:36:24</sys_created_on>
+        <sys_id>d19f7bc3db0f941002085bd05b961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472ddfbf60000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:36:24</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>599f7bc3460f9410e06bfdcc567e7c23</update_guid>
+        <update_guid_history>599f7bc3460f9410e06bfdcc567e7c23:-978517370,500c4c871e87541007845f4b1ef76773:-1770137019,7e7fd750a64fd450baaa05e01756ca21:-146777961,b8205f18828bd450ebe70e9a3671c532:0,9c8f4fd0788bd45057e4c7b99292f93a:-146777961,4b6c43905e4bd450e788024d09d76095:0,f1bb471cf10bd450e48b72185779909d:-146777961,0af8831c1dc7d4506abf3f07ae15b5af:0,8f580fd4b7c7d450c4610944866853ed:-146777961,0112cf18cf47d45034475d1060b22924:0,a7614fd04347d45098a9b74bd2323191:-146777961,a25f3a549107d45026e7c0fb13a60432:0,f1ce32509e07d45092516ec2caa90303:-146777961,8d3cb2dc9f83d4501c59785933acfddd:0,fcabfa980483d45023b4900eeb6ba256:-146777961,6a19ba589e43d450e0b74fc9329041bf:0,52887e14cc43d4507e789fda9ac1f85a:-146777961,e723b618bacf9450aadc7960ef606573:0,6182ba90becf9450efddc3939988c03a:-146777961,5979aa58cf4f945010bda563fbc38b8c:0,bfc8e294fe4f9450e1ec4248fe9dbc55:-146777961,6b070658978b9450d921f17d8cb1af39:0,2836ca14bf8b9450724047420e9ad5b7:-146777961,f8134ed8234b9450ed256816b3eaa496:0,4e4202184e4b9450a89378895d895b5c:-146777961,df6f7d9c3f0b9450aba708bb904513ff:0,559eb198320b9450502fd00f910f8060:-146777961,3d1cb5507b0b94500cd380757a15b97c:0,573bb15c17c794503386555406fe514d:-146777961,657e61dc06479450c4919d3891fd4944:0,d99d61d8af479450328311d8998f1050:-146777961,0c23fb5fc836dc10335cc178194443a4:0,c182b35b0436dc1014b9797fee1cb97c:-146777961,306ee31f47f2dc10bad213a253a190bb:0,ffbda31b71f2dc10e01b74333b5b56c4:-146777961,f9ac23533ff2dc107875ea2430dc9085:0,c4fb2b1fffb2dc10a3a1aade85280b34:-146777961,0ba9070efeb6101495045735e51a9ec1:-1947240757</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:13:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>02d10adaf1a2411a84b6b8ff99c821e4</sys_id>
+        <sys_metadata>e7fb0c87db87541002085bd05b9619a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data retention period</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_data_retention_period</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_data_retention_period">d19f7bc3db0f941002085bd05b961924</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:13:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

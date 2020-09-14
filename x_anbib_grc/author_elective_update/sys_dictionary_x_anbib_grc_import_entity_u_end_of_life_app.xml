@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_end_of_life_app" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_end_of_life_app</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>End of life app</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_end_of_life_app</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>a3fb0c87db87541002085bd05b9619c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>End of life app</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_end_of_life_app</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_end_of_life_app</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_end_of_life_app" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_end_of_life_app</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>End of life app</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_end_of_life_app</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>a3fb0c87db87541002085bd05b9619c7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>End of life app</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_end_of_life_app</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:37</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-669702551</payload_hash>
+        <record_name>Import Entity.End of life app</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:38</sys_created_on>
+        <sys_id>44a7f7c7dbcb941002085bd05b9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472be26f30000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:38</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>c8a7f7c7cdcb9410a6c8272e0fb32cfe</update_guid>
+        <update_guid_history>c8a7f7c7cdcb9410a6c8272e0fb32cfe:-669702551,140c4c877187541002e53ec9d2b83998:-1329104328,db7fd750764fd450b5b80d0b7629e0ac:761206968,d5209f18278bd450fed12871ab50ba6c:0,bc8f8fd0fe8bd4500e1577373b90fa73:761206968,276c8390e54bd450ed7f029093163ab7:0,52bb871c0f0bd45095922a0d9cbf118b:761206968,6ef8c31ce8c7d4505101782b3318b492:0,1f584fd456c7d450ae36bcb284701578:761206968,691203586847d4500dc2ab288b1169d8:0,d8718fd04f47d45043729b09f865e34b:761206968,cf5f7a54bd07d450aa3dd63d1f725475:0,d6ce7250a207d4509baa421e08377c0a:761206968,293cf2dc9e83d4502547d344d4a1cf5b:0,5dab3e989d83d450493aa064fe6e3274:761206968,07193e584d43d450caab94d87597c11c:0,7a887e14fd43d450566ba6bc44ec98fb:761206968,9433f61848cf94507c5a5bb1bcb0a663:0,c282fa9094cf945080cb892a70efce5a:761206968,7979ea58b24f94500e4d157e8ace677c:0,b4d82694f74f9450cca50c4d1bb93c37:761206968,401746588c8b94503437096857d4fb4e:0,5d360e14ea8b94509fe94c8974328f4e:761206968,61138ed8974b9450beb79dd2e2d5323c:0,ae424218ab4b94506465eec15665fd25:761206968,3f6fbd9ce30b945023edf3b2b4a488b1:0,069ef198df0b9450287b672c8e018942:761206968,961cf550a40b9450c09261af6fd9c847:0,f33bb15c7ac794508a6189ae2c185ad8:761206968,1a7ea1dcf94794500ea25b4f58568433:0,8e9da1d8fa479450155bdb42acf02e00:761206968,a0233f5f2d36dc1063758c23a4799ea1:0,2d82f35b1236dc1053d0786606c67c38:761206968,916e271f1ff2dc10e6cd80712ba9e092:0,58cde31bbff2dc10915e52514cebd081:761206968,12ac6353e2f2dc1089d9216160bbc969:0,2cfb2b1fe5b2dc108962fe37f8b8c1cb:761206968,1fa9070eabb6101462bb131a44f74acc:-60045564</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>104fdb639aee4b3997886a8f6119c5e9</sys_id>
+        <sys_metadata>a3fb0c87db87541002085bd05b9619c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>End of life app</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_end_of_life_app</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_end_of_life_app">44a7f7c7dbcb941002085bd05b9619ff</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

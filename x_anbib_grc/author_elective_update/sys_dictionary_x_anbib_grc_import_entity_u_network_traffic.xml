@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_network_traffic" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_network_traffic</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Network traffic</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_network_traffic</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>63fb0c87db87541002085bd05b9619ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Network traffic</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_network_traffic</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_network_traffic</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_network_traffic" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_network_traffic</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Network traffic</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_network_traffic</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>63fb0c87db87541002085bd05b9619ac</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Network traffic</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_network_traffic</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:31</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1989511967</payload_hash>
+        <record_name>Import Entity.Network traffic</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:31</sys_created_on>
+        <sys_id>e697b7c7dbcb941002085bd05b961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472be0d500000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:31</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>6e97b7c7b3cb9410be6c7890309d2670</update_guid>
+        <update_guid_history>6e97b7c7b3cb9410be6c7890309d2670:1989511967,dc0c4c87fc8754102fa764f253727079:1103422550,048f1b50634fd450973c4855995d69a5:-381583338,4a201358b88bd450c841007c60cb614e:0,a18f03143f8bd4500490ecfda2eea40e:-381583338,587c0790294bd4504ad4743cb244cf81:0,03bbc71c480bd450a65aff42aeca7e39:-381583338,17f8071c00c7d450a3ef536fdffe7bd3:0,40688fd407c7d450e17167a70c35fea3:-381583338,de128358f747d45085adf7326dc3e8c4:0,8571cfd05e47d450e89f37356513ebbd:-381583338,f35ffa542707d45059668dc162ab4d7a:0,0bceb2500107d450804688d944f3c166:-381583338,c63c36dc4283d4508a01f4998c3f541d:0,3dab7e98a083d4507b870054c58e935d:-381583338,3719be58fa43d450a222f27405965152:0,9b88be14bf43d450b99fd2d3b2be04cb:-381583338,41337a18efcf9450dd534fc855d6403a:0,e6823e90b6cf945038d113fa2a353cf4:-381583338,d6792e58174f9450cfe278d52cd3b673:0,25d866948c4f9450d4d9a041f1b82955:-381583338,f41786580e8b9450775406bddbb3c88e:0,3d364e14f08b94505b5e3162806b7b53:-381583338,1e138ed8d54b94502cb4eba049c896f4:0,db424218654b94509a8d475518ea1dec:-381583338,307ffd9cfe0b945045d3c08395c9c5b5:0,fe9e35989b0b9450701f95c36ba51221:-381583338,831c3950870b945075a2fa7fdc1e5557:0,204bf15c4ec794507a49a4bf2568c09f:-381583338,8b7ee1dc59479450918e0e23ff8ed84e:0,079da1d8284794501b8c9307f7355bbb:-381583338,c9237f5fe036dc10c64e914937f750c9:0,4a82375b5236dc10b5882296828f0356:-381583338,7d6e671f32f2dc10d2b1da0cd632fa4a:0,05cd271ba5f2dc10ac79ee2eeef2ba61:-381583338,cfaca35318f2dc108ef5abd757c92f9c:0,81fb6b1f8fb2dc10c982a6e5a6c69886:-381583338,07a9070e62b61014f941385e5dbdfbb6:-1202835870</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>5c71f36fa86a4ca0a1e7ce3d66937440</sys_id>
+        <sys_metadata>63fb0c87db87541002085bd05b9619ac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network traffic</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_network_traffic</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_network_traffic">e697b7c7dbcb941002085bd05b961971</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

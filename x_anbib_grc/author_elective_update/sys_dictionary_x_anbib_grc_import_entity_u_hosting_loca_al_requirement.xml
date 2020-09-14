@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_hosting_loca_al_requirement" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_hosting_location_legal_requirement</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Hosting location legal requirement</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_hosting_loca_al_requirement</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>abfb0c87db87541002085bd05b9619cb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Hosting location legal requirement</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_hosting_loca_al_requirement</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 13:00:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_hosting_loca_al_requirement</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_hosting_loca_al_requirement" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_hosting_location_legal_requirement</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Hosting location legal requirement</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_hosting_loca_al_requirement</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>abfb0c87db87541002085bd05b9619cb</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Hosting location legal requirement</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_hosting_loca_al_requirement</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 13:00:53</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>2145584403</payload_hash>
+        <record_name>Import Entity.Hosting location legal requirement</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 13:00:53</sys_created_on>
+        <sys_id>083584dbdb0f941002085bd05b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472f465130000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 13:00:53</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>8c3584dbf70f9410de3de68549ec9df8</update_guid>
+        <update_guid_history>8c3584dbf70f9410de3de68549ec9df8:2145584403,cb7773c787cb941081c85a2372dcad28:-1885858327,1c0c4c8753875410f9f5f9f4c7dfb79d:-598534516,eb7fd750fd4fd4509b1763aa217ebce5:557524750,e1209f18068bd4507ab191d3a62221ff:0,418f8fd08e8bd450c82908d039c510eb:557524750,ff6cc3908f4bd450e2ed544c2c65a53d:0,62bb871cdb0bd450b536924216632cc4:557524750,faf8071cbcc7d4508aa2658e8bd9300c:0,a7584fd416c7d450111500e6a5101cfc:557524750,791243580247d450ee7bb0f2d1e9ba6a:0,a8718fd0c947d4505325345feb3b64da:557524750,575fba542f07d450cd5cad65ebc91c39:0,62ce72501307d450a6ad6872f070468e:557524750,f53cf2dc3c83d450c181d6451495fc96:0,21ab3e988583d450c6bbba5ba66454d2:557524750,9b193e581143d450123009300e7be8df:0,c788be14d443d450a1c6b5011d90f633:557524750,6033f6184ccf94501f13810a726b08ea:0,5e82fa90d9cf9450a96083ba015d7ddd:557524750,ce79ea58424f9450387db21d31a063dd:0,81d82694d14f94509745ffe8819cbca2:557524750,98174658208b945045f2d8f28b8f4fa2:0,19360e14ec8b9450d160f9b7a124b7b9:557524750,b1138ed8444b9450a0b10ead388eb278:0,f2424218c34b9450f23a494dd93b1284:557524750,987ffd9c530b94503cdf4345fa885906:0,929ef198280b9450c5b4e33bcc71bf94:557524750,ba1cf550530b94508cf4b20fe05cd3c1:0,884bf15cc3c79450e2edc907cc7de51d:557524750,a67ea1dc9847945005ae3478b17f10ad:0,ae9da1d89b47945080cdb0cc31904639:557524750,70233f5f0236dc10313b46f342fd31f6:0,f182f35b1336dc101c62e63d2ab8a47e:557524750,a96e271f17f2dc10c64d061bfd7183da:0,accde31b01f2dc1083202a43cf9939df:557524750,22ac6353f3f2dc101d84a104d50ab8ca:0,f0fb6b1ffdb2dc10f8188ddb6e0e9e11:557524750,93a9070e6ab6101476f1afab68e404d0:-1636058558</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>06669682ead84ea1802ed965359449e9</sys_id>
+        <sys_metadata>abfb0c87db87541002085bd05b9619cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hosting location legal requirement</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_hosting_loca_al_requirement</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_hosting_loca_al_requirement">083584dbdb0f941002085bd05b9619f9</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -25,16 +25,16 @@
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-10 15:18:10</sys_created_on>
         <sys_id>3da4c261dbaed410faa711494b961924</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Control Implementation Action Plan</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_db_object_3da4c261dbaed410faa711494b961924</sys_update_name>
-        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-17 21:12:53</sys_updated_on>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-11 16:48:30</sys_updated_on>
         <update_access>true</update_access>
-        <user_role display_value="x_anbib_grc.analyst" name="x_anbib_grc.analyst">a88d1bde1b6d58504aae202a2d4bcb4d</user_role>
+        <user_role display_value="x_anbib_grc.owner" name="x_anbib_grc.owner">128f3e77dbc71050faa711494b961974</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

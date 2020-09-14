@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_vendor_degre_f_satisfaction" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_vendor_degree_of_satisfaction</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Vendor degree of Satisfaction</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_vendor_degre_f_satisfaction</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>e3fb0c87db87541002085bd05b9619a4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Vendor degree of Satisfaction</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_vendor_degre_f_satisfaction</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:59:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_vendor_degre_f_satisfaction</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_vendor_degre_f_satisfaction" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_vendor_degree_of_satisfaction</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Vendor degree of Satisfaction</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_vendor_degre_f_satisfaction</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>e3fb0c87db87541002085bd05b9619a4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Vendor degree of Satisfaction</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_vendor_degre_f_satisfaction</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:59:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1792679754</payload_hash>
+        <record_name>Import Entity.Vendor degree of Satisfaction</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:59:49</sys_created_on>
+        <sys_id>d4f44c9bdb0f941002085bd05b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472f369900000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:59:49</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>5cf44c9b250f94100f92f8dfb0b9e5f6</update_guid>
+        <update_guid_history>5cf44c9b250f94100f92f8dfb0b9e5f6:-1792679754,1797f7c75acb94103134943689ca4b1e:293588115,540c4c872f87541095861d75077f8970:771816328,3d8f9b501b4fd4502a9b789e9283ab84:1550266266,ab201758fa8bd450a63f2bcc25b2c7fc:0,df8f0714d58bd4507b07175cf8cf00be:1550266266,717c87909b4bd450cab625fb80b69886:0,68cb4b1c4d0bd4505f0a1a77eaee666f:1550266266,b409c71cbec7d450b6f611802b5d3cf3:0,39684318e7c7d45023ed33ba1486d387:1550266266,7b120b58af47d450d06bd067113a9f58:0,177147149547d45057dceff132ef4678:1550266266,5d6ffe545d07d450ea351bae3fd18ad6:0,90de3650b107d450f5047d40951b9d84:1550266266,273cb6dc4483d45029dc6882c9e4bf33:0,9fabfe98fe83d45098bf105e241d9373:1550266266,5529b2982a43d45036136d658dfe9327:0,b09872549b43d4502ac62e2b4840e407:1550266266,0b33be18d3cf94508d6b47cce61d23b1:0,dc9272d07dcf9450967df13295d3e50e:1550266266,fb79ae580d4f9450cbfd9fd9135586a9:0,87d8e6942f4f9450c2c64441c937d77f:1550266266,7a174a583b8b94504bafdb60934d8071:0,a736ce14e18b945029409e62cc4bd171:1550266266,2823421c9e4b94507d02077c76d3ec75:0,01520618ed4b945029bf94bad6046e55:1550266266,fe7f71dc280b94503826cb2a7b3d47c5:0,2caeb598690b94503fa0aa49fa3312ed:1550266266,c12cb950d70b9450b7f9bfd5acb87c36:0,f24b755c7ec794509ee31f5bebc47db0:1550266266,498e65dcf14794504a19baa0f3790f9d:0,2dad25d811479450e2ad084831a36cf1:1550266266,a223339f0836dc105dd3ab9b36406d0c:0,2382b75b6636dc10dcea83781a4e89fd:1550266266,1f6ee71f6cf2dc1028f9e27030963699:0,92cda71bc9f2dc108650975e87c5cbb0:1550266266,90bc675380f2dc109479169079dfc540:0,1bfbeb1f0fb2dc10c5395702948420d5:1550266266,baa9070e0db6101463da69bc9cb0a083:-134145306</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:18:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>a2467ca9c2fc4b4da4645ce3040e0c89</sys_id>
+        <sys_metadata>e3fb0c87db87541002085bd05b9619a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vendor degree of Satisfaction</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_vendor_degre_f_satisfaction</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_vendor_degre_f_satisfaction">d4f44c9bdb0f941002085bd05b9619f7</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:18:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -93,8 +93,8 @@
 <tbody>
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #202020; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px;" valign="top">
-<h1 style="display: block; margin: 0px; padding: 0px; color: #b2b2b2; font-family: Helvetica; font-size: 30px; font-style: normal; font-weight: bold; line-height: 200%; letter-spacing: normal;">Ol&aacute;, ${itc_responsible.name}<strong>!</strong></h1>
-<h3 style="display: block; margin: 0px; padding: 0px; color: #303030; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: left;">Existem controles pendentes de configura&ccedil;&atilde;o designado para voc&ecirc;.</h3>
+<h1 style="display: block; margin: 0px; padding: 0px; color: #b2b2b2; font-family: Helvetica; font-size: 30px; font-style: normal; font-weight: bold; line-height: 200%; letter-spacing: normal;">Hello, ${itc_responsible.name}<strong>!</strong></h1>
+<h3 style="display: block; margin: 0px; padding: 0px; color: #303030; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: left;">There are pending configuration controls assigned to you.</h3>
 </td>
 </tr>
 </tbody>
@@ -141,9 +141,9 @@
 <tbody>
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px;" valign="top">
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Aplica&ccedil;&atilde;o: ${application.name}</span></p>
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Clique no bot&atilde;o ao lado para consultar</span><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">,</span></p>
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Equipe de Relacionamento.</strong></span></p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Application: ${application.name}</span></p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Click on the button beside to consult.</span></p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Compliance team.</strong></span></p>
 </td>
 </tr>
 </tbody>
@@ -176,7 +176,7 @@
 <table class="mcnButtonContentContainer" style="background-color: #c92d2d; text-size-adjust: 100%; border-collapse: separate;" border="0" width="100%" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
-<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.ITCResponsible}" target="_blank" rel="noopener">Clique aqui para visualizar</a></td>
+<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.ITCResponsible}" target="_blank" rel="noopener">Click Here</a></td>
 </tr>
 </tbody>
 </table>
@@ -225,7 +225,7 @@
 <table class="mcnTextContentContainer" style="max-width: 100%; min-width: 100%; border-collapse: collapse; text-size-adjust: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
 <tbody>
 <tr>
-<td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 12px; line-height: 150%; text-align: center; padding: 0px 18px 9px;" valign="top">&nbsp;<span style="font-family: arial, helvetica, sans-serif; font-size: 8pt;"><em><strong>NOTA:</strong>&nbsp;E-mail gerado automaticamente. Por favor, n&atilde;o responda a esse email.</em></span></td>
+<td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 12px; line-height: 150%; text-align: center; padding: 0px 18px 9px;" valign="top">&nbsp;<span style="font-family: arial, helvetica, sans-serif; font-size: 8pt;"><em><strong>NOTA:</strong> This is an automatic email, please do not reply. </em></span></td>
 </tr>
 </tbody>
 </table>
@@ -252,7 +252,7 @@
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 12px; line-height: 150%; text-align: center; padding: 0px 18px 9px;" valign="top">
 <div style="text-align: left;"><hr />
-<div style="text-align: center;"><em><img style="width: 107px; height: 36px; margin: 0px; outline: none; text-decoration: none;" src="logo_abinbev.png" width="107" height="36" align="center" data-file-id="2761013" /></em><strong>Unindo as pessoas por um mundo melhor.</strong></div>
+<div style="text-align: center;"><em><img style="width: 107px; height: 36px; margin: 0px; outline: none; text-decoration: none;" src="logo_abinbev.png" width="107" height="36" align="center" data-file-id="2761013" /></em></div>
 </div>
 </td>
 </tr>
@@ -696,7 +696,10 @@ p{
 }
 --></style>
 <p><link href="./Email_Template_files/archivebar-desktop.css" rel="stylesheet" /></p>
-<p>&nbsp;</p>]]></message_html>
+<p>&nbsp;</p>
+<div id="gtx-trans" style="position: absolute; left: 401px; top: 566.578px;">
+<div class="gtx-trans-icon">&nbsp;</div>
+</div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>GRC - ITC Responsible</name>
@@ -705,7 +708,7 @@ p{
         <push_message_only>false</push_message_only>
         <recipient_fields>itc_responsible</recipient_fields>
         <recipient_groups/>
-        <recipient_users>c33ad2f0db7e5490faa711494b96196d,f00c74d0db8e18149cb8cde40596193b</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>false</send_self>
         <sms_alternate/>
@@ -718,7 +721,7 @@ p{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>91bab9d9db4f5c5002085bd05b9619c6</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>GRC - ITC Responsible</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -726,7 +729,7 @@ p{
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_email_action_91bab9d9db4f5c5002085bd05b9619c6</sys_update_name>
         <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-03 20:17:37</sys_updated_on>
+        <sys_updated_on>2020-09-09 12:44:40</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

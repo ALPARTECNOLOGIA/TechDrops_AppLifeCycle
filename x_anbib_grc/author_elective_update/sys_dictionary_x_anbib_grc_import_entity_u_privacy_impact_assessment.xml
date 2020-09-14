@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_privacy_impact_assessment" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_privacy_impact_assessment</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Privacy impact assessment</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_privacy_impact_assessment</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:09</sys_created_on>
+        <sys_id>a3fb0c87db87541002085bd05b9619d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Privacy impact assessment</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_privacy_impact_assessment</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_privacy_impact_assessment</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_privacy_impact_assessment" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_privacy_impact_assessment</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Privacy impact assessment</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_privacy_impact_assessment</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:09</sys_created_on><sys_id>a3fb0c87db87541002085bd05b9619d9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Privacy impact assessment</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_privacy_impact_assessment</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:40</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1252211399</payload_hash>
+        <record_name>Import Entity.Privacy impact assessment</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:40</sys_created_on>
+        <sys_id>2ca73bc7dbcb941002085bd05b961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472be2f6c0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:40</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>a0a73bc7fccb9410bdd3ff0e6ffdcf56</update_guid>
+        <update_guid_history>a0a73bc7fccb9410bdd3ff0e6ffdcf56:1252211399,d80c4c879f875410cf8c978689bc55ba:-630644736,508f5b504d4fd450b3c1d370e9f14a0d:1056726334,9a201358298bd4509b34e9a6d2d50df5:0,3d8f0314378bd4508bb65f919ee577fe:1056726334,647c07904d4bd450bb0a2c3c0f0813f7:0,97bbc71cd90bd450b48dca4c2493f194:1056726334,27f8471c71c7d45034024e7a3784bb7a:0,e4688fd4e1c7d45066fc81286c9b04fe:1056726334,2212c3580647d450f6c3452ab52a5284:0,a57103148347d450050158755125efde:1056726334,046f3e54bd07d45047aa7062e586dc45:0,cbceb2501a07d45093391c0b491031da:1056726334,123c36dc7d83d450aef20cdc9ec72e79:0,ceab7e985783d4504247e3c63f7cfc9e:1056726334,8029be58c143d4502509a474e8cda9df:0,3788fe144d43d450bac0dfea4fe80319:1056726334,91337a1895cf9450fb5fd8e9a5c1a3d5:0,47827e9000cf94502701a2ef95dbd1b3:1056726334,aa792e58ba4f9450f050340cbf5878f5:0,f1d86694054f945092c7a033fc3806a4:1056726334,4d17c6580c8b94507b45bc4707afb85a:0,12364e14e18b9450c33f443e974e63c8:1056726334,e213ced8f24b9450a6ead19da8e78845:0,ab4282187a4b9450ab876a4a85ec013b:1056726334,c57f31dc400b945015671a5a107d6c05:0,cb9e35986e0b94507771081e9d9a95f9:1056726334,a31c39508d0b945088d4e3a0c329bc9b:0,cd4bf15ca6c79450ec3c29173891daed:1056726334,a77e25dc03479450269fb04251d4bb02:0,f39de1d8e747945029ce41c45de8060a:1056726334,9923bf5f2e36dc1014eaad0bab68c60d:0,9682375bd436dc107d820c572b9551be:1056726334,826e671fc3f2dc10664baecffa6d2ab4:0,99cd271b10f2dc10d1ee20a1429c1fbc:1056726334,5bace35353f2dc1021c37fa1a8664837:0,19fb6b1f8fb2dc107db6dfb1f4939de1:1056726334,87a9070e2db61014c0791235aba8b9c0:1317953674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>7bcef924811d48e6ba513082c686a684</sys_id>
+        <sys_metadata>a3fb0c87db87541002085bd05b9619d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Privacy impact assessment</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_privacy_impact_assessment</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_privacy_impact_assessment">2ca73bc7dbcb941002085bd05b961956</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

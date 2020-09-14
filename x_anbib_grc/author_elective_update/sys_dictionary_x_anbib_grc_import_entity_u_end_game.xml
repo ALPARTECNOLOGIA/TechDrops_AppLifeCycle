@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_end_game" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_end_game</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>End game</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_end_game</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>13fb0c87db87541002085bd05b96197f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>End game</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_end_game</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_end_game</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_end_game" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_end_game</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>End game</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_end_game</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>13fb0c87db87541002085bd05b96197f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>End game</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_end_game</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:44</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-579977683</payload_hash>
+        <record_name>Import Entity.End game</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:45</sys_created_on>
+        <sys_id>ada77bc7dbcb941002085bd05b961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472be40570000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:45</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>25a77bc78acb94100837906d901da307</update_guid>
+        <update_guid_history>25a77bc78acb94100837906d901da307:-579977683,400c4c87888754102e658c8aeb6be052:-1106703854,d37fd750624fd450f3f55dc10b8150a3:948147046,59209f18018bd4501cd3e8c060503464:0,b48f8fd05a8bd450424128e8b40dec6a:948147046,676c83900a4bd450cb6d64a5cd380daf:0,5abb871ce70bd45032bbe4959f4dfe81:948147046,aaf8c31c59c7d450990f130261402c65:0,17584fd427c7d450939c2d5673c09b6f:948147046,6d1203586847d450c78f76c0abd6cdd0:0,84718fd06047d450977d0dd6d6a70842:948147046,4f5f7a548207d4505a1f4a34835d4e61:0,dece72507607d450d38bf60308218200:948147046,2d3cf2dcc383d450b3a0d83106211c53:0,19ab3e983283d450abb6a7040e59cc6b:948147046,4b193e58bb43d450cef1eabb7c55e014:0,36887e146643d45091bbfd894915b0f2:948147046,c433f618f8cf9450bd559780b7bcd15b:0,ca82fa9097cf9450aa83833ba476ce50:948147046,b979ea582e4f9450cfb1d05306041974:0,e4d82694d44f9450cc50a2012b730221:948147046,c0174658578b9450dbbb3700dea7d946:0,45360e14c18b94508ebf7d9e73237e45:948147046,25138ed8144b9450d9e4f104dcc20d1b:0,a6424218274b945051f72944a532c31c:948147046,7f6fbd9c9d0b9450c6dd6962dcfb41a9:0,759ef198b20b94507fe0bde9010da22c:948147046,d21cf5508f0b94502a888d546369701a:0,fb3bb15cc0c794507955df40bca19bce:948147046,9a7ea1dcbb47945016d6354f5348f32b:0,869d61d81a47945057cfef9a91f983f7:948147046,ac233f5f7536dc10258cd0e998f69d73:0,2582f35b8336dc10e465125ae85ff42f:948147046,d16e271f6af2dc1041eb0f3affc53a8a:0,98cde31bccf2dc1078da95956ebf536b:948147046,daac635308f2dc10f86c4dbb7a3d4b54:0,24fb2b1f7ab2dc109776ce863691f6c2:948147046,3aa9070e8bb61014e1d085e4caa25179:832845978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>00441465442d432c800025b57616c519</sys_id>
+        <sys_metadata>13fb0c87db87541002085bd05b96197f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>End game</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_end_game</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_end_game">ada77bc7dbcb941002085bd05b961907</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

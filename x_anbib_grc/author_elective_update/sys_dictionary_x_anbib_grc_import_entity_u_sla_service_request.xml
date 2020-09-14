@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_sla_service_request" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_sla_service_request</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>SLA service request</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_sla_service_request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>ebfb0c87db87541002085bd05b9619b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SLA service request</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_sla_service_request</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_sla_service_request</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_sla_service_request" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_sla_service_request</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>SLA service request</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_sla_service_request</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>ebfb0c87db87541002085bd05b9619b1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>SLA service request</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_sla_service_request</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:40</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>786680765</payload_hash>
+        <record_name>Import Entity.SLA service request</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:41</sys_created_on>
+        <sys_id>3ca73bc7dbcb941002085bd05b96196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472be31680000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:41</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>b0a73bc79bcb94106a3f7377463dfb6f</update_guid>
+        <update_guid_history>b0a73bc79bcb94106a3f7377463dfb6f:786680765,5c0c4c870c8754104f0170466f469c80:-594492838,ec8f5b508d4fd450a8a6142814193371:-359636132,62209358a08bd45010061bd44af62108:0,168f4314448bd45008ef7960f63573ae:-359636132,b07c4790004bd45009960df1db67305c:0,a7bbc71c130bd450f82e41a492e855e0:-359636132,fff8471c41c7d450557a5f63107daaea:0,3c68cfd411c7d4503b5711914beab26f:-359636132,32120758d047d45071838fb435ffbeae:0,8e7143149c47d45095269c01d6ab3fef:-359636132,986f7e549207d45032a0920eee7ba60b:0,a3cef2504607d450a8e6491a404e4533:-359636132,a23c36dcfb83d4503c35ed2a74f88ef5:0,1eabbe988d83d450842a0822fda19a0e:-359636132,5c29fe58f443d450c53081fe5eb8f6be:0,8898fe14e143d450a05f1253e5c1227c:-359636132,6533fa18d9cf945016080de14588e40d:0,9382be90dccf9450a6ce8ea4280b387b:-359636132,f6796e58be4f9450d4ec3d80669e235a:0,86d8a6949f4f9450b10fa7b08b19612e:-359636132,2117c6586a8b945046150e86c8846dfd:0,ee368e14088b9450b4ab6d0e819a5b13:-359636132,db13ced80f4b9450bb436122f33420db:0,045282189f4b945011228c97a0571ed2:-359636132,6d7f31dcfa0b9450e2238a6132c1825d:0,eb9e7598c90b9450974d7e30b69f6645:-359636132,bb1c7950100b9450841fbfed77c4fa31:0,6d4b355c55c79450992fba416609c952:-359636132,f37e25dce247945076eb2cf44bbd0467:0,0cade1d8e5479450792d98b80413cea0:-359636132,2523bf5f7b36dc108933bea3622de88b:0,2682775b3436dc10bced71a522ef0423:-359636132,ae6ea71f38f2dc103e00a5ab13a2c918:0,edcd671b77f2dc1060a8f506102dca2d:-359636132,67ace35368f2dc107123156df45522a8:0,edfbab1f73b2dc10217ca86591ab0739:-359636132,3ea9070e64b61014bfc34d4ed027be8d:1877144488</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0eb9e4ce813b49a28403dad50e9354c1</sys_id>
+        <sys_metadata>ebfb0c87db87541002085bd05b9619b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLA service request</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_sla_service_request</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_sla_service_request">3ca73bc7dbcb941002085bd05b96196f</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

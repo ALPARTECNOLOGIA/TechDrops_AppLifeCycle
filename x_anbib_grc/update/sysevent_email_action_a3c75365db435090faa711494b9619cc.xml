@@ -143,14 +143,14 @@
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px;" valign="top">
 <p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">There is a delayed action plan under the responsability of ${assigned_to.name}.</span></p>
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Click the button on the side to consult,</span></p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Click the button beside to consult.</span></p>
 <p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Compliance team.</strong></span></p>
 </td>
 </tr>
 </tbody>
 </table>
 <!-- [if mso]>
-</td>
+</td><span id="CmCaReT"></span>
 <![endif]--> <!-- [if mso]>
 </tr>
 </table>
@@ -177,7 +177,7 @@
 <table class="mcnButtonContentContainer" style="background-color: #c92d2d; text-size-adjust: 100%; border-collapse: separate;" border="0" width="100%" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
-<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.newSopEvidence}" target="_blank" rel="noopener">Click here</a></td>
+<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.record}" target="_blank" rel="noopener">Click here to open</a></td>
 </tr>
 </tbody>
 </table>
@@ -701,7 +701,7 @@ line-height:150% !important;
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>GRC - Escalation action plan</name>
+        <name>GRC - Action Plan Escalation</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -720,15 +720,15 @@ line-height:150% !important;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a3c75365db435090faa711494b9619cc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>GRC - Escalation action plan</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>GRC - Action Plan Escalation</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_email_action_a3c75365db435090faa711494b9619cc</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-04 18:55:40</sys_updated_on>
+        <sys_updated_on>2020-09-09 14:58:54</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

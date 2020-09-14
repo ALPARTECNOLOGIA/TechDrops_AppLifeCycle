@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state == "0"</condition>
+        <condition>current.state == "0" &amp;&amp; gs.hasRole('x_anbib_grc.analyst')</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -19,7 +19,7 @@
         <isolate_script>false</isolate_script>
         <list_action>true</list_action>
         <list_banner_button>false</list_banner_button>
-        <list_button>true</list_button>
+        <list_button>false</list_button>
         <list_choice>true</list_choice>
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
@@ -47,7 +47,7 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a240d320dbcf185002085bd05b961938</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Submit Request List</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -55,7 +55,7 @@ function redirect() {
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_a240d320dbcf185002085bd05b961938</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-01 14:47:51</sys_updated_on>
+        <sys_updated_on>2020-09-14 11:58:35</sys_updated_on>
         <table>x_anbib_grc_sop_evidence</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

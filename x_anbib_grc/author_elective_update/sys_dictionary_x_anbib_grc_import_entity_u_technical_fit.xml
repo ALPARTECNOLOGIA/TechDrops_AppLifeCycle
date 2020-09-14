@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_technical_fit" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_technical_fit</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Technical fit</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_technical_fit</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>9bfb0c87db87541002085bd05b96197b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Technical fit</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_technical_fit</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_technical_fit</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_technical_fit" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_technical_fit</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Technical fit</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_technical_fit</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>9bfb0c87db87541002085bd05b96197b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Technical fit</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_technical_fit</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:04</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-667432516</payload_hash>
+        <record_name>Import Entity.Technical fit</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:04</sys_created_on>
+        <sys_id>337773c7dbcb941002085bd05b961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472bda2eb0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:04</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>b77773c79acb94106fb6819524d5fc80</update_guid>
+        <update_guid_history>b77773c79acb94106fb6819524d5fc80:-667432516,cc0c4c87c8875410041e16dcd55a6f4d:-1055526849,958f9b50554fd4500174d26274fc2003:247120831,4f20d358b58bd4503754cecfba19eaa0:0,ba8fc314d88bd4505d0d7fe972344476:247120831,117c4790204bd450f58b5bf3768c8dfd:0,80cb0b1c130bd4503afc6f858edbf797:247120831,a809c71cc8c7d4509bf2e9188f639745:0,dd68031801c7d450dde87e3eddaff032:247120831,2b128758a647d450a6f0c4c615343dd9:0,6a710714d147d450283627aa9b11e825:247120831,bc6fbe54f007d4503a1958ca4766bb88:0,44def2503507d450518428e4c57431f6:247120831,db3c76dc4c83d4504f707e45770829b8:0,cbabbe987483d4500e36f38f0149f9db:247120831,492972985843d4501735f6ef4cb6716e:0,2c9832548243d450088e1d0724e73f30:247120831,52337e188bcf94507cdf363c8bb97155:0,3f8232d0b4cf94500f404ac8c354c504:247120831,5379ae58544f9450b043e1d83816c92d:0,a2d8a6948f4f94506e4323538d6861e5:247120831,1a170a58e68b945002fb80e4da61abe8:0,db368e14358b9450f43bd9bb95c263ca:247120831,fb13021c374b94508e6947b57ea154ba:0,ac52c218c34b945023d14d25d46c52a1:247120831,d67f71dc2c0b94501da1585ea2518130:0,44aeb598290b9450d8b15ca074cc5015:247120831,602c79506a0b9450dad876142c9a0cc6:0,ce4b755c54c794501e0192c10b2e6915:247120831,a88e25dc57479450025062e1d34d75fb:0,38ad25d899479450e9c45c0f0f4c7457:247120831,0223ff5f4a36dc10f8eb79acb6ddd145:0,c382b75b1136dc1060adf33fc4a51b18:247120831,726ea71f73f2dc10e74b323a2eb81ec6:0,02cd671b18f2dc10701dff5b30c579fd:247120831,ccbc27534af2dc1057d8f185d16af592:0,8afbab1f77b2dc10bc2b911b7113b9f0:247120831,f2a9070e58b61014fc34a1768adc7477:206741771</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0b432572020a434080eeb81db10fe400</sys_id>
+        <sys_metadata>9bfb0c87db87541002085bd05b96197b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical fit</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_technical_fit</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_technical_fit">337773c7dbcb941002085bd05b961981</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

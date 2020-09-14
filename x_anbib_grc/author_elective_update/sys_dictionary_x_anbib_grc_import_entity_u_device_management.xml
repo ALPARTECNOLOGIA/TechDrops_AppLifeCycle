@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_device_management" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_device_management</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Device management</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_device_management</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>affb0c87db87541002085bd05b9619c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Device management</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_device_management</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_device_management</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_device_management" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_device_management</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Device management</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_device_management</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>affb0c87db87541002085bd05b9619c4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Device management</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_device_management</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:17</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1598783615</payload_hash>
+        <record_name>Import Entity.Device management</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:17</sys_created_on>
+        <sys_id>4387f3c7dbcb941002085bd05b96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472bdd6060000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:17</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>c787f3c75ccb9410d700f9594152af8d</update_guid>
+        <update_guid_history>c787f3c75ccb9410d700f9594152af8d:1598783615,180c4c87c9875410b5344cc02d5c2d95:-394478342,c37fd750734fd450f42c8e57bb0b4c7d:-2007077002,c5205f18d18bd450c9340b86c8d33efa:0,ac8f4fd0368bd45020fd869f6312ede0:-2007077002,6f6c8390be4bd450461924028a19dc5d:0,86bb871ce40bd45092c6d30b43c52b36:-2007077002,d6f8831cb4c7d450dc4cf2090683f2fb:0,5f584fd400c7d450c69e217081da4f3c:-2007077002,ad1203585c47d450702033d895a53c41:0,84714fd0ba47d45023dbc3ee57ea3deb:-2007077002,475f7a54f707d4505ebd070f3da89511:0,8ace32509807d450ea135af4c21ae5b5:-2007077002,1d3cf2dc0183d4500a894f50f7f54434:0,09ab3e988d83d45015a130c3bdd4d314:-2007077002,4319fa585143d4501d407024b1ef03c4:0,b2887e142f43d45009bf9fb3de4696b4:-2007077002,3723b61844cf94501c4c6c90cdfa9fd8:0,7182ba900ccf94506c14292f60fce0e0:-2007077002,2179ea58e64f94505b3a826e8fc9143c:0,e4d8e294d34f9450fdc15242dd743bfb:-2007077002,b70746581f8b9450cab14b1a445c0801:0,45360e14848b945060b0b0e360499d1f:-2007077002,51134ed8654b94507b8ea639b91e24ef:0,96420218654b9450d14ba5cb5dc7bff6:-2007077002,e36fbd9c190b94504c56c982f1676f71:0,799eb198b00b94501b75b1b19f3286d4:-2007077002,d61cb5503f0b9450d2a07af927c522fa:0,eb3bb15c25c79450168a6056c32810a8:-2007077002,867e61dcbf4794509f46694ffcec20da:0,b59d61d8ea479450bfcae65b0752f7d1:-2007077002,90233f5fff36dc10490d516bdcd2a654:0,1182b35bfc36dc10e4fbfe833fa13de4:-2007077002,816e271feef2dc100ac09e0b2851ff45:0,44cde31baff2dc1016b9e1ca5e9ebb20:-2007077002,8aac2353bbf2dc105f3f8775ba0e82d1:0,5cfb2b1f77b2dc103505b99d32d1398f:-2007077002,b2a9070e64b6101429cc91a4cf191b88:-1647399230</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0b5022e6db934ba08455734e162b8900</sys_id>
+        <sys_metadata>affb0c87db87541002085bd05b9619c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Device management</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_device_management</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_device_management">4387f3c7dbcb941002085bd05b96198e</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

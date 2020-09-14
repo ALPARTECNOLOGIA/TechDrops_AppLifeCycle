@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="1" type="collection">
+    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="2" type="collection">
         <element display="true" label="Application" mandatory="true" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>

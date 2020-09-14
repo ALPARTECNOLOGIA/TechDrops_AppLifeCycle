@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_cloud_strategy" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_cloud_strategy</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Cloud strategy</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_cloud_strategy</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:07</sys_created_on>
+        <sys_id>57fb0c87db87541002085bd05b961944</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cloud strategy</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_cloud_strategy</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_cloud_strategy</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_cloud_strategy" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_cloud_strategy</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Cloud strategy</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_cloud_strategy</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:07</sys_created_on><sys_id>57fb0c87db87541002085bd05b961944</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Cloud strategy</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_cloud_strategy</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:16</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1142619138</payload_hash>
+        <record_name>Import Entity.Cloud strategy</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:16</sys_created_on>
+        <sys_id>7687f3c7dbcb941002085bd05b96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472bdd1990000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:16</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>fa87f3c780cb941022448155c6b46729</update_guid>
+        <update_guid_history>fa87f3c780cb941022448155c6b46729:1142619138,fffb4c87bd875410c26786b0e095a337:-1695901173,667f9750824fd4501f187bcef66b73cc:-711017185,24201f18998bd4509e1f79d1a3df7c5e:0,3b7f0fd0c38bd4508de3cc2ea842c0cc:-711017185,b26c0390a44bd4504afaa3c86435fae6:0,5dbb471c880bd4502fec7ad92460eb2e:-711017185,69f8831c6bc7d450fc22eef4b40b0c63:0,a6580fd437c7d450305b395b3324dc41:-711017185,f4128f18e647d450f42d45488bca3544:0,c3614fd09847d450c3c8760da53a5e31:-711017185,125ff654e807d4508628bcdafbbf1b53:0,2dcefe103007d450bac14e6a19142f3d:-711017185,303cb2dc0f83d4506cffaad02c0ad187:0,10ab7a984283d450b5d5229f122aa5fe:-711017185,9e197a58d543d450c63e43927953677c:0,86883e146643d45074718afa532e78ed:-711017185,9f23761886cf94507830a966b3bcd2dc:0,95823a907bcf94508c1fcd0b2905d4ec:-711017185,c179aa58284f94506d1a8cc301bfd734:0,a3c8a294304f9450f6d1f6c593d8cb84:-711017185,8f07c2589c8b9450237d883fe121d37d:0,9436ca144b8b9450f057609b69ec0717:-711017185,64134ed86f4b9450f80a77f39690223e:0,6942ced46b4b945088b5e2626faf3ad5:-711017185,7a6f7d9cda0b9450708fd8e098f2b750:0,099e71981e0b94504257c277f21fe1e5:-711017185,ad1c75501a0b94501e98e17eb6574dc0:0,b63b715c57c794501d50bdd4eb69b6eb:-711017185,597e21dcb447945086a518cb56d9d4d3:0,749d21d857479450bfb0bfe34f40b0e2:-711017185,3b13fb5f1036dc101872cca861005933:0,7082735bd436dc10adbba1eebf5a18dc:-711017185,a86ee31f9bf2dc104aa0be8ca283f362:0,e3bd631b55f2dc100e7cc5e7498349da:-711017185,65ac235302f2dc102eac8b0ec8b3382d:0,73ebe71f23b2dc103767e2a6a89c08c6:-711017185,72a9070e34b61014258697b238380076:1595494227</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:13:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>4044d891fdd7415f9180429f8b9ec571</sys_id>
+        <sys_metadata>57fb0c87db87541002085bd05b961944</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cloud strategy</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_cloud_strategy</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_cloud_strategy">7687f3c7dbcb941002085bd05b96192a</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:13:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

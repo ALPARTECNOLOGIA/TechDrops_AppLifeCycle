@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import Entity" max_length="40" name="x_anbib_grc_import_entity" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="1yp status" max_length="40" name="u_1yp_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Area" max_length="40" name="u_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business function" max_length="40" name="u_business_function" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Criticality" max_length="40" name="u_criticality" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Crown jewel" max_length="40" name="u_crown_jewel" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Decommissioning strategy" max_length="40" name="u_decommissioning_strategy" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="External facing" max_length="40" name="u_external_facing" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Financial reporting relevant" max_length="40" name="u_financial_reporting_relevant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="For budget purpose" max_length="40" name="u_for_budget_purpose" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Hosting type" max_length="40" name="u_hosting_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Level of customization" max_length="40" name="u_level_of_customization" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mics relevance" max_length="40" name="u_mics_relevance" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pace layer" max_length="40" name="u_pace_layer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Personal data" max_length="40" name="u_personal_data" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service owner name" max_length="40" name="u_service_owner_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service record type" max_length="40" name="u_service_record_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service service name" max_length="40" name="u_service_service_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status afr" max_length="40" name="u_status_afr" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status apc" max_length="40" name="u_status_apc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status eur" max_length="40" name="u_status_eur" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status ghq" max_length="40" name="u_status_ghq" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status maz" max_length="40" name="u_status_maz" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status naz" max_length="40" name="u_status_naz" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status saz" max_length="40" name="u_status_saz" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time" max_length="40" name="u_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type for mics relevance" max_length="40" name="u_type_for_mics_relevance" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zone" max_length="40" name="u_zone" type="string"/>
+    </element>
+</database>

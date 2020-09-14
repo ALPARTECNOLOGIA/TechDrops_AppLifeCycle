@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_rto" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_rto</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Rto</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_rto</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-08 18:52:08</sys_created_on>
+        <sys_id>6ffb0c87db87541002085bd05b9619a0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Rto</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_rto</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_rto</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_rto" table="x_anbib_grc_import_entity"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=u_rto</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Rto</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_rto</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_anbib_grc_import_entity</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-08 18:52:08</sys_created_on><sys_id>6ffb0c87db87541002085bd05b9619a0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Rto</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_rto</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 12:01:25</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1190799454</payload_hash>
+        <record_name>Import Entity.Rto</record_name>
+        <reverted_from/>
+        <source>a17b43b2db0f141002085bd05b9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 12:01:26</sys_created_on>
+        <sys_id>899777c7dbcb941002085bd05b961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17472bdf74d0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 12:01:26</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>499777c799cb9410ba654d872e084845</update_guid>
+        <update_guid_history>499777c799cb9410ba654d872e084845:1190799454,c00c4c875787541043a5496d238e9c6c:-632766021,508f5b50204fd450086ce4458fa8ff20:179305337,5e2053580c8bd4503c8c6fdbabbeec11:0,f18f43145f8bd450eb1c3d842fb48e1e:179305337,a87c4790884bd450483a40cc09bad213:0,97bbc71c780bd450500a3aac6bc7d7a7:179305337,e7f8471cb3c7d45050379a4c9fd08396:0,e468cfd4e4c7d450dce3ee7fef4f9b11:179305337,ee12c3580647d4500eb5f36001995f9f:0,e1714314e447d450a7c7f0e9cbc2fc2f:179305337,886f3e546e07d450bde6e35beaa80654:0,dbceb2504107d450063f3cb1741a00ed:179305337,2a3c36dc0683d4509763efd3de0e3f88:0,5aab7e981c83d450ae257562492320b1:179305337,c829fe586143d450e9a508f7125e6c45:0,bf88fe140b43d450844bb63756bf6c2b:179305337,d533ba18cacf94508165635fb128ed48:0,0b82be9081cf94502046a2277d187104:179305337,ee796e58e24f945087ec749a8bfaa711:0,f1d86694564f9450315a93664f4408b7:179305337,9117c658628b945044dc831305c5f06a:0,12364e146a8b945062d6817d695facdb:179305337,7213ced8594b9450d1f3d95bc5480a55:0,634282188f4b9450aa7945cc0408d55b:179305337,557f31dcb60b9450f05e334bb11b8315:0,db9e7598480b945048e7a9ae1821fc0c:179305337,af1c39502b0b9450d0548de55007ecc3:0,cd4b355c71c79450f96bd2a760fd9f00:179305337,277e25dc5a4794509b3190cbe3f0f212:0,f39de1d8944794500c31986f8b2a331d:179305337,ed23bf5f9436dc100cff07cb734dbc29:0,9682375b0d36dc107263245cdfbc3ed1:179305337,966e671f08f2dc10b397deb3d728a5d0:0,99cd271b56f2dc105c2c3a6cac79cdcf:179305337,1face353a0f2dc106373f61c24e88353:0,29fb6b1f21b2dc108ba526f54a7890f4:179305337,5fa9070e37b6101482266ec2a86c07f8:1665991621</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:14:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>183d9f6178e14f0784b1dbdf752d44e9</sys_id>
+        <sys_metadata>6ffb0c87db87541002085bd05b9619a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rto</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Entity">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_rto</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_rto">899777c7dbcb941002085bd05b961952</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:14:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

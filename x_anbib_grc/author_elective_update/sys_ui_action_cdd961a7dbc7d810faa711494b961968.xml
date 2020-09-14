@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>TST</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[// current.work_start = new GlideDateTime().getDisplayValue();
+// current.update();
+
+var startDateTime = new GlideDateTime(current.work_start);
+var dateTime = new GlideDateTime();
+current.work_end = dateTime.getDisplayValue();
+current.work_duration = GlideDateTime.subtract(startDateTime, dateTime).getDurationValue();
+current.update();
+
+redirect();
+
+function redirect() {
+	var isList = action.getGlideURI().get('sys_is_list');
+	if (!isList) //Not from list form
+		action.setRedirectURL(current);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 14:59:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cdd961a7dbc7d810faa711494b961968</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>TST</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_ui_action_cdd961a7dbc7d810faa711494b961968</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:50:06</sys_updated_on>
+        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_ui_action_cdd961a7dbc7d810faa711494b961968</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;TST&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[// current.work_start = new GlideDateTime().getDisplayValue();
+// current.update();
+
+var startDateTime = new GlideDateTime(current.work_start);
+var dateTime = new GlideDateTime();
+current.work_end = dateTime.getDisplayValue();
+current.work_duration = GlideDateTime.subtract(startDateTime, dateTime).getDurationValue();
+current.update();
+
+redirect();
+
+function redirect() {
+	var isList = action.getGlideURI().get('sys_is_list');
+	if (!isList) //Not from list form
+		action.setRedirectURL(current);
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-10 14:59:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cdd961a7dbc7d810faa711494b961968&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;TST&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_cdd961a7dbc7d810faa711494b961968&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-10 17:50:06&lt;/sys_updated_on&gt;&lt;table&gt;x_anbib_grc_action_plan_of_control_inplementation&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>207711581</payload_hash>
+        <record_name>TST</record_name>
+        <reverted_from/>
+        <source>5b8b4776dbc75410faa711494b9619e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 17:50:06</sys_created_on>
+        <sys_id>92f01a2bdb031c10faa711494b9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17479238a910000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:50:06</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>1af01a2b35031c108e3059251cea6dd9</update_guid>
+        <update_guid_history>1af01a2b35031c108e3059251cea6dd9:207711581,e5a0d2e758031c10f707d34fb84cd3d0:1612738199,83709667a3031c10ef52e21377bce723:-61624283,bb30926790031c10d82013cc9511f786:-1838520886,33dfc2630f031c10a3503a931363a082:567081429,febf8ea3c1031c1036367ed3bf284a56:-1146629562,b95f4263cd031c108312b7edef10f10a:234299970,42de4eeb51cfd8107b679fcec9ca8ebc:-1644528833,1e5e8eab01cfd810ee8f99334f85e47e:-1963912948,840e8eab5acfd810148b1af2bd245f79:-1212732991,963d4667f9cfd810d57e3f5e34bf20ee:-604573771,f15a8eabc58fd8106d32f439f8c04e9b:1847812495,d179c66bd78fd81033ac818d164e114d:1551811455,5b670e63148fd8106364624d5e686930:1501141987,076131eb140bd8109c6d98c5f9d5fe1c:1551811455,ea00f5abd50bd810b797168ee53cf514:2035720942,4ebfe96b150bd8107dca72aba7f9ca75:660854987,4e4f656bc30bd8109f356219897effa1:-1658684613,b7ede127ab0bd8108c4e64547338394c:1185879616,d3adad67a40bd81014044b9ad2898fe2:1076636365,be8da9a3af0bd81059a4c2943d9b6eee:-176200684,9ce965a7f8c7d810492f57eb023c5c46:-108958628,49d961a7abc7d810c6976ed9c92cb96c:-1356450919</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 18:02:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>5b73bdc4b2824deeae3e65cb54490764</sys_id>
+        <sys_metadata>cdd961a7dbc7d810faa711494b961968</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TST</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Control Implementation Action Plan">3da4c261dbaed410faa711494b961924</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_ui_action_cdd961a7dbc7d810faa711494b961968</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_cdd961a7dbc7d810faa711494b961968">92f01a2bdb031c10faa711494b9619da</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-10 18:02:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
