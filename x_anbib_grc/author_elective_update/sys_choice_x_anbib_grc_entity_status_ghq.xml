@@ -43,6 +43,25 @@
             <element>status_ghq</element>
             <hint/>
             <inactive>false</inactive>
+            <label>In project mode</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>0</sequence>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-15 15:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4eaa5f0ddb53d49002085bd05b9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 15:02:55</sys_updated_on>
+            <value>In project mode</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_ghq</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Partially in BAU</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
