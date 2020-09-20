@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_item" label="Risk" max_length="40" name="x_anbib_grc_risk" sizeclass="0" type="collection">
+    <element extends="x_anbib_grc_item" label="Risk" max_length="40" name="x_anbib_grc_risk" sizeclass="18" type="collection">
         <element label="Category" max_length="32" name="category" reference="x_anbib_grc_risk_category" type="reference"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="250" name="name" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Assess" sequence="1" value="assess"/>
+                <element inactive_on_update="false" label="Respond" sequence="2" value="respond"/>
+                <element inactive_on_update="false" label="Review" sequence="3" value="review"/>
+                <element inactive_on_update="false" label="Monitor" sequence="4" value="monitor"/>
+                <element inactive_on_update="false" label="Retired" sequence="5" value="retired"/>
+            </choice>
+        </element>
         <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2">
             <element name="category"/>
         </index>
     </element>

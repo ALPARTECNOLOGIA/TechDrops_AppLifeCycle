@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="2" type="collection">
+    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="5" type="collection">
         <element display="true" label="Application" mandatory="true" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
@@ -38,9 +38,12 @@
         <element label="Decommissioning Date" max_length="40" name="decommissioning_date" type="glide_date"/>
         <element choice="1" label="Decommissioning Strategy" max_length="40" name="decommissioning_strategy" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Business decision" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="TBD" sequence="0" value="5"/>
                 <element inactive_on_update="false" label="To Be Decommissioned" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="N/A" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Invest/Keep" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Business decision" sequence="4" value="1"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="5" value="6"/>
             </choice>
         </element>
         <element label="Decommission / Migration Saving (estimate)" max_length="40" name="decommission_migration_saving_estimate" type="string"/>
@@ -49,11 +52,12 @@
         <element label="Financial Reporting Relevant" max_length="40" name="financial_reporting_relevant" type="boolean"/>
         <element choice="1" label="Hosting type" max_length="40" name="hosting_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Cloud" sequence="0" value="cloud"/>
-                <element inactive_on_update="false" label="IaaS" sequence="1" value="iaas"/>
-                <element inactive_on_update="false" label="On Premise" sequence="2" value="on_premise"/>
-                <element inactive_on_update="false" label="PaaS" sequence="3" value="paas"/>
-                <element inactive_on_update="false" label="SaaS" sequence="4" value="saas"/>
+                <element inactive_on_update="false" label="Cloud" sequence="0" value="Cloud"/>
+                <element inactive_on_update="false" label="IaaS" sequence="1" value="IaaS"/>
+                <element inactive_on_update="false" label="On Premise" sequence="2" value="On Premise"/>
+                <element inactive_on_update="false" label="On-Premises – DC" sequence="3" value="On-Premises – DC"/>
+                <element inactive_on_update="false" label="PaaS" sequence="4" value="PaaS"/>
+                <element inactive_on_update="false" label="SaaS" sequence="5" value="SaaS"/>
             </choice>
         </element>
         <element label="SSO" max_length="40" name="is_sso" type="boolean"/>
@@ -79,15 +83,13 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Service: Record Type" max_length="40" name="service_record_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Add-On" sequence="0" value="0"/>
-                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
-                <element inactive_on_update="false" label="Business Application" sequence="1" value="1"/>
-                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
-                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
-                <element inactive_on_update="false" label="Infra Component" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="Mobile application" sequence="3" value="3"/>
-                <element inactive_on_update="false" label="Platform" sequence="4" value="4"/>
-                <element inactive_on_update="false" label="Website" sequence="5" value="5"/>
-                <element inactive_on_update="false" label="Workspace/Model" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Infra component" sequence="1" value="7"/>
+                <element inactive_on_update="false" label="Business Application" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Infra Component" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="Mobile application" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="Platform" sequence="5" value="4"/>
+                <element inactive_on_update="false" label="Website" sequence="6" value="5"/>
+                <element inactive_on_update="false" label="Workspace/Model" sequence="7" value="6"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="0" label="Status" max_length="40" name="status" read_only="true" type="string">
@@ -117,7 +119,6 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" choice_field="status_ghq" choice_table="x_anbib_grc_entity" label="Status APC" max_length="40" name="status_apc" type="string">
             <choice>
-                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
                 <element inactive_on_update="false" label="In BAU" sequence="0" value="0"/>
                 <element inactive_on_update="false" label="Partially in BAU" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="In Project Mode" sequence="2" value="2"/>
@@ -193,5 +194,6 @@
         <element attributes="encode_utf8=false" label="Tier" max_length="32" name="tier" reference="x_anbib_grc_tier" type="reference"/>
         <element attributes="encode_utf8=false" label="To be Decommissioned With" max_length="32" name="to_be_decommissioned_with" reference="x_anbib_grc_entity" type="reference"/>
         <element label="Updated by App360" max_length="40" name="updated_by_app360" type="boolean"/>
+        <element label="Zone" max_length="40" name="u_zone" type="string"/>
     </element>
 </database>

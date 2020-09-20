@@ -34,46 +34,84 @@
 	// Add your code here
 	var operation = current.operation();
 	var entity = current.entity.toString();
-	//var type = current.entity.type.toString();
+	var entity_category = current.entity.mics_category.toString();
 	var layer = current.layer_control.toString();
+	var layer_category = current.layer_control.entity_type.toString();
 	
 	if (operation === "insert") {
-		var grLayerControlTpl = new GlideRecord("x_anbib_grc_m2m_control_temp_layer_contro");
-		grLayerControlTpl.addQuery("layer_control", layer);
-		grLayerControlTpl.query();
-		while (grLayerControlTpl.next()) {
-			var template = grLayerControlTpl.control_template.toString();
+		if (entity_category != layer_category) {
+			current.setAbortAction(true);
+		} else {
+			var grLayerControlTpl = new GlideRecord("x_anbib_grc_m2m_control_temp_layer_contro");
+			grLayerControlTpl.addQuery("layer_control", layer);
+			grLayerControlTpl.query();
+			while (grLayerControlTpl.next()) {
+				var template = grLayerControlTpl.control_template.toString();
 
-			// control
-			var grControl = new GlideRecord("x_anbib_grc_control");
-			grControl.addQuery("entity", entity);
-			grControl.addQuery("control", template);
-			grControl.addQuery("layer", layer);
-			//grControl.addQuery("layer.entity_type", type);
-			grControl.query();
-
-			if (!grControl.next()) {
-				grControl.initialize();
-				grControl.entity = entity;
-				grControl.control = template;
-				grControl.layer = layer;
-				var control_sys_id = grControl.insert();  // inserted control sys_id
-				
-				var grControlInsert = new GlideRecord('x_anbib_grc_control');
-				grControlInsert.get(control_sys_id);      // inserted control record
-				
-				var wf = new global.Workflow();
-				var inputs = {                            // Parametros para subflow
-					u_record: entity
-				};
-				var wf_sys_id = wf.startFlow(gs.getProperty("x_anbib_grc.workflow_control"), grControlInsert, "insert", inputs);
-			} else {
-				if (!grControl.active) {
-					grControl.active = true;
-					grControl.state = "1";
+				// Verifica se já existe controle com template da mesma layer com outro tipo
+				var grControl = new GlideRecord("x_anbib_grc_control");
+				grControl.addQuery("entity", entity);
+				grControl.addQuery("control", template);
+				grControl.query();
+				if (grControl.next()) {					
+					// Se existir faz update de layer
+					grControl.layer = layer;
+					if (!grControl.active) {
+						grControl.active = true;
+						grControl.state = 1;  // review
+						new global.Workflow().restartWorkflow(grControl, false);
+					} else {
+						grControl.state = grControl.last_state;
+					}
 					grControl.update();
-					new global.Workflow().restartWorkflow(grControl, false);
+				} else {					
+					grControl.initialize();
+					grControl.entity = entity;
+					grControl.control = template;
+					grControl.layer = layer;
+
+					var control_sys_id = grControl.insert();  // inserted control sys_id
+
+					var grControlInsert = new GlideRecord('x_anbib_grc_control');
+					grControlInsert.get(control_sys_id);      // inserted control record
+
+					var wf = new global.Workflow();
+					var inputs = {                            // Parametros para subflow
+						u_record: entity
+					};
+					var wf_sys_id = wf.startFlow(gs.getProperty("x_anbib_grc.workflow_control"), grControlInsert, "insert", inputs);
 				}
+// 				// control
+// 				var grControl = new GlideRecord("x_anbib_grc_control");
+// 				grControl.addQuery("entity", entity);
+// 				grControl.addQuery("control", template);
+// 				grControl.addQuery("layer", layer);
+// 				//grControl.addQuery("layer.entity_type", type);
+// 				grControl.query();
+
+// 				if (!grControl.next()) {
+// 					grControl.initialize();
+// 					grControl.entity = entity;
+// 					grControl.control = template;
+// 					grControl.layer = layer;
+// 					var control_sys_id = grControl.insert();  // inserted control sys_id
+
+// 					var grControlInsert = new GlideRecord('x_anbib_grc_control');
+// 					grControlInsert.get(control_sys_id);      // inserted control record
+
+// 					var wf = new global.Workflow();
+// 					var inputs = {                            // Parametros para subflow
+// 						u_record: entity
+// 					};
+// 					var wf_sys_id = wf.startFlow(gs.getProperty("x_anbib_grc.workflow_control"), grControlInsert, "insert", inputs);
+// 				} else {
+// 					if (!grControl.active) {
+// 						grControl.active = true;
+// 						grControl.state = "1";
+// 						grControl.update();
+// 						new global.Workflow().restartWorkflow(grControl, false);
+// 					}
+// 				}
 			}
 		}
 	} else if (operation === "delete") {
@@ -83,9 +121,13 @@
 		var grOldControl = new GlideRecord("x_anbib_grc_control");
 		grOldControl.addQuery("entity", previousEntity);
 		grOldControl.addQuery("layer", previousLayer);
-		grOldControl.state = "7";
-		grOldControl.active = false;
-		grOldControl.updateMultiple();
+		grOldControl.query();
+		while(grOldControl.next()) {
+			grOldControl.last_state = grOldControl.state;
+			grOldControl.state = "7";
+			grOldControl.active = false;
+			grOldControl.update();
+		}
 	}
 
 })(current, previous);]]></script>
@@ -95,7 +137,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>498f5d49db031c5002085bd05b9619e7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Update entity layers</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -103,7 +145,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_498f5d49db031c5002085bd05b9619e7</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-11 21:15:43</sys_updated_on>
+        <sys_updated_on>2020-09-16 03:33:22</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

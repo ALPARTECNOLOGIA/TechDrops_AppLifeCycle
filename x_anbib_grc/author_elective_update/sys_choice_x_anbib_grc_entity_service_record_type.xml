@@ -23,20 +23,20 @@
             <dependent_value/>
             <element>service_record_type</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Choice 1</label>
+            <inactive>false</inactive>
+            <label>Infra component</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
-            <sequence>0</sequence>
+            <sequence>1</sequence>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-02 14:30:20</sys_created_on>
+            <sys_created_on>2020-09-15 15:02:52</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f5869c05db83d85002085bd05b9619df</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:43:55</sys_updated_on>
-            <value>Choice 1</value>
+            <sys_id>91aadb0ddb53d49002085bd05b961910</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 17:19:02</sys_updated_on>
+            <value>7</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -46,35 +46,16 @@
             <label>Business Application</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
-            <sequence>1</sequence>
+            <sequence>2</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-02 15:43:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b75768c5db87d85002085bd05b9619ac</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:43:55</sys_updated_on>
-            <value>1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>service_record_type</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Choice 2</label>
-            <language>en</language>
-            <name>x_anbib_grc_entity</name>
-            <sequence>1</sequence>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-02 14:30:20</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f9869c05db83d85002085bd05b9619e1</sys_id>
             <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:43:55</sys_updated_on>
-            <value>Choice 2</value>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 17:19:04</sys_updated_on>
+            <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -84,35 +65,16 @@
             <label>Infra Component</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-02 15:43:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f75768c5db87d85002085bd05b9619ae</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:43:55</sys_updated_on>
-            <value>2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>service_record_type</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Choice 3</label>
-            <language>en</language>
-            <name>x_anbib_grc_entity</name>
-            <sequence>2</sequence>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-02 14:30:20</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3d869c05db83d85002085bd05b9619e3</sys_id>
             <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:43:55</sys_updated_on>
-            <value>Choice 3</value>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 17:19:06</sys_updated_on>
+            <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -122,15 +84,15 @@
             <label>Mobile application</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
-            <sequence>3</sequence>
+            <sequence>4</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-02 15:43:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3b5768c5db87d85002085bd05b9619b0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:43:55</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 17:19:08</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -141,15 +103,15 @@
             <label>Platform</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-02 15:43:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7b5768c5db87d85002085bd05b9619b2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:43:55</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 17:19:11</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -160,15 +122,15 @@
             <label>Website</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
-            <sequence>5</sequence>
+            <sequence>6</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-02 15:43:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3b5768c5db87d85002085bd05b9619cd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:43:55</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 17:19:16</sys_updated_on>
             <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -179,15 +141,15 @@
             <label>Workspace/Model</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
-            <sequence>6</sequence>
+            <sequence>7</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-02 15:43:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7b5768c5db87d85002085bd05b9619cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:43:55</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 17:19:18</sys_updated_on>
             <value>6</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

@@ -29,6 +29,7 @@
         <onclick/>
         <order>100</order>
         <script><![CDATA[new global.Workflow().restartWorkflow(current);
+current.update();
 action.setRedirectURL(current);]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -40,7 +41,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2d0bdebedba6145002085bd05b96191d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Restart Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -48,7 +49,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_2d0bdebedba6145002085bd05b96191d</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-14 13:39:36</sys_updated_on>
+        <sys_updated_on>2020-09-16 18:48:27</sys_updated_on>
         <table>x_anbib_grc_action_plan_of_control_inplementation</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

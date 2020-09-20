@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description/>
+        <event_name>x_anbib_grc.x_anbib_grc.notification.new</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>x_anbib_grc.notification.newSopEvidence</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-03 14:36:24</sys_created_on>
+        <sys_id>3741a959dbcb5c5002085bd05b9619a1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_anbib_grc.x_anbib_grc.notification.new</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sysevent_register_3741a959dbcb5c5002085bd05b9619a1</sys_update_name>
+        <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 14:06:42</sys_updated_on>
+        <table/>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sysevent_register_3741a959dbcb5c5002085bd05b9619a1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description/><event_name>x_anbib_grc.x_anbib_grc.notification.new</event_name><fired_by/><queue/><suffix>x_anbib_grc.notification.newSopEvidence</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by><sys_created_on>2020-09-03 14:36:24</sys_created_on><sys_id>3741a959dbcb5c5002085bd05b9619a1</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_anbib_grc.x_anbib_grc.notification.new</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sysevent_register_3741a959dbcb5c5002085bd05b9619a1</sys_update_name><sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-09 14:06:42</sys_updated_on><table/></sysevent_register></record_update>]]></payload>
+        <payload_hash>-1667799247</payload_hash>
+        <record_name>x_anbib_grc.x_anbib_grc.notification.new</record_name>
+        <reverted_from/>
+        <source>e103408fdbc3541002085bd05b9619c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-09 14:06:42</sys_created_on>
+        <sys_id>0c4410dbdb0fd410faa711494b9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1747330a6d80000001</sys_recorded_at>
+        <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-09 14:06:42</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>804410db4a0fd41064d0caf2f5a112d1</update_guid>
+        <update_guid_history>804410db4a0fd41064d0caf2f5a112d1:-1667799247,0924d89b780fd410cfc88d10b419273f:-1000452045,6c04149b9e0fd410aeddf029ab6019e0:960000232,9edbcbf6fdc754100c6a19dd01acfd93:0,d21b4fb27dc7541063c495fb76e204eb:-1262943839,a081a19959cb5c500a846f5b85aab4be:1659725997</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-17 16:19:47</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>2e535a15c7cd4149af71c194f3531709</sys_id>
+        <sys_metadata>3741a959dbcb5c5002085bd05b9619a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc.x_anbib_grc.notification.new</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sysevent_register_3741a959dbcb5c5002085bd05b9619a1</sys_update_name>
+        <sys_update_version display_value="sysevent_register_3741a959dbcb5c5002085bd05b9619a1">0c4410dbdb0fd410faa711494b9619d1</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-17 16:19:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

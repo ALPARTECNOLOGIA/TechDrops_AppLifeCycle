@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>fist_evidence</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 21:07:31</sys_created_on>
+        <sys_id>a51ef2e3db0f1c10faa711494b96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fist_evidence</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a51ef2e3db0f1c10faa711494b96195d</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-10 21:07:31</sys_updated_on>
+        <table>x_anbib_grc_control</table>
+        <ui_policy display_value="Hide anchor evidence date">02ddb2a3db0f1c10faa711494b96194b</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_ui_policy_action_a51ef2e3db0f1c10faa711494b96195d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>fist_evidence</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-09-10 21:07:31</sys_created_on><sys_id>a51ef2e3db0f1c10faa711494b96195d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>fist_evidence</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_ui_policy_action_a51ef2e3db0f1c10faa711494b96195d</sys_update_name><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-10 21:07:31</sys_updated_on><table>x_anbib_grc_control</table><ui_policy display_value="Hide anchor evidence date">02ddb2a3db0f1c10faa711494b96194b</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-851005988</payload_hash>
+        <record_name>fist_evidence</record_name>
+        <reverted_from/>
+        <source>5b8b4776dbc75410faa711494b9619e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 21:07:31</sys_created_on>
+        <sys_id>4a2efa63db0f1c10faa711494b9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17479d8466c0000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-10 21:07:31</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>422efa63d00f1c10c753332027d1eedb</update_guid>
+        <update_guid_history>422efa63d00f1c10c753332027d1eedb:-851005988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-15 18:29:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>2c300be490b249109dfea7ba7fa22d90</sys_id>
+        <sys_metadata>a51ef2e3db0f1c10faa711494b96195d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fist_evidence</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Hide anchor evidence date">02ddb2a3db0f1c10faa711494b96194b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_a51ef2e3db0f1c10faa711494b96195d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_a51ef2e3db0f1c10faa711494b96195d">4a2efa63db0f1c10faa711494b9619db</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-15 18:29:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

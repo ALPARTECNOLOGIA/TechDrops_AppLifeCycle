@@ -3,32 +3,47 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_anbib_grc_layer_control" element="NULL" name="x_anbib_grc_layer_control" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f8788e50dbe61814faa711494b961962</list_id>
+            <list_id display_value="x_anbib_grc_layer_control" element="NULL" name="x_anbib_grc_layer_control" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">adc917c9db93d090faa711494b961942</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-06 18:21:14</sys_created_on>
-            <sys_id>38788e50dbe61814faa711494b961963</sys_id>
+            <sys_created_on>2020-09-15 14:59:04</sys_created_on>
+            <sys_id>edc917c9db93d090faa711494b961943</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-06 18:21:14</sys_updated_on>
+            <sys_updated_on>2020-09-15 14:59:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>entity_type</element>
-            <list_id display_value="x_anbib_grc_layer_control" element="NULL" name="x_anbib_grc_layer_control" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f8788e50dbe61814faa711494b961962</list_id>
+            <list_id display_value="x_anbib_grc_layer_control" element="NULL" name="x_anbib_grc_layer_control" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">adc917c9db93d090faa711494b961942</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-06 18:21:14</sys_created_on>
-            <sys_id>3c788e50dbe61814faa711494b961963</sys_id>
+            <sys_created_on>2020-09-15 14:59:04</sys_created_on>
+            <sys_id>e5c917c9db93d090faa711494b961944</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-06 18:21:14</sys_updated_on>
+            <sys_updated_on>2020-09-15 14:59:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>layer_type</element>
+            <list_id display_value="x_anbib_grc_layer_control" element="NULL" name="x_anbib_grc_layer_control" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">adc917c9db93d090faa711494b961942</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-15 14:59:04</sys_created_on>
+            <sys_id>e9c917c9db93d090faa711494b961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 14:59:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -42,10 +57,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-06 18:21:14</sys_created_on>
+            <sys_created_on>2020-09-15 14:59:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f8788e50dbe61814faa711494b961962</sys_id>
+            <sys_id>adc917c9db93d090faa711494b961942</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_anbib_grc_layer_control</sys_name>
             <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -53,7 +68,7 @@
             <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
             <sys_update_name>sys_ui_list_x_anbib_grc_layer_control_null</sys_update_name>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-06 18:21:14</sys_updated_on>
+            <sys_updated_on>2020-09-15 14:59:04</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

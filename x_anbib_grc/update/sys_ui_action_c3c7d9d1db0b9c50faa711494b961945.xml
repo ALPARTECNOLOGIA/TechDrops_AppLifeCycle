@@ -39,8 +39,10 @@ var entity_sys_id = uri.get('sysparm_collectionID');
 var entity_table = 'x_anbib_grc_entity';
 var entity_record = new GlideRecord(entity_table);
 
-if (entity_sys_id && entity_record.get(entity_sys_id))
+if (entity_sys_id && entity_record.get(entity_sys_id)) {
 	uri.set('sysparm_query', 'entity_type=' + entity_record.mics_category);
+	uri.set('sysparm_fixed_query', 'entity_type=' + entity_record.mics_category);	
+}
 
 action.setRedirectURL(uri.toString('sys_m2m_template.do'));]]></script>
         <show_insert>true</show_insert>
@@ -53,7 +55,7 @@ action.setRedirectURL(uri.toString('sys_m2m_template.do'));]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3c7d9d1db0b9c50faa711494b961945</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Edit...</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -61,7 +63,7 @@ action.setRedirectURL(uri.toString('sys_m2m_template.do'));]]></script>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_c3c7d9d1db0b9c50faa711494b961945</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-03 13:56:28</sys_updated_on>
+        <sys_updated_on>2020-09-16 15:32:15</sys_updated_on>
         <table>x_anbib_grc_m2m_entities_layer_controls</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -24,7 +24,7 @@
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
-        <event_name>x_anbib_grc.grc.notification.ITCResponsi</event_name>
+        <event_name>ABI_JG_CSAT_Trigger</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -42,10 +42,10 @@
 <tbody>
 <tr>
 <td id="bodyCell" style="text-size-adjust: 100%; height: 100%; margin: 0px; padding: 10px; width: 600px; border-top: 0px;" align="center" valign="top"><!-- BEGIN TEMPLATE // --> <!-- [if gte mso 9]>
-						<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-						<tr>
-						<td align="center" valign="top" width="600" style="width:600px;">
-						<![endif]-->
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+                                    <tr>
+                                    <td align="center" valign="top" width="600" style="width:600px;">
+                                    <![endif]-->
 <table class="templateContainer" style="border-collapse: collapse; text-size-adjust: 100%; border: 5px solid #ffffff; max-width: 600px;" border="0" width="100%" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
@@ -86,27 +86,27 @@
 <tbody class="mcnTextBlockOuter">
 <tr>
 <td class="mcnTextBlockInner" style="padding-top: 9px; text-size-adjust: 100%;" valign="top"><!-- [if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
-				<![endif]--> <!-- [if mso]>
-				<td valign="top" width="590" style="width:590px;">
-				<![endif]-->
+                                            <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                                            <tr>
+                                            <![endif]--> <!-- [if mso]>
+                                            <td valign="top" width="590" style="width:590px;">
+                                            <![endif]-->
 <table class="mcnTextContentContainer" style="max-width: 100%; min-width: 100%; border-collapse: collapse; text-size-adjust: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
 <tbody>
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #202020; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px;" valign="top">
-<h1 style="display: block; margin: 0px; padding: 0px; color: #b2b2b2; font-family: Helvetica; font-size: 30px; font-style: normal; font-weight: bold; line-height: 200%; letter-spacing: normal;">Hello, ${itc_responsible.name}<strong>!</strong></h1>
-<h3 style="display: block; margin: 0px; padding: 0px; color: #303030; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: left;">There are pending configuration applications designed for you.</h3>
+<h1 style="display: block; margin: 0px; padding: 0px; color: #b2b2b2; font-family: Helvetica; font-size: 30px; font-style: normal; font-weight: bold; line-height: 200%; letter-spacing: normal;">Dear Compliance,</h1>
+<h3 style="display: block; margin: 0px; padding: 0px; color: #303030; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: left;">A new application has been added to the inventory:</h3>
 </td>
 </tr>
 </tbody>
 </table>
 <!-- [if mso]>
-				</td>
-				<![endif]--> <!-- [if mso]>
-				</tr>
-				</table>
-				<![endif]--></td>
+                                            </td>
+                                            <![endif]--> <!-- [if mso]>
+                                            </tr>
+                                            </table>
+                                            <![endif]--></td>
 </tr>
 </tbody>
 </table>
@@ -118,50 +118,49 @@
 </tr>
 <tr>
 <td id="templateColumns" style="text-size-adjust: 100%; background-color: #efefef; border-top: 0px; border-bottom: 0px; padding-top: 0px; padding-bottom: 9px;" valign="top">
-<table style="border-collapse: collapse; text-size-adjust: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<table style="border-collapse: collapse; text-size-adjust: 100%; width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
 <tbody>
 <tr>
-<td style="text-size-adjust: 100%;" valign="top"><!-- [if gte mso 9]>
-												<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-												<tr>
-												<td align="center" valign="top" width="400" style="width:400px;">
-												<![endif]-->
-<table id="templateBody" style="border-collapse: collapse; text-size-adjust: 100%; background-color: #efefef; border-top: 0px; border-bottom: 0px; padding-top: 0px; padding-bottom: 9px;" border="0" width="300" cellspacing="0" cellpadding="0" align="left">
+<td style="text-size-adjust: 100%; width: 97.1186%;" valign="top"><!-- [if gte mso 9]>
+                                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+                                                                                                <tr>
+                                                                                                <td align="center" valign="top" width="400" style="width:400px;">
+                                                                                                <![endif]-->
+<table id="templateBody" style="border-collapse: collapse; text-size-adjust: 100%; background-color: #efefef; border-top: 0px; border-bottom: 0px; padding-top: 0px; padding-bottom: 9px;" border="0" width="565" cellspacing="0" cellpadding="0" align="left">
 <tbody>
 <tr>
-<td style="text-size-adjust: 100%;">
-<table class="mcnTextBlock" style="border-collapse: collapse; text-size-adjust: 100%;" border="0" width="300" cellspacing="0" cellpadding="0">
+<td style="text-size-adjust: 100%; width: 563px;">
+<table class="mcnTextBlock" style="border-collapse: collapse; text-size-adjust: 100%;" border="0" cellspacing="0" cellpadding="0">
 <tbody class="mcnTextBlockOuter">
 <tr>
 <td class="mcnTextBlockInner" style="padding-top: 9px; text-size-adjust: 100%;" valign="top"><!-- [if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
-				<![endif]--> <!-- [if mso]>
-				<td valign="top" width="380" style="width:380px;">
-				<![endif]-->
-<table class="mcnTextContentContainer" style="border-collapse: collapse; text-size-adjust: 100%;" border="0" width="300" cellspacing="0" cellpadding="0" align="left">
+                                                                                                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                                                                                                <tr>
+                                                                                                <![endif]--> <!-- [if mso]>
+                                                                                                <td valign="top" width="380" style="width:380px;">
+                                                                                                <![endif]-->
+<table class="mcnTextContentContainer" style="border-collapse: collapse; text-size-adjust: 100%;" border="0" cellpadding="0" align="left">
 <tbody>
 <tr>
-<td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px;" valign="top">
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Click the button on the side to consult.</span></p>
+<td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px; width: 465px;" valign="top">
 <p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Name: ${application.name}</span></p>
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Criticality: ${application.criticality}</span></p>
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Status: ${application.name} </span></p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Criticality: ${criticality}</span></p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Status GHQ: ${status_ghq}<br /></span></p>
 <p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Crown Jewel: ${mail_script:grc.notification.crownJewel}</span></p>
 <p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Financial Reporting Relevant: ${mail_script:grc.notification.FinanReporReve} </span></p>
 <p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">External Facing: ${mail_script:grc.notification.externalFacing}</span></p>
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Personal Data: ${mail_script:grc.notification.personalData} </span></p>
-<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Compliance team.</strong></span></p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Personal Data: ${mail_script:grc.notification.personalData}</span></p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Please refer to the button below for review and validation.</span></p>
 </td>
 </tr>
 </tbody>
 </table>
 <!-- [if mso]>
-				</td>
-				<![endif]--> <!-- [if mso]>
-				</tr>
-				</table>
-				<![endif]--></td>
+                                                                                                </td>
+                                                                                                <![endif]--> <!-- [if mso]>
+                                                                                                </tr>
+                                                                                                </table>
+                                                                                                <![endif]--></td>
 </tr>
 </tbody>
 </table>
@@ -170,21 +169,21 @@
 </tbody>
 </table>
 <!-- [if gte mso 9]>
-												</td>
-												<td align="center"  valign="top" width="200" style="width:200px;">
-												<![endif]-->
-<table id="templateSidebar" style="border-collapse: collapse; text-size-adjust: 100%; border-top: 0px; border-bottom: 0px; padding-top: 9px; padding-bottom: 9px; height: 91px;" border="0" width="181" cellspacing="0" cellpadding="0" align="left">
+                                                                                                </td>
+                                                                                                <td align="center"  valign="top" width="200" style="width:200px;">
+                                                                                                <![endif]-->
+<table id="templateSidebar" style="border-collapse: collapse; text-size-adjust: 100%; border-top: 0px; border-bottom: 0px; padding-top: 9px; padding-bottom: 9px;" border="0" cellspacing="0" cellpadding="0" align="left">
 <tbody>
 <tr>
 <td style="text-size-adjust: 100%;" valign="top">
-<table class="mcnButtonBlock" style="min-width: 100%; border-collapse: collapse; text-size-adjust: 100%; height: 109px;" border="0" width="184" cellspacing="0" cellpadding="0">
+<table class="mcnButtonBlock" style="min-width: 100%; border-collapse: collapse; text-size-adjust: 100%;" border="0" cellspacing="0" cellpadding="0">
 <tbody class="mcnButtonBlockOuter">
 <tr>
 <td class="mcnButtonBlockInner" style="text-size-adjust: 100%; padding: 0px 18px 18px;" align="center" valign="top">
-<table class="mcnButtonContentContainer" style="background-color: #c92d2d; text-size-adjust: 100%; border-collapse: separate; height: 26px; width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0">
+<table class="mcnButtonContentContainer" style="background-color: #c92d2d; text-size-adjust: 100%; border-collapse: separate;" border="0" width="100%" cellspacing="0" cellpadding="0">
 <tbody>
 <tr style="height: 26px;">
-<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%; height: 26px;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.MICsRelevance}" target="_blank" rel="noopener">Click Here</a></td>
+<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%; height: 26px;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.MICsRelevance}" target="_blank" rel="noopener">For further details, click here</a></td>
 </tr>
 </tbody>
 </table>
@@ -192,16 +191,25 @@
 </tr>
 </tbody>
 </table>
+</td>
+</tr>
+</tbody>
+</table>
+<table id="templateRegards" style="width: 100.175%; height: 42px;" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td style="padding: 0px 18px; text-size-adjust: 100%;" valign="top">
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Kind regards</strong></span></p>
 </td>
 </tr>
 </tbody>
 </table>
 <!-- [if gte mso 9]>
-												</td>
-												</tr>
-												</table>
-												<![endif]--></td>
-<td style="padding-top: 18px; text-size-adjust: 100%;" align="right" valign="top"><img style="align: baseline;" src="flag_right.pngx" width="15" height="30" align="baseline" /></td>
+                                                                                                </td>
+                                                                                                </tr>
+                                                                                                </table>
+                                                                                                <![endif]--></td>
+<td style="padding-top: 18px; text-size-adjust: 100%; width: 2.71186%;" align="right" valign="top"><img style="align: baseline;" src="flag_right.pngx" width="15" height="30" align="baseline" /></td>
 </tr>
 </tbody>
 </table>
@@ -225,11 +233,11 @@
 <tbody class="mcnTextBlockOuter">
 <tr>
 <td class="mcnTextBlockInner" style="padding-top: 9px; text-size-adjust: 100%;" valign="top"><!-- [if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
-				<![endif]--> <!-- [if mso]>
-				<td valign="top" width="595" style="width:595px;">
-				<![endif]-->
+                                            <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                                            <tr>
+                                            <![endif]--> <!-- [if mso]>
+                                            <td valign="top" width="595" style="width:595px;">
+                                            <![endif]-->
 <table class="mcnTextContentContainer" style="max-width: 100%; min-width: 100%; border-collapse: collapse; text-size-adjust: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
 <tbody>
 <tr>
@@ -238,11 +246,11 @@
 </tbody>
 </table>
 <!-- [if mso]>
-				</td>
-				<![endif]--> <!-- [if mso]>
-				</tr>
-				</table>
-				<![endif]--></td>
+                                            </td>
+                                            <![endif]--> <!-- [if mso]>
+                                            </tr>
+                                            </table>
+                                            <![endif]--></td>
 </tr>
 </tbody>
 </table>
@@ -250,11 +258,11 @@
 <tbody class="mcnTextBlockOuter">
 <tr>
 <td class="mcnTextBlockInner" style="padding-top: 9px; text-size-adjust: 100%;" valign="top"><!-- [if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
-				<![endif]--> <!-- [if mso]>
-				<td valign="top" width="595" style="width:595px;">
-				<![endif]-->
+                                            <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                                            <tr>
+                                            <![endif]--> <!-- [if mso]>
+                                            <td valign="top" width="595" style="width:595px;">
+                                            <![endif]-->
 <table class="mcnTextContentContainer" style="max-width: 100%; min-width: 100%; border-collapse: collapse; text-size-adjust: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
 <tbody>
 <tr>
@@ -267,11 +275,11 @@
 </tbody>
 </table>
 <!-- [if mso]>
-				</td>
-				<![endif]--> <!-- [if mso]>
-				</tr>
-				</table>
-				<![endif]--></td>
+                                            </td>
+                                            <![endif]--> <!-- [if mso]>
+                                            </tr>
+                                            </table>
+                                            <![endif]--></td>
 </tr>
 </tbody>
 </table>
@@ -280,429 +288,430 @@
 </tbody>
 </table>
 <!-- [if gte mso 9]>
-						</td>
-						</tr>
-						</table>
-						<![endif]--> <!-- // END TEMPLATE --></td>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]--> <!-- // END TEMPLATE --></td>
 </tr>
 </tbody>
 </table>
 </center>
 <style type="text/css"><!--
-p{
-			margin:10px 0;
-			padding:0;
-		}
-		table{
-			border-collapse:collapse;
-		}
-		h1,h2,h3,h4,h5,h6{
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		img,a img{
-			border:0;
-			height:auto;
-			outline:none;
-			text-decoration:none;
-		}
-		body,#bodyTable,#bodyCell{
-			height:100%;
-			margin:0;
-			padding:0;
-			width:100%;
-		}
-		.mcnPreviewText{
-			display:none !important;
-		}
-		#outlook a{
-			padding:0;
-		}
-		img{
-			-ms-interpolation-mode:bicubic;
-		}
-		table{
-			mso-table-lspace:0pt;
-			mso-table-rspace:0pt;
-		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
-		p,a,li,td,blockquote{
-			mso-line-height-rule:exactly;
-		}
-		a[href^=tel],a[href^=sms]{
-			color:inherit;
-			cursor:default;
-			text-decoration:none;
-		}
-		p,a,li,td,body,table,blockquote{
-			-ms-text-size-adjust:100%;
-			-webkit-text-size-adjust:100%;
-		}
-		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
-			line-height:100%;
-		}
-		a[x-apple-data-detectors]{
-			color:inherit !important;
-			text-decoration:none !important;
-			font-size:inherit !important;
-			font-family:inherit !important;
-			font-weight:inherit !important;
-			line-height:inherit !important;
-		}
-		#bodyCell{
-			padding:10px;
-		}
-		.templateContainer{
-			max-width:600px !important;
-		}
-		a.mcnButton{
-			display:block;
-		}
-		.mcnImage,.mcnRetinaImage{
-			vertical-align:bottom;
-		}
-		.mcnTextContent{
-			word-break:break-word;
-		}
-		.mcnTextContent img{
-			height:auto !important;
-		}
-		.mcnDividerBlock{
-			table-layout:fixed !important;
-		}
-		body,#bodyTable{
-			background-color:#FFFFFF;
-		}
-		#bodyCell{
-			border-top:0;
-		}
-		.templateContainer{
-			border:5px solid #FFFFFF;
-		}
-		h1{
-			color:#B2B2B2;
-			font-family:Helvetica;
-			font-size:30px;
-			font-style:normal;
-			font-weight:bold;
-			line-height:100%;
-			letter-spacing:normal;
-			text-align:left;
-		}
-		h2{
-			color:#303030;
-			font-family:Helvetica;
-			font-size:22px;
-			font-style:normal;
-			font-weight:bold;
-			line-height:125%;
-			letter-spacing:normal;
-			text-align:left;
-		}
-		h3{
-			color:#303030;
-			font-family:Helvetica;
-			font-size:16px;
-			font-style:normal;
-			font-weight:bold;
-			line-height:125%;
-			letter-spacing:normal;
-			text-align:left;
-		}
-		h4{
-			color:#505050;
-			font-family:Helvetica;
-			font-size:14px;
-			font-style:normal;
-			font-weight:bold;
-			line-height:125%;
-			letter-spacing:normal;
-			text-align:left;
-		}
-		#templateUpperHeader{
-			padding-top:30px;
-			padding-right:15px;
-		}
-		.templateHeader{
-			background-color:#EFEFEF;
-			border-top:0;
-			border-bottom:0;
-			padding-bottom:10px;
-		}
-		.templateHeader .mcnTextContent,.templateHeader .mcnTextContent p{
-			color:#202020;
-			font-family:Helvetica;
-			font-size:16px;
-			line-height:150%;
-			text-align:left;
-		}
-		.templateHeader .mcnTextContent a,.templateHeader .mcnTextContent p a{
-			color:#2BAADF;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-		#templateSidebar{
-			border-top:0;
-			border-bottom:0;
-			padding-top:9px;
-			padding-bottom:9px;
-		}
-		#calendarContainer{
-			background-color:#FFFFFF;
-			border:5px solid #FFFFFF;
-		}
-		#monthContainer{
-			background-color:#EFEFEF;
-			color:#303030;
-			font-family:Helvetica;
-			font-size:14px;
-			font-weight:bold;
-			line-height:150%;
-		}
-		#dayContainer{
-			background-color:#FFFFFF;
-			color:#303030;
-			font-family:Helvetica;
-			font-size:72px;
-			font-weight:bold;
-			line-height:100%;
-		}
-		#templateSidebar .mcnTextContent,#templateSidebar .mcnTextContent p{
-			color:#505050;
-			font-family:Helvetica;
-			font-size:12px;
-			line-height:150%;
-			text-align:left;
-		}
-		#templateSidebar .mcnTextContent a,#templateSidebar .mcnTextContent p a{
-			color:#6ACC3B;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-		#templateBody,#templateColumns{
-			background-color:#EFEFEF;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:9px;
-		}
-		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
-			color:#505050;
-			font-family:Helvetica;
-			font-size:16px;
-			line-height:150%;
-			text-align:left;
-		}
-		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
-			color:#6ACC3B;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-		#templateLowerBody{
-			background-color:#EFEFEF;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:0;
-		}
-		#templateLowerBody .mcnTextContent,#templateLowerBody .mcnTextContent p{
-			color:#505050;
-			font-family:Helvetica;
-			font-size:16px;
-			line-height:150%;
-			text-align:left;
-		}
-		#templateLowerBody .mcnTextContent a,#templateLowerBody .mcnTextContent p a{
-			color:#6ACC3B;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-		#templateFooter{
-			background-color:#EFEFEF;
-			border-top:5px solid #FFFFFF;
-			border-bottom:0;
-			padding-top:9px;
-			padding-bottom:9px;
-		}
-		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
-			color:#505050;
-			font-family:Helvetica;
-			font-size:12px;
-			line-height:150%;
-			text-align:center;
-		}
-		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
-			color:#6ACC3B;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-	@media only screen and (min-width:768px){
-		.templateContainer{
-			width:600px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		body,table,td,p,a,li,blockquote{
-			-webkit-text-size-adjust:none !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		body{
-			width:100% !important;
-			min-width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		#bodyCell{
-			padding-top:10px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		#templateSidebar,#templateBody{
-			max-width:100% !important;
-			width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnRetinaImage{
-			max-width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImage{
-			width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
-			max-width:100% !important;
-			width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnBoxedTextContentContainer{
-			min-width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageGroupContent{
-			padding:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
-			padding-top:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
-			padding-top:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageCardBottomImageContent{
-			padding-bottom:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageGroupBlockInner{
-			padding-top:0 !important;
-			padding-bottom:0 !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageGroupBlockOuter{
-			padding-top:9px !important;
-			padding-bottom:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnTextContent,.mcnBoxedTextContentColumn{
-			padding-right:18px !important;
-			padding-left:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
-			padding-right:18px !important;
-			padding-bottom:0 !important;
-			padding-left:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcpreview-image-uploader{
-			display:none !important;
-			width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h1{
-			font-size:22px !important;
-			line-height:125% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h2{
-			font-size:20px !important;
-			line-height:125% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h3{
-			font-size:18px !important;
-			line-height:125% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h4{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
-			font-size:14px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.templateHeader .mcnTextContent,.templateHeader .mcnTextContent p{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		#templateSidebar .mcnTextContent,#templateSidebar .mcnTextContent p{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		#templateLowerBody .mcnTextContent,#templateLowerBody .mcnTextContent p{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
-			font-size:14px !important;
-			line-height:150% !important;
-		}
-
-}
---></style>
+    p{
+                margin:10px 0;
+                padding:0;
+            }
+            table{
+                border-collapse:collapse;
+            }
+            h1,h2,h3,h4,h5,h6{
+                display:block;
+                margin:0;
+                padding:0;
+            }
+            img,a img{
+                border:0;
+                height:auto;
+                outline:none;
+                text-decoration:none;
+            }
+            body,#bodyTable,#bodyCell{
+                height:100%;
+                margin:0;
+                padding:0;
+                width:100%;
+            }
+            .mcnPreviewText{
+                display:none !important;
+            }
+            #outlook a{
+                padding:0;
+            }
+            img{
+                -ms-interpolation-mode:bicubic;
+            }
+            table{
+                mso-table-lspace:0pt;
+                mso-table-rspace:0pt;
+            }
+            .ReadMsgBody{
+                width:100%;
+            }
+            .ExternalClass{
+                width:100%;
+            }
+            p,a,li,td,blockquote{
+                mso-line-height-rule:exactly;
+            }
+            a[href^=tel],a[href^=sms]{
+                color:inherit;
+                cursor:default;
+                text-decoration:none;
+            }
+            p,a,li,td,body,table,blockquote{
+                -ms-text-size-adjust:100%;
+                -webkit-text-size-adjust:100%;
+            }
+            .ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+                line-height:100%;
+            }
+            a[x-apple-data-detectors]{
+                color:inherit !important;
+                text-decoration:none !important;
+                font-size:inherit !important;
+                font-family:inherit !important;
+                font-weight:inherit !important;
+                line-height:inherit !important;
+            }
+            #bodyCell{
+                padding:10px;
+            }
+            .templateContainer{
+                max-width:600px !important;
+            }
+            a.mcnButton{
+                display:block;
+            }
+            .mcnImage,.mcnRetinaImage{
+                vertical-align:bottom;
+            }
+            .mcnTextContent{
+                word-break:break-word;
+            }
+            .mcnTextContent img{
+                height:auto !important;
+            }
+            .mcnDividerBlock{
+                table-layout:fixed !important;
+            }
+            body,#bodyTable{
+                background-color:#FFFFFF;
+            }
+            #bodyCell{
+                border-top:0;
+            }
+            .templateContainer{
+                border:5px solid #FFFFFF;
+            }
+            h1{
+                color:#B2B2B2;
+                font-family:Helvetica;
+                font-size:30px;
+                font-style:normal;
+                font-weight:bold;
+                line-height:100%;
+                letter-spacing:normal;
+                text-align:left;
+            }
+            h2{
+                color:#303030;
+                font-family:Helvetica;
+                font-size:22px;
+                font-style:normal;
+                font-weight:bold;
+                line-height:125%;
+                letter-spacing:normal;
+                text-align:left;
+            }
+            h3{
+                color:#303030;
+                font-family:Helvetica;
+                font-size:16px;
+                font-style:normal;
+                font-weight:bold;
+                line-height:125%;
+                letter-spacing:normal;
+                text-align:left;
+            }
+            h4{
+                color:#505050;
+                font-family:Helvetica;
+                font-size:14px;
+                font-style:normal;
+                font-weight:bold;
+                line-height:125%;
+                letter-spacing:normal;
+                text-align:left;
+            }
+            #templateUpperHeader{
+                padding-top:30px;
+                padding-right:15px;
+            }
+            .templateHeader{
+                background-color:#EFEFEF;
+                border-top:0;
+                border-bottom:0;
+                padding-bottom:10px;
+            }
+            .templateHeader .mcnTextContent,.templateHeader .mcnTextContent p{
+                color:#202020;
+                font-family:Helvetica;
+                font-size:16px;
+                line-height:150%;
+                text-align:left;
+            }
+            .templateHeader .mcnTextContent a,.templateHeader .mcnTextContent p a{
+                color:#2BAADF;
+                font-weight:normal;
+                text-decoration:underline;
+            }
+            #templateSidebar{
+                border-top:0;
+                border-bottom:0;
+                padding-top:9px;
+                padding-bottom:9px;
+            }
+            #calendarContainer{
+                background-color:#FFFFFF;
+                border:5px solid #FFFFFF;
+            }
+            #monthContainer{
+                background-color:#EFEFEF;
+                color:#303030;
+                font-family:Helvetica;
+                font-size:14px;
+                font-weight:bold;
+                line-height:150%;
+            }
+            #dayContainer{
+                background-color:#FFFFFF;
+                color:#303030;
+                font-family:Helvetica;
+                font-size:72px;
+                font-weight:bold;
+                line-height:100%;
+            }
+            #templateSidebar .mcnTextContent,#templateSidebar .mcnTextContent p{
+                color:#505050;
+                font-family:Helvetica;
+                font-size:12px;
+                line-height:150%;
+                text-align:left;
+            }
+            #templateSidebar .mcnTextContent a,#templateSidebar .mcnTextContent p a{
+                color:#6ACC3B;
+                font-weight:normal;
+                text-decoration:underline;
+            }
+            #templateBody,#templateColumns{
+                background-color:#EFEFEF;
+                border-top:0;
+                border-bottom:0;
+                padding-top:0;
+                padding-bottom:9px;
+            }
+            #templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+                color:#505050;
+                font-family:Helvetica;
+                font-size:16px;
+                line-height:150%;
+                text-align:left;
+            }
+            #templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+                color:#6ACC3B;
+                font-weight:normal;
+                text-decoration:underline;
+            }
+            #templateLowerBody{
+                background-color:#EFEFEF;
+                border-top:0;
+                border-bottom:0;
+                padding-top:0;
+                padding-bottom:0;
+            }
+            #templateLowerBody .mcnTextContent,#templateLowerBody .mcnTextContent p{
+                color:#505050;
+                font-family:Helvetica;
+                font-size:16px;
+                line-height:150%;
+                text-align:left;
+            }
+            #templateLowerBody .mcnTextContent a,#templateLowerBody .mcnTextContent p a{
+                color:#6ACC3B;
+                font-weight:normal;
+                text-decoration:underline;
+            }
+            #templateFooter{
+                background-color:#EFEFEF;
+                border-top:5px solid #FFFFFF;
+                border-bottom:0;
+                padding-top:9px;
+                padding-bottom:9px;
+            }
+            #templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+                color:#505050;
+                font-family:Helvetica;
+                font-size:12px;
+                line-height:150%;
+                text-align:center;
+            }
+            #templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+                color:#6ACC3B;
+                font-weight:normal;
+                text-decoration:underline;
+            }
+        @media only screen and (min-width:768px){
+            .templateContainer{
+                width:600px !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            body,table,td,p,a,li,blockquote{
+                -webkit-text-size-adjust:none !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            body{
+                width:100% !important;
+                min-width:100% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            #bodyCell{
+                padding-top:10px !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            #templateSidebar,#templateBody{
+                max-width:100% !important;
+                width:100% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnRetinaImage{
+                max-width:100% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnImage{
+                width:100% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
+                max-width:100% !important;
+                width:100% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnBoxedTextContentContainer{
+                min-width:100% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnImageGroupContent{
+                padding:9px !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+                padding-top:9px !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+                padding-top:18px !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnImageCardBottomImageContent{
+                padding-bottom:9px !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnImageGroupBlockInner{
+                padding-top:0 !important;
+                padding-bottom:0 !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnImageGroupBlockOuter{
+                padding-top:9px !important;
+                padding-bottom:9px !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnTextContent,.mcnBoxedTextContentColumn{
+                padding-right:18px !important;
+                padding-left:18px !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+                padding-right:18px !important;
+                padding-bottom:0 !important;
+                padding-left:18px !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcpreview-image-uploader{
+                display:none !important;
+                width:100% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            h1{
+                font-size:22px !important;
+                line-height:125% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            h2{
+                font-size:20px !important;
+                line-height:125% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            h3{
+                font-size:18px !important;
+                line-height:125% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            h4{
+                font-size:16px !important;
+                line-height:150% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
+                font-size:14px !important;
+                line-height:150% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            .templateHeader .mcnTextContent,.templateHeader .mcnTextContent p{
+                font-size:16px !important;
+                line-height:150% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            #templateSidebar .mcnTextContent,#templateSidebar .mcnTextContent p{
+                font-size:16px !important;
+                line-height:150% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            #templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+                font-size:16px !important;
+                line-height:150% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            #templateLowerBody .mcnTextContent,#templateLowerBody .mcnTextContent p{
+                font-size:16px !important;
+                line-height:150% !important;
+            }
+    
+    }	@media only screen and (max-width: 480px){
+            #templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+                font-size:14px !important;
+                line-height:150% !important;
+            }
+    
+    }
+    -->
+</style>
 <p><link href="./Email_Template_files/archivebar-desktop.css" rel="stylesheet" /></p>
 <p>&nbsp;</p>
 <div id="gtx-trans" style="position: absolute; left: 379px; top: 902.562px;">
@@ -729,15 +738,15 @@ p{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>436532d5db479c5002085bd05b96195d</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>GRC - MICs Relevance Created</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_email_action_436532d5db479c5002085bd05b96195d</sys_update_name>
-        <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-09 12:52:35</sys_updated_on>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-18 15:46:18</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

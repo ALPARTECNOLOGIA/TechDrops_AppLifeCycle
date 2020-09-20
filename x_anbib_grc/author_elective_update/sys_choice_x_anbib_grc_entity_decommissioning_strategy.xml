@@ -5,19 +5,19 @@
             <element>decommissioning_strategy</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Business decision</label>
+            <label>TBD</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>
             <sequence>0</sequence>
-            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-02 15:36:38</sys_created_on>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-15 15:02:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c1b5e0cddb47d85002085bd05b961969</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:36:38</sys_updated_on>
-            <value>1</value>
+            <sys_id>1aaa5f0ddb53d49002085bd05b9619eb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 22:08:13</sys_updated_on>
+            <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -56,6 +56,63 @@
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
             <sys_updated_on>2020-09-02 15:36:38</sys_updated_on>
             <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>decommissioning_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invest/Keep</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>3</sequence>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-15 15:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02aa5f0ddb53d49002085bd05b9619ce</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 22:08:26</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>decommissioning_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business decision</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>4</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-02 15:36:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1b5e0cddb47d85002085bd05b961969</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 22:08:28</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>decommissioning_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decommissioned</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>5</sequence>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-15 22:10:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15fb349ddb5b189002085bd05b961905</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-15 22:10:34</sys_updated_on>
+            <value>6</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>decommissioning_strategy</element>

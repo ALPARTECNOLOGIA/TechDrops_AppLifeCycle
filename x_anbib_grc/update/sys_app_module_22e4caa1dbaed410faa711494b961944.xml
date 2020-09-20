@@ -4,7 +4,9 @@
         <application display_value="GRC">b72edb521bad58504aae202a2d4bcbaa</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="x_anbib_grc_action_plan_of_control_inplementation">stateNOT IN13^EQ<item display_value="Cancel" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="13"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
@@ -24,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>22e4caa1dbaed410faa711494b961944</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Control Implementation Action Plan</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_app_module_22e4caa1dbaed410faa711494b961944</sys_update_name>
-        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-12 14:46:07</sys_updated_on>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-15 12:54:46</sys_updated_on>
         <timeline_page/>
         <title>Control Implementation Action Plan</title>
         <uncancelable>false</uncancelable>
