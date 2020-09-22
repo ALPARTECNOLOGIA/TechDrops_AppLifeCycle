@@ -2,21 +2,21 @@
     <sys_ui_view action="INSERT_OR_UPDATE">
         <group/>
         <hidden>false</hidden>
-        <name>grc_-_my_tasks</name>
+        <name>grc_-_my_sop</name>
         <roles/>
         <sys_class_name>sys_ui_view</sys_class_name>
-        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-15 13:03:19</sys_created_on>
-        <sys_id>864ffe05db1f9090faa711494b9619fd</sys_id>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-20 06:43:22</sys_created_on>
+        <sys_id>0d48d76edb5f58d0faa711494b961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>GRC - My Tasks</sys_name>
+        <sys_name>GRC - My SOP</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
-        <sys_update_name>sys_ui_view_864ffe05db1f9090faa711494b9619fd</sys_update_name>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-15 13:03:19</sys_updated_on>
-        <title>GRC - My Tasks</title>
+        <sys_update_name>sys_ui_view_0d48d76edb5f58d0faa711494b961900</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-20 06:43:22</sys_updated_on>
+        <title>GRC - My SOP</title>
         <user/>
     </sys_ui_view>
 </record_update>

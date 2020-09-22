@@ -13,18 +13,27 @@ ActionPlanUtils.prototype = {
     },
 	
 	isDefinitionOverdue: function(actionPlan) {
-		var app = new x_anbib_grc.ActionPlanPersistence();
+		var app = new x_anbib_grc.TaskSLAPersistence();
 		var sla = gs.getProperty("x_anbib_grc.sys_id.sla_action_plan_definition");
 		var task = app.getSLATask(actionPlan, sla);
 		
 		if (task.next()) {
-			return task.has_breached;
+			if (task.has_breached) {
+				var plannedEnd = task.planned_end_time;
+				var gdtStart = new GlideDateTime(plannedEnd);
+				var gdtToday = new GlideDateTime();
+				
+				var dur = GlideDateTime.subtract(gdtStart, gdtToday);
+				if (dur.getDayPart() >= gs.getProperty("x_anbib_grc.escalation.actionplan.def")) {
+					return true;					
+				}
+			}
 		}
 		return false;
 	},
 	
 	isImplementationOverdue: function(actionPlan) {
-		var app = new x_anbib_grc.ActionPlanPersistence();
+		var app = new x_anbib_grc.TaskSLAPersistence();
 		var sla = gs.getProperty("x_anbib_grc.sys_id.sla_action_plan_implementation");
 		var task = app.getSLATask(actionPlan, sla);
 		
@@ -40,13 +49,13 @@ ActionPlanUtils.prototype = {
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-08 12:31:42</sys_created_on>
         <sys_id>7e53f6f2db075410faa711494b96198d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>ActionPlanUtils</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_include_7e53f6f2db075410faa711494b96198d</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-18 18:52:30</sys_updated_on>
+        <sys_updated_on>2020-09-21 13:47:00</sys_updated_on>
     </sys_script_include>
 </record_update>

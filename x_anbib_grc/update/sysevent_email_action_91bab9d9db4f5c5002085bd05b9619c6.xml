@@ -732,7 +732,7 @@
         <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>GRC: New app for ITC assessment</subject>
+        <subject>GRC - New app for ITC assessment</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
@@ -740,7 +740,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>91bab9d9db4f5c5002085bd05b9619c6</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>GRC - New app for ITC assessment</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -748,7 +748,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_email_action_91bab9d9db4f5c5002085bd05b9619c6</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-18 16:02:15</sys_updated_on>
+        <sys_updated_on>2020-09-21 20:12:44</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

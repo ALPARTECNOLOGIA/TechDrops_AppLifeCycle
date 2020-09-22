@@ -11,8 +11,8 @@
                 <element inactive_on_update="false" label="Manual" sequence="2" value="manual"/>
             </choice>
         </element>
-        <element label="SaaS application control by SOC2 Report" max_length="40" name="control_type_saas" type="boolean"/>
-        <element label="L3 - Best in Class (Excellence)" max_length="4000" name="excellence" type="string"/>
+        <element active="false" label="SaaS application control by SOC2 Report" max_length="40" name="control_type_saas" type="boolean"/>
+        <element active="false" label="L3 - Best in Class (Excellence)" max_length="4000" name="excellence" type="string"/>
         <element label="FCPA" max_length="40" name="fcpa" type="boolean"/>
         <element choice="1" label="Frequency" max_length="40" name="frequency" type="choice">
             <choice>
@@ -28,8 +28,8 @@
         </element>
         <element label="Maturity Relevant" max_length="40" name="maturity_relevant" type="boolean"/>
         <element label="Mega Process" max_length="255" name="mega_process" reference="x_anbib_grc_mega_process" type="reference"/>
-        <element label="L1 - Minimal Requirements To Protect Financial Statement From Material" max_length="4000" name="minimal_requirements_external" type="string"/>
-        <element label="L2 - Minimal Requirements To Avoid Surprises (Internal Compliance)" max_length="4000" name="minimal_requirements_internal" type="string"/>
+        <element active="false" label="L1 - Minimal Requirements To Protect Financial Statement From Material" max_length="4000" name="minimal_requirements_external" type="string"/>
+        <element active="false" label="L2 - Minimal Requirements To Avoid Surprises (Internal Compliance)" max_length="4000" name="minimal_requirements_internal" type="string"/>
         <element label="Name" mandatory="true" max_length="250" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" display="true" label="Prefix" mandatory="true" max_length="40" name="number" type="string" unique="true"/>
         <element label="Period" max_length="40" name="period" type="integer"/>

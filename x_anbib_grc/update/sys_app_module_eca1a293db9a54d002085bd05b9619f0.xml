@@ -13,7 +13,7 @@
         <mobile_title>Document Citations</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_anbib_grc_document_citation</name>
-        <order>402</order>
+        <order>403</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,15 +24,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eca1a293db9a54d002085bd05b9619f0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Document Citations</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_app_module_eca1a293db9a54d002085bd05b9619f0</sys_update_name>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-08-04 16:35:25</sys_updated_on>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-22 16:57:10</sys_updated_on>
         <timeline_page/>
         <title>Document Citations</title>
         <uncancelable>false</uncancelable>

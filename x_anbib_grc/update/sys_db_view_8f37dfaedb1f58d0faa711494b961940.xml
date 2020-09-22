@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="INSERT_OR_UPDATE">
+        <description/>
+        <label>My Task - SOP</label>
+        <name>x_anbib_grc_my_task_sop</name>
+        <plural>My Task - SOP</plural>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-20 06:39:25</sys_created_on>
+        <sys_id>8f37dfaedb1f58d0faa711494b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_my_task_sop</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_db_view_8f37dfaedb1f58d0faa711494b961940</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-20 06:39:25</sys_updated_on>
+    </sys_db_view>
+</record_update>

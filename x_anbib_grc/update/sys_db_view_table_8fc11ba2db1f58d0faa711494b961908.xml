@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-20 06:15:46</sys_created_on>
+        <sys_id>8fc11ba2db1f58d0faa711494b961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_m2m_evidence_control</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_db_view_table_8fc11ba2db1f58d0faa711494b961908</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-20 06:15:46</sys_updated_on>
+        <table>x_anbib_grc_m2m_evidence_control</table>
+        <variable_prefix>m2mcontrol</variable_prefix>
+        <view display_value="x_anbib_grc_my_task_sop_evidence">eec0df6edbdb58d0faa711494b9619e2</view>
+        <where_clause>m2mcontrol_sop_evidence=sop_sys_id</where_clause>
+    </sys_db_view_table>
+</record_update>

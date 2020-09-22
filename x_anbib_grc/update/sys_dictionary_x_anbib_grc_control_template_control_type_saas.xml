@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="control_type_saas" table="x_anbib_grc_control_template">
-        <active>true</active>
+        <active>false</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
@@ -49,14 +49,14 @@
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-18 12:56:09</sys_created_on>
         <sys_id>d88b8776dbc75410faa711494b961928</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>SaaS application control by SOC2 Report</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_dictionary_x_anbib_grc_control_template_control_type_saas</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-08 14:10:59</sys_updated_on>
+        <sys_updated_on>2020-09-21 02:22:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

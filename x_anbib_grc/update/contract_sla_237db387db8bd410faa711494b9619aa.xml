@@ -6,7 +6,7 @@
         </cancel_condition>
         <collection>x_anbib_grc_action_plan_of_control_inplementation</collection>
         <condition_class/>
-        <duration>1970-01-01 00:04:00</duration>
+        <duration>1970-01-01 00:05:00</duration>
         <duration_type/>
         <enable_logging>false</enable_logging>
         <flow/>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>237db387db8bd410faa711494b9619aa</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>GRC - Action Plan Implementation</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -44,13 +44,13 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>contract_sla_237db387db8bd410faa711494b9619aa</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-14 00:14:54</sys_updated_on>
+        <sys_updated_on>2020-09-21 18:48:22</sys_updated_on>
         <target>resolution</target>
         <timezone/>
         <timezone_source>task.caller_id.time_zone</timezone_source>
         <type>OLA</type>
         <when_to_cancel>on_condition</when_to_cancel>
         <when_to_resume>on_condition</when_to_resume>
-        <workflow display_value="GRC - SLA Action Plan Implementation">9599c45bdbcbd410faa711494b961904</workflow>
+        <workflow/>
     </contract_sla>
 </record_update>

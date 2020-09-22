@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_anbib_grc_my_approval_action_plan" version="2" view="grc_-_my_action_plan">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_state</element>
+            <list_id display_value="x_anbib_grc_my_approval_action_plan" element="NULL" name="x_anbib_grc_my_approval_action_plan" parent="NULL" relationship="NULL" sys_domain="global" view="06764ba2db9b58d0faa711494b9619f9">8f0feb5fdb135414faa711494b961970</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-22 16:18:20</sys_created_on>
+            <sys_id>cf0feb5fdb135414faa711494b961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-22 16:18:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_sysapproval</element>
+            <list_id display_value="x_anbib_grc_my_approval_action_plan" element="NULL" name="x_anbib_grc_my_approval_action_plan" parent="NULL" relationship="NULL" sys_domain="global" view="06764ba2db9b58d0faa711494b9619f9">8f0feb5fdb135414faa711494b961970</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-22 16:18:20</sys_created_on>
+            <sys_id>c70feb5fdb135414faa711494b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-22 16:18:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_approver</element>
+            <list_id display_value="x_anbib_grc_my_approval_action_plan" element="NULL" name="x_anbib_grc_my_approval_action_plan" parent="NULL" relationship="NULL" sys_domain="global" view="06764ba2db9b58d0faa711494b9619f9">8f0feb5fdb135414faa711494b961970</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-22 16:18:20</sys_created_on>
+            <sys_id>cb0feb5fdb135414faa711494b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-22 16:18:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>actionplan_control</element>
+            <list_id display_value="x_anbib_grc_my_approval_action_plan" element="NULL" name="x_anbib_grc_my_approval_action_plan" parent="NULL" relationship="NULL" sys_domain="global" view="06764ba2db9b58d0faa711494b9619f9">8f0feb5fdb135414faa711494b961970</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-22 16:18:20</sys_created_on>
+            <sys_id>cf0feb5fdb135414faa711494b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-22 16:18:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>actionplan_complexity</element>
+            <list_id display_value="x_anbib_grc_my_approval_action_plan" element="NULL" name="x_anbib_grc_my_approval_action_plan" parent="NULL" relationship="NULL" sys_domain="global" view="06764ba2db9b58d0faa711494b9619f9">8f0feb5fdb135414faa711494b961970</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-22 16:18:20</sys_created_on>
+            <sys_id>c30feb5fdb135414faa711494b961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-22 16:18:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>actionplan_control.entity</element>
+            <list_id display_value="x_anbib_grc_my_approval_action_plan" element="NULL" name="x_anbib_grc_my_approval_action_plan" parent="NULL" relationship="NULL" sys_domain="global" view="06764ba2db9b58d0faa711494b9619f9">8f0feb5fdb135414faa711494b961970</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-22 16:18:20</sys_created_on>
+            <sys_id>c70feb5fdb135414faa711494b961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-22 16:18:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>actionplan_control.entity.mics_category</element>
+            <list_id display_value="x_anbib_grc_my_approval_action_plan" element="NULL" name="x_anbib_grc_my_approval_action_plan" parent="NULL" relationship="NULL" sys_domain="global" view="06764ba2db9b58d0faa711494b9619f9">8f0feb5fdb135414faa711494b961970</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-22 16:18:20</sys_created_on>
+            <sys_id>cb0feb5fdb135414faa711494b961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-22 16:18:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>actionplan_control.layer</element>
+            <list_id display_value="x_anbib_grc_my_approval_action_plan" element="NULL" name="x_anbib_grc_my_approval_action_plan" parent="NULL" relationship="NULL" sys_domain="global" view="06764ba2db9b58d0faa711494b9619f9">8f0feb5fdb135414faa711494b961970</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-22 16:18:20</sys_created_on>
+            <sys_id>cf0feb5fdb135414faa711494b961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-22 16:18:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_anbib_grc_my_approval_action_plan</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-22 16:18:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f0feb5fdb135414faa711494b961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_anbib_grc_my_approval_action_plan</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_ui_list_x_anbib_grc_my_approval_action_plan_grc_-_my_action_plan</sys_update_name>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-22 16:18:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="GRC - My Action Plan" name="grc_-_my_action_plan">06764ba2db9b58d0faa711494b9619f9</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

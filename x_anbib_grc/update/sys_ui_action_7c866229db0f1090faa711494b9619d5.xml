@@ -28,7 +28,7 @@
         <name>Escalate</name>
         <onclick/>
         <order>400</order>
-        <script><![CDATA[gs.eventQueue("x_anbib_grc.escalation.actionplan.implem", current, "", "");
+        <script><![CDATA[gs.eventQueue("x_anbib_grc.escalation.actionplan.def", current, "", "");
 action.setRedirectURL(current);]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -40,7 +40,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c866229db0f1090faa711494b9619d5</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Escalate</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -48,7 +48,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_7c866229db0f1090faa711494b9619d5</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-18 18:45:50</sys_updated_on>
+        <sys_updated_on>2020-09-21 16:12:18</sys_updated_on>
         <table>x_anbib_grc_action_plan_of_control_inplementation</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

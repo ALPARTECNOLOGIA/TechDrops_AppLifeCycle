@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>grc_-_my_tasks</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-20 05:07:29</sys_created_on>
+        <sys_id>645207eedb1b58d0faa711494b96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grc_-_my_tasks</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_ui_view_645207eedb1b58d0faa711494b96194d</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-20 05:07:29</sys_updated_on>
+        <title>Grc_-_my_tasks</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_ui_view_645207eedb1b58d0faa711494b96194d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>grc_-_my_tasks</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by><sys_created_on>2020-09-20 05:07:29</sys_created_on><sys_id>645207eedb1b58d0faa711494b96194d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Grc_-_my_tasks</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy/><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_ui_view_645207eedb1b58d0faa711494b96194d</sys_update_name><sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-20 05:07:29</sys_updated_on><title>Grc_-_my_tasks</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>-1190452389</payload_hash>
+        <record_name>Grc_-_my_tasks</record_name>
+        <reverted_from/>
+        <source>8b7d7a62db1b58d0faa711494b9619aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-20 05:07:29</sys_created_on>
+        <sys_id>605207eedb1b58d0faa711494b96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174a9e8efa10000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-20 05:07:29</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>685207eeeb1b58d0ccf2359842cdb14e</update_guid>
+        <update_guid_history>685207eeeb1b58d0ccf2359842cdb14e:-1190452389</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-20 05:23:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>4cc974025d204e6c8a9ca30767069710</sys_id>
+        <sys_metadata>645207eedb1b58d0faa711494b96194d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grc_-_my_tasks</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_ui_view_645207eedb1b58d0faa711494b96194d</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_645207eedb1b58d0faa711494b96194d">605207eedb1b58d0faa711494b96194f</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-20 05:23:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

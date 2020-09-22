@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-20 04:52:54</sys_created_on>
+        <sys_id>f6eeb2e6db1b58d0faa711494b961939</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>task</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_db_view_table_f6eeb2e6db1b58d0faa711494b961939</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-20 04:54:08</sys_updated_on>
+        <table>task</table>
+        <variable_prefix>task</variable_prefix>
+        <view display_value="x_anbib_grc_my_task_action_plan">a9ae36a6db1b58d0faa711494b9619ad</view>
+        <where_clause>task_number=actionplan_number</where_clause>
+    </sys_db_view_table>
+</record_update>

@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state == "1" &amp;&amp; (current.assigned_to == gs.getUserID())</condition>
+        <condition>current.state == "10" &amp;&amp; (current.assigned_to == gs.getUserID())</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -28,15 +28,26 @@
         <name>Submit Evidences</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[var gr = new GlideRecord("sys_attachment");
-gr.addQuery("table_name", "x_anbib_grc_sop_evidence");
-gr.addQuery("table_sys_id", current.sys_id);
-gr.query();
-if (!gr.next()) {
+        <script><![CDATA[var notApplicable = false;
+var grEvidenceControl = new GlideRecord("x_anbib_grc_m2m_evidence_control");
+grEvidenceControl.addQuery("sop_evidence", current.sys_id);
+grEvidenceControl.query();
+
+if (grEvidenceControl.next()) {
+	if (grEvidenceControl.state == 50) {
+		notApplicable = true;
+	}
+}
+
+var grAttach = new GlideRecord("sys_attachment");
+grAttach.addQuery("table_name", "x_anbib_grc_sop_evidence");
+grAttach.addQuery("table_sys_id", current.sys_id);
+grAttach.query();
+if (!grAttach.next() && !notApplicable) {
 	gs.addErrorMessage("No documents attached. Please attach evidence or equivalent.");
 	redirect();
 } else {
-	current.state = '2';
+	current.state = '20';
 	current.update();
 	redirect();
 }
@@ -56,7 +67,7 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>895e8be8db8f185002085bd05b9619a7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Submit Evidences</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -64,7 +75,7 @@ function redirect() {
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_895e8be8db8f185002085bd05b9619a7</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-14 11:57:29</sys_updated_on>
+        <sys_updated_on>2020-09-22 17:26:23</sys_updated_on>
         <table>x_anbib_grc_sop_evidence</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

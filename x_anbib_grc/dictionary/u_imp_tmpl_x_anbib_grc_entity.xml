@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Imp Tmpl X Anbib Grc Entity" max_length="40" name="u_imp_tmpl_x_anbib_grc_entity" sizeclass="1" type="collection">
+    <element extends="sys_import_set_row" label="Imp Tmpl X Anbib Grc Entity" max_length="40" name="u_imp_tmpl_x_anbib_grc_entity" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Active" label="Active" max_length="40" name="u_active" type="string"/>
         <element attributes="import_attribute_name=Actual duration" label="Actual duration" max_length="40" name="u_actual_duration" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Actual end" label="Actual end" max_length="40" name="u_actual_end" type="string"/>
