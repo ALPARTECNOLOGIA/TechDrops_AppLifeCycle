@@ -48,7 +48,7 @@
         <sys_update_name>sys_ui_action_4ebed67edbe6145002085bd05b961979</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-08-14 14:23:19</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

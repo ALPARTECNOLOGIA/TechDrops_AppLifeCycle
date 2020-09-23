@@ -29,12 +29,12 @@
             <sys_updated_on>2020-09-10 20:45:01</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter table="x_anbib_grc_action_plan_of_control_inplementation.control">active=true^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <filter table="x_anbib_grc_action_plan_control_implementation.control">active=true^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             </filter>
             <list_id display_value="Control - Default view" name="x_anbib_grc_control" related_list="NULL" sys_domain="global" view="Default view">280976ebdb8b1c10faa711494b961958</list_id>
             <order_by/>
             <position>2</position>
-            <related_list>x_anbib_grc_action_plan_of_control_inplementation.control</related_list>
+            <related_list>x_anbib_grc_action_plan_control_implementation.control</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-10 20:45:01</sys_created_on>

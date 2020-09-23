@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_list parent="x_anbib_grc_action_plan_of_control_inplementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" table="sysapproval_approver" version="2" view="grc">
+    <sys_ui_list parent="x_anbib_grc_action_plan_control_implementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" table="sysapproval_approver" version="2" view="grc">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_anbib_grc_action_plan_of_control_inplementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" view="c9a54099db9fd090faa711494b961933">14f36939db175c90faa711494b961958</list_id>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_anbib_grc_action_plan_control_implementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" view="c9a54099db9fd090faa711494b961933">14f36939db175c90faa711494b961958</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>approver</element>
-            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_anbib_grc_action_plan_of_control_inplementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" view="c9a54099db9fd090faa711494b961933">14f36939db175c90faa711494b961958</list_id>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_anbib_grc_action_plan_control_implementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" view="c9a54099db9fd090faa711494b961933">14f36939db175c90faa711494b961958</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>comments</element>
-            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_anbib_grc_action_plan_of_control_inplementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" view="c9a54099db9fd090faa711494b961933">14f36939db175c90faa711494b961958</list_id>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_anbib_grc_action_plan_control_implementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" view="c9a54099db9fd090faa711494b961933">14f36939db175c90faa711494b961958</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sysapproval</element>
-            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_anbib_grc_action_plan_of_control_inplementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" view="c9a54099db9fd090faa711494b961933">14f36939db175c90faa711494b961958</list_id>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_anbib_grc_action_plan_control_implementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" view="c9a54099db9fd090faa711494b961933">14f36939db175c90faa711494b961958</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_anbib_grc_action_plan_of_control_inplementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" view="c9a54099db9fd090faa711494b961933">14f36939db175c90faa711494b961958</list_id>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_anbib_grc_action_plan_control_implementation" relationship="06fc652adb6adc1002085bd05b961975" sys_domain="global" view="c9a54099db9fd090faa711494b961933">14f36939db175c90faa711494b961958</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -81,7 +81,7 @@
             <max_value>false</max_value>
             <min_value>false</min_value>
             <name>sysapproval_approver</name>
-            <parent>x_anbib_grc_action_plan_of_control_inplementation</parent>
+            <parent>x_anbib_grc_action_plan_control_implementation</parent>
             <position/>
             <relationship display_value="Approvers">06fc652adb6adc1002085bd05b961975</relationship>
             <sum>false</sum>

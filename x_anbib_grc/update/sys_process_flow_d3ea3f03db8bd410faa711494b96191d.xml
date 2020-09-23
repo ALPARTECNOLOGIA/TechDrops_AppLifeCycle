@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
     <sys_process_flow action="INSERT_OR_UPDATE">
         <active>false</active>
-        <condition table="x_anbib_grc_action_plan_of_control_inplementation">state=18^EQ<item display_value="Implemented" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="18"/>
+        <condition table="x_anbib_grc_action_plan_control_implementation">state=18^EQ<item display_value="Implemented" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="18"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
@@ -20,6 +20,6 @@
         <sys_update_name>sys_process_flow_d3ea3f03db8bd410faa711494b96191d</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-10 18:18:12</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
     </sys_process_flow>
 </record_update>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
     <sys_export_definition action="INSERT_OR_UPDATE">
         <field_list>state,approver,comments,sysapproval,sys_created_on</field_list>
-        <filter table="sysapproval_approver">sysapproval.sys_class_name=x_anbib_grc_sop^ORsysapproval.sys_class_name=x_anbib_grc_sop_evidence^ORsysapproval.sys_class_name=x_anbib_grc_action_plan_of_control_inplementation^approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item display_value="x_anbib_grc_sop" endquery="false" field="sysapproval.sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_anbib_grc_sop"/>
+        <filter table="sysapproval_approver">sysapproval.sys_class_name=x_anbib_grc_sop^ORsysapproval.sys_class_name=x_anbib_grc_sop_evidence^ORsysapproval.sys_class_name=x_anbib_grc_action_plan_control_implementation^approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item display_value="x_anbib_grc_sop" endquery="false" field="sysapproval.sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_anbib_grc_sop"/>
             <item display_value="x_anbib_grc_sop_evidence" endquery="false" field="sysapproval.sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_anbib_grc_sop_evidence"/>
-            <item display_value="x_anbib_grc_action_plan_of_control_inplementation" endquery="false" field="sysapproval.sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_anbib_grc_action_plan_of_control_inplementation"/>
+            <item display_value="x_anbib_grc_action_plan_control_implementation" endquery="false" field="sysapproval.sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_anbib_grc_action_plan_control_implementation"/>
             <item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
         </filter>
         <name>ed_t_sysapproval_approver</name>

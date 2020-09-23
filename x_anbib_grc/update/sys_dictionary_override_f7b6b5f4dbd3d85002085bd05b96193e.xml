@@ -13,7 +13,7 @@
         <element>assigned_to</element>
         <mandatory>false</mandatory>
         <mandatory_override>false</mandatory_override>
-        <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+        <name>x_anbib_grc_action_plan_control_implementation</name>
         <read_only>false</read_only>
         <read_only_override>false</read_only_override>
         <reference_qual/>

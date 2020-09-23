@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="reason_for_change" label="Reason for change" language="en" table="x_anbib_grc_action_plan_of_control_inplementation">
+    <sys_documentation element="reason_for_change" label="Reason for change" language="en" table="x_anbib_grc_action_plan_control_implementation">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>reason_for_change</element>
             <help/>
             <hint/>
             <label>Reason for change</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <plural>Reason for changes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_anbib_grc_action_plan_of_control_inplementation" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_anbib_grc_action_plan_control_implementation" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
@@ -7,7 +7,7 @@
             <inactive>false</inactive>
             <label>Draft</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>0</sequence>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-11 15:26:03</sys_created_on>
@@ -26,7 +26,7 @@
             <inactive>true</inactive>
             <label>Wait for implementation</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>0</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-08 13:50:25</sys_created_on>
@@ -45,7 +45,7 @@
             <inactive>true</inactive>
             <label>Approved</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>0</sequence>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-13 13:09:12</sys_created_on>
@@ -64,7 +64,7 @@
             <inactive>false</inactive>
             <label>In validation</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>1</sequence>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-11 15:40:03</sys_created_on>
@@ -83,7 +83,7 @@
             <inactive>false</inactive>
             <label>Reproved</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>2</sequence>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-13 13:09:01</sys_created_on>
@@ -102,7 +102,7 @@
             <inactive>false</inactive>
             <label>Cancel</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>3</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-24 13:56:43</sys_created_on>
@@ -121,7 +121,7 @@
             <inactive>false</inactive>
             <label>Approved - Wait for Implementation</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>4</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-08 13:50:25</sys_created_on>
@@ -140,7 +140,7 @@
             <inactive>false</inactive>
             <label>Implementation validation</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>5</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-08 13:50:25</sys_created_on>
@@ -159,7 +159,7 @@
             <inactive>false</inactive>
             <label>Not implemented</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>6</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-08 13:50:25</sys_created_on>
@@ -178,7 +178,7 @@
             <inactive>false</inactive>
             <label>Implemented</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>7</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-08 18:05:39</sys_created_on>
@@ -197,7 +197,7 @@
             <inactive>false</inactive>
             <label>ETA change</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>8</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-08 18:40:37</sys_created_on>
@@ -216,7 +216,7 @@
             <inactive>false</inactive>
             <label>ETA revalidation</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>9</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-08 18:40:37</sys_created_on>
@@ -235,7 +235,7 @@
             <inactive>false</inactive>
             <label>ETA approved - Wait for Implementation</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>10</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-08 18:46:17</sys_created_on>
@@ -254,7 +254,7 @@
             <inactive>false</inactive>
             <label>ETA reproved</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>11</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-08 18:49:13</sys_created_on>
@@ -268,7 +268,7 @@
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>state</element>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-11 15:26:03</sys_created_on>

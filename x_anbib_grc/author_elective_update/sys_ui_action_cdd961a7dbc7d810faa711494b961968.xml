@@ -63,7 +63,7 @@ function redirect() {
         <sys_update_name>sys_ui_action_cdd961a7dbc7d810faa711494b961968</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-10 17:50:06</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
@@ -91,7 +91,7 @@ function redirect() {
 	var isList = action.getGlideURI().get('sys_is_list');
 	if (!isList) //Not from list form
 		action.setRedirectURL(current);
-}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-10 14:59:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cdd961a7dbc7d810faa711494b961968&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;TST&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_cdd961a7dbc7d810faa711494b961968&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-10 17:50:06&lt;/sys_updated_on&gt;&lt;table&gt;x_anbib_grc_action_plan_of_control_inplementation&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-10 14:59:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cdd961a7dbc7d810faa711494b961968&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;TST&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_cdd961a7dbc7d810faa711494b961968&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-10 17:50:06&lt;/sys_updated_on&gt;&lt;table&gt;x_anbib_grc_action_plan_control_implementation&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
         <payload_hash>207711581</payload_hash>
         <record_name>TST</record_name>
         <reverted_from/>

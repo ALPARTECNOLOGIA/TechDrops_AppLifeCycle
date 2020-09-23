@@ -16,7 +16,7 @@
         <sys_update_name>sys_ui_policy_action_8c58edefdb87d810faa711494b9619da</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-10 14:52:41</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
         <ui_policy display_value="Make fields read only">bb47adebdb87d810faa711494b9619a1</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>

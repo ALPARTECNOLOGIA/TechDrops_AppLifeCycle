@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="priority" table="x_anbib_grc_action_plan_of_control_inplementation" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="priority" table="x_anbib_grc_action_plan_control_implementation" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>priority</element>
@@ -7,7 +7,7 @@
             <inactive>false</inactive>
             <label>Critical</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>100</sequence>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-13 16:34:29</sys_created_on>
@@ -26,7 +26,7 @@
             <inactive>false</inactive>
             <label>High</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>200</sequence>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-13 16:34:10</sys_created_on>
@@ -45,7 +45,7 @@
             <inactive>false</inactive>
             <label>Medium</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>300</sequence>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-13 16:33:57</sys_created_on>
@@ -64,7 +64,7 @@
             <inactive>false</inactive>
             <label>Low</label>
             <language>en</language>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sequence>400</sequence>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-13 16:33:31</sys_created_on>
@@ -78,7 +78,7 @@
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-08-13 16:33:31</sys_created_on>

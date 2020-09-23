@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_anbib_grc_action_plan_of_control_inplementation">x_anbib_grc_action_plan_of_control_inplementation</reference>
+        <reference display_value="" name="x_anbib_grc_action_plan_control_implementation">x_anbib_grc_action_plan_control_implementation</reference>
         <reference_cascade_rule/>
         <reference_floats>true</reference_floats>
         <reference_key/>

@@ -27,7 +27,7 @@
         <omit_if_empty>false</omit_if_empty>
         <omit_links>false</omit_links>
         <omit_new_button>true</omit_new_button>
-        <related_list>x_anbib_grc_action_plan_of_control_inplementation.control</related_list>
+        <related_list>x_anbib_grc_action_plan_control_implementation.control</related_list>
         <sys_class_name>sys_ui_list_control</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-10 20:48:29</sys_created_on>

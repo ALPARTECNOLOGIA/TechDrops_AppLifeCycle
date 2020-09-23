@@ -18,6 +18,6 @@
         <sys_update_name>sysevent_register_bef8234edb9f90d0faa711494b961981</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-18 18:39:25</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
     </sysevent_register>
 </record_update>

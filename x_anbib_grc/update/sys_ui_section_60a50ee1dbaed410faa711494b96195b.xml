@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Annotations" section_id="60a50ee1dbaed410faa711494b96195b" sys_domain="global" table="x_anbib_grc_action_plan_of_control_inplementation" version="3" view="">
+    <sys_ui_section caption="Annotations" section_id="60a50ee1dbaed410faa711494b96195b" sys_domain="global" table="x_anbib_grc_action_plan_control_implementation" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
             <position>0</position>
@@ -8,7 +8,7 @@
             <sys_id>78a50ee1dbaed410faa711494b9619fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Annotations" display_value="Annotations" name="x_anbib_grc_action_plan_of_control_inplementation" sys_domain="global" view="Default view">60a50ee1dbaed410faa711494b96195b</sys_ui_section>
+            <sys_ui_section caption="Annotations" display_value="Annotations" name="x_anbib_grc_action_plan_control_implementation" sys_domain="global" view="Default view">60a50ee1dbaed410faa711494b96195b</sys_ui_section>
             <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
             <sys_updated_on>2020-08-10 15:21:20</sys_updated_on>
             <sys_user/>
@@ -17,7 +17,7 @@
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Annotations</caption>
             <header>false</header>
-            <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+            <name>x_anbib_grc_action_plan_control_implementation</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>

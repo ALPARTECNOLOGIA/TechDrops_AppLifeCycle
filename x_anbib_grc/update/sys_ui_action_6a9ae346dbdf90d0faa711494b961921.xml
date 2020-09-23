@@ -28,7 +28,7 @@
         <name>Escalate</name>
         <onclick/>
         <order>400</order>
-        <script><![CDATA[var grUpdate =  new GlideRecord('x_anbib_grc_action_plan_of_control_inplementation');
+        <script><![CDATA[var grUpdate =  new GlideRecord('x_anbib_grc_action_plan_control_implementation');
 grUpdate.addQuery('sys_id', current.sys_id.toString());
 grUpdate.query();
 grUpdate.next();
@@ -55,7 +55,7 @@ action.setRedirectURL(current);]]></script>
         <sys_update_name>sys_ui_action_6a9ae346dbdf90d0faa711494b961921</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-22 17:32:04</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

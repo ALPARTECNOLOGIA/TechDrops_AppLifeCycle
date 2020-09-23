@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_anbib_grc_action_plan_of_control_inplementation">stateNOT IN1,19^EQ<item display_value="1,19" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="1,19"/>
+        <conditions table="x_anbib_grc_action_plan_control_implementation">stateNOT IN1,19^EQ<item display_value="1,19" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="1,19"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -37,7 +37,7 @@
         <sys_update_name>sys_ui_policy_4af40764db57d850faa711494b9619a0</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-14 00:11:54</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
         <ui_type>0</ui_type>
         <view/>
     </sys_ui_policy>

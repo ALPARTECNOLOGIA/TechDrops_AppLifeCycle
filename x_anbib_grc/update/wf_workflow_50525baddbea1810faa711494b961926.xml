@@ -34,7 +34,7 @@
         <sys_mod_count>54</sys_mod_count>
         <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
         <sys_updated_on>2020-09-18 12:55:30</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
         <timezone/>
         <validated>true</validated>
         <workflow display_value="GRC - Action Plan of Control Inplementation">50525baddbea1810faa711494b961926</workflow>
@@ -59,7 +59,7 @@
         <sys_update_name>wf_workflow_50525baddbea1810faa711494b961926</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-08-10 20:56:21</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
         <template>false</template>
         <vars/>
     </wf_workflow>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
     <sys_process_flow action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_anbib_grc_action_plan_of_control_inplementation">state=1^ORstate=19^ORstate=22^EQ<item display_value="Draft" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        <condition table="x_anbib_grc_action_plan_control_implementation">state=1^ORstate=19^ORstate=22^EQ<item display_value="Draft" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
             <item display_value="ETA change" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="19"/>
             <item display_value="ETA reproved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="22"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
@@ -22,6 +22,6 @@
         <sys_update_name>sys_process_flow_0ac8de63db831c10faa711494b96196d</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-11 20:38:22</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
     </sys_process_flow>
 </record_update>

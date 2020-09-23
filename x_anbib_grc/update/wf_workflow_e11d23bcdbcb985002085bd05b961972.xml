@@ -537,7 +537,7 @@ switch (current.expected_state.toString()) {&#13;
         <value>var wf = new global.Workflow();&#13;
 &#13;
 // Consulta action plan de controle e cancela workflow se houver pendente&#13;
-var grActionPlan = new GlideRecord('x_anbib_grc_action_plan_of_control_inplementation');&#13;
+var grActionPlan = new GlideRecord('x_anbib_grc_action_plan_control_implementation');&#13;
 grActionPlan.addQuery("control", current.sys_id.toString());&#13;
 grActionPlan.query();&#13;
 &#13;
@@ -691,7 +691,7 @@ if (grSOPControl.next()) {&#13;
         <value>var wf = new global.Workflow();&#13;
 &#13;
 // Consulta action plan de controle e cancela workflow se houver pendente&#13;
-var grActionPlan = new GlideRecord('x_anbib_grc_action_plan_of_control_inplementation');&#13;
+var grActionPlan = new GlideRecord('x_anbib_grc_action_plan_control_implementation');&#13;
 grActionPlan.addQuery("control", current.sys_id.toString());&#13;
 grActionPlan.query();&#13;
 &#13;
@@ -1717,14 +1717,14 @@ function ifScript() {&#13;
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
-        <value>var grActionPlan = new GlideRecord('x_anbib_grc_action_plan_of_control_inplementation');&#13;
+        <value>var grActionPlan = new GlideRecord('x_anbib_grc_action_plan_control_implementation');&#13;
 grActionPlan.initialize();&#13;
 grActionPlan.control = current.sys_id.toString();&#13;
 grActionPlan.assigned_to = current.owner.toString();&#13;
 grActionPlan.state = "1";&#13;
 var actionPlan = grActionPlan.insert();  // inserted sys_id&#13;
 &#13;
-var grActionPlanInsert = new GlideRecord('x_anbib_grc_action_plan_of_control_inplementation');&#13;
+var grActionPlanInsert = new GlideRecord('x_anbib_grc_action_plan_control_implementation');&#13;
 grActionPlanInsert.get(actionPlan);      // inserted record&#13;
 &#13;
 var wf = new global.Workflow();&#13;
@@ -1758,14 +1758,14 @@ workflow.scratchpad.child = {&#13;
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
-        <value>var grActionPlan = new GlideRecord('x_anbib_grc_action_plan_of_control_inplementation');&#13;
+        <value>var grActionPlan = new GlideRecord('x_anbib_grc_action_plan_control_implementation');&#13;
 grActionPlan.initialize();&#13;
 grActionPlan.control = current.sys_id.toString();&#13;
 grActionPlan.assigned_to = current.owner.toString();&#13;
 grActionPlan.state = "1";&#13;
 var actionPlan = grActionPlan.insert();  // inserted sys_id&#13;
 &#13;
-var grActionPlanInsert = new GlideRecord('x_anbib_grc_action_plan_of_control_inplementation');&#13;
+var grActionPlanInsert = new GlideRecord('x_anbib_grc_action_plan_control_implementation');&#13;
 grActionPlanInsert.get(actionPlan);      // inserted record&#13;
 &#13;
 var wf = new global.Workflow();&#13;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="complexity" table="x_anbib_grc_action_plan_of_control_inplementation">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="complexity" table="x_anbib_grc_action_plan_control_implementation">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -30,7 +30,7 @@
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+        <name>x_anbib_grc_action_plan_control_implementation</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>

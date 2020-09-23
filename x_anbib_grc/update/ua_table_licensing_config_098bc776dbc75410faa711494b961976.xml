@@ -4,7 +4,7 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+        <name>x_anbib_grc_action_plan_control_implementation</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
@@ -14,7 +14,7 @@
         <sys_created_on>2020-08-10 15:18:12</sys_created_on>
         <sys_id>098bc776dbc75410faa711494b961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_anbib_grc_action_plan_of_control_inplementation</sys_name>
+        <sys_name>x_anbib_grc_action_plan_control_implementation</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>

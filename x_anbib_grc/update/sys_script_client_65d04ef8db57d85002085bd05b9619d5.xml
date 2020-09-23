@@ -32,7 +32,7 @@
         <sys_update_name>sys_script_client_65d04ef8db57d85002085bd05b9619d5</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-14 14:00:36</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
         <view/>

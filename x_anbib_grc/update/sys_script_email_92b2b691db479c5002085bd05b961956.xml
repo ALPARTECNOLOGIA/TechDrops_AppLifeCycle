@@ -10,7 +10,7 @@
 	
 		var url = gs.getProperty("glide.servlet.uri");
 	
-		var link = url + 'x_anbib_grc_action_plan_of_control_inplementation.do?sys_id='+current.sys_id;
+		var link = url + 'x_anbib_grc_action_plan_control_implementation.do?sys_id='+current.sys_id;
 		
 		template.print(link);
 

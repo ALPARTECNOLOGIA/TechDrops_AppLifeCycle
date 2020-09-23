@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
     <sys_m2m action="INSERT_OR_UPDATE">
-        <from_table>x_anbib_grc_action_plan_of_control_inplementation</from_table>
+        <from_table>x_anbib_grc_action_plan_control_implementation</from_table>
         <m2m_from_field>action_plan</m2m_from_field>
         <m2m_from_label>Change Requests</m2m_from_label>
         <m2m_table>x_anbib_grc_m2m_change_request_action_plan_control</m2m_table>

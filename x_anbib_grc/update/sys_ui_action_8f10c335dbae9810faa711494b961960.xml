@@ -32,7 +32,7 @@
 function showWorkflowContext() {
     var url = new GlideURL('/context_workflow.do');
     url.addParam('sysparm_stack', 'no');
-    url.addParam('sysparm_table', 'x_anbib_grc_action_plan_of_control_inplementation');
+    url.addParam('sysparm_table', 'x_anbib_grc_action_plan_control_implementation');
 	url.addParam('sysparm_document', g_form.getUniqueValue());
 	g_navigation.open(url.getURL(), "_blank");
 }]]></script>
@@ -55,7 +55,7 @@ function showWorkflowContext() {
         <sys_update_name>sys_ui_action_8f10c335dbae9810faa711494b961960</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-08-11 20:05:01</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

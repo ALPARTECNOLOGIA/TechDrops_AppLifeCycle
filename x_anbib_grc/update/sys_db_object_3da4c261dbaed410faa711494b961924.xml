@@ -13,7 +13,7 @@
         <is_extendable>false</is_extendable>
         <label>Control Implementation Action Plan</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+        <name>x_anbib_grc_action_plan_control_implementation</name>
         <number_ref display_value="ACTCTRL">bee4caa1dbaed410faa711494b9619bb</number_ref>
         <provider_class/>
         <read_access>true</read_access>

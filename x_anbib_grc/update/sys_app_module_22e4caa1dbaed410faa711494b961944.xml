@@ -4,7 +4,7 @@
         <application display_value="GRC">b72edb521bad58504aae202a2d4bcbaa</application>
         <assessment/>
         <device_type/>
-        <filter table="x_anbib_grc_action_plan_of_control_inplementation">stateNOT IN13^EQ<item display_value="Cancel" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="13"/>
+        <filter table="x_anbib_grc_action_plan_control_implementation">stateNOT IN13^EQ<item display_value="Cancel" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="13"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -14,7 +14,7 @@
         <map_page/>
         <mobile_title>Action Plan of Control Inplementations</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_anbib_grc_action_plan_of_control_inplementation</name>
+        <name>x_anbib_grc_action_plan_control_implementation</name>
         <order>535</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>

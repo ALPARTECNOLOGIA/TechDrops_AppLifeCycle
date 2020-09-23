@@ -13,7 +13,7 @@
         <sys_update_name>sys_db_view_table_field_21540beadb5b58d0faa711494b961947</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-20 05:16:18</sys_updated_on>
-        <table>x_anbib_grc_action_plan_of_control_inplementation</table>
-        <view_table display_value="x_anbib_grc_action_plan_of_control_inplementation">c5de72e6db1b58d0faa711494b9619dd</view_table>
+        <table>x_anbib_grc_action_plan_control_implementation</table>
+        <view_table display_value="x_anbib_grc_action_plan_control_implementation">c5de72e6db1b58d0faa711494b9619dd</view_table>
     </sys_db_view_table_field>
 </record_update>

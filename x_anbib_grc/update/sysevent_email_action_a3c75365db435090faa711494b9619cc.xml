@@ -6,7 +6,7 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_anbib_grc_action_plan_of_control_inplementation</collection>
+        <collection>x_anbib_grc_action_plan_control_implementation</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
