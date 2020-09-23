@@ -94,7 +94,7 @@
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #202020; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px;" valign="top">
 <h1 style="display: block; margin: 0px; padding: 0px; color: #b2b2b2; font-family: Helvetica; font-size: 30px; font-style: normal; font-weight: bold; line-height: 200%; letter-spacing: normal;">Dear ${mail_script:grc.notification.getItcSOP},</h1>
-<h3 style="display: block; margin: 0px; padding: 0px; color: #303030; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: left;">The provided evidence has been rejected.</h3>
+<h3 style="display: block; margin: 0px; padding: 0px; color: #303030; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: left;">The SOP has been rejected.</h3>
 </td>
 </tr>
 </tbody>
@@ -142,6 +142,7 @@
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px; width: 465px;" valign="top">
 <p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Please refer to the button below for review and submit a new document.</span></p>
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Control: ${mail_script:grc.notification.sop.control}<br />Entity: ${mail_script:grc.notification.sop.entity} <br />Layer: ${mail_script:grc.notification.sop.layer} <br />Reason: ${mail_script:grc.notification.getCommetRejected} </span></p>
 </td>
 </tr>
 </tbody>
@@ -174,7 +175,7 @@
 <table class="mcnButtonContentContainer" style="background-color: #c92d2d; text-size-adjust: 100%; border-collapse: separate;" border="0" width="100%" cellspacing="0" cellpadding="0">
 <tbody>
 <tr style="height: 26px;">
-<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%; height: 26px;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.getSop}" target="_blank" rel="noopener">For further details, click here</a></td>
+<td class="mcnButtonContent" style="font-family: Helvetica; font-size: 14px; padding: 15px; text-size-adjust: 100%; height: 26px;" align="center" valign="middle"><a class="mcnButton " style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #ffffff; text-size-adjust: 100%; display: block;" title="Clique aqui para visualizar" href="${mail_script:grc.notification.sopRejected}" target="_blank" rel="noopener">For further details, click here</a></td>
 </tr>
 </tbody>
 </table>
@@ -733,7 +734,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>68341ea1db8fdc5002085bd05b9619e0</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>GRC - SOP Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -741,7 +742,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_email_action_68341ea1db8fdc5002085bd05b9619e0</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 10:45:59</sys_updated_on>
+        <sys_updated_on>2020-09-23 12:19:28</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

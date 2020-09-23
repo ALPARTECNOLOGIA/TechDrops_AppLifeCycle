@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>grc.notification.sopEvidence.layer</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+	
+	var grEvidenceControl = new GlideRecord('x_anbib_grc_m2m_evidence_control');
+	grEvidenceControl.addQuery("sop_evidence", current.sys_id.toString());
+	grEvidenceControl.query();
+	var layer = "";
+	
+	if (grEvidenceControl.next()) {
+		layer = grEvidenceControl.control.layer.getDisplayValue();
+	}
+	template.print(layer);
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-23 12:22:57</sys_created_on>
+        <sys_id>f8c24033db57981402085bd05b9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>grc.notification.sopEvidence.layer</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_email_f8c24033db57981402085bd05b9619c0</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-23 12:22:57</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Grc M2m Evidence Control" max_length="40" name="x_anbib_grc_m2m_evidence_control" sizeclass="20" type="collection">
+    <element label="Grc M2m Evidence Control" max_length="40" name="x_anbib_grc_m2m_evidence_control" sizeclass="44" type="collection">
         <element attributes="encode_utf8=false" label="Control" max_length="32" name="control" reference="x_anbib_grc_control" type="reference"/>
         <element attributes="encode_utf8=false" label="SOP Evidence" max_length="32" name="sop_evidence" reference="x_anbib_grc_sop_evidence" type="reference"/>
         <index name="index">

@@ -18,7 +18,7 @@
         <name>x_anbib_grc_my_approval_sop_evidence</name>
         <order>602</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>^GROUPBYapproval_sysapproval</query>
         <report/>
         <roles>x_anbib_grc.owner</roles>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8714e8d2db5fd0d0faa711494b96193f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>SOP Evidence</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_app_module_8714e8d2db5fd0d0faa711494b96193f</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-22 16:26:16</sys_updated_on>
+        <sys_updated_on>2020-09-22 20:08:21</sys_updated_on>
         <timeline_page/>
         <title>SOP Evidence</title>
         <uncancelable>false</uncancelable>

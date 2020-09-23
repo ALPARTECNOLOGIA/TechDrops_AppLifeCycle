@@ -141,6 +141,7 @@
 <tbody>
 <tr>
 <td class="mcnTextContent" style="text-size-adjust: 100%; word-break: break-word; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding: 0px 18px 9px; width: 465px;" valign="top">
+<p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Control: ${mail_script:grc.notification.sopEvidence.control}<br />Entity: ${mail_script:grc.notification.sopEvidence.entity} <br />Layer: ${mail_script:grc.notification.sopEvidence.layer} <br />Reason: ${mail_script:grc.notification.getCommetRejected} </span></p>
 <p style="text-align: left; margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: #505050; font-family: Helvetica; font-size: 16px; line-height: 150%;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Please refer to the button below to review and submit a new document.</span></p>
 </td>
 </tr>
@@ -732,7 +733,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>73881b69db47109002085bd05b96197d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>GRC - SOP Evidence Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -740,7 +741,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_email_action_73881b69db47109002085bd05b96197d</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 10:40:40</sys_updated_on>
+        <sys_updated_on>2020-09-23 12:25:59</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

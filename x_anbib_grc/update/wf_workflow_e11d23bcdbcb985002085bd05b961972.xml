@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"stages":{},"subflows":[],"activities":{},"ends":["0c7d7643dbdb1014faa711494b9619d5"]}</activity_stages>
+        <activity_stages>{"stages":{},"activities":{},"ends":["dbf25cf7db5b981402085bd05b96196e"],"subflows":[]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,10 +9,10 @@
         <condition/>
         <condition_type/>
         <description/>
-        <expected_sequences>0c7d7643dbdb1014faa711494b9619b4,f76d7643dbdb1014faa711494b9619b3,447d7643dbdb1014faa711494b9619d2,487d7643dbdb1014faa711494b9619d6,c07d7643dbdb1014faa711494b9619d3,c47d7643dbdb1014faa711494b9619d1,4c7d7643dbdb1014faa711494b9619d8</expected_sequences>
+        <expected_sequences>53f25cf7db5b981402085bd05b96196a,8ff25cf7db5b981402085bd05b96192b,d7f25cf7db5b981402085bd05b961971,03f25cf7db5b981402085bd05b961933,d7f25cf7db5b981402085bd05b961974,5bf25cf7db5b981402085bd05b961975,5ff25cf7db5b981402085bd05b961977</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>0c7d7643dbdb1014faa711494b9619b4,f76d7643dbdb1014faa711494b9619b3,447d7643dbdb1014faa711494b9619d2,487d7643dbdb1014faa711494b9619d6,c07d7643dbdb1014faa711494b9619d3,c87d7643dbdb1014faa711494b9619b5,c87d7643dbdb1014faa711494b9619d9,0c7d7643dbdb1014faa711494b9619d5,7f6d7643dbdb1014faa711494b9619ae,c47d7643dbdb1014faa711494b9619d1,736d7643dbdb1014faa711494b9619ac,7b6d7643dbdb1014faa711494b9619b2,4c7d7643dbdb1014faa711494b9619d8,fb6d7643dbdb1014faa711494b9619ad,407d7643dbdb1014faa711494b9619d0,3f6d7643dbdb1014faa711494b9619af,407d7643dbdb1014faa711494b9619d4,cc7d7643dbdb1014faa711494b9619d4,f76d7643dbdb1014faa711494b9619b1</full_sequences>
+        <full_sequences>53f25cf7db5b981402085bd05b96196a,8ff25cf7db5b981402085bd05b96192b,d7f25cf7db5b981402085bd05b961971,03f25cf7db5b981402085bd05b961933,d7f25cf7db5b981402085bd05b961974,5bf25cf7db5b981402085bd05b961972,dbf25cf7db5b981402085bd05b961976,dbf25cf7db5b981402085bd05b96196e,9bf25cf7db5b981402085bd05b96196d,5bf25cf7db5b981402085bd05b961975,0bf25cf7db5b981402085bd05b96192f,1bf25cf7db5b981402085bd05b96196c,5ff25cf7db5b981402085bd05b961977,03f25cf7db5b981402085bd05b961969,5ff25cf7db5b981402085bd05b96196f,03f25cf7db5b981402085bd05b961931,97f25cf7db5b981402085bd05b96196b,03f25cf7db5b981402085bd05b96192e,0ff25cf7db5b981402085bd05b961935</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>GRC - Control Implementation</name>
@@ -27,13 +27,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">0c7d7643dbdb1014faa711494b9619b4</start>
+        <start display_value="Begin">53f25cf7db5b981402085bd05b96196a</start>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>3b6d7203dbdb1014faa711494b9619d7</sys_id>
-        <sys_mod_count>139</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>43f25cf7db5b981402085bd05b961904</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 20:02:22</sys_updated_on>
+        <sys_updated_on>2020-09-23 15:16:27</sys_updated_on>
         <table>x_anbib_grc_control</table>
         <timezone/>
         <validated>true</validated>
@@ -79,21 +79,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>0c7d7643dbdb1014faa711494b9619b4</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>53f25cf7db5b981402085bd05b96196a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>3</x>
         <y>8</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=0c7d7643dbdb1014faa711494b9619b4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=53f25cf7db5b981402085bd05b96196a"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">0c7d7643dbdb1014faa711494b9619b4</activity>
+        <activity display_value="Begin">53f25cf7db5b981402085bd05b96196a</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -107,11 +107,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>047d7643dbdb1014faa711494b9619b5</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dff25cf7db5b981402085bd05b96196a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -129,30 +129,30 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c87d7643dbdb1014faa711494b9619d9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dbf25cf7db5b981402085bd05b961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:08:39</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>721</x>
         <y>697</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c87d7643dbdb1014faa711494b9619d9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=dbf25cf7db5b981402085bd05b961976"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c87d7643dbdb1014faa711494b9619d9</document_key>
+        <document_key>dbf25cf7db5b981402085bd05b961976</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>4c7d7643dbdb1014faa711494b9619d9</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>5ff25cf7db5b981402085bd05b961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>// set state&#13;
 switch (current.expected_state.toString()) {&#13;
 	case "1":&#13;
@@ -169,15 +169,15 @@ switch (current.expected_state.toString()) {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c87d7643dbdb1014faa711494b9619d9</document_key>
+        <document_key>dbf25cf7db5b981402085bd05b961976</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>4c7d7643dbdb1014faa711494b9619d9</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>5ff25cf7db5b981402085bd05b961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>// set state&#13;
 switch (current.expected_state.toString()) {&#13;
 	case "1":&#13;
@@ -193,7 +193,7 @@ switch (current.expected_state.toString()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Change state to expected">c87d7643dbdb1014faa711494b9619d9</activity>
+        <activity display_value="Change state to expected">dbf25cf7db5b981402085bd05b961976</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -207,11 +207,11 @@ switch (current.expected_state.toString()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>807d7643dbdb1014faa711494b9619da</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>97f25cf7db5b981402085bd05b961977</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Switch">f84eda480a0a3c1800a6fa8c7badf346</activity_definition>
@@ -229,105 +229,105 @@ switch (current.expected_state.toString()) {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>487d7643dbdb1014faa711494b9619d6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>03f25cf7db5b981402085bd05b961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:09:25</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>345</x>
         <y>424</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=487d7643dbdb1014faa711494b9619d6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=03f25cf7db5b981402085bd05b961933"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>487d7643dbdb1014faa711494b9619d6</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961933</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>0ff25cf7db5b981402085bd05b961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
+        <value/>
+        <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>03f25cf7db5b981402085bd05b961933</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>007d7643dbdb1014faa711494b9619d7</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>4bf25cf7db5b981402085bd05b961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>field</value>
         <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>487d7643dbdb1014faa711494b9619d6</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961933</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>4c7d7643dbdb1014faa711494b9619d6</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>87f25cf7db5b981402085bd05b961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>state</value>
         <variable display_value="">f8575c7d0a0a3c1800b8f4d25403c852</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>487d7643dbdb1014faa711494b9619d6</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c07d7643dbdb1014faa711494b9619d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <value/>
-        <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>487d7643dbdb1014faa711494b9619d6</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961933</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>007d7643dbdb1014faa711494b9619d7</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>4bf25cf7db5b981402085bd05b961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>field</value>
         <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>487d7643dbdb1014faa711494b9619d6</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961933</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c07d7643dbdb1014faa711494b9619d7</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>0ff25cf7db5b981402085bd05b961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value/>
         <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>487d7643dbdb1014faa711494b9619d6</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961933</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>4c7d7643dbdb1014faa711494b9619d6</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>87f25cf7db5b981402085bd05b961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>state</value>
         <variable display_value="">f8575c7d0a0a3c1800b8f4d25403c852</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check state">487d7643dbdb1014faa711494b9619d6</activity>
+        <activity display_value="Check state">03f25cf7db5b981402085bd05b961933</activity>
         <condition>activity.result == '70'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -341,14 +341,14 @@ switch (current.expected_state.toString()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>8c7d7643dbdb1014faa711494b9619d7</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>47f25cf7db5b981402085bd05b961935</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check state">487d7643dbdb1014faa711494b9619d6</activity>
+        <activity display_value="Check state">03f25cf7db5b981402085bd05b961933</activity>
         <condition>activity.result == '80'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -362,14 +362,14 @@ switch (current.expected_state.toString()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>0c7d7643dbdb1014faa711494b9619d7</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>c7f25cf7db5b981402085bd05b961934</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check state">487d7643dbdb1014faa711494b9619d6</activity>
+        <activity display_value="Check state">03f25cf7db5b981402085bd05b961933</activity>
         <condition>activity.result == '30'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -383,14 +383,14 @@ switch (current.expected_state.toString()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>887d7643dbdb1014faa711494b9619d7</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>c3f25cf7db5b981402085bd05b961935</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check state">487d7643dbdb1014faa711494b9619d6</activity>
+        <activity display_value="Check state">03f25cf7db5b981402085bd05b961933</activity>
         <condition>activity.result == '20'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -404,14 +404,14 @@ switch (current.expected_state.toString()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>847d7643dbdb1014faa711494b9619d8</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>43f25cf7db5b981402085bd05b961935</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check state">487d7643dbdb1014faa711494b9619d6</activity>
+        <activity display_value="Check state">03f25cf7db5b981402085bd05b961933</activity>
         <condition>activity.result == '50'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -425,14 +425,14 @@ switch (current.expected_state.toString()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>807d7643dbdb1014faa711494b9619d8</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>4bf25cf7db5b981402085bd05b961934</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check state">487d7643dbdb1014faa711494b9619d6</activity>
+        <activity display_value="Check state">03f25cf7db5b981402085bd05b961933</activity>
         <condition>activity.result == '40'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -446,14 +446,14 @@ switch (current.expected_state.toString()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>047d7643dbdb1014faa711494b9619d8</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>4ff25cf7db5b981402085bd05b961934</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check state">487d7643dbdb1014faa711494b9619d6</activity>
+        <activity display_value="Check state">03f25cf7db5b981402085bd05b961933</activity>
         <condition>activity.result == '60'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -467,14 +467,14 @@ switch (current.expected_state.toString()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>007d7643dbdb1014faa711494b9619d8</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>cbf25cf7db5b981402085bd05b961934</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check state">487d7643dbdb1014faa711494b9619d6</activity>
+        <activity display_value="Check state">03f25cf7db5b981402085bd05b961933</activity>
         <condition>activity.result == '100'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -488,11 +488,11 @@ switch (current.expected_state.toString()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 19:37:06</sys_created_on>
-        <sys_id>c8c2df47db135014faa711494b961960</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>cff25cf7db5b981402085bd05b961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 19:37:34</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -510,30 +510,30 @@ switch (current.expected_state.toString()) {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>447d7643dbdb1014faa711494b9619d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>d7f25cf7db5b981402085bd05b961971</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 15:05:23</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>127</x>
         <y>205</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=447d7643dbdb1014faa711494b9619d2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d7f25cf7db5b981402085bd05b961971"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>447d7643dbdb1014faa711494b9619d2</document_key>
+        <document_key>d7f25cf7db5b981402085bd05b961971</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c47d7643dbdb1014faa711494b9619d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>5bf25cf7db5b981402085bd05b961971</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 15:05:24</sys_updated_on>
         <value>var wf = new global.Workflow();&#13;
 &#13;
 // Consulta action plan de controle e cancela workflow se houver pendente&#13;
@@ -554,65 +554,140 @@ while (grActionPlan.next()) {&#13;
 	grActionPlan.update();&#13;
 }&#13;
 &#13;
+&#13;
 // Consulta evidencias de controle e cancela workflow se houver pendente&#13;
 var grEvidenceControl = new GlideRecord('x_anbib_grc_m2m_evidence_control');&#13;
 grEvidenceControl.addQuery("control", current.sys_id.toString());&#13;
+grEvidenceControl.addQuery("sop_evidence.active", true);&#13;
 grEvidenceControl.query();&#13;
 &#13;
-while (grEvidenceControl.next()) {&#13;
+if (grEvidenceControl.next()) {&#13;
 	var evidence = grEvidenceControl.sop_evidence.toString();&#13;
-	var grEvidence = new GlideRecord('x_anbib_grc_sop_evidence');&#13;
-    if (grEvidence.get(evidence)) {&#13;
-		var evidenceFlows = wf.getRunningFlows(grEvidence); // Opened flows for evidence&#13;
-		while (evidenceFlows.next()) {&#13;
-			var grContextEvidence = new GlideRecord('wf_context');&#13;
 &#13;
-			if (grContextEvidence.get(evidenceFlows.getUniqueValue()))&#13;
-				wf.cancelContext(grContextEvidence);&#13;
-		}&#13;
-		&#13;
-		grEvidence.active = "false";&#13;
-		grEvidence.state = "-1";&#13;
-		grEvidence.update();&#13;
+	var gaEvidences = new GlideAggregate('x_anbib_grc_m2m_evidence_control');&#13;
+	gaEvidences.addQuery("sop_evidence", evidence);&#13;
+	gaEvidences.addAggregate('COUNT');&#13;
+	gaEvidences.query();&#13;
+	var evidenceCount = 0;&#13;
+	if (gaEvidences.next())&#13;
+		evidenceCount = gaEvidences.getAggregate('COUNT');&#13;
+&#13;
+	if (evidenceCount &gt; 1) {			&#13;
+		grEvidenceControl.deleteRecord();			&#13;
+	} else {			&#13;
+		var grEvidence = new GlideRecord('x_anbib_grc_sop_evidence');&#13;
+		if (grEvidence.get(evidence)) {&#13;
+			var evidenceFlows = wf.getRunningFlows(grEvidence); // Opened flows for evidence&#13;
+			while (evidenceFlows.next()) {&#13;
+				var grContextEvidence = new GlideRecord('wf_context');&#13;
+&#13;
+				if (grContextEvidence.get(evidenceFlows.getUniqueValue()))&#13;
+					wf.cancelContext(grContextEvidence);&#13;
+			}&#13;
+&#13;
+			grEvidence.active = "false";&#13;
+			grEvidence.state = "-1";&#13;
+			grEvidence.update();&#13;
+		}			&#13;
 	}&#13;
 }&#13;
+&#13;
+// // Consulta evidencias de controle e cancela workflow se houver pendente&#13;
+// var grEvidenceControl = new GlideRecord('x_anbib_grc_m2m_evidence_control');&#13;
+// grEvidenceControl.addQuery("control", current.sys_id.toString());&#13;
+// grEvidenceControl.query();&#13;
+&#13;
+// while (grEvidenceControl.next()) {&#13;
+// 	var evidence = grEvidenceControl.sop_evidence.toString();&#13;
+// 	var grEvidence = new GlideRecord('x_anbib_grc_sop_evidence');&#13;
+//     if (grEvidence.get(evidence)) {&#13;
+// 		var evidenceFlows = wf.getRunningFlows(grEvidence); // Opened flows for evidence&#13;
+// 		while (evidenceFlows.next()) {&#13;
+// 			var grContextEvidence = new GlideRecord('wf_context');&#13;
+&#13;
+// 			if (grContextEvidence.get(evidenceFlows.getUniqueValue()))&#13;
+// 				wf.cancelContext(grContextEvidence);&#13;
+// 		}&#13;
+		&#13;
+// 		grEvidence.active = "false";&#13;
+// 		grEvidence.state = "-1";&#13;
+// 		grEvidence.update();&#13;
+// 	}&#13;
+// }&#13;
 &#13;
 // Consulta sop de controle e cancela workflow se houver pendente&#13;
 var grSOPControl = new GlideRecord('x_anbib_grc_m2m_sop_control');&#13;
 grSOPControl.addQuery("control", current.sys_id.toString());&#13;
+grSOPControl.addQuery("sop.active", true);&#13;
 grSOPControl.query();&#13;
 &#13;
-while (grSOPControl.next()) {&#13;
+if (grSOPControl.next()) {&#13;
 	var sop = grSOPControl.sop.toString();&#13;
-	var grSOP = new GlideRecord('x_anbib_grc_sop');&#13;
-    if (grSOP.get(sop)) {&#13;
-		var sopFlows = wf.getRunningFlows(grSOP); // Opened flows for sop		&#13;
-		while (sopFlows.next()) {&#13;
-			var grContextSOP = new GlideRecord('wf_context');&#13;
 &#13;
-			if (grContextSOP.get(sopFlows.getUniqueValue()))&#13;
-				wf.cancelContext(grContextSOP);&#13;
+	var gaSOP = new GlideAggregate('x_anbib_grc_m2m_sop_control');&#13;
+	gaSOP.addQuery("sop", sop);&#13;
+	gaSOP.addAggregate('COUNT');&#13;
+	gaSOP.query();&#13;
+	var sopCount = 0;&#13;
+	if (gaSOP.next())&#13;
+		sopCount = gaSOP.getAggregate('COUNT');&#13;
+&#13;
+	if (sopCount &gt; 1) {			&#13;
+		grSOPControl.deleteRecord();			&#13;
+	} else {&#13;
+		var grSOP = new GlideRecord('x_anbib_grc_sop');&#13;
+		if (grSOP.get(sop)) {&#13;
+			var sopFlows = wf.getRunningFlows(grSOP); // Opened flows for sop		&#13;
+			while (sopFlows.next()) {&#13;
+				var grContextSOP = new GlideRecord('wf_context');&#13;
+&#13;
+				if (grContextSOP.get(sopFlows.getUniqueValue()))&#13;
+					wf.cancelContext(grContextSOP);&#13;
+			}&#13;
+&#13;
+			grSOP.active = "false";&#13;
+			grSOP.state = "-1";&#13;
+			grSOP.update();&#13;
 		}&#13;
-		&#13;
-		grSOP.active = "false";&#13;
-		grSOP.state = "-1";&#13;
-		grSOP.update();&#13;
 	}&#13;
 }&#13;
+&#13;
+// // Consulta sop de controle e cancela workflow se houver pendente&#13;
+// var grSOPControl = new GlideRecord('x_anbib_grc_m2m_sop_control');&#13;
+// grSOPControl.addQuery("control", current.sys_id.toString());&#13;
+// grSOPControl.query();&#13;
+&#13;
+// while (grSOPControl.next()) {&#13;
+// 	var sop = grSOPControl.sop.toString();&#13;
+// 	var grSOP = new GlideRecord('x_anbib_grc_sop');&#13;
+//     if (grSOP.get(sop)) {&#13;
+// 		var sopFlows = wf.getRunningFlows(grSOP); // Opened flows for sop		&#13;
+// 		while (sopFlows.next()) {&#13;
+// 			var grContextSOP = new GlideRecord('wf_context');&#13;
+&#13;
+// 			if (grContextSOP.get(sopFlows.getUniqueValue()))&#13;
+// 				wf.cancelContext(grContextSOP);&#13;
+// 		}&#13;
+		&#13;
+// 		grSOP.active = "false";&#13;
+// 		grSOP.state = "-1";&#13;
+// 		grSOP.update();&#13;
+// 	}&#13;
+// }&#13;
 </value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>447d7643dbdb1014faa711494b9619d2</document_key>
+        <document_key>d7f25cf7db5b981402085bd05b961971</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c47d7643dbdb1014faa711494b9619d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>5bf25cf7db5b981402085bd05b961971</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 15:05:24</sys_updated_on>
         <value>var wf = new global.Workflow();&#13;
 &#13;
 // Consulta action plan de controle e cancela workflow se houver pendente&#13;
@@ -633,56 +708,131 @@ while (grActionPlan.next()) {&#13;
 	grActionPlan.update();&#13;
 }&#13;
 &#13;
+&#13;
 // Consulta evidencias de controle e cancela workflow se houver pendente&#13;
 var grEvidenceControl = new GlideRecord('x_anbib_grc_m2m_evidence_control');&#13;
 grEvidenceControl.addQuery("control", current.sys_id.toString());&#13;
+grEvidenceControl.addQuery("sop_evidence.active", true);&#13;
 grEvidenceControl.query();&#13;
 &#13;
-while (grEvidenceControl.next()) {&#13;
+if (grEvidenceControl.next()) {&#13;
 	var evidence = grEvidenceControl.sop_evidence.toString();&#13;
-	var grEvidence = new GlideRecord('x_anbib_grc_sop_evidence');&#13;
-    if (grEvidence.get(evidence)) {&#13;
-		var evidenceFlows = wf.getRunningFlows(grEvidence); // Opened flows for evidence&#13;
-		while (evidenceFlows.next()) {&#13;
-			var grContextEvidence = new GlideRecord('wf_context');&#13;
 &#13;
-			if (grContextEvidence.get(evidenceFlows.getUniqueValue()))&#13;
-				wf.cancelContext(grContextEvidence);&#13;
-		}&#13;
-		&#13;
-		grEvidence.active = "false";&#13;
-		grEvidence.state = "-1";&#13;
-		grEvidence.update();&#13;
+	var gaEvidences = new GlideAggregate('x_anbib_grc_m2m_evidence_control');&#13;
+	gaEvidences.addQuery("sop_evidence", evidence);&#13;
+	gaEvidences.addAggregate('COUNT');&#13;
+	gaEvidences.query();&#13;
+	var evidenceCount = 0;&#13;
+	if (gaEvidences.next())&#13;
+		evidenceCount = gaEvidences.getAggregate('COUNT');&#13;
+&#13;
+	if (evidenceCount &gt; 1) {			&#13;
+		grEvidenceControl.deleteRecord();			&#13;
+	} else {			&#13;
+		var grEvidence = new GlideRecord('x_anbib_grc_sop_evidence');&#13;
+		if (grEvidence.get(evidence)) {&#13;
+			var evidenceFlows = wf.getRunningFlows(grEvidence); // Opened flows for evidence&#13;
+			while (evidenceFlows.next()) {&#13;
+				var grContextEvidence = new GlideRecord('wf_context');&#13;
+&#13;
+				if (grContextEvidence.get(evidenceFlows.getUniqueValue()))&#13;
+					wf.cancelContext(grContextEvidence);&#13;
+			}&#13;
+&#13;
+			grEvidence.active = "false";&#13;
+			grEvidence.state = "-1";&#13;
+			grEvidence.update();&#13;
+		}			&#13;
 	}&#13;
 }&#13;
+&#13;
+// // Consulta evidencias de controle e cancela workflow se houver pendente&#13;
+// var grEvidenceControl = new GlideRecord('x_anbib_grc_m2m_evidence_control');&#13;
+// grEvidenceControl.addQuery("control", current.sys_id.toString());&#13;
+// grEvidenceControl.query();&#13;
+&#13;
+// while (grEvidenceControl.next()) {&#13;
+// 	var evidence = grEvidenceControl.sop_evidence.toString();&#13;
+// 	var grEvidence = new GlideRecord('x_anbib_grc_sop_evidence');&#13;
+//     if (grEvidence.get(evidence)) {&#13;
+// 		var evidenceFlows = wf.getRunningFlows(grEvidence); // Opened flows for evidence&#13;
+// 		while (evidenceFlows.next()) {&#13;
+// 			var grContextEvidence = new GlideRecord('wf_context');&#13;
+&#13;
+// 			if (grContextEvidence.get(evidenceFlows.getUniqueValue()))&#13;
+// 				wf.cancelContext(grContextEvidence);&#13;
+// 		}&#13;
+		&#13;
+// 		grEvidence.active = "false";&#13;
+// 		grEvidence.state = "-1";&#13;
+// 		grEvidence.update();&#13;
+// 	}&#13;
+// }&#13;
 &#13;
 // Consulta sop de controle e cancela workflow se houver pendente&#13;
 var grSOPControl = new GlideRecord('x_anbib_grc_m2m_sop_control');&#13;
 grSOPControl.addQuery("control", current.sys_id.toString());&#13;
+grSOPControl.addQuery("sop.active", true);&#13;
 grSOPControl.query();&#13;
 &#13;
-while (grSOPControl.next()) {&#13;
+if (grSOPControl.next()) {&#13;
 	var sop = grSOPControl.sop.toString();&#13;
-	var grSOP = new GlideRecord('x_anbib_grc_sop');&#13;
-    if (grSOP.get(sop)) {&#13;
-		var sopFlows = wf.getRunningFlows(grSOP); // Opened flows for sop		&#13;
-		while (sopFlows.next()) {&#13;
-			var grContextSOP = new GlideRecord('wf_context');&#13;
 &#13;
-			if (grContextSOP.get(sopFlows.getUniqueValue()))&#13;
-				wf.cancelContext(grContextSOP);&#13;
+	var gaSOP = new GlideAggregate('x_anbib_grc_m2m_sop_control');&#13;
+	gaSOP.addQuery("sop", sop);&#13;
+	gaSOP.addAggregate('COUNT');&#13;
+	gaSOP.query();&#13;
+	var sopCount = 0;&#13;
+	if (gaSOP.next())&#13;
+		sopCount = gaSOP.getAggregate('COUNT');&#13;
+&#13;
+	if (sopCount &gt; 1) {			&#13;
+		grSOPControl.deleteRecord();			&#13;
+	} else {&#13;
+		var grSOP = new GlideRecord('x_anbib_grc_sop');&#13;
+		if (grSOP.get(sop)) {&#13;
+			var sopFlows = wf.getRunningFlows(grSOP); // Opened flows for sop		&#13;
+			while (sopFlows.next()) {&#13;
+				var grContextSOP = new GlideRecord('wf_context');&#13;
+&#13;
+				if (grContextSOP.get(sopFlows.getUniqueValue()))&#13;
+					wf.cancelContext(grContextSOP);&#13;
+			}&#13;
+&#13;
+			grSOP.active = "false";&#13;
+			grSOP.state = "-1";&#13;
+			grSOP.update();&#13;
 		}&#13;
-		&#13;
-		grSOP.active = "false";&#13;
-		grSOP.state = "-1";&#13;
-		grSOP.update();&#13;
 	}&#13;
 }&#13;
+&#13;
+// // Consulta sop de controle e cancela workflow se houver pendente&#13;
+// var grSOPControl = new GlideRecord('x_anbib_grc_m2m_sop_control');&#13;
+// grSOPControl.addQuery("control", current.sys_id.toString());&#13;
+// grSOPControl.query();&#13;
+&#13;
+// while (grSOPControl.next()) {&#13;
+// 	var sop = grSOPControl.sop.toString();&#13;
+// 	var grSOP = new GlideRecord('x_anbib_grc_sop');&#13;
+//     if (grSOP.get(sop)) {&#13;
+// 		var sopFlows = wf.getRunningFlows(grSOP); // Opened flows for sop		&#13;
+// 		while (sopFlows.next()) {&#13;
+// 			var grContextSOP = new GlideRecord('wf_context');&#13;
+&#13;
+// 			if (grContextSOP.get(sopFlows.getUniqueValue()))&#13;
+// 				wf.cancelContext(grContextSOP);&#13;
+// 		}&#13;
+		&#13;
+// 		grSOP.active = "false";&#13;
+// 		grSOP.state = "-1";&#13;
+// 		grSOP.update();&#13;
+// 	}&#13;
+// }&#13;
 </value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Close opened control tasks">447d7643dbdb1014faa711494b9619d2</activity>
+        <activity display_value="Close opened control tasks">d7f25cf7db5b981402085bd05b961971</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -696,11 +846,11 @@ while (grSOPControl.next()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>0c7d7643dbdb1014faa711494b9619d2</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>93f25cf7db5b981402085bd05b961972</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
@@ -718,30 +868,30 @@ while (grSOPControl.next()) {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c87d7643dbdb1014faa711494b9619b5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>5bf25cf7db5b981402085bd05b961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:06:24</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>595</x>
         <y>145</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c87d7643dbdb1014faa711494b9619b5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5bf25cf7db5b981402085bd05b961972"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c87d7643dbdb1014faa711494b9619b5</document_key>
+        <document_key>5bf25cf7db5b981402085bd05b961972</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>447d7643dbdb1014faa711494b9619b6</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>57f25cf7db5b981402085bd05b961973</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 2&#13;
 	return "";&#13;
@@ -750,15 +900,15 @@ while (grSOPControl.next()) {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c87d7643dbdb1014faa711494b9619b5</document_key>
+        <document_key>5bf25cf7db5b981402085bd05b961972</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>807d7643dbdb1014faa711494b9619b6</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>93f25cf7db5b981402085bd05b961973</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 1&#13;
 	return "";&#13;
@@ -767,43 +917,43 @@ while (grSOPControl.next()) {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c87d7643dbdb1014faa711494b9619b5</document_key>
+        <document_key>5bf25cf7db5b981402085bd05b961972</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>cc7d7643dbdb1014faa711494b9619b5</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dff25cf7db5b981402085bd05b961972</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>1e0bd5cfdb17dcd0faa711494b961979</value>
         <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c87d7643dbdb1014faa711494b9619b5</document_key>
+        <document_key>5bf25cf7db5b981402085bd05b961972</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>cc7d7643dbdb1014faa711494b9619b5</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dff25cf7db5b981402085bd05b961972</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>1e0bd5cfdb17dcd0faa711494b961979</value>
         <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c87d7643dbdb1014faa711494b9619b5</document_key>
+        <document_key>5bf25cf7db5b981402085bd05b961972</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>807d7643dbdb1014faa711494b9619b6</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>93f25cf7db5b981402085bd05b961973</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 1&#13;
 	return "";&#13;
@@ -812,15 +962,15 @@ while (grSOPControl.next()) {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c87d7643dbdb1014faa711494b9619b5</document_key>
+        <document_key>5bf25cf7db5b981402085bd05b961972</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>447d7643dbdb1014faa711494b9619b6</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>57f25cf7db5b981402085bd05b961973</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 2&#13;
 	return "";&#13;
@@ -828,7 +978,7 @@ while (grSOPControl.next()) {&#13;
         <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Control Implemented">c87d7643dbdb1014faa711494b9619b5</activity>
+        <activity display_value="Control Implemented">5bf25cf7db5b981402085bd05b961972</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -842,11 +992,11 @@ while (grSOPControl.next()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>0c7d7643dbdb1014faa711494b9619b6</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>13f25cf7db5b981402085bd05b961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -864,19 +1014,19 @@ while (grSOPControl.next()) {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>0c7d7643dbdb1014faa711494b9619d5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dbf25cf7db5b981402085bd05b96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:08:21</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>1492</x>
         <y>735</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=0c7d7643dbdb1014faa711494b9619d5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=dbf25cf7db5b981402085bd05b96196e"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -893,48 +1043,34 @@ while (grSOPControl.next()) {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>3f6d7643dbdb1014faa711494b9619af</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>03f25cf7db5b981402085bd05b961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:07:01</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
-        <x>732</x>
-        <y>418</y>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
+        <x>723</x>
+        <y>398</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=3f6d7643dbdb1014faa711494b9619af"/>
+    <sys_variable_value action="delete_multiple" query="document_key=03f25cf7db5b981402085bd05b961931"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3f6d7643dbdb1014faa711494b9619af</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>336d7643dbdb1014faa711494b9619b0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>3f6d7643dbdb1014faa711494b9619af</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961931</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>b76d7643dbdb1014faa711494b9619b0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>0ff25cf7db5b981402085bd05b961931</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>answer = ifScript();&#13;
 &#13;
 function ifScript() {&#13;
-    if (workflow.scratchpad.evidence_workflow != "3") {&#13;
+    if (workflow.scratchpad.evidence_workflow != "30") {&#13;
 		return 'yes';&#13;
     }&#13;
     return 'no';&#13;
@@ -943,61 +1079,75 @@ function ifScript() {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3f6d7643dbdb1014faa711494b9619af</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961931</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>f36d7643dbdb1014faa711494b9619b0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>4bf25cf7db5b981402085bd05b961931</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3f6d7643dbdb1014faa711494b9619af</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961931</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>336d7643dbdb1014faa711494b9619b0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>87f25cf7db5b981402085bd05b961931</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3f6d7643dbdb1014faa711494b9619af</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961931</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>87f25cf7db5b981402085bd05b961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>03f25cf7db5b981402085bd05b961931</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>f36d7643dbdb1014faa711494b9619b0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>4bf25cf7db5b981402085bd05b961931</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3f6d7643dbdb1014faa711494b9619af</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961931</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>b76d7643dbdb1014faa711494b9619b0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>0ff25cf7db5b981402085bd05b961931</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>answer = ifScript();&#13;
 &#13;
 function ifScript() {&#13;
-    if (workflow.scratchpad.evidence_workflow != "3") {&#13;
+    if (workflow.scratchpad.evidence_workflow != "30") {&#13;
 		return 'yes';&#13;
     }&#13;
     return 'no';&#13;
@@ -1005,7 +1155,7 @@ function ifScript() {&#13;
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Is workflow running?">3f6d7643dbdb1014faa711494b9619af</activity>
+        <activity display_value="Is workflow running?">03f25cf7db5b981402085bd05b961931</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -1019,14 +1169,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>7f6d7643dbdb1014faa711494b9619b0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>c7f25cf7db5b981402085bd05b961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Is workflow running?">3f6d7643dbdb1014faa711494b9619af</activity>
+        <activity display_value="Is workflow running?">03f25cf7db5b981402085bd05b961931</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -1040,11 +1190,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>ff6d7643dbdb1014faa711494b9619b0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>4bf25cf7db5b981402085bd05b961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
@@ -1062,34 +1212,34 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>407d7643dbdb1014faa711494b9619d0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>5ff25cf7db5b981402085bd05b96196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:07:46</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>1240</x>
         <y>146</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=407d7643dbdb1014faa711494b9619d0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5ff25cf7db5b981402085bd05b96196f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>407d7643dbdb1014faa711494b9619d0</document_key>
+        <document_key>5ff25cf7db5b981402085bd05b96196f</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>487d7643dbdb1014faa711494b9619d0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>57f25cf7db5b981402085bd05b961970</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>answer = ifScript();&#13;
 &#13;
 function ifScript() {&#13;
-    if (workflow.scratchpad.evidence_workflow != "2" &amp;&amp; workflow.scratchpad.evidence_workflow != "3") {&#13;
+    if (workflow.scratchpad.sop_workflow != "20" &amp;&amp; workflow.scratchpad.sop_workflow != "30") {&#13;
 		return 'yes';&#13;
     }&#13;
     return 'no';&#13;
@@ -1098,75 +1248,75 @@ function ifScript() {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>407d7643dbdb1014faa711494b9619d0</document_key>
+        <document_key>5ff25cf7db5b981402085bd05b96196f</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>847d7643dbdb1014faa711494b9619d0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>93f25cf7db5b981402085bd05b961970</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>407d7643dbdb1014faa711494b9619d0</document_key>
+        <document_key>5ff25cf7db5b981402085bd05b96196f</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c07d7643dbdb1014faa711494b9619d0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dff25cf7db5b981402085bd05b96196f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>407d7643dbdb1014faa711494b9619d0</document_key>
+        <document_key>5ff25cf7db5b981402085bd05b96196f</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c07d7643dbdb1014faa711494b9619d0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dff25cf7db5b981402085bd05b96196f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>407d7643dbdb1014faa711494b9619d0</document_key>
+        <document_key>5ff25cf7db5b981402085bd05b96196f</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>847d7643dbdb1014faa711494b9619d0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>93f25cf7db5b981402085bd05b961970</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>407d7643dbdb1014faa711494b9619d0</document_key>
+        <document_key>5ff25cf7db5b981402085bd05b96196f</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>487d7643dbdb1014faa711494b9619d0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>57f25cf7db5b981402085bd05b961970</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>answer = ifScript();&#13;
 &#13;
 function ifScript() {&#13;
-    if (workflow.scratchpad.evidence_workflow != "2" &amp;&amp; workflow.scratchpad.evidence_workflow != "3") {&#13;
+    if (workflow.scratchpad.sop_workflow != "20" &amp;&amp; workflow.scratchpad.sop_workflow != "30") {&#13;
 		return 'yes';&#13;
     }&#13;
     return 'no';&#13;
@@ -1174,7 +1324,7 @@ function ifScript() {&#13;
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Is workflow running?">407d7643dbdb1014faa711494b9619d0</activity>
+        <activity display_value="Is workflow running?">5ff25cf7db5b981402085bd05b96196f</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -1188,14 +1338,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>007d7643dbdb1014faa711494b9619d1</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>13f25cf7db5b981402085bd05b961971</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Is workflow running?">407d7643dbdb1014faa711494b9619d0</activity>
+        <activity display_value="Is workflow running?">5ff25cf7db5b981402085bd05b96196f</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -1209,11 +1359,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>8c7d7643dbdb1014faa711494b9619d0</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>9ff25cf7db5b981402085bd05b961970</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1231,49 +1381,49 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>4c7d7643dbdb1014faa711494b9619d8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>5ff25cf7db5b981402085bd05b961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 19:00:42</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>213</x>
         <y>16</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=4c7d7643dbdb1014faa711494b9619d8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5ff25cf7db5b981402085bd05b961977"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>4c7d7643dbdb1014faa711494b9619d8</document_key>
+        <document_key>5ff25cf7db5b981402085bd05b961977</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>cc7d7643dbdb1014faa711494b9619d8</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dff25cf7db5b981402085bd05b961977</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>current.state = "20";</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>4c7d7643dbdb1014faa711494b9619d8</document_key>
+        <document_key>5ff25cf7db5b981402085bd05b961977</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>cc7d7643dbdb1014faa711494b9619d8</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dff25cf7db5b981402085bd05b961977</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>current.state = "20";</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set state in validation">4c7d7643dbdb1014faa711494b9619d8</activity>
+        <activity display_value="Set state in validation">5ff25cf7db5b981402085bd05b961977</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1287,11 +1437,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>047d7643dbdb1014faa711494b9619d9</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>1bf25cf7db5b981402085bd05b961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -1309,49 +1459,49 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>fb6d7643dbdb1014faa711494b9619ad</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>03f25cf7db5b981402085bd05b961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:06:57</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
-        <x>596</x>
-        <y>318</y>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
+        <x>595</x>
+        <y>303</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=fb6d7643dbdb1014faa711494b9619ad"/>
+    <sys_variable_value action="delete_multiple" query="document_key=03f25cf7db5b981402085bd05b961969"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>fb6d7643dbdb1014faa711494b9619ad</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961969</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>ff6d7643dbdb1014faa711494b9619ad</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>83f25cf7db5b981402085bd05b961969</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>status=1^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>fb6d7643dbdb1014faa711494b9619ad</document_key>
+        <document_key>03f25cf7db5b981402085bd05b961969</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>ff6d7643dbdb1014faa711494b9619ad</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>83f25cf7db5b981402085bd05b961969</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>status=1^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set status evidence">fb6d7643dbdb1014faa711494b9619ad</activity>
+        <activity display_value="Set status evidence">03f25cf7db5b981402085bd05b961969</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1365,11 +1515,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>b76d7643dbdb1014faa711494b9619ae</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dbf25cf7db5b981402085bd05b961969</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -1387,49 +1537,49 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>cc7d7643dbdb1014faa711494b9619d4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>03f25cf7db5b981402085bd05b96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:08:00</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>1322</x>
         <y>437</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=cc7d7643dbdb1014faa711494b9619d4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=03f25cf7db5b981402085bd05b96192e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>cc7d7643dbdb1014faa711494b9619d4</document_key>
+        <document_key>03f25cf7db5b981402085bd05b96192e</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>407d7643dbdb1014faa711494b9619d5</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>87f25cf7db5b981402085bd05b96192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>status=^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>cc7d7643dbdb1014faa711494b9619d4</document_key>
+        <document_key>03f25cf7db5b981402085bd05b96192e</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>407d7643dbdb1014faa711494b9619d5</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>87f25cf7db5b981402085bd05b96192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>status=^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set status none">cc7d7643dbdb1014faa711494b9619d4</activity>
+        <activity display_value="Set status none">03f25cf7db5b981402085bd05b96192e</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1443,11 +1593,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>847d7643dbdb1014faa711494b9619d5</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>43f25cf7db5b981402085bd05b96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -1465,49 +1615,49 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>7b6d7643dbdb1014faa711494b9619b2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>1bf25cf7db5b981402085bd05b96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:07:43</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>1181</x>
         <y>296</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=7b6d7643dbdb1014faa711494b9619b2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1bf25cf7db5b981402085bd05b96196c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7b6d7643dbdb1014faa711494b9619b2</document_key>
+        <document_key>1bf25cf7db5b981402085bd05b96196c</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>fb6d7643dbdb1014faa711494b9619b2</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>9bf25cf7db5b981402085bd05b96196c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>status=3^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7b6d7643dbdb1014faa711494b9619b2</document_key>
+        <document_key>1bf25cf7db5b981402085bd05b96196c</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>fb6d7643dbdb1014faa711494b9619b2</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>9bf25cf7db5b981402085bd05b96196c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>status=3^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set status SOP">7b6d7643dbdb1014faa711494b9619b2</activity>
+        <activity display_value="Set status SOP">1bf25cf7db5b981402085bd05b96196c</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1521,11 +1671,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>336d7643dbdb1014faa711494b9619b3</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>d3f25cf7db5b981402085bd05b96196d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1543,30 +1693,30 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c07d7643dbdb1014faa711494b9619d3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>d7f25cf7db5b981402085bd05b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:06:12</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>604</x>
         <y>64</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c07d7643dbdb1014faa711494b9619d3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d7f25cf7db5b981402085bd05b961974"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c07d7643dbdb1014faa711494b9619d3</document_key>
+        <document_key>d7f25cf7db5b981402085bd05b961974</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>447d7643dbdb1014faa711494b9619d3</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>5bf25cf7db5b981402085bd05b961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>var grActionPlan = new GlideRecord('x_anbib_grc_action_plan_of_control_inplementation');&#13;
 grActionPlan.initialize();&#13;
 grActionPlan.control = current.sys_id.toString();&#13;
@@ -1599,15 +1749,15 @@ workflow.scratchpad.child = {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c07d7643dbdb1014faa711494b9619d3</document_key>
+        <document_key>d7f25cf7db5b981402085bd05b961974</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>447d7643dbdb1014faa711494b9619d3</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>5bf25cf7db5b981402085bd05b961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>var grActionPlan = new GlideRecord('x_anbib_grc_action_plan_of_control_inplementation');&#13;
 grActionPlan.initialize();&#13;
 grActionPlan.control = current.sys_id.toString();&#13;
@@ -1639,7 +1789,7 @@ workflow.scratchpad.child = {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Start action plan">c07d7643dbdb1014faa711494b9619d3</activity>
+        <activity display_value="Start action plan">d7f25cf7db5b981402085bd05b961974</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1653,11 +1803,11 @@ workflow.scratchpad.child = {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>887d7643dbdb1014faa711494b9619d3</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>93f25cf7db5b981402085bd05b961975</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1675,34 +1825,36 @@ workflow.scratchpad.child = {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>7f6d7643dbdb1014faa711494b9619ae</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>9bf25cf7db5b981402085bd05b96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 19:38:12</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>1054</x>
         <y>491</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=7f6d7643dbdb1014faa711494b9619ae"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9bf25cf7db5b981402085bd05b96196d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7f6d7643dbdb1014faa711494b9619ae</document_key>
+        <document_key>9bf25cf7db5b981402085bd05b96196d</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>ff6d7643dbdb1014faa711494b9619ae</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>1ff25cf7db5b981402085bd05b96196d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>workflow.scratchpad.sop_workflow = "0";&#13;
 	&#13;
+var sopResponsible = current.entity.itc_responsible;&#13;
 // Se for SaaS e o template possuir flag de coberto por SOC2 report, abre somente um processo para aplicação&#13;
-if (current.entity.hosting_type.toString() == "SaaS" &amp;&amp; current.layer.layer_type.toString() == "2") {&#13;
+var hostingType = current.entity.hosting_type.toString();&#13;
+if ((hostingType == "SaaS" || hostingType == "IaaS" || hostingType == "PaaS") &amp;&amp; current.layer.layer_type.toString() == "2" &amp;&amp; current.expected_state.toString() == "2") {&#13;
 	var grSOPControl = new GlideRecord('x_anbib_grc_m2m_sop_control');&#13;
 	grSOPControl.addQuery("control.entity", current.entity.toString());&#13;
 	grSOPControl.addQuery("control.layer.layer_type", "2");&#13;
@@ -1718,16 +1870,17 @@ if (current.entity.hosting_type.toString() == "SaaS" &amp;&amp; current.layer.la
 		grSOPControlInsert.sop = sop;&#13;
 		var sopControl = grSOPControlInsert.insert();&#13;
 	} else {&#13;
-		startWorkflow();&#13;
+		startWorkflow(sopResponsible);&#13;
 	}&#13;
 } else {&#13;
-	startWorkflow();&#13;
+	startWorkflow(sopResponsible);&#13;
 }&#13;
 &#13;
-function startWorkflow() {&#13;
+function startWorkflow(sopResponsible) {&#13;
 	var grSOP = new GlideRecord('x_anbib_grc_sop');&#13;
 	grSOP.initialize();&#13;
 	grSOP.state = "0";&#13;
+	grSOP.assigned_to = sopResponsible;&#13;
 	var sop = grSOP.insert();  // inserted sys_id&#13;
 	&#13;
 	var grSOPControl = new GlideRecord('x_anbib_grc_m2m_sop_control');&#13;
@@ -1762,19 +1915,21 @@ function startWorkflow() {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7f6d7643dbdb1014faa711494b9619ae</document_key>
+        <document_key>9bf25cf7db5b981402085bd05b96196d</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>ff6d7643dbdb1014faa711494b9619ae</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>1ff25cf7db5b981402085bd05b96196d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>workflow.scratchpad.sop_workflow = "0";&#13;
 	&#13;
+var sopResponsible = current.entity.itc_responsible;&#13;
 // Se for SaaS e o template possuir flag de coberto por SOC2 report, abre somente um processo para aplicação&#13;
-if (current.entity.hosting_type.toString() == "SaaS" &amp;&amp; current.layer.layer_type.toString() == "2") {&#13;
+var hostingType = current.entity.hosting_type.toString();&#13;
+if ((hostingType == "SaaS" || hostingType == "IaaS" || hostingType == "PaaS") &amp;&amp; current.layer.layer_type.toString() == "2" &amp;&amp; current.expected_state.toString() == "2") {&#13;
 	var grSOPControl = new GlideRecord('x_anbib_grc_m2m_sop_control');&#13;
 	grSOPControl.addQuery("control.entity", current.entity.toString());&#13;
 	grSOPControl.addQuery("control.layer.layer_type", "2");&#13;
@@ -1790,16 +1945,17 @@ if (current.entity.hosting_type.toString() == "SaaS" &amp;&amp; current.layer.la
 		grSOPControlInsert.sop = sop;&#13;
 		var sopControl = grSOPControlInsert.insert();&#13;
 	} else {&#13;
-		startWorkflow();&#13;
+		startWorkflow(sopResponsible);&#13;
 	}&#13;
 } else {&#13;
-	startWorkflow();&#13;
+	startWorkflow(sopResponsible);&#13;
 }&#13;
 &#13;
-function startWorkflow() {&#13;
+function startWorkflow(sopResponsible) {&#13;
 	var grSOP = new GlideRecord('x_anbib_grc_sop');&#13;
 	grSOP.initialize();&#13;
 	grSOP.state = "0";&#13;
+	grSOP.assigned_to = sopResponsible;&#13;
 	var sop = grSOP.insert();  // inserted sys_id&#13;
 	&#13;
 	var grSOPControl = new GlideRecord('x_anbib_grc_m2m_sop_control');&#13;
@@ -1833,7 +1989,7 @@ function startWorkflow() {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Start SOP">7f6d7643dbdb1014faa711494b9619ae</activity>
+        <activity display_value="Start SOP">9bf25cf7db5b981402085bd05b96196d</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1847,11 +2003,11 @@ function startWorkflow() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>376d7643dbdb1014faa711494b9619af</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>57f25cf7db5b981402085bd05b96196e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1869,37 +2025,38 @@ function startWorkflow() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>736d7643dbdb1014faa711494b9619ac</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>0bf25cf7db5b981402085bd05b96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:06:42</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
-        <x>599</x>
-        <y>229</y>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
+        <x>595</x>
+        <y>224</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=736d7643dbdb1014faa711494b9619ac"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0bf25cf7db5b981402085bd05b96192f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>736d7643dbdb1014faa711494b9619ac</document_key>
+        <document_key>0bf25cf7db5b981402085bd05b96192f</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>f76d7643dbdb1014faa711494b9619ac</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>8ff25cf7db5b981402085bd05b96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>workflow.scratchpad.evidence_workflow = "0";&#13;
 &#13;
 // Se for SaaS e o template possuir flag de coberto por SOC2 report, abre somente um processo para aplicação&#13;
 // if (current.entity.hosting_type.toString() == "saas" &amp;&amp; current.control.control_type_saas.toString() == "true") {&#13;
 &#13;
 // Se for SaaS e a layer possuir flag de coberto por SOC2 report, abre somente um processo para aplicação&#13;
-if (current.entity.hosting_type.toString() == "SaaS" &amp;&amp; current.layer.layer_type.toString() == "2") {&#13;
+var hostingType = current.entity.hosting_type.toString();&#13;
+if ((hostingType == "SaaS" || hostingType == "IaaS" || hostingType == "PaaS") &amp;&amp; current.layer.layer_type.toString() == "2" &amp;&amp; current.expected_state.toString() == "2") {&#13;
 	var grEvidenceControl = new GlideRecord('x_anbib_grc_m2m_evidence_control');&#13;
 	grEvidenceControl.addQuery("control.entity", current.entity.toString());&#13;
 	grEvidenceControl.addQuery("control.layer.layer_type", "2");&#13;
@@ -1962,22 +2119,23 @@ function startWorkflow() {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>736d7643dbdb1014faa711494b9619ac</document_key>
+        <document_key>0bf25cf7db5b981402085bd05b96192f</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>f76d7643dbdb1014faa711494b9619ac</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>8ff25cf7db5b981402085bd05b96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>workflow.scratchpad.evidence_workflow = "0";&#13;
 &#13;
 // Se for SaaS e o template possuir flag de coberto por SOC2 report, abre somente um processo para aplicação&#13;
 // if (current.entity.hosting_type.toString() == "saas" &amp;&amp; current.control.control_type_saas.toString() == "true") {&#13;
 &#13;
 // Se for SaaS e a layer possuir flag de coberto por SOC2 report, abre somente um processo para aplicação&#13;
-if (current.entity.hosting_type.toString() == "SaaS" &amp;&amp; current.layer.layer_type.toString() == "2") {&#13;
+var hostingType = current.entity.hosting_type.toString();&#13;
+if ((hostingType == "SaaS" || hostingType == "IaaS" || hostingType == "PaaS") &amp;&amp; current.layer.layer_type.toString() == "2" &amp;&amp; current.expected_state.toString() == "2") {&#13;
 	var grEvidenceControl = new GlideRecord('x_anbib_grc_m2m_evidence_control');&#13;
 	grEvidenceControl.addQuery("control.entity", current.entity.toString());&#13;
 	grEvidenceControl.addQuery("control.layer.layer_type", "2");&#13;
@@ -2039,7 +2197,7 @@ function startWorkflow() {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Start SOP evidence">736d7643dbdb1014faa711494b9619ac</activity>
+        <activity display_value="Start SOP evidence">0bf25cf7db5b981402085bd05b96192f</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2053,11 +2211,11 @@ function startWorkflow() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>b36d7643dbdb1014faa711494b9619ad</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>4bf25cf7db5b981402085bd05b961930</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Wait for WF Event">88fbebdcac146426045370ed7901e2e2</activity_definition>
@@ -2075,49 +2233,49 @@ function startWorkflow() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c47d7643dbdb1014faa711494b9619d1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>5bf25cf7db5b981402085bd05b961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 19:00:45</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>879</x>
         <y>147</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c47d7643dbdb1014faa711494b9619d1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5bf25cf7db5b981402085bd05b961975"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c47d7643dbdb1014faa711494b9619d1</document_key>
+        <document_key>5bf25cf7db5b981402085bd05b961975</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>487d7643dbdb1014faa711494b9619d1</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dbf25cf7db5b981402085bd05b961975</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>ACTION_PLAN_FINISH</value>
         <variable display_value="">c35dfb0f0a0a0ba96248a70973bbf0d9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c47d7643dbdb1014faa711494b9619d1</document_key>
+        <document_key>5bf25cf7db5b981402085bd05b961975</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>487d7643dbdb1014faa711494b9619d1</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>dbf25cf7db5b981402085bd05b961975</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>ACTION_PLAN_FINISH</value>
         <variable display_value="">c35dfb0f0a0a0ba96248a70973bbf0d9</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Wait for action plan workflow">c47d7643dbdb1014faa711494b9619d1</activity>
+        <activity display_value="Wait for action plan workflow">5bf25cf7db5b981402085bd05b961975</activity>
         <condition>activity.state == 'finished'</condition>
         <condition_default display_value="Fired">8902eeb7ac14642602e00b12fc7059c0</condition_default>
         <condition_type>standard</condition_type>
@@ -2131,11 +2289,11 @@ function startWorkflow() {&#13;
         <short_description>The event we were waiting on has been fired</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>8c7d7643dbdb1014faa711494b9619d1</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>17f25cf7db5b981402085bd05b961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Wait for WF Event">88fbebdcac146426045370ed7901e2e2</activity_definition>
@@ -2153,49 +2311,49 @@ function startWorkflow() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>f76d7643dbdb1014faa711494b9619b1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>0ff25cf7db5b981402085bd05b961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:09:00</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>884</x>
         <y>311</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f76d7643dbdb1014faa711494b9619b1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0ff25cf7db5b981402085bd05b961935"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f76d7643dbdb1014faa711494b9619b1</document_key>
+        <document_key>0ff25cf7db5b981402085bd05b961935</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>fb6d7643dbdb1014faa711494b9619b1</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>83f25cf7db5b981402085bd05b961936</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>EVIDENCE_FINISH</value>
         <variable display_value="">c35dfb0f0a0a0ba96248a70973bbf0d9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f76d7643dbdb1014faa711494b9619b1</document_key>
+        <document_key>0ff25cf7db5b981402085bd05b961935</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>fb6d7643dbdb1014faa711494b9619b1</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>83f25cf7db5b981402085bd05b961936</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>EVIDENCE_FINISH</value>
         <variable display_value="">c35dfb0f0a0a0ba96248a70973bbf0d9</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Wait for evidence workflow">f76d7643dbdb1014faa711494b9619b1</activity>
+        <activity display_value="Wait for evidence workflow">0ff25cf7db5b981402085bd05b961935</activity>
         <condition>activity.state == 'finished'</condition>
         <condition_default display_value="Fired">8902eeb7ac14642602e00b12fc7059c0</condition_default>
         <condition_type>standard</condition_type>
@@ -2209,11 +2367,11 @@ function startWorkflow() {&#13;
         <short_description>The event we were waiting on has been fired</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>b36d7643dbdb1014faa711494b9619b2</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>4bf25cf7db5b981402085bd05b961968</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Wait for WF Event">88fbebdcac146426045370ed7901e2e2</activity_definition>
@@ -2231,49 +2389,49 @@ function startWorkflow() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>407d7643dbdb1014faa711494b9619d4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>97f25cf7db5b981402085bd05b96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:07:49</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>1325</x>
         <y>49</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=407d7643dbdb1014faa711494b9619d4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=97f25cf7db5b981402085bd05b96196b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>407d7643dbdb1014faa711494b9619d4</document_key>
+        <document_key>97f25cf7db5b981402085bd05b96196b</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c07d7643dbdb1014faa711494b9619d4</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>1bf25cf7db5b981402085bd05b96196b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>SOP_FINISH</value>
         <variable display_value="">c35dfb0f0a0a0ba96248a70973bbf0d9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>407d7643dbdb1014faa711494b9619d4</document_key>
+        <document_key>97f25cf7db5b981402085bd05b96196b</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c07d7643dbdb1014faa711494b9619d4</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>1bf25cf7db5b981402085bd05b96196b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>SOP_FINISH</value>
         <variable display_value="">c35dfb0f0a0a0ba96248a70973bbf0d9</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Wait for SOP workflow">407d7643dbdb1014faa711494b9619d4</activity>
+        <activity display_value="Wait for SOP workflow">97f25cf7db5b981402085bd05b96196b</activity>
         <condition>activity.state == 'finished'</condition>
         <condition_default display_value="Fired">8902eeb7ac14642602e00b12fc7059c0</condition_default>
         <condition_type>standard</condition_type>
@@ -2287,11 +2445,11 @@ function startWorkflow() {&#13;
         <short_description>The event we were waiting on has been fired</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>087d7643dbdb1014faa711494b9619d4</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>53f25cf7db5b981402085bd05b96196c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
@@ -2309,44 +2467,44 @@ function startWorkflow() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>f76d7643dbdb1014faa711494b9619b3</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>8ff25cf7db5b981402085bd05b96192b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
         <x>22</x>
         <y>107</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f76d7643dbdb1014faa711494b9619b3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8ff25cf7db5b981402085bd05b96192b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f76d7643dbdb1014faa711494b9619b3</document_key>
+        <document_key>8ff25cf7db5b981402085bd05b96192b</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>8c7d7643dbdb1014faa711494b9619b3</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>8bf25cf7db5b981402085bd05b96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>stateNOT IN0,10,70,80^EQ</value>
         <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f76d7643dbdb1014faa711494b9619b3</document_key>
+        <document_key>8ff25cf7db5b981402085bd05b96192b</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c87d7643dbdb1014faa711494b9619b3</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>c7f25cf7db5b981402085bd05b96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
@@ -2354,36 +2512,36 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f76d7643dbdb1014faa711494b9619b3</document_key>
+        <document_key>8ff25cf7db5b981402085bd05b96192b</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>8c7d7643dbdb1014faa711494b9619b3</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>8bf25cf7db5b981402085bd05b96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>stateNOT IN0,10,70,80^EQ</value>
         <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f76d7643dbdb1014faa711494b9619b3</document_key>
+        <document_key>8ff25cf7db5b981402085bd05b96192b</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c87d7643dbdb1014faa711494b9619b3</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>c7f25cf7db5b981402085bd05b96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
         <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Wait for state change">f76d7643dbdb1014faa711494b9619b3</activity>
+        <activity display_value="Wait for state change">8ff25cf7db5b981402085bd05b96192b</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2397,308 +2555,308 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>447d7643dbdb1014faa711494b9619b4</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>47f25cf7db5b981402085bd05b96192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="In validation">847d7643dbdb1014faa711494b9619d8</condition>
-        <from display_value="Check state">487d7643dbdb1014faa711494b9619d6</from>
+        <condition display_value="No">13f25cf7db5b981402085bd05b961971</condition>
+        <from display_value="Is workflow running?">5ff25cf7db5b981402085bd05b96196f</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>007d7643dbdb1014faa711494b9619dc</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>17f25cf7db5b981402085bd05b96197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Control Implemented">c87d7643dbdb1014faa711494b9619b5</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Set status none">03f25cf7db5b981402085bd05b96192e</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="In place">887d7643dbdb1014faa711494b9619d7</condition>
-        <from display_value="Check state">487d7643dbdb1014faa711494b9619d6</from>
+        <condition display_value="No">c7f25cf7db5b981402085bd05b961932</condition>
+        <from display_value="Is workflow running?">03f25cf7db5b981402085bd05b961931</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>047d7643dbdb1014faa711494b9619dc</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>53f25cf7db5b981402085bd05b96197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Change state to expected">c87d7643dbdb1014faa711494b9619d9</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Start SOP">9bf25cf7db5b981402085bd05b96196d</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Not applicable">807d7643dbdb1014faa711494b9619d8</condition>
-        <from display_value="Check state">487d7643dbdb1014faa711494b9619d6</from>
+        <condition display_value="Always">13f25cf7db5b981402085bd05b961974</condition>
+        <from display_value="Control Implemented">5bf25cf7db5b981402085bd05b961972</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>087d7643dbdb1014faa711494b9619db</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>53f25cf7db5b981402085bd05b96197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Change state to expected">c87d7643dbdb1014faa711494b9619d9</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Start SOP evidence">0bf25cf7db5b981402085bd05b96192f</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">0c7d7643dbdb1014faa711494b9619d2</condition>
-        <from display_value="Close opened control tasks">447d7643dbdb1014faa711494b9619d2</from>
+        <condition display_value="Not applicable">4bf25cf7db5b981402085bd05b961934</condition>
+        <from display_value="Check state">03f25cf7db5b981402085bd05b961933</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>087d7643dbdb1014faa711494b9619dc</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>53f25cf7db5b981402085bd05b96197c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Check state">487d7643dbdb1014faa711494b9619d6</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Change state to expected">dbf25cf7db5b981402085bd05b961976</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Rely on ISAE3402">007d7643dbdb1014faa711494b9619d8</condition>
-        <from display_value="Check state">487d7643dbdb1014faa711494b9619d6</from>
+        <condition display_value="Fired">4bf25cf7db5b981402085bd05b961968</condition>
+        <from display_value="Wait for evidence workflow">0ff25cf7db5b981402085bd05b961935</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>0c7d7643dbdb1014faa711494b9619db</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>57f25cf7db5b981402085bd05b96197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Change state to expected">c87d7643dbdb1014faa711494b9619d9</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Start SOP">9bf25cf7db5b981402085bd05b96196d</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">007d7643dbdb1014faa711494b9619d1</condition>
-        <from display_value="Is workflow running?">407d7643dbdb1014faa711494b9619d0</from>
+        <condition display_value="Disabled - removed layer">47f25cf7db5b981402085bd05b961935</condition>
+        <from display_value="Check state">03f25cf7db5b981402085bd05b961933</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>0c7d7643dbdb1014faa711494b9619dc</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>57f25cf7db5b981402085bd05b96197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Set status none">cc7d7643dbdb1014faa711494b9619d4</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="End">dbf25cf7db5b981402085bd05b96196e</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Fired">8c7d7643dbdb1014faa711494b9619d1</condition>
-        <from display_value="Wait for action plan workflow">c47d7643dbdb1014faa711494b9619d1</from>
+        <condition display_value="Always">93f25cf7db5b981402085bd05b961972</condition>
+        <from display_value="Close opened control tasks">d7f25cf7db5b981402085bd05b961971</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>407d7643dbdb1014faa711494b9619e0</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>5bf25cf7db5b981402085bd05b96197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Set state in validation">4c7d7643dbdb1014faa711494b9619d8</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Check state">03f25cf7db5b981402085bd05b961933</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">447d7643dbdb1014faa711494b9619b4</condition>
-        <from display_value="Wait for state change">f76d7643dbdb1014faa711494b9619b3</from>
+        <condition display_value="Disabled - type changed">c7f25cf7db5b981402085bd05b961934</condition>
+        <from display_value="Check state">03f25cf7db5b981402085bd05b961933</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>447d7643dbdb1014faa711494b9619e0</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>5bf25cf7db5b981402085bd05b96197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Close opened control tasks">447d7643dbdb1014faa711494b9619d2</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="End">dbf25cf7db5b981402085bd05b96196e</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">807d7643dbdb1014faa711494b9619da</condition>
-        <from display_value="Change state to expected">c87d7643dbdb1014faa711494b9619d9</from>
+        <condition display_value="Always">97f25cf7db5b981402085bd05b961977</condition>
+        <from display_value="Change state to expected">dbf25cf7db5b981402085bd05b961976</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>487d7643dbdb1014faa711494b9619e0</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>5ff25cf7db5b981402085bd05b96197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="End">0c7d7643dbdb1014faa711494b9619d5</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="End">dbf25cf7db5b981402085bd05b96196e</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">7f6d7643dbdb1014faa711494b9619b0</condition>
-        <from display_value="Is workflow running?">3f6d7643dbdb1014faa711494b9619af</from>
+        <condition display_value="Rely on ISAE3402">cbf25cf7db5b981402085bd05b961934</condition>
+        <from display_value="Check state">03f25cf7db5b981402085bd05b961933</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>4c7d7643dbdb1014faa711494b9619df</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>5ff25cf7db5b981402085bd05b96197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Start SOP">7f6d7643dbdb1014faa711494b9619ae</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Change state to expected">dbf25cf7db5b981402085bd05b961976</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">b36d7643dbdb1014faa711494b9619ad</condition>
-        <from display_value="Start SOP evidence">736d7643dbdb1014faa711494b9619ac</from>
+        <condition display_value="Fired">17f25cf7db5b981402085bd05b961976</condition>
+        <from display_value="Wait for action plan workflow">5bf25cf7db5b981402085bd05b961975</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>4c7d7643dbdb1014faa711494b9619e0</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>93f25cf7db5b981402085bd05b96197f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Set status evidence">fb6d7643dbdb1014faa711494b9619ad</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Set state in validation">5ff25cf7db5b981402085bd05b961977</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Not in place">047d7643dbdb1014faa711494b9619d8</condition>
-        <from display_value="Check state">487d7643dbdb1014faa711494b9619d6</from>
+        <condition display_value="Yes">9ff25cf7db5b981402085bd05b961970</condition>
+        <from display_value="Is workflow running?">5ff25cf7db5b981402085bd05b96196f</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>807d7643dbdb1014faa711494b9619dc</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>97f25cf7db5b981402085bd05b96197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Start action plan">c07d7643dbdb1014faa711494b9619d3</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Wait for SOP workflow">97f25cf7db5b981402085bd05b96196b</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Disabled - type changed">0c7d7643dbdb1014faa711494b9619d7</condition>
-        <from display_value="Check state">487d7643dbdb1014faa711494b9619d6</from>
+        <condition display_value="Always">dbf25cf7db5b981402085bd05b961969</condition>
+        <from display_value="Set status evidence">03f25cf7db5b981402085bd05b961969</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>887d7643dbdb1014faa711494b9619db</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>97f25cf7db5b981402085bd05b96197f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="End">0c7d7643dbdb1014faa711494b9619d5</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Is workflow running?">03f25cf7db5b981402085bd05b961931</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Disabled - removed layer">8c7d7643dbdb1014faa711494b9619d7</condition>
-        <from display_value="Check state">487d7643dbdb1014faa711494b9619d6</from>
+        <condition display_value="Always">47f25cf7db5b981402085bd05b96192d</condition>
+        <from display_value="Wait for state change">8ff25cf7db5b981402085bd05b96192b</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>8c7d7643dbdb1014faa711494b9619db</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>9bf25cf7db5b981402085bd05b96197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="End">0c7d7643dbdb1014faa711494b9619d5</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Close opened control tasks">d7f25cf7db5b981402085bd05b961971</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">8c7d7643dbdb1014faa711494b9619d0</condition>
-        <from display_value="Is workflow running?">407d7643dbdb1014faa711494b9619d0</from>
+        <condition display_value="Yes">4bf25cf7db5b981402085bd05b961932</condition>
+        <from display_value="Is workflow running?">03f25cf7db5b981402085bd05b961931</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>8c7d7643dbdb1014faa711494b9619dc</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>9ff25cf7db5b981402085bd05b961979</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Wait for SOP workflow">407d7643dbdb1014faa711494b9619d4</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Wait for evidence workflow">0ff25cf7db5b981402085bd05b961935</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Skip validation">c8c2df47db135014faa711494b961960</condition>
-        <from display_value="Check state">487d7643dbdb1014faa711494b9619d6</from>
+        <condition display_value="Always">dff25cf7db5b981402085bd05b96196a</condition>
+        <from display_value="Begin">53f25cf7db5b981402085bd05b96196a</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 19:37:55</sys_created_on>
-        <sys_id>a02357c7db135014faa711494b9619fe</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>9ff25cf7db5b981402085bd05b96197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 19:37:55</sys_updated_on>
-        <to display_value="Start SOP">7f6d7643dbdb1014faa711494b9619ae</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Wait for state change">8ff25cf7db5b981402085bd05b96192b</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">047d7643dbdb1014faa711494b9619d9</condition>
-        <from display_value="Set state in validation">4c7d7643dbdb1014faa711494b9619d8</from>
+        <condition display_value="Not in place">4ff25cf7db5b981402085bd05b961934</condition>
+        <from display_value="Check state">03f25cf7db5b981402085bd05b961933</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c07d7643dbdb1014faa711494b9619dd</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>d3f25cf7db5b981402085bd05b96197c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Check state">487d7643dbdb1014faa711494b9619d6</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Start action plan">d7f25cf7db5b981402085bd05b961974</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">047d7643dbdb1014faa711494b9619b5</condition>
-        <from display_value="Begin">0c7d7643dbdb1014faa711494b9619b4</from>
+        <condition display_value="Always">1bf25cf7db5b981402085bd05b961978</condition>
+        <from display_value="Set state in validation">5ff25cf7db5b981402085bd05b961977</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c07d7643dbdb1014faa711494b9619de</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>d3f25cf7db5b981402085bd05b96197d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Wait for state change">f76d7643dbdb1014faa711494b9619b3</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Check state">03f25cf7db5b981402085bd05b961933</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">887d7643dbdb1014faa711494b9619d3</condition>
-        <from display_value="Start action plan">c07d7643dbdb1014faa711494b9619d3</from>
+        <condition display_value="Skip validation">cff25cf7db5b981402085bd05b961934</condition>
+        <from display_value="Check state">03f25cf7db5b981402085bd05b961933</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c07d7643dbdb1014faa711494b9619df</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>d7f25cf7db5b981402085bd05b96197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Wait for action plan workflow">c47d7643dbdb1014faa711494b9619d1</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Start SOP">9bf25cf7db5b981402085bd05b96196d</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">b76d7643dbdb1014faa711494b9619ae</condition>
-        <from display_value="Set status evidence">fb6d7643dbdb1014faa711494b9619ad</from>
+        <condition display_value="Always">d3f25cf7db5b981402085bd05b96196d</condition>
+        <from display_value="Set status SOP">1bf25cf7db5b981402085bd05b96196c</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c47d7643dbdb1014faa711494b9619dd</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>d7f25cf7db5b981402085bd05b96197c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Is workflow running?">3f6d7643dbdb1014faa711494b9619af</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Is workflow running?">5ff25cf7db5b981402085bd05b96196f</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">0c7d7643dbdb1014faa711494b9619b6</condition>
-        <from display_value="Control Implemented">c87d7643dbdb1014faa711494b9619b5</from>
+        <condition display_value="Fired">53f25cf7db5b981402085bd05b96196c</condition>
+        <from display_value="Wait for SOP workflow">97f25cf7db5b981402085bd05b96196b</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c47d7643dbdb1014faa711494b9619de</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>d7f25cf7db5b981402085bd05b96197d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Start SOP evidence">736d7643dbdb1014faa711494b9619ac</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Set status none">03f25cf7db5b981402085bd05b96192e</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Fired">b36d7643dbdb1014faa711494b9619b2</condition>
-        <from display_value="Wait for evidence workflow">f76d7643dbdb1014faa711494b9619b1</from>
+        <condition display_value="In validation">43f25cf7db5b981402085bd05b961935</condition>
+        <from display_value="Check state">03f25cf7db5b981402085bd05b961933</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c47d7643dbdb1014faa711494b9619df</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>dbf25cf7db5b981402085bd05b96197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Start SOP">7f6d7643dbdb1014faa711494b9619ae</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Control Implemented">5bf25cf7db5b981402085bd05b961972</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Fired">087d7643dbdb1014faa711494b9619d4</condition>
-        <from display_value="Wait for SOP workflow">407d7643dbdb1014faa711494b9619d4</from>
+        <condition display_value="Always">93f25cf7db5b981402085bd05b961975</condition>
+        <from display_value="Start action plan">d7f25cf7db5b981402085bd05b961974</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c87d7643dbdb1014faa711494b9619dd</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>dbf25cf7db5b981402085bd05b96197c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Set status none">cc7d7643dbdb1014faa711494b9619d4</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Wait for action plan workflow">5bf25cf7db5b981402085bd05b961975</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">336d7643dbdb1014faa711494b9619b3</condition>
-        <from display_value="Set status SOP">7b6d7643dbdb1014faa711494b9619b2</from>
+        <condition display_value="Always">4bf25cf7db5b981402085bd05b961930</condition>
+        <from display_value="Start SOP evidence">0bf25cf7db5b981402085bd05b96192f</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c87d7643dbdb1014faa711494b9619de</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>dbf25cf7db5b981402085bd05b96197d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Is workflow running?">407d7643dbdb1014faa711494b9619d0</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Set status evidence">03f25cf7db5b981402085bd05b961969</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">ff6d7643dbdb1014faa711494b9619b0</condition>
-        <from display_value="Is workflow running?">3f6d7643dbdb1014faa711494b9619af</from>
+        <condition display_value="In place">c3f25cf7db5b981402085bd05b961935</condition>
+        <from display_value="Check state">03f25cf7db5b981402085bd05b961933</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>c87d7643dbdb1014faa711494b9619df</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>dff25cf7db5b981402085bd05b96197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Wait for evidence workflow">f76d7643dbdb1014faa711494b9619b1</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Change state to expected">dbf25cf7db5b981402085bd05b961976</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">847d7643dbdb1014faa711494b9619d5</condition>
-        <from display_value="Set status none">cc7d7643dbdb1014faa711494b9619d4</from>
+        <condition display_value="Always">57f25cf7db5b981402085bd05b96196e</condition>
+        <from display_value="Start SOP">9bf25cf7db5b981402085bd05b96196d</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>cc7d7643dbdb1014faa711494b9619dd</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>dff25cf7db5b981402085bd05b96197c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Change state to expected">c87d7643dbdb1014faa711494b9619d9</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Set status SOP">1bf25cf7db5b981402085bd05b96196c</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">376d7643dbdb1014faa711494b9619af</condition>
-        <from display_value="Start SOP">7f6d7643dbdb1014faa711494b9619ae</from>
+        <condition display_value="Always">43f25cf7db5b981402085bd05b96192f</condition>
+        <from display_value="Set status none">03f25cf7db5b981402085bd05b96192e</from>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>cc7d7643dbdb1014faa711494b9619de</sys_id>
+        <sys_created_on>2020-09-23 13:33:51</sys_created_on>
+        <sys_id>dff25cf7db5b981402085bd05b96197d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <to display_value="Set status SOP">7b6d7643dbdb1014faa711494b9619b2</to>
+        <sys_updated_on>2020-09-23 13:33:51</sys_updated_on>
+        <to display_value="Change state to expected">dbf25cf7db5b981402085bd05b961976</to>
     </wf_transition>
     <var_dictionary action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2915,14 +3073,14 @@ answer = true;&#13;
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-21 18:03:06</sys_created_on>
-        <sys_id>fb6d7203dbdb1014faa711494b9619d7</sys_id>
+        <sys_created_on>2020-09-23 13:33:50</sys_created_on>
+        <sys_id>47f25cf7db5b981402085bd05b961904</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 18:03:06</sys_updated_on>
-        <workflow_version display_value="GRC - Control Implementation">3b6d7203dbdb1014faa711494b9619d7</workflow_version>
+        <sys_updated_on>2020-09-23 13:33:50</sys_updated_on>
+        <workflow_version display_value="GRC - Control Implementation">43f25cf7db5b981402085bd05b961904</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=e11d23bcdbcb985002085bd05b961972^sys_id!=3b6d7203dbdb1014faa711494b9619d7">
+    <wf_workflow_version action="update_multiple" query="workflow=e11d23bcdbcb985002085bd05b961972^sys_id!=43f25cf7db5b981402085bd05b961904">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

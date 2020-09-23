@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.status == '6'</condition>
+        <condition>current.status == '6'  &amp;&amp;  gs.hasRole('x_anbib_grc.admin')</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -28,23 +28,9 @@
         <name>Add to Backlog</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[// Check layers
-// if (current.elect_to_audit_scope) {
-// 	var grEntityLayer = new GlideRecord("x_anbib_grc_m2m_entities_layer_controls");
-// 	grEntityLayer.addQuery("entity", current.sys_id);
-// 	grEntityLayer.query();
-// 	if (!grEntityLayer.next()) {
-// 		gs.addErrorMessage("No layer selected for the application, select at least one layer.");
-// 		redirect();
-// 	} else {
-		current.status = '0';
-		current.update();
-		redirect();
-// 	}
-// } else {
-// 	gs.addErrorMessage("Entity is not marked for audit scope. If you want to include, mark 'Elect to audit scope' field.");
-// 	redirect();
-// }
+        <script><![CDATA[current.status = '0';
+current.update();
+redirect();
 
 function redirect() {
 	var isList = action.getGlideURI().get('sys_is_list');
@@ -61,15 +47,15 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c6603041db0bd85002085bd05b961987</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Add to Backlog</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_c6603041db0bd85002085bd05b961987</sys_update_name>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-02 16:38:27</sys_updated_on>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-23 18:06:52</sys_updated_on>
         <table>x_anbib_grc_entity</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

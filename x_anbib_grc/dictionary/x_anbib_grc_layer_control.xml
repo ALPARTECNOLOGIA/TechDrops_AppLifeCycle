@@ -3,8 +3,8 @@
         <element label="MICs Category" mandatory="true" max_length="32" name="entity_type" reference="x_anbib_grc_type" type="reference"/>
         <element choice="1" label="Layer Type" max_length="40" name="layer_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="ABI" sequence="1" value="1"/>
-                <element inactive_on_update="false" label="SaaS" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="ABI" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="SaaS, IaaS, PaaS" sequence="1" value="2"/>
             </choice>
         </element>
         <element display="true" label="Name" mandatory="true" max_length="255" name="name" type="string"/>

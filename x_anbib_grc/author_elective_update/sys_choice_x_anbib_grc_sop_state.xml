@@ -33,9 +33,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>6ece2ee8dbcb185002085bd05b96193e</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-22 17:18:50</sys_updated_on>
+            <sys_updated_on>2020-09-22 17:34:45</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -81,18 +81,37 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Canceled</label>
+            <label>No approval required</label>
             <language>en</language>
             <name>x_anbib_grc_sop</name>
             <sequence>3</sequence>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-22 17:34:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea80ccefdb1f941402085bd05b961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-22 17:34:45</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canceled</label>
+            <language>en</language>
+            <name>x_anbib_grc_sop</name>
+            <sequence>4</sequence>
             <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
             <sys_created_on>2020-09-01 12:18:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>aece2ee8dbcb185002085bd05b961940</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-22 17:18:50</sys_updated_on>
+            <sys_updated_on>2020-09-22 17:34:45</sys_updated_on>
             <value>-1</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

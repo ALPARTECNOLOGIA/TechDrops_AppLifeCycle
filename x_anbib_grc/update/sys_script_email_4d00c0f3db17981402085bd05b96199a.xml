@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>grc.notification.sop.entity</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+	
+	var grSOPControl = new GlideRecord('x_anbib_grc_m2m_sop_control');
+	grSOPControl.addQuery("sop", current.sys_id.toString());
+	grSOPControl.query();
+	var entity = "";
+	
+	if (grSOPControl.next()) {
+		entity = grSOPControl.control.entity.getDisplayValue();
+	}
+	template.print(entity);
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-23 12:10:57</sys_created_on>
+        <sys_id>4d00c0f3db17981402085bd05b96199a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>grc.notification.sop.entity</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_email_4d00c0f3db17981402085bd05b96199a</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-23 12:24:54</sys_updated_on>
+    </sys_script_email>
+</record_update>
