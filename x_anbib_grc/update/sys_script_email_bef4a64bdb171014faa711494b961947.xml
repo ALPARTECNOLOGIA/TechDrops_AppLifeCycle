@@ -8,7 +8,7 @@
 	
 	var url = gs.getProperty("glide.servlet.uri");
 
-	var link = url + 'x_anbib_grc_my_task_action_plan_list.do?sysparm_query=actionplan_sys_class_name%3Dx_anbib_grc_action_plan_of_control_inplementation%5Eactionplan_assigned_to%3D' + current.assigned_to + '&sysparm_view=grc_-_my_action_plan';
+	var link = url + 'x_anbib_grc_my_task_action_plan_list.do?sysparm_query=actionplan_sys_class_name%3Dx_anbib_grc_action_plan_control_implementation%5Eactionplan_assigned_to%3D' + current.assigned_to + '&sysparm_view=grc_-_my_action_plan';
 
 	template.print(link);
 
