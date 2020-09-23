@@ -162,7 +162,7 @@
         <reverted_from/>
         <source>8b7d7a62db1b58d0faa711494b9619aa</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-20 05:15:34</sys_created_on>
         <sys_id>4b24c7eadb5b58d0faa711494b961940</sys_id>

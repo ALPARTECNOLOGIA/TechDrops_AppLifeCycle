@@ -15,7 +15,7 @@
         <full_sequences>830674bbdb13d81402085bd05b961948,4446307fdb13d81402085bd05b9619c1,eaa8f477db53d81402085bd05b96197c,058a4dfbdb17d81402085bd05b961902,c30674bbdb13d81402085bd05b961949</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
-        <name>ALP: KB Approver</name>
+        <name>GRC - KB Approver</name>
         <not_cacheable>false</not_cacheable>
         <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
         <order>100</order>
@@ -31,18 +31,18 @@
         <sys_created_by>bruno.silva@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-23 16:07:01</sys_created_on>
         <sys_id>8bf4b43bdb13d81402085bd05b96198a</sys_id>
-        <sys_mod_count>57</sys_mod_count>
-        <sys_updated_by>bruno.silva@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-23 17:48:21</sys_updated_on>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-23 20:20:00</sys_updated_on>
         <table>kb_knowledge</table>
         <timezone/>
         <validated>false</validated>
-        <workflow display_value="ALP: KB Approver">8b0674bbdb13d81402085bd05b961947</workflow>
+        <workflow display_value="GRC - KB Approver">8b0674bbdb13d81402085bd05b961947</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
         <access>public</access>
         <description>Workflow for approvers of GRC kb.</description>
-        <name>ALP: KB Approver</name>
+        <name>GRC - KB Approver</name>
         <preview/>
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>bruno.silva@alparservice.com.br</sys_created_by>
@@ -50,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b0674bbdb13d81402085bd05b961947</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>ALP: KB Approver</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GRC - KB Approver</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>wf_workflow_8b0674bbdb13d81402085bd05b961947</sys_update_name>
-        <sys_updated_by>bruno.silva@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-23 16:07:01</sys_updated_on>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-23 20:19:38</sys_updated_on>
         <table>kb_knowledge</table>
         <template>false</template>
         <vars/>
@@ -87,7 +87,7 @@
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="ALP: KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
+        <workflow_version display_value="GRC - KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
         <x>51</x>
         <y>141</y>
     </wf_activity>
@@ -834,7 +834,7 @@ answer = 0;</value>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="ALP: KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
+        <workflow_version display_value="GRC - KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
         <x>378</x>
         <y>7</y>
     </wf_activity>
@@ -912,7 +912,7 @@ answer = 0;</value>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="ALP: KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
+        <workflow_version display_value="GRC - KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
@@ -962,7 +962,7 @@ answer = 0;</value>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="ALP: KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
+        <workflow_version display_value="GRC - KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
         <x>935</x>
         <y>284</y>
     </wf_activity>
@@ -991,7 +991,7 @@ answer = 0;</value>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="ALP: KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
+        <workflow_version display_value="GRC - KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
         <x>154</x>
         <y>320</y>
     </wf_activity>
@@ -1099,7 +1099,7 @@ answer = 0;</value>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>bruno.silva@alparservice.com.br</sys_updated_by>
         <sys_updated_on>2020-09-23 16:07:01</sys_updated_on>
-        <workflow_version display_value="ALP: KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
+        <workflow_version display_value="GRC - KB Approver">8bf4b43bdb13d81402085bd05b96198a</workflow_version>
     </wf_estimated_runtime_config>
     <wf_workflow_version action="update_multiple" query="workflow=8b0674bbdb13d81402085bd05b961947^sys_id!=8bf4b43bdb13d81402085bd05b96198a">
         <published>false</published>

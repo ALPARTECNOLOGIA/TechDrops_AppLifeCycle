@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="5" type="collection">
+    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" type="collection">
         <element display="true" label="Application" mandatory="true" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
@@ -120,6 +120,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" choice_field="status_ghq" choice_table="x_anbib_grc_entity" label="Status APC" max_length="40" name="status_apc" type="string">
             <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
                 <element inactive_on_update="false" label="In BAU" sequence="0" value="0"/>
                 <element inactive_on_update="false" label="In project mode" sequence="1" value="In project mode"/>
                 <element inactive_on_update="false" label="Partially in BAU" sequence="2" value="1"/>

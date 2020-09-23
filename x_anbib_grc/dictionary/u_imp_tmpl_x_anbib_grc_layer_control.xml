@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Imp Tmpl X Anbib Grc Layer Control" max_length="40" name="u_imp_tmpl_x_anbib_grc_layer_control" sizeclass="0" type="collection">
+    <element extends="sys_import_set_row" label="Imp Tmpl X Anbib Grc Layer Control" max_length="40" name="u_imp_tmpl_x_anbib_grc_layer_control" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Entity Type" label="Entity Type" max_length="32" name="u_entity_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="255" name="u_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>

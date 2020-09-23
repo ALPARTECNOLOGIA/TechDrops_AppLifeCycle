@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Document Audit" max_length="40" name="x_anbib_grc_document_audit" sizeclass="1" type="collection">
+    <element label="Document Audit" max_length="40" name="x_anbib_grc_document_audit" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Compliance Score Percentage" max_length="40" name="compliance_score" read_only="true" type="integer"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
