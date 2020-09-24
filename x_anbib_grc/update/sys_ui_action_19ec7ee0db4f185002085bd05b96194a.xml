@@ -28,11 +28,14 @@
         <name>Submit SOP</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[var gr = new GlideRecord("sys_attachment");
-gr.addQuery("table_name", "x_anbib_grc_sop");
-gr.addQuery("table_sys_id", current.sys_id);
-gr.query();
-if (!gr.next()) {
+        <script><![CDATA[var contextSysId = getSysIdContext(current.sys_id.toString());
+var activitySysId = '_'+getSysIdActivity(contextSysId);
+var grAttach = new GlideRecord("sys_attachment");
+grAttach.addQuery("table_name", "x_anbib_grc_sop");
+grAttach.addQuery("table_sys_id", current.sys_id.toString());
+grAttach.addQuery("file_name", 'CONTAINS', activitySysId);
+grAttach.query();
+if (!grAttach.next()) {
 	gs.addErrorMessage("No documents attached. Please attach SOP or equivalent.");
 	redirect();
 } else {
@@ -45,6 +48,22 @@ function redirect() {
 	var isList = action.getGlideURI().get('sys_is_list');
 	if (!isList) //Not from list form
 		action.setRedirectURL(current);
+}
+
+function getSysIdContext(recordSysId){
+	var grContext = new GlideRecord('wf_context');
+	grContext.addQuery('state','executing');
+	grContext.addQuery('id', recordSysId);
+	grContext.query();
+	if(grContext.next()) return grContext.getUniqueValue().toString();
+	return null;
+}
+function getSysIdActivity(contextSysId){
+	var grActivity = new GlideRecord('wf_executing');
+	grActivity.addQuery('context',contextSysId);
+	grActivity.query();
+	if(grActivity.next()) return grActivity.getUniqueValue().toString();
+	return null;
 }]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -56,7 +75,7 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>19ec7ee0db4f185002085bd05b96194a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Submit SOP</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -64,7 +83,7 @@ function redirect() {
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_19ec7ee0db4f185002085bd05b96194a</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-23 20:58:32</sys_updated_on>
+        <sys_updated_on>2020-09-24 00:06:27</sys_updated_on>
         <table>x_anbib_grc_sop</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

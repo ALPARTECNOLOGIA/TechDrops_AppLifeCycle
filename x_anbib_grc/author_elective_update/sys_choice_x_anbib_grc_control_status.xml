@@ -95,6 +95,44 @@
             <sys_updated_on>2020-09-02 11:51:03</sys_updated_on>
             <value>4</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application decommissioned</label>
+            <language>en</language>
+            <name>x_anbib_grc_control</name>
+            <sequence>5</sequence>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-23 21:17:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc0d39b3db53d814faa711494b96197e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-23 22:50:15</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application out of scope</label>
+            <language>en</language>
+            <name>x_anbib_grc_control</name>
+            <sequence>6</sequence>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-23 21:14:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bcbbdfbdb13d814faa711494b961922</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-23 22:50:56</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>status</element>
             <name>x_anbib_grc_control</name>

@@ -29,6 +29,8 @@
         <onclick/>
         <order>100</order>
         <script><![CDATA[var notApplicable = false;
+var contextSysId = getSysIdContext(current.sys_id.toString());
+var activitySysId = '_'+getSysIdActivity(contextSysId);
 var grEvidenceControl = new GlideRecord("x_anbib_grc_m2m_evidence_control");
 grEvidenceControl.addQuery("sop_evidence", current.sys_id);
 grEvidenceControl.query();
@@ -41,7 +43,8 @@ if (grEvidenceControl.next()) {
 
 var grAttach = new GlideRecord("sys_attachment");
 grAttach.addQuery("table_name", "x_anbib_grc_sop_evidence");
-grAttach.addQuery("table_sys_id", current.sys_id);
+grAttach.addQuery("table_sys_id", current.sys_id.toString());
+grAttach.addQuery("file_name", 'CONTAINS', activitySysId);
 grAttach.query();
 if (!grAttach.next() && !notApplicable) {
 	gs.addErrorMessage("No documents attached. Please attach evidence or equivalent.");
@@ -56,6 +59,22 @@ function redirect() {
 	var isList = action.getGlideURI().get('sys_is_list');
 	if (!isList) //Not from list form
 		action.setRedirectURL(current);
+}
+
+function getSysIdContext(recordSysId){
+	var grContext = new GlideRecord('wf_context');
+	grContext.addQuery('state','executing');
+	grContext.addQuery('id', recordSysId);
+	grContext.query();
+	if(grContext.next()) return grContext.getUniqueValue().toString();
+	return null;
+}
+function getSysIdActivity(contextSysId){
+	var grActivity = new GlideRecord('wf_executing');
+	grActivity.addQuery('context',contextSysId);
+	grActivity.query();
+	if(grActivity.next()) return grActivity.getUniqueValue().toString();
+	return null;
 }]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -67,15 +86,15 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>895e8be8db8f185002085bd05b9619a7</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Submit Evidences</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_895e8be8db8f185002085bd05b9619a7</sys_update_name>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-23 21:00:28</sys_updated_on>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-24 00:02:03</sys_updated_on>
         <table>x_anbib_grc_sop_evidence</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_anbib_grc.EntityUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>EntityUtils</name>
+        <script><![CDATA[var EntityUtils = Class.create();
+EntityUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	reviewAction: function() {
+		var entity = this.getParameter('sysparm_entity');
+		var grControl = new GlideRecord("x_anbib_grc_control");
+		grControl.addEncodedQuery("stateNOT IN0,10,70,80^entity=" + entity);
+		grControl.query();
+		while(grControl.next()) {
+			new global.Workflow().restartWorkflow(grControl);
+			grControl.state = "10";
+			grControl.status = "";
+			grControl.update();
+		}
+		
+		var grEntity = new GlideRecord("x_anbib_grc_entity");
+		if (grEntity.get(entity)) {
+			grEntity.status = "1";
+			grEntity.update();
+		}
+	},
+	
+    type: 'EntityUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-24 11:07:13</sys_created_on>
+        <sys_id>7adaf8c8dba79c1402085bd05b961940</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EntityUtils</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_include_7adaf8c8dba79c1402085bd05b961940</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-24 12:06:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

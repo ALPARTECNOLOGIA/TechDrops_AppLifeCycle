@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Control/Risk" max_length="40" name="x_anbib_grc_item" type="collection">
+    <element label="Control/Risk" max_length="40" name="x_anbib_grc_item" sizeclass="18" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
     </element>
 </database>

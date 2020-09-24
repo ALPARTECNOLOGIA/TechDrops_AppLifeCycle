@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Grc M2m Sop Control" max_length="40" name="x_anbib_grc_m2m_sop_control" type="collection">
+    <element label="Grc M2m Sop Control" max_length="40" name="x_anbib_grc_m2m_sop_control" sizeclass="3" type="collection">
         <element attributes="encode_utf8=false" label="Control" max_length="32" name="control" reference="x_anbib_grc_control" type="reference"/>
         <element attributes="encode_utf8=false" label="SOP" max_length="32" name="sop" reference="x_anbib_grc_sop" type="reference"/>
         <index name="index">

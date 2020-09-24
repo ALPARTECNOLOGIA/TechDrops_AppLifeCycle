@@ -23,44 +23,6 @@
             <dependent_value/>
             <element>status_ghq</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Choice 1</label>
-            <language>en</language>
-            <name>x_anbib_grc_entity</name>
-            <sequence>0</sequence>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-02 13:49:10</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>761d00c5db43d85002085bd05b9619e5</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:48:44</sys_updated_on>
-            <value>Choice 1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status_ghq</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>In project mode</label>
-            <language>en</language>
-            <name>x_anbib_grc_entity</name>
-            <sequence>0</sequence>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-15 15:02:55</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4eaa5f0ddb53d49002085bd05b9619c9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-15 15:02:55</sys_updated_on>
-            <value>In project mode</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status_ghq</element>
-            <hint/>
             <inactive>false</inactive>
             <label>Partially in BAU</label>
             <language>en</language>
@@ -80,25 +42,6 @@
             <dependent_value/>
             <element>status_ghq</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Choice 2</label>
-            <language>en</language>
-            <name>x_anbib_grc_entity</name>
-            <sequence>1</sequence>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-02 13:49:10</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7a1d00c5db43d85002085bd05b9619e7</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:48:44</sys_updated_on>
-            <value>Choice 2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status_ghq</element>
-            <hint/>
             <inactive>false</inactive>
             <label>In Project Mode</label>
             <language>en</language>
@@ -113,25 +56,6 @@
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
             <sys_updated_on>2020-09-02 15:48:43</sys_updated_on>
             <value>2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status_ghq</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Choice 3</label>
-            <language>en</language>
-            <name>x_anbib_grc_entity</name>
-            <sequence>2</sequence>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-09-02 13:49:10</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ba1d00c5db43d85002085bd05b9619e9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-09-02 15:48:44</sys_updated_on>
-            <value>Choice 3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -208,6 +132,25 @@
             <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
             <sys_updated_on>2020-09-02 15:48:44</sys_updated_on>
             <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_ghq</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In project mode</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>7</sequence>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-15 15:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4eaa5f0ddb53d49002085bd05b9619c9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-24 15:31:26</sys_updated_on>
+            <value>7</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>status_ghq</element>
