@@ -25,14 +25,14 @@
         <sys_created_by>Daniel.Dias-ext@ab-Inbev.com</sys_created_by>
         <sys_created_on>2020-07-17 22:41:36</sys_created_on>
         <sys_id>1a6d93de1b6d58504aae202a2d4bcbdc</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-24 17:11:41</sys_updated_on>
+        <sys_updated_on>2020-09-25 16:05:35</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.6</version>
+        <version>1.0.7</version>
     </sys_app>
 </record_update>
