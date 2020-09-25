@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.active &amp;&amp; ((current.state != '50' &amp;&amp; current.expected_state != '1') || current.state == '10' || current.state == '0') &amp;&amp; gs.hasRole('x_anbib_grc.admin') &amp;&amp; current.owner != ''</condition>
+        <condition>current.active &amp;&amp; ((current.state != '50' &amp;&amp; current.expected_state != '1') || current.state == '10' || current.state == '0') &amp;&amp; current.owner != '' &amp;&amp; (gs.hasRole('x_anbib_grc.admin') || current.assigned_to == gs.getUserID())</condition>
         <form_action>false</form_action>
         <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
@@ -61,7 +61,7 @@ function redirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5c541544db6b9c1402085bd05b96196f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Not applicable</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -69,7 +69,7 @@ function redirect() {
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_ui_action_5c541544db6b9c1402085bd05b96196f</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:57:45</sys_updated_on>
+        <sys_updated_on>2020-09-25 13:24:06</sys_updated_on>
         <table>x_anbib_grc_control</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

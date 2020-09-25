@@ -725,11 +725,11 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
+        <recipient_fields>entity.itc_responsible</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
         <subject>GRC - New control implemented</subject>
@@ -740,7 +740,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e1a91d4bdb17dcd0faa711494b9619ce</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>GRC - New control implemented</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -748,7 +748,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_email_action_e1a91d4bdb17dcd0faa711494b9619ce</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-21 10:56:00</sys_updated_on>
+        <sys_updated_on>2020-09-25 13:34:36</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

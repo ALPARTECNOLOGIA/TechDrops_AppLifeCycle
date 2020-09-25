@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Transform Import Entity">f45c880bdb87541002085bd05b961956</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+	(function transformRow(source, target, map, log, isUpdate) {
+		try{
+			var correlationId = source.u_service_id.toString();
+			var messageFound = 'No record was found in the cmdb_ci_appl table with correlationId ' + correlationId;
+			if(!correlationId) throw new UserException('error', 'CorrelationId value is required');			
+			var grApplication = new GlideRecord('cmdb_ci_appl');
+			grApplication.addQuery('correlation_id', correlationId);
+			grApplication.query();
+			grApplication.next();
+			if(!grApplication.sys_id) throw new UserException('error', messageFound);
+		}catch(err){
+			ignore = true;
+			error_message = err.message;
+		}
+	})(source, target, map, log, action==="update");
+
+	function UserException(type, message) {
+		this.message = message;
+		this.type = type;
+	}
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 00:59:55</sys_created_on>
+        <sys_id>6f0937c0dba31054faa711494b961970</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_transform_script_6f0937c0dba31054faa711494b961970</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 01:12:17</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_transform_script_6f0937c0dba31054faa711494b961970</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="Transform Import Entity"&gt;f45c880bdb87541002085bd05b961956&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+	(function transformRow(source, target, map, log, isUpdate) {
+		try{
+			var correlationId = source.u_service_id.toString();
+			var messageFound = 'No record was found in the cmdb_ci_appl table with correlationId ' + correlationId;
+			if(!correlationId) throw new UserException('error', 'CorrelationId value is required');			
+			var grApplication = new GlideRecord('cmdb_ci_appl');
+			grApplication.addQuery('correlation_id', correlationId);
+			grApplication.query();
+			grApplication.next();
+			if(!grApplication.sys_id) throw new UserException('error', messageFound);
+		}catch(err){
+			ignore = true;
+			error_message = err.message;
+		}
+	})(source, target, map, log, action==="update");
+
+	function UserException(type, message) {
+		this.message = message;
+		this.type = type;
+	}
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;marcos.michalski@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-25 00:59:55&lt;/sys_created_on&gt;&lt;sys_id&gt;6f0937c0dba31054faa711494b961970&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_6f0937c0dba31054faa711494b961970&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;marcos.michalski@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-25 01:12:17&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-775589023</payload_hash>
+        <record_name>onBefore</record_name>
+        <reverted_from/>
+        <source>51407137db9f9814faa711494b9619fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 01:12:17</sys_created_on>
+        <sys_id>087c7348dbe31054faa711494b96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174c2d167d10000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 01:12:17</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>8c7c73484ae31054a9e461fdec0c442d</update_guid>
+        <update_guid_history>8c7c73484ae31054a9e461fdec0c442d:-775589023,215a7b480ba31054e9c3d06bacac6661:-932292887,4b993b80e3a31054d5eff62de8853647:-683782159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 01:13:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>00552fc06cd44cb0800071a17fffc7a9</sys_id>
+        <sys_metadata>6f0937c0dba31054faa711494b961970</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Transform Import Entity">f45c880bdb87541002085bd05b961956</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_transform_script_6f0937c0dba31054faa711494b961970</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_6f0937c0dba31054faa711494b961970">087c7348dbe31054faa711494b96192e</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 01:13:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

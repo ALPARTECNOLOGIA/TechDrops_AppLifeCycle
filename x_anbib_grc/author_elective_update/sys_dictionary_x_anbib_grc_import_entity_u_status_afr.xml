@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_status_afr" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Status afr</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_status_afr</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:18:36</sys_created_on>
+        <sys_id>e99b0bf4db93dc50faa711494b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status afr</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_status_afr</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:18:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_dictionary_x_anbib_grc_import_entity_u_status_afr</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_status_afr" table="x_anbib_grc_import_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Status afr</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_status_afr</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_anbib_grc_import_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:18:36</sys_created_on>
+        <sys_id>e99b0bf4db93dc50faa711494b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status afr</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_status_afr</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:18:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>1893446929</payload_hash>
+        <record_name>Import Entity.Status afr</record_name>
+        <reverted_from/>
+        <source>8f7e99ffdb1b9814faa711494b961963</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-23 19:11:11</sys_created_on>
+        <sys_id>3030a933db9b9814faa711494b96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174bc6072b10000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-23 19:11:11</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>7c30a933a29b9814ef9ff6ce2c87774d</update_guid>
+        <update_guid_history>7c30a933a29b9814ef9ff6ce2c87774d:0,13eed5771d5b98141b885d7ce16db418:1273935007,ed9b4bf4e293dc503855557b2e99ed1f:-244655637,5caa83f07093dc5000ac4f7bd7411a99:1178896063,cea77bc73bcb9410ffe97ad33dde652c:-182127093,dc0c4c87fc875410f224472f009793b7:-1440057212,bc8f5b50684fd450d456105abe9cfcc0:-142765412,b2209358148bd450b4d6d155d2da01af:0,ae8f8314a68bd450568f2cd0653e119e:-142765412,497c4790024bd450a4dca7b2e75787ac:0,3fbb0b1c4d0bd4504c7611c85e58a63b:-142765412,4c09871c26c7d450e485bc4475b24a6c:0,4968cfd435c7d4501146d2bdcac31bd7:-142765412,cf1247588347d4506960cfd07b337091:0,1e7183146c47d450e2e96bc448ce02d2:-142765412,e86f7e54d107d450bb83603918d348d6:0,3bcef2509407d450dc39cc317494a38e:-142765412,4f3c76dcde83d450110b6997a329dd37:0,7eabbe980483d4507ed41a441b5db568:-142765412,64293298a743d450780fa3b8d1b89e71:0,1498fe140b43d45001f3aa35c49dd8ca:-142765412,8233fa187ecf9450e36b8bc7f7a0a3da:0,6b82fe90aacf94504c404f1eb610a72d:-142765412,8b796e58ea4f9450e792145bbfe038dc:0,56d8a694764f94500b58b1401147737d:-142765412,3d170a58c38b9450e80286ca1887d472:0,3e368e148c8b94505263686aa471507b:-142765412,6b13021cf44b94502e80608bab8cf638:0,d052c2184e4b9450d94c7801f74a8221:-142765412,b17f31dc5d0b9450338bece1bccdb9c7:0,ff9e7598ce0b94509998a6c987ee62b9:-142765412,982c7950230b9450148ab374341c6375:0,3d4b355c2ec7945007b82fe2cd3a0ba1:-142765412,c08e25dc2947945086a42355cc0273ab:0,a0ade1d8a0479450bc4120fcc8ccfdfc:-142765412,7923bf5fa536dc102c77ea71f43989f4:0,b682775b9c36dc1051debfa7c9fe79b0:-142765412,6e6ea71fe1f2dc105a11107af0db025c:0,f1cd671bfcf2dc10d63eb87f91ed4295:-142765412,3fac275305f2dc109ce21cb8fb254e04:0,f9fbab1fb1b2dc10dab2f443eadadaa1:-142765412,dfa9070e2db61014079a8372e28b9ff9:-1370994992</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-24 21:04:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>69b3e1561f464d6cbc5a5e1da4cdb404</sys_id>
+        <sys_metadata>62ef997fdb5b9814faa711494b9619d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status afr</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Import Transform Entities">dbfbc887db87541002085bd05b9619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_anbib_grc_import_entity_u_status_afr</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_anbib_grc_import_entity_u_status_afr">3030a933db9b9814faa711494b96194e</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-24 21:04:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

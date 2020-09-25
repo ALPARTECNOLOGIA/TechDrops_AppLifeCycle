@@ -24,6 +24,63 @@
             <element>hosting_type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Desktop only</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>0</sequence>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-25 14:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f55f2edcdbebd054faa711494b9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-25 14:13:55</sys_updated_on>
+            <value>Desktop only</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hosting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On-Premises – Remote locations</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>0</sequence>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-25 03:23:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d6a50d4db635054faa711494b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-25 03:23:12</sys_updated_on>
+            <value>On-Premises – Remote locations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hosting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Partner managed</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>0</sequence>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-25 03:23:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa6a14d4db635054faa711494b961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-25 03:23:16</sys_updated_on>
+            <value>Partner managed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hosting_type</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>IaaS</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>

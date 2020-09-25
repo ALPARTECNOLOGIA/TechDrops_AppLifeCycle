@@ -6,7 +6,7 @@
         <attributes>encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>To be Decommissioned With</column_label>
@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_anbib_grc_entity">x_anbib_grc_entity</reference>
+        <reference display_value="" name="cmdb_ci_appl">cmdb_ci_appl</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -49,14 +49,14 @@
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-02 14:39:42</sys_created_on>
         <sys_id>ecffdd7fdb5b9814faa711494b961963</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>To be Decommissioned With</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_dictionary_x_anbib_grc_entity_to_be_decommissioned_with</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-23 19:11:07</sys_updated_on>
+        <sys_updated_on>2020-09-25 02:37:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

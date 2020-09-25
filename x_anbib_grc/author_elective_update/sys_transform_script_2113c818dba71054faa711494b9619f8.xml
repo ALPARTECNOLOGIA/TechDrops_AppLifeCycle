@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Transform Import Entity">f45c880bdb87541002085bd05b961956</map>
+        <order>100</order>
+        <script><![CDATA[//application_type
+(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+ var label = source.u_application_type.toString();
+	    gs.info('>>>>> label: '+label);
+
+    var table = 'x_anbib_grc_entity';
+    var element = 'application_type';
+    var choiceObject = getLastValue();
+    if (!label) return null;
+    var grChoice = new GlideRecord('sys_choice');
+    grChoice.addQuery('label', label);
+    grChoice.addQuery('name', table);
+    grChoice.addQuery('element', element);
+    grChoice.query();
+    if (grChoice.next()) target.application_type = grChoice.value.toString();
+
+    grChoice = new GlideRecord('sys_choice');
+    grChoice.initialize();
+    grChoice.name = table;
+    grChoice.element = element;
+    grChoice.language = 'en';
+    grChoice.sequence = choiceObject.position;
+    grChoice.label = label;
+    grChoice.value = choiceObject.value;
+    gs.info('>>>>> grChoice: '+ grChoice.insert());
+    target.application_type = choiceObject.value.toString();
+
+})(source, map, log, target);
+
+function getLastValue(table, element) {
+    var choice = {
+        value: 0,
+        position: 0
+    };
+    grChoice = new GlideRecord('sys_choice');
+    grChoice.addQuery('name', table);
+    grChoice.addQuery('element', element);
+    grChoice.orderBy('value');
+    grChoice.query();
+
+    while (grChoice.next()) {
+        var value = parseInt(grChoice.value.toString(), 10);
+        var sequence = parseInt(grChoice.sequence.toString(), 10);
+        if (value > choice.value) {
+            choice.value = ++value;
+            choice.position = ++sequence;
+        }
+    }
+    return choice;
+}
+
+]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 01:43:02</sys_created_on>
+        <sys_id>2113c818dba71054faa711494b9619f8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_transform_script_2113c818dba71054faa711494b9619f8</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 01:45:56</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>316b55b0db2580184d2bac44d496199a</instance_id>
+        <instance_name>abinbevwwqa</instance_name>
+        <name>sys_transform_script_2113c818dba71054faa711494b9619f8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="Transform Import Entity"&gt;f45c880bdb87541002085bd05b961956&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[//application_type
+(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+ var label = source.u_application_type.toString();
+	    gs.info('&gt;&gt;&gt;&gt;&gt; label: '+label);
+
+    var table = 'x_anbib_grc_entity';
+    var element = 'application_type';
+    var choiceObject = getLastValue();
+    if (!label) return null;
+    var grChoice = new GlideRecord('sys_choice');
+    grChoice.addQuery('label', label);
+    grChoice.addQuery('name', table);
+    grChoice.addQuery('element', element);
+    grChoice.query();
+    if (grChoice.next()) target.application_type = grChoice.value.toString();
+
+    grChoice = new GlideRecord('sys_choice');
+    grChoice.initialize();
+    grChoice.name = table;
+    grChoice.element = element;
+    grChoice.language = 'en';
+    grChoice.sequence = choiceObject.position;
+    grChoice.label = label;
+    grChoice.value = choiceObject.value;
+    gs.info('&gt;&gt;&gt;&gt;&gt; grChoice: '+ grChoice.insert());
+    target.application_type = choiceObject.value.toString();
+
+})(source, map, log, target);
+
+function getLastValue(table, element) {
+    var choice = {
+        value: 0,
+        position: 0
+    };
+    grChoice = new GlideRecord('sys_choice');
+    grChoice.addQuery('name', table);
+    grChoice.addQuery('element', element);
+    grChoice.orderBy('value');
+    grChoice.query();
+
+    while (grChoice.next()) {
+        var value = parseInt(grChoice.value.toString(), 10);
+        var sequence = parseInt(grChoice.sequence.toString(), 10);
+        if (value &gt; choice.value) {
+            choice.value = ++value;
+            choice.position = ++sequence;
+        }
+    }
+    return choice;
+}
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;marcos.michalski@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-25 01:43:02&lt;/sys_created_on&gt;&lt;sys_id&gt;2113c818dba71054faa711494b9619f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_2113c818dba71054faa711494b9619f8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;marcos.michalski@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-25 01:45:56&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>968797160</payload_hash>
+        <record_name>onBefore</record_name>
+        <reverted_from/>
+        <source>51407137db9f9814faa711494b9619fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 01:45:56</sys_created_on>
+        <sys_id>45240414dbe71054faa711494b961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174c2f037970000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 01:45:56</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>c92404149ee710545fde070cbeb46512</update_guid>
+        <update_guid_history>c92404149ee710545fde070cbeb46512:968797160,cbb3c8181ba71054ab9695a7941abb7b:1701625159,e273ccd897a710541186a23f9314fb96:180274725</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 01:50:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>1598df33b1194ace8da990ad06adceb1</sys_id>
+        <sys_metadata>2113c818dba71054faa711494b9619f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Transform Import Entity">f45c880bdb87541002085bd05b961956</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_transform_script_2113c818dba71054faa711494b9619f8</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_2113c818dba71054faa711494b9619f8">45240414dbe71054faa711494b961913</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 01:50:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

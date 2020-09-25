@@ -31,6 +31,9 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	// Add your code here
+	if (current.operation() == "insert") {
+		current.status = current.status_ghq == "5" ? "5" : current.mics_relevance ? "0" : "6";
+	}
 	current.updated_by_app360 = false;
 	current.elect_to_audit_scope = current.mics_relevance;
 	var w = new global.Workflow();
@@ -47,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0f45dc5dbcfd85002085bd05b9619fa</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Start Design Assessment Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -55,7 +58,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_c0f45dc5dbcfd85002085bd05b9619fa</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-16 14:29:02</sys_updated_on>
+        <sys_updated_on>2020-09-25 14:31:21</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

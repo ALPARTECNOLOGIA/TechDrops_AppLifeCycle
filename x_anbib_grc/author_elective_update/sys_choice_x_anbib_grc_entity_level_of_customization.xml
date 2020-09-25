@@ -24,6 +24,25 @@
             <element>level_of_customization</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Commercial Off The Shelf vanilla wugdu</label>
+            <language>en</language>
+            <name>x_anbib_grc_entity</name>
+            <sequence>0</sequence>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-09-25 02:28:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61cd0098dbeb1054faa711494b961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-09-25 02:28:01</sys_updated_on>
+            <value>Commercial Off The Shelf vanilla wugdu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>level_of_customization</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Custom Developed by ABI</label>
             <language>en</language>
             <name>x_anbib_grc_entity</name>

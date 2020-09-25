@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Transform Import Entity">f45c880bdb87541002085bd05b961956</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+	try{
+		var ownerMail = source.u_service_owner_email.toString().toLowerCase();
+		var ownerName = source.u_service_owner_name.toString();
+		var zone = source.u_zone.toString();
+		var criticality = source.u_criticality.toString();
+		var correlationId = source.u_service_id.toString();		
+		var micsRelevance = source.u_mics_relevance.toString();
+		var ghqStatus = source.u_status_ghq.toString();
+		
+		if(!correlationId) throw new TransformException('CorrelationId value is required');	
+		
+		var grApplication = new GlideRecord('cmdb_ci_appl');
+		grApplication.addQuery('correlation_id', correlationId);
+		grApplication.query();		
+		
+		if(!grApplication.next()){
+			grApplication.initialize();
+			grApplication.short_description = source.u_short_description.toString();
+			grApplication.correlation_id = source.u_service_id.toString();
+			grApplication.name = source.u_service_service_name.toString();
+			grApplication.owned_by = getOwner(ownerMail, ownerName);
+			grApplication.u_abi_zone = getZone(zone);
+			grApplication.u_criticality = (criticality === '' || criticality === 'TBC') ? '' : criticality;
+			grApplication.insert();
+		}
+		
+		//if(micsRelevance === 'false' || micsRelevance === 'true' && (ghqStatus === 'Not Used / Not Active' || ghqStatus === 'In project mode')) throw new TransformException('Application '+ correlationId +' with MICs relevance false or GHQ status as Not Used / Not Active or In project mode.');
+		
+	}catch(err){
+		ignore = true;
+		status_message = err.message;
+	}
+})(source, map, log, target);
+function TransformException(message){
+	this.message = message;
+}
+
+function getZone(zone){
+	zone = zone === 'APAC' ? 'APC' : zone;
+	var grZone = new GlideRecord('u_abi_zone');
+	grZone.addQuery('u_name', zone);
+	grZone.addQuery('u_active', true);
+	grZone.query();
+	if(grZone.next()) return grZone.getUniqueValue().toString();
+
+	//Add value in table
+
+	grZone.initialize();
+	grZone.u_name = zone;
+	return grZone.insert();
+}
+
+function getOwner(ownerMail, ownerName){
+	var grOwned = new GlideRecord('sys_user');
+	grOwned.addQuery('email', ownerMail);
+	grOwned.query();
+	if(grOwned.next()) return grOwned.getUniqueValue().toString();
+	
+	grOwned = new GlideRecord('sys_user');
+	grOwned.addQuery('name', ownerName);
+	grOwned.query();
+	if(grOwned.next()) return grOwned.getUniqueValue().toString();
+	return null;
+}]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 01:14:30</sys_created_on>
+        <sys_id>d0dcfb8cdbe31054faa711494b96193d</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_transform_script_d0dcfb8cdbe31054faa711494b96193d</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 14:07:21</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

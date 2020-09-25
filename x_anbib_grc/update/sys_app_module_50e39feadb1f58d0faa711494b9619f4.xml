@@ -15,7 +15,7 @@
         <name>x_anbib_grc_my_task_sop_evidence</name>
         <order>702</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>&amp;sysparm_query=sop_stateIN10,20^GROUPBYsop_number&amp;sysparm_fixed_query=sop_assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe</query>
+        <query>&amp;sysparm_query=sop_stateIN0,10,20^GROUPBYsop_number&amp;sysparm_fixed_query=sop_assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe</query>
         <report/>
         <roles>x_anbib_grc.owner</roles>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>50e39feadb1f58d0faa711494b9619f4</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>SOP Evidence</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_app_module_50e39feadb1f58d0faa711494b9619f4</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-24 15:23:16</sys_updated_on>
+        <sys_updated_on>2020-09-24 19:54:49</sys_updated_on>
         <timeline_page/>
         <title>SOP Evidence</title>
         <uncancelable>false</uncancelable>

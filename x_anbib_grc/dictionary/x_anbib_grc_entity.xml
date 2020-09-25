@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="4" type="collection">
+    <element extends="x_anbib_grc_task" label="Entity" max_length="40" name="x_anbib_grc_entity" sizeclass="133" type="collection">
         <element display="true" label="Application" mandatory="true" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
@@ -23,6 +23,7 @@
                 <element inactive_on_update="false" label="Website / Web Portal" sequence="17" value="18"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Área" max_length="100" name="area" type="string"/>
         <element label="Business Function" max_length="32" name="business_function" reference="cmn_department" type="reference"/>
         <element choice="1" label="Criticality" max_length="40" name="criticality" type="choice">
             <choice>
@@ -55,6 +56,9 @@
         <element choice="1" label="Hosting type" max_length="40" name="hosting_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cloud" sequence="0" value="Cloud"/>
+                <element inactive_on_update="false" label="Desktop only" sequence="0" value="Desktop only"/>
+                <element inactive_on_update="false" label="On-Premises – Remote locations" sequence="0" value="On-Premises – Remote locations"/>
+                <element inactive_on_update="false" label="Partner managed" sequence="0" value="Partner managed"/>
                 <element inactive_on_update="false" label="IaaS" sequence="1" value="IaaS"/>
                 <element inactive_on_update="false" label="On Premise" sequence="2" value="On Premise"/>
                 <element inactive_on_update="false" label="On-Premises – DC" sequence="3" value="On-Premises – DC"/>
@@ -68,6 +72,7 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Level of customization" max_length="40" name="level_of_customization" type="string">
             <choice>
                 <element inactive_on_update="false" label="Commercial Off The Shelf vanilla" sequence="0" value="Commercial Off The Shelf vanilla"/>
+                <element inactive_on_update="false" label="Commercial Off The Shelf vanilla wugdu" sequence="0" value="Commercial Off The Shelf vanilla wugdu"/>
                 <element inactive_on_update="false" label="Custom Developed by ABI" sequence="1" value="Custom Developed by ABI"/>
                 <element inactive_on_update="false" label="CoTS with customization" sequence="2" value="CoTS with customization"/>
                 <element inactive_on_update="false" label="Custom Developed for ABI" sequence="3" value="Custom Developed for ABI"/>
@@ -201,7 +206,7 @@
         </element>
         <element attributes="encode_utf8=false" label="Supplier Service Name" max_length="32" name="supplier_service_name" reference="customer_contact" type="reference"/>
         <element attributes="encode_utf8=false" label="Tier" mandatory="true" max_length="32" name="tier" reference="x_anbib_grc_tier" type="reference"/>
-        <element attributes="encode_utf8=false" label="To be Decommissioned With" max_length="32" name="to_be_decommissioned_with" reference="x_anbib_grc_entity" type="reference"/>
+        <element attributes="encode_utf8=false" label="To be Decommissioned With" max_length="32" name="to_be_decommissioned_with" reference="cmdb_ci_appl" type="reference"/>
         <element label="Updated by App360" max_length="40" name="updated_by_app360" type="boolean"/>
     </element>
 </database>
