@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -21,7 +21,7 @@
         <is_rest>false</is_rest>
         <message/>
         <name>Start Design Assessment Workflow</name>
-        <order>200</order>
+        <order>300</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -30,12 +30,19 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	// Add your code here
-	if (current.operation() == "insert") {
-		current.status = current.status_ghq == "5" ? "5" : current.mics_relevance ? "0" : "6";
-	}
+// 	var bauPrevious = previous.status_ghq == "0" || previous.status_ghq == "1";
+	var bau = current.status_ghq == "0" || current.status_ghq == "1";
+	
 	current.updated_by_app360 = false;
-	current.elect_to_audit_scope = current.mics_relevance;
+	
+	if (current.operation() == "insert") {
+		current.elect_to_audit_scope = current.mics_relevance;
+		current.status = current.status_ghq == "5" ? "5" : current.mics_relevance && bau ? "0" : "6";
+// 	} else {		
+// 		if ((!bauPrevious && bau && current.elect_to_audit_scope) || (!previous.elect_to_audit_scope && current.elect_to_audit_scope && bau)) {
+// 			current.status = "1";
+// 		}
+	}
 	var w = new global.Workflow();
 	var inputs = {
 		u_operation: current.operation(),
@@ -50,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0f45dc5dbcfd85002085bd05b9619fa</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Start Design Assessment Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -58,7 +65,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_c0f45dc5dbcfd85002085bd05b9619fa</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-25 14:31:21</sys_updated_on>
+        <sys_updated_on>2020-09-28 14:35:36</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

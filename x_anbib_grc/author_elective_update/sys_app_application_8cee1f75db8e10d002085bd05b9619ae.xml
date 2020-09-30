@@ -80,7 +80,7 @@
         <update_guid_history>84ec5236dd02d410c3ea42e54ea82f26:0,81dc5ef24502d410b14f55731cdd6c7e:-240021967,8ddc5ef21602d41028fe223c435f5a60:-160241987</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GRC Choice">70fe40fbdb5a18d002085bd05b96199c</sys_audit_delete>
+        <sys_audit_delete display_value="">70fe40fbdb5a18d002085bd05b96199c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-04 20:13:25</sys_created_on>

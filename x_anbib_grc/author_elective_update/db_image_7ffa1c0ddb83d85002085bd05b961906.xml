@@ -87,7 +87,7 @@
         <update_guid_history>3ffa1c0d1d83d85023a4d6d446ae32fb:1862499158,73fa1c0dbc83d8508391bd4d83038ff9:768205924,33fa1c0d7c83d850f042aa6bd8fdb808:-38890356</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="flag.png">c23bd44ddb83d85002085bd05b961939</sys_audit_delete>
+        <sys_audit_delete display_value="">c23bd44ddb83d85002085bd05b961939</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-02 14:50:50</sys_created_on>

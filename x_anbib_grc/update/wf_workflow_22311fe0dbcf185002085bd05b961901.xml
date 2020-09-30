@@ -31,12 +31,12 @@
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-25 13:37:06</sys_created_on>
         <sys_id>6ae6a61cdb63d05402085bd05b9619c1</sys_id>
-        <sys_mod_count>99</sys_mod_count>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-25 13:42:34</sys_updated_on>
+        <sys_mod_count>100</sys_mod_count>
+        <sys_updated_by>Gabriela.Gopfert-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-09-25 18:21:15</sys_updated_on>
         <table>x_anbib_grc_sop_evidence</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="GRC - SOP Evidence">22311fe0dbcf185002085bd05b961901</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

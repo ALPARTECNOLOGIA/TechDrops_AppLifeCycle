@@ -52,7 +52,7 @@
         <update_guid_history>60a1a293099a54d0096dd82fe837c2f0:1980850798</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Document Citation">1e81532bdb1218d002085bd05b961971</sys_audit_delete>
+        <sys_audit_delete display_value="">1e81532bdb1218d002085bd05b961971</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-04 15:45:06</sys_created_on>

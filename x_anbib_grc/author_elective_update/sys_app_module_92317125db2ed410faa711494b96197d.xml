@@ -65,7 +65,7 @@
         <update_guid_history>9e31b925ec2ed41010a8b13480f83cf7:1142849996</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Action Plan of Control Inplementations">f794c2a1dbaed410faa711494b961971</sys_audit_delete>
+        <sys_audit_delete display_value="">f794c2a1dbaed410faa711494b961971</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-10 15:16:54</sys_created_on>

@@ -49,7 +49,7 @@
         <update_guid_history>9e6572ef935ad4d05e3a4c714cd6cf9c:1346510312</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_anbib_grc.risk_user">4b8dffe3db1a18d002085bd05b96199c</sys_audit_delete>
+        <sys_audit_delete display_value="">4b8dffe3db1a18d002085bd05b96199c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-04 18:57:23</sys_created_on>

@@ -31,12 +31,12 @@
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-24 20:12:26</sys_created_on>
         <sys_id>fbc77a84db2fdc1402085bd05b96197f</sys_id>
-        <sys_mod_count>47</sys_mod_count>
-        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-24 20:15:45</sys_updated_on>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_updated_by>Gabriela.Gopfert-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-09-25 18:35:18</sys_updated_on>
         <table>x_anbib_grc_action_plan_control_implementation</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="GRC - Action Plan of Control Inplementation">50525baddbea1810faa711494b961926</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

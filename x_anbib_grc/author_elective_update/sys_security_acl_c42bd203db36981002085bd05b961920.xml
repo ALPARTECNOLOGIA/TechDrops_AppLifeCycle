@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_anbib_grc_sop_evidence</description>
+        <name>x_anbib_grc_sop_evidence</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-27 19:01:48</sys_created_on>
+        <sys_id>c42bd203db36981002085bd05b961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_sop_evidence</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_security_acl_c42bd203db36981002085bd05b961920</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-27 19:01:48</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_security_acl_c42bd203db36981002085bd05b961920</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_anbib_grc_sop_evidence</description>
+        <name>x_anbib_grc_sop_evidence</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-27 19:01:48</sys_created_on>
+        <sys_id>c42bd203db36981002085bd05b961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_sop_evidence</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_security_acl_c42bd203db36981002085bd05b961920</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-27 19:01:48</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>-1839037903</payload_hash>
+        <record_name>x_anbib_grc_sop_evidence</record_name>
+        <reverted_from/>
+        <source>3098db54dbaf10105ec19785ca96198f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 17:19:07</sys_created_on>
+        <sys_id>22b9979cdbaf10105ec19785ca9619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174c6468fb10000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 17:19:07</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>6eb9979c3baf1010b75f974a2fe1d4b8</update_guid>
+        <update_guid_history>6eb9979c3baf1010b75f974a2fe1d4b8:0,89981f5433af1010f920bcb42e3e1d73:1576283375,9423531cd26f1010f5cdb04440aff47a:0,30129314626f1010aa9676fd3b54001f:1576283375,535b0b18c62f1010a0e5b45f6d5c721e:0,2e3a0f10bd2f1010e970ff4624d81af3:1576283375,ff40e973bd9b981437c57f254e8a538a:0,9c8e9dff8b1b981435e5c0237d215c0a:1576283375,f7bbcfb67dc75410ac60379b34a5abe6:0,d29ac3bea78754102e50702e3ff97858:1576283375,125b015d13879c50bb1e7570fe7f7f2a:0,8e6a01d5d2879c50ce974e4bb3f55958:1576283375,e27485d5cd479c5094fd4c5537da4533:0,cba3cd5174479c50e4e3d8443477b8ef:1576283375,153242c910c31c502b1032f0df464d7b:0,b3f08605adc31c50cadf9e23a6427dc4:1576283375,c7920085eb8f9850b11e34b5f5308392:0,8d114c89104f9850f78fcd39ba8c1eac:1576283375,e1f304b8350758500d48c45f3622e20f:0,a303c074f70758500a2888157918260a:1576283375,8b7ae624d4cb1850f8f359a9e8f0cea9:0,9e89262043cb1850f13a12351ea7d120:1576283375,3019835c2ac7d4500e6b6162fca23ef3:0,32586e909f4f9450ddc7d6451eba6806:1576283375,c8cceb53d5f2dc10f1b8e716ea76fa14:0,489b2b5bb9b2dc104dad97350c2b48c7:1576283375,002bd203a236981066943e3e4f921924:234607331</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-30 16:41:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>4853693143c546c49efedae41c7473b9</sys_id>
+        <sys_metadata>c42bd203db36981002085bd05b961920</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_sop_evidence</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="x_anbib_grc_sop_evidence">8279531cdbaf10105ec19785ca9619fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_security_acl_c42bd203db36981002085bd05b961920</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_c42bd203db36981002085bd05b961920">22b9979cdbaf10105ec19785ca9619b9</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-30 16:41:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

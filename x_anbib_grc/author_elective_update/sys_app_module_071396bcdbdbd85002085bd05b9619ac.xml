@@ -70,7 +70,7 @@
         <update_guid_history>a104c3cad95790d06bbf67a8fc975f74:1691371345,444083fc97175c50616bb407af5902f1:59118225,071396bcd3dbd850a867430417f77faf:2084974013</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="My Approvals">8c5447cadb5790d0faa711494b9619d6</sys_audit_delete>
+        <sys_audit_delete display_value="">8c5447cadb5790d0faa711494b9619d6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-18 15:59:13</sys_created_on>

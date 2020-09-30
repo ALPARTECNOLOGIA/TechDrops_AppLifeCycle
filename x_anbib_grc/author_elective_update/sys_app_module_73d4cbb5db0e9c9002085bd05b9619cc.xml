@@ -65,7 +65,7 @@
         <update_guid_history>638eb367271a18d0ac6076921a046de3:0,44ec52366902d410777fb78a5e751b2f:0,aacc1af20102d410bb7532320635e205:1863263419,eacc1af26b02d4107b6b9eb35d871e01:-1181411211</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Control/Risks">639e3767db1a18d002085bd05b9619a4</sys_audit_delete>
+        <sys_audit_delete display_value="">639e3767db1a18d002085bd05b9619a4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-04 19:02:03</sys_created_on>

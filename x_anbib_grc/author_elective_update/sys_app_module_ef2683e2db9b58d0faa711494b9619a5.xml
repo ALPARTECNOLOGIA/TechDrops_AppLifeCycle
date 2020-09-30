@@ -68,7 +68,7 @@
         <update_guid_history>2fb68f26509b58d07fae344752aa9946:481169477,336683e21b9b58d0ac8e718be49115de:689313319</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Action Plan">b1ae0b26dbdb58d0faa711494b961913</sys_audit_delete>
+        <sys_audit_delete display_value="">b1ae0b26dbdb58d0faa711494b961913</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-20 06:01:22</sys_created_on>

@@ -60,7 +60,7 @@
         <update_guid_history>835b815d8f879c5050875996ef38b59c:0,b87a05d59b879c509dd15956e057dde5:277166072,d374c5d56f479c50560b9cf1cfe632a7:0,e68341518f479c50659b6c42ca595b3b:277166072,1e3282c929c31c506e37a55f26fe32df:0,a7018e05d0c31c5054e293a2e45fe3f7:277166072,23b43c89cb0bd850c27ad3a3207c767b:789084804</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=".x_anbib_grc.integrator">4eeb1951dbcb5c5002085bd05b96190e</sys_audit_delete>
+        <sys_audit_delete display_value="">4eeb1951dbcb5c5002085bd05b96190e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-03 14:11:56</sys_created_on>

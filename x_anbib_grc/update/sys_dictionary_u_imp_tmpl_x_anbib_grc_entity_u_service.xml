@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-03 19:34:36</sys_created_on>
-        <sys_id>88ff9d7fdb5b9814faa711494b961924</sys_id>
+        <sys_id>c179dfd8dbaf10105ec19785ca9619b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Service</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_dictionary_u_imp_tmpl_x_anbib_grc_entity_u_service</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-23 19:10:47</sys_updated_on>
+        <sys_updated_on>2020-09-25 17:18:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

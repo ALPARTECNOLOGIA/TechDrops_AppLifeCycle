@@ -60,7 +60,7 @@
         <update_guid_history>6b5bc15d09879c50043dd17a5e08bbbf:0,e07a05d50c879c50e308dae2b390c942:-1336562842,3f7409d53a479c50ebda740dc9a2dd95:0,9283015166479c50b432fc78f3a08f7f:-1336562842,3a3206c9b7c31c50fc834dbee1e0e70c:0,8f014e057cc31c509b0a51b572051a35:-1336562842,bda28485c38f9850b8eeced54a74c09c:0,e831000d5f4f98507f1057d0737fff07:-1336562842,0bf3c4b831075850c1a96ce3f2a9dadd:0,9e1384742b075850333b41816fc4f152:-1336562842,ac8aaa2486cb185044ce859f235f3343:0,4679222033cb185086d06fa6dd6ef143:-1336562842,3505ea28ce8b1850815e9769a42eed9e:0,3af3eee0e68b18503fec6de0a6228bde:-1336562842,3af3eee00e8b1850ead7b0d78c36b8db:-1541447694</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_anbib_grc_entity.snc_internal">fa96a911db0f5c5002085bd05b9619ed</sys_audit_delete>
+        <sys_audit_delete display_value="">fa96a911db0f5c5002085bd05b9619ed</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-03 14:58:40</sys_created_on>

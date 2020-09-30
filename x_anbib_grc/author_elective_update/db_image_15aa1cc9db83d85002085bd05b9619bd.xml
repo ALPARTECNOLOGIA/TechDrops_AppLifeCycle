@@ -87,7 +87,7 @@
         <update_guid_history>25aadcc98f83d85008f10751c1a04db2:1946309705,55aadcc9a883d8504c78f7de77cf5daf:-90383301,55aadcc95183d8508bd53b8644688aa9:-850610964</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="logo_abinbev.png">530b9c0ddb83d85002085bd05b9619a5</sys_audit_delete>
+        <sys_audit_delete display_value="">530b9c0ddb83d85002085bd05b9619a5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>victor.mantovani@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-02 14:50:05</sys_created_on>

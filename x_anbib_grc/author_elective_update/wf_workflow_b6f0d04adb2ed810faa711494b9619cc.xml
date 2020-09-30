@@ -1028,7 +1028,7 @@ answer = 0;&lt;/value&gt;&lt;variable display_value=""&gt;a8a16056c0a800660449c1
         <update_guid_history>c37d89267f26dc10288fa5e0322751ee:-613095840,0d15b04210221c102a1805aea7fd809c:897396860</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GRC - Task Approval Complice">058dc926db26dc1002085bd05b9619cb</sys_audit_delete>
+        <sys_audit_delete display_value="">058dc926db26dc1002085bd05b9619cb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-13 13:50:04</sys_created_on>

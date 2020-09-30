@@ -42,7 +42,7 @@
         <update_guid_history>ba279d3a957694101ae0c7fe60956728:69443294</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_anbib_grc_extension_test.x_anbib_grc.analyst">2f5add36dbb69410faa711494b961988</sys_audit_delete>
+        <sys_audit_delete display_value="">2f5add36dbb69410faa711494b961988</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Marcos.Santos-ext@ab-Inbev.com</sys_created_by>
         <sys_created_on>2020-08-26 19:40:24</sys_created_on>

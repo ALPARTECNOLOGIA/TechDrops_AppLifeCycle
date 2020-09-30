@@ -42,7 +42,7 @@
         <update_guid_history>30f0bde1352ed410dc9a3355d2e34e44:1644695644</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_anbib_grc_action_plan_control_inplementation.x_anbib_grc.action_plan_of_contro">3401b125db2ed410faa711494b961959</sys_audit_delete>
+        <sys_audit_delete display_value="">3401b125db2ed410faa711494b961959</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-10 13:51:14</sys_created_on>
