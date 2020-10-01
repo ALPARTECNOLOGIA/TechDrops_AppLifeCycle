@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_anbib_grc_entity</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_anbib_grc_entity">updated_by_app360=true^EQ<item endquery="false" field="updated_by_app360" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Start Design Assessment Workflow</name>
+        <order>300</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+// 	var bauPrevious = previous.status_ghq == "0" || previous.status_ghq == "1";
+	var bau = current.status_ghq == "0" || current.status_ghq == "1";
+	
+	current.updated_by_app360 = false;
+	
+	if (current.operation() == "insert") {
+		current.elect_to_audit_scope = current.mics_relevance;
+		current.status = current.status_ghq == "5" ? "5" : current.mics_relevance && bau ? "0" : "6";
+// 	} else {		
+// 		if ((!bauPrevious && bau && current.elect_to_audit_scope) || (!previous.elect_to_audit_scope && current.elect_to_audit_scope && bau)) {
+// 			current.status = "1";
+// 		}
+	}
+	var w = new global.Workflow();
+	var inputs = {
+		u_operation: current.operation(),
+		u_old_type: previous.mics_category.toString()
+	};
+	
+	w.startFlow(gs.getProperty("x_anbib_grc.workflow_design"), current, current.operation(), inputs);
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-02 19:03:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0f45dc5dbcfd85002085bd05b9619fa</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Start Design Assessment Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_c0f45dc5dbcfd85002085bd05b9619fa</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-28 14:35:36</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=c0f45dc5dbcfd85002085bd05b9619fa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_script_c0f45dc5dbcfd85002085bd05b9619fa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_anbib_grc_entity&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_anbib_grc_entity"&gt;updated_by_app360=true^EQ&lt;item endquery="false" field="updated_by_app360" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Start Design Assessment Workflow&lt;/name&gt;&lt;order&gt;300&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+// 	var bauPrevious = previous.status_ghq == "0" || previous.status_ghq == "1";
+	var bau = current.status_ghq == "0" || current.status_ghq == "1";
+	
+	current.updated_by_app360 = false;
+	
+	if (current.operation() == "insert") {
+		current.elect_to_audit_scope = current.mics_relevance;
+		current.status = current.status_ghq == "5" ? "5" : current.mics_relevance &amp;&amp; bau ? "0" : "6";
+// 	} else {		
+// 		if ((!bauPrevious &amp;&amp; bau &amp;&amp; current.elect_to_audit_scope) || (!previous.elect_to_audit_scope &amp;&amp; current.elect_to_audit_scope &amp;&amp; bau)) {
+// 			current.status = "1";
+// 		}
+	}
+	var w = new global.Workflow();
+	var inputs = {
+		u_operation: current.operation(),
+		u_old_type: previous.mics_category.toString()
+	};
+	
+	w.startFlow(gs.getProperty("x_anbib_grc.workflow_design"), current, current.operation(), inputs);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-02 19:03:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c0f45dc5dbcfd85002085bd05b9619fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Start Design Assessment Workflow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_c0f45dc5dbcfd85002085bd05b9619fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 14:35:36&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c0f45dc5dbcfd85002085bd05b9619fa"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1640856409</payload_hash>
+        <record_name>Start Design Assessment Workflow</record_name>
+        <reverted_from/>
+        <source>2e795f98dbaf10105ec19785ca96199b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-28 14:35:36</sys_created_on>
+        <sys_id>a8111adddb6b94102ebe5612f396191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174d523ef600000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-28 14:35:36</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>ac111add046b9410ce682220effd6c1b</update_guid>
+        <update_guid_history>ac111add046b9410ce682220effd6c1b:-1640856409,d4b1ce1d182b9410e5c3ca89f756f7c5:-1270249484,7a8d3dd5aa2b9410c0440f05062b072d:1446149990,91a4fd5d7de79410fbcd43dd29f8270c:1450366250,2eef6f14456350105a8df60a3afa203a:-132309206,77cfeb1468635010a70d889b68953f51:55632361,d79ee3902a635010132551c10232e883:484944240,277ea35060635010a8c77ecd4f45fe52:-759768709,5f8de39020635010866d66963274c215:-1485363627,51b9939c35af1010a610f4eec67242ec:0,62a8979449af1010a5e44748142d3447:139736822,cf139fd8b96f10103ebffa5869f3bbd5:0,1b02dfd0246f10100ed87bc8f33c3cb3:139736822,ca5b4718612f1010d919cb03d83b771d:0,0d3a4b10282f1010fd4f71ebd22f8dff:-59160580,4240a5736a9b98142247301ad284945b:0,79af15fbc15b981431785d3b1daa07e9:-59160580,ef7cd4edaed3189064cc561b708e07ac:-1646410184,bebb4fb6a3c7541026aaa4511796f6a9:0,374b073662c75410ba3898ded15e7f39:155194333,c15b4d1d75879c50297114dca5a72d6d:0,cf7a09d5ac879c50029a492136bdc649:203441957,e17405d5cd479c50e5f0f5ce5f8ee728:0,5d934551bf479c507a4689c447d93a71:203441957,4832ce89b7c31c5055aa8def1943ed79:0,5ac18e094ac31c50347c35122b087f99:155194333,780cf90d10831c50898809951a758584:-1432055271,3ecabdc9f3831c501a379f9c7502c26f:-1161641423,08f57145d4831c5091526afb20efcf0c:-1921138765,56a5914916cfd8500d2dcd7460d45164:371866785,79251109e5cfd850c9947b5d599ac9ee:-860326826</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 18:01:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>3a88338cd0134dd4994d9c9e57d4c804</sys_id>
+        <sys_metadata>c0f45dc5dbcfd85002085bd05b9619fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Start Design Assessment Workflow</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Entity">32e26e60db8b185002085bd05b96196a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_script_c0f45dc5dbcfd85002085bd05b9619fa</sys_update_name>
+        <sys_update_version display_value="sys_script_c0f45dc5dbcfd85002085bd05b9619fa">a8111adddb6b94102ebe5612f396191c</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 18:01:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

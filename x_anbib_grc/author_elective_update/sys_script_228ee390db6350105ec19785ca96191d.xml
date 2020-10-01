@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_anbib_grc_entity</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_anbib_grc_entity">updated_by_app360=true^status_ghqVALCHANGES^ORhosting_typeVALCHANGES^ORcrown_jewelVALCHANGES^ORfinancial_reporting_relevantVALCHANGES^ORexternal_facingVALCHANGES^ORmics_relevanceVALCHANGES^ORcriticalityVALCHANGES^ORmics_categoryVALCHANGES^EQ<item endquery="false" field="updated_by_app360" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="-- None --" endquery="false" field="status_ghq" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item display_value="-- None --" endquery="false" field="hosting_type" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="crown_jewel" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="financial_reporting_relevant" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="external_facing" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="mics_relevance" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="criticality" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="mics_category" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Check critical changes</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var bau = current.status_ghq == "0" || current.status_ghq == "1";
+	
+	current.elect_to_audit_scope = current.mics_relevance;
+	current.status = current.status_ghq == "5" ? "5" : current.mics_relevance && bau ? "1" : "6";
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 18:50:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>228ee390db6350105ec19785ca96191d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Check critical changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_228ee390db6350105ec19785ca96191d</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-28 14:35:41</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=228ee390db6350105ec19785ca96191d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_script_228ee390db6350105ec19785ca96191d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_anbib_grc_entity&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_anbib_grc_entity"&gt;updated_by_app360=true^status_ghqVALCHANGES^ORhosting_typeVALCHANGES^ORcrown_jewelVALCHANGES^ORfinancial_reporting_relevantVALCHANGES^ORexternal_facingVALCHANGES^ORmics_relevanceVALCHANGES^ORcriticalityVALCHANGES^ORmics_categoryVALCHANGES^EQ&lt;item endquery="false" field="updated_by_app360" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item display_value="-- None --" endquery="false" field="status_ghq" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item display_value="-- None --" endquery="false" field="hosting_type" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="crown_jewel" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="financial_reporting_relevant" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="external_facing" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="mics_relevance" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item display_value="-- None --" endquery="false" field="criticality" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="mics_category" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Check critical changes&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var bau = current.status_ghq == "0" || current.status_ghq == "1";
+	
+	current.elect_to_audit_scope = current.mics_relevance;
+	current.status = current.status_ghq == "5" ? "5" : current.mics_relevance &amp;&amp; bau ? "1" : "6";
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-25 18:50:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;228ee390db6350105ec19785ca96191d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Check critical changes&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_228ee390db6350105ec19785ca96191d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 14:35:41&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=228ee390db6350105ec19785ca96191d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1949482962</payload_hash>
+        <record_name>Check critical changes</record_name>
+        <reverted_from/>
+        <source>2e795f98dbaf10105ec19785ca96199b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-28 14:35:41</sys_created_on>
+        <sys_id>791112dddb6b94102ebe5612f39619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174d52404940000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-28 14:35:41</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>7d1112dd196b94107924ae49cefbf1f7</update_guid>
+        <update_guid_history>7d1112dd196b94107924ae49cefbf1f7:-1949482962,b2614a1d912b94104f0ed8a70ea85490:1077266183,268ee390e063501060d1d621e817a120:-759768709</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 17:59:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>004b3abd10c94a4a8000513fa21a7519</sys_id>
+        <sys_metadata>228ee390db6350105ec19785ca96191d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check critical changes</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Entity">32e26e60db8b185002085bd05b96196a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_script_228ee390db6350105ec19785ca96191d</sys_update_name>
+        <sys_update_version display_value="sys_script_228ee390db6350105ec19785ca96191d">791112dddb6b94102ebe5612f39619f8</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 17:59:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

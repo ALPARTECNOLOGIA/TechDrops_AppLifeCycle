@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow write for application in x_anbib_grc_entity, for users with role x_anbib_grc.integrator.</description>
+        <name>x_anbib_grc_entity.status_ghq</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-10 20:12:24</sys_created_on>
+        <sys_id>6e81fe63db0b1c10faa711494b9619be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_anbib_grc_entity.status_ghq</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_security_acl_6e81fe63db0b1c10faa711494b9619be</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-28 19:16:33</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_security_acl_6e81fe63db0b1c10faa711494b9619be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>false</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Allow write for application in x_anbib_grc_entity, for users with role x_anbib_grc.integrator.</description><name>x_anbib_grc_entity.status_ghq</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by><sys_created_on>2020-09-10 20:12:24</sys_created_on><sys_id>6e81fe63db0b1c10faa711494b9619be</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_anbib_grc_entity.status_ghq</sys_name><sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package><sys_policy>protected</sys_policy><sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope><sys_update_name>sys_security_acl_6e81fe63db0b1c10faa711494b9619be</sys_update_name><sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by><sys_updated_on>2020-09-28 19:16:33</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1803737331</payload_hash>
+        <record_name>x_anbib_grc_entity.status_ghq</record_name>
+        <reverted_from/>
+        <source>2e795f98dbaf10105ec19785ca96199b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-28 19:16:33</sys_created_on>
+        <sys_id>886157d1dbef94102ebe5612f39619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174d62529140000001</sys_recorded_at>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-28 19:16:33</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>806157d189ef94101e09ef74885b0cbf</update_guid>
+        <update_guid_history>806157d189ef94101e09ef74885b0cbf:-1803737331,02b9579cc1af101032069bc1dcb0a451:0,b4a8d394b0af1010f22f21d25591e73b:-1860198286,b313131c5d6f1010ba6286240b492381:0,71021fd0d66f1010b7e2dc19f82dbc69:-1860198286,b65b87185b2f10109eb827c4c739e0ae:0,6e2a0710a92f1010f73ca0b8ea625f99:-1860198286,87406973509b9814ba208afcf5b4173f:0,4c9e9d33b05b9814cdb6eb10179346e6:-1860198286,aa81f6a79f0b1c1042398ab47876f69f:-1649267866</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-30 18:06:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0ddf9493803a40d9948549949c999f61</sys_id>
+        <sys_metadata>6e81fe63db0b1c10faa711494b9619be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_entity.status_ghq</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="Status GHQ">5579131cdbaf10105ec19785ca96197e</sys_parent>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6e81fe63db0b1c10faa711494b9619be</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6e81fe63db0b1c10faa711494b9619be">886157d1dbef94102ebe5612f39619bf</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-30 18:06:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

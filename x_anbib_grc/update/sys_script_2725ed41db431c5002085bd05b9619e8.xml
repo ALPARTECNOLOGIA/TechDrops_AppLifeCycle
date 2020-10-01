@@ -53,7 +53,7 @@
 	};
 
 	w.cancel(current);	
-	w.startFlow(gs.getProperty("x_anbib_grc.workflow_design"), current, current.operation(), inputs);
+	w.startFlow(gs.getProperty("x_anbib_grc.sys_id.workflow.design"), current, current.operation(), inputs);
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -62,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2725ed41db431c5002085bd05b9619e8</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Update MICs Category</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -70,7 +70,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_2725ed41db431c5002085bd05b9619e8</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-28 17:38:00</sys_updated_on>
+        <sys_updated_on>2020-10-01 18:19:43</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

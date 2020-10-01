@@ -28,6 +28,20 @@
             <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
             <sys_updated_on>2020-09-25 18:08:35</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-10-01 14:05:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d0721dadb27d8102ebe5612f3961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_anbib_grc_entity" name="x_anbib_grc_entity" sys_domain="global" view="Default view">311dcc85db43d85002085bd05b96199e</sys_ui_form>
+            <sys_ui_section caption="Activity History" display_value="Activity History" name="x_anbib_grc_entity" sys_domain="global" view="Default view">8d07ed9adb27d8102ebe5612f39619c6</sys_ui_section>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-10-01 14:05:47</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_anbib_grc_entity</name>
             <roles/>

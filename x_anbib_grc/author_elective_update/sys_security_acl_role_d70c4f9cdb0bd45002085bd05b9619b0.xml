@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-31 19:47:58</sys_created_on>
+        <sys_id>d70c4f9cdb0bd45002085bd05b9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_sop.snc_internal</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_security_acl display_value="x_anbib_grc_sop">3a835987dbb2581002085bd05b9619cf</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d70c4f9cdb0bd45002085bd05b9619b0</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-31 19:47:58</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>e94b4318db0bd45002085bd05b961941</transaction_id>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_security_acl_role_d70c4f9cdb0bd45002085bd05b9619b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-31 19:47:58</sys_created_on>
+        <sys_id>d70c4f9cdb0bd45002085bd05b9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_sop.snc_internal</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_security_acl display_value="x_anbib_grc_sop">3a835987dbb2581002085bd05b9619cf</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d70c4f9cdb0bd45002085bd05b9619b0</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-31 19:47:58</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>e94b4318db0bd45002085bd05b961941</transaction_id>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-266631728</payload_hash>
+        <record_name>x_anbib_grc_sop.snc_internal</record_name>
+        <reverted_from/>
+        <source>3098db54dbaf10105ec19785ca96198f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 17:19:12</sys_created_on>
+        <sys_id>3bb99b9cdbaf10105ec19785ca961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174c646a65f0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 17:19:12</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>77b99b9c62af1010b7c5075f97cfa044</update_guid>
+        <update_guid_history>77b99b9c62af1010b7c5075f97cfa044:0,86989f5446af1010fea16d4c1943476c:-1176502535,3123171c9e6f1010cc760461286342ed:0,36f1d7d0656f1010fd913931edf94615:-1176502535,706bcb183f2f10108d8757edfc8ee7f1:0,f73acf10412f1010b552a905d8942d39:-1176502535,e15061b3199b98148f60f565677b16b7:0,d99e15733a5b98144eb45544eba78223:-1176502535,99cb83f625c75410fa310150411985b8:0,838acb7e258754101897caa13749234c:-1176502535,fb5b055db2879c502a6e0adcca9a9f5e:0,e36a81d571879c50059eaf2443712a6d:-1176502535,848409d509479c5083739e9d45d36cd1:0,1183cd1197479c50d638b93583553227:-1176502535,cb3206c986c31c50228b41c272c6703b:0,22e04ec110c31c5099174cafa26ae585:-1176502535,4aa28485148f98507c6b1f3e174572eb:0,2e1140c9304f985047c45766b347432e:-1176502535,9ff308b86607585077082e4a9c1b0506:0,cc13c074ba07585024f6167eb7163ce0:-1176502535,6c8aaa24d6cb1850c59c1475f7a52060:0,b479eeecf88b1850c16c32c6cc6ff336:-1176502535,7105ea28668b18501328fcafcc0a41d4:0,00042224d88b1850ecf025e5345c3bcd:-1176502535,e040ef140a4fd450c5310e10d7e73ea2:0,c91f9bdc010fd4504660fe320204cf7c:-1176502535,a840df58f08bd45032f617376edd372b:0,ca0fcb10a68bd4503eeed8eecb3ec6e1:-1176502535,ce0fcb10fc8bd45034fcf211680337ac:-1349945875</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_anbib_grc_sop.snc_internal">2970150edbef58102ebe5612f39619fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-30 17:48:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2b7a09f901c543f6b135ad87709ef691</sys_id>
+        <sys_metadata>d70c4f9cdb0bd45002085bd05b9619b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc_sop.snc_internal</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_d70c4f9cdb0bd45002085bd05b9619b0</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_d70c4f9cdb0bd45002085bd05b9619b0">3bb99b9cdbaf10105ec19785ca961944</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-30 17:48:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -85,7 +85,7 @@
 				var inputs = {                            // Parametros para subflow
 					u_record: entity
 				};
-				var wf_sys_id = wf.startFlow(gs.getProperty("x_anbib_grc.workflow_control"), grControlInsert, "insert", inputs);
+				var wf_sys_id = wf.startFlow(gs.getProperty("x_anbib_grc.sys_id.workflow.control"), grControlInsert, "insert", inputs);
 			}
 		}
 	}
@@ -97,7 +97,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>498f5d49db031c5002085bd05b9619e7</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Insert entity layers</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -105,7 +105,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_498f5d49db031c5002085bd05b9619e7</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-30 14:31:15</sys_updated_on>
+        <sys_updated_on>2020-10-01 18:29:50</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

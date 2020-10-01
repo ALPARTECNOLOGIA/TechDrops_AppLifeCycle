@@ -17,22 +17,22 @@
         <override_menu_roles>false</override_menu_roles>
         <query>&amp;sysparm_query=approval_state=requested^GROUPBYapproval_sysapproval&amp;sysparm_fixed_query=approval_approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe</query>
         <report/>
-        <roles>x_anbib_grc.owner</roles>
+        <roles>x_anbib_grc.analyst</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-18 22:58:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8714e8d2db5fd0d0faa711494b96193f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>SOP Evidence</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_app_module_8714e8d2db5fd0d0faa711494b96193f</sys_update_name>
-        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-25 18:25:13</sys_updated_on>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-30 17:31:38</sys_updated_on>
         <timeline_page/>
         <title>SOP Evidence</title>
         <uncancelable>false</uncancelable>

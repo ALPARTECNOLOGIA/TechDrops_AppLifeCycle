@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Annotations" section_id="60a50ee1dbaed410faa711494b96195b" sys_domain="global" table="x_anbib_grc_action_plan_control_implementation" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
+            <element>activity.xml</element>
             <position>0</position>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-10 15:21:20</sys_created_on>
-            <sys_id>78a50ee1dbaed410faa711494b9619fd</sys_id>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-10-01 14:08:36</sys_created_on>
+            <sys_id>92a7611edb27d8102ebe5612f396193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Annotations" display_value="Annotations" name="x_anbib_grc_action_plan_control_implementation" sys_domain="global" view="Default view">60a50ee1dbaed410faa711494b96195b</sys_ui_section>
-            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-10 15:21:20</sys_updated_on>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-10-01 14:08:36</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Annotations</caption>

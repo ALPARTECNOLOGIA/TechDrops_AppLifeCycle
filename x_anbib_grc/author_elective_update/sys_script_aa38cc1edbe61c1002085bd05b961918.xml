@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection/>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Start Control Implementation Workflow</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+// 	current.updated_by_app360 = false;
+// 	current.elect_to_audit_scope = current.mics_relevance;
+	var w = new global.Workflow();
+	var inputs = {
+// 		u_operation: current.operation(),
+// 		u_old_type: previous.type.toString()
+	};
+	w.startFlow(gs.getProperty("x_anbib_grc.workflow_control"), current, current.operation(), inputs);
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-08-12 14:08:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa38cc1edbe61c1002085bd05b961918</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Start Control Implementation Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_script_aa38cc1edbe61c1002085bd05b961918</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-08-27 21:10:38</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=aa38cc1edbe61c1002085bd05b961918"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_script_aa38cc1edbe61c1002085bd05b961918</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;
+    &lt;sys_script action="INSERT_OR_UPDATE"&gt;
+        &lt;abort_action&gt;false&lt;/abort_action&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;action_delete&gt;false&lt;/action_delete&gt;
+        &lt;action_insert&gt;true&lt;/action_insert&gt;
+        &lt;action_query&gt;false&lt;/action_query&gt;
+        &lt;action_update&gt;true&lt;/action_update&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;add_message&gt;false&lt;/add_message&gt;
+        &lt;advanced&gt;true&lt;/advanced&gt;
+        &lt;change_fields&gt;false&lt;/change_fields&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;collection/&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;execute_function&gt;false&lt;/execute_function&gt;
+        &lt;filter_condition/&gt;
+        &lt;is_rest&gt;false&lt;/is_rest&gt;
+        &lt;message/&gt;
+        &lt;name&gt;Start Control Implementation Workflow&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;priority&gt;100&lt;/priority&gt;
+        &lt;rest_method/&gt;
+        &lt;rest_method_text/&gt;
+        &lt;rest_service/&gt;
+        &lt;rest_service_text/&gt;
+        &lt;rest_variables/&gt;
+        &lt;role_conditions/&gt;
+        &lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+// 	current.updated_by_app360 = false;
+// 	current.elect_to_audit_scope = current.mics_relevance;
+	var w = new global.Workflow();
+	var inputs = {
+// 		u_operation: current.operation(),
+// 		u_old_type: previous.type.toString()
+	};
+	w.startFlow(gs.getProperty("x_anbib_grc.workflow_control"), current, current.operation(), inputs);
+})(current, previous);]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-08-12 14:08:51&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;aa38cc1edbe61c1002085bd05b961918&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Start Control Implementation Workflow&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_aa38cc1edbe61c1002085bd05b961918&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-08-27 21:10:38&lt;/sys_updated_on&gt;
+        &lt;template/&gt;
+        &lt;when&gt;before&lt;/when&gt;
+    &lt;/sys_script&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=aa38cc1edbe61c1002085bd05b961918"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1848739662</payload_hash>
+        <record_name>Start Control Implementation Workflow</record_name>
+        <reverted_from/>
+        <source>3098db54dbaf10105ec19785ca96198f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-25 17:19:02</sys_created_on>
+        <sys_id>d5b9939cdbaf10105ec19785ca9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174c6467cf70000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 17:19:02</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>15b9939c10af101076cc882fb107d7e3</update_guid>
+        <update_guid_history>15b9939c10af101076cc882fb107d7e3:0,8a495b984eaf1010d3594c8528002736:-2021732738,43139fd8926f1010e132cb8c1ecfcbcd:0,50b293185e6f10109642924a46a70ca2:-2021732738,4e5b4718842f10109443db1ea1e1e014:0,a4ea43549f2f1010f6a5a18405e4783b:-2021732738,ce40a573559b9814ec0290b3a53ed32c:0,db9f9dbb505b9814d65157b2eda068eb:-2021732738,22bb4fb65ec75410e0b7e28cf49fe3a1:0,754b4336fec754104edb64cec51aef83:-2021732738,015b4d1dd1879c50f410bd80a714bf58:0,250b8999e6879c5059ec54f66591a3c5:-2021732738,dd7405d591479c507d5a946052652412:0,95244d15a1479c50ad59e1e0ac5fb80c:-2021732738,c832ce8954c31c50d70c362f2d56ff70:0,78c10e09d3c31c50e87468832d8deeb6:-2021732738,8d920c45eb8f985090dd1a9e5337dd59:0,1af1c4410c8f9850a5f79f4b4dd30722:-2021732738,10f340b8bc0758500d5c94f7345c826f:0,1f93c0380e075850f6469f92c615344d:-2021732738,867a66246acb1850676ab2b954958db1:0,3f1aaaa0e9cb1850274cff3b85a91b3c:-2021732738,9ef4e6282c8b1850d1e678e836a35195:0,91a42ea4738b18505d8d81a07470b696:-2021732738,0e30eb14ed4fd450e67e790ec7d807e0:0,8cef53d0ab4fd450f77a2dcade35c914:-2021732738,d230db587d8bd45040f8aa6a3bbfc812:0,d4df07949a8bd4507ebcdd76cd9474cf:-2021732738,b08c8b90814bd450504998f7ce6d6ef7:0,101c03dccc0bd4503d428035edf27e37:-2021732738,4c19035c53c7d450a5f6ab72df638a39:0,8dd70f9000c7d450cfb8283d6a544b74:-1541545202,303203987247d4501c1ffce74fecc314:0,4bd08b9c1007d45094e0fa99b0bb7f23:-1541545202,217ff6944d07d4508673fded49da5e97:0,4d5e321c44c3d450224b49902c923f60:-1541545202,685cf210eac3d450ba3f59bf53403077:0,c62b3e54ff83d450dcbce1f77e526816:-1541545202,a5397a98f143d450af3549b7b9ad8d87:0,0818bedc3503d4509c1a21240fc0ea03:-1541545202,dc533e58b7cf9450929cae3b16da362f:0,3c02b65cd38f9450c3271cada89b0fb5:-1541545202,60996698424f9450780582927022c3e1:0,94486290ea4f945005bc5497aacf80e9:-1541545202,24370298218b9450f6b51ea86aa4ea37:0,f5960a94b08b9450067a80f8534fda2e:-2021732738,7b23861ce94b9450d8f9ebf3b55e0292:0,63a2ca58bf4b94504ad4d6529e9eca90:-2021732738,168ff5dc0a0b94506ccbb13fe079d863:0,12fef51cc40b9450e7930b34fae1a117:-2021732738,f43cfd50df0b9450d69a57c18c002460:0,d6abb5dc8cc79450b4e855c0a582c9b1:-2021732738,749e69dc644794508d35eedf69207bcf:0,43fd6d1ce44794501480edfcbeb6dc75:-2021732738,3d33b79fd436dc106c956eb40d950e1b:0,1bc277db6236dc10d44aaacf7df7429b:-2021732738,567e6f1f26f2dc1009af17962ea8be0f:0,041e679b3af2dc10ed008666879d4568:-2021732738,97bc6b5370f2dc10260bf95aa84c30c1:0,c74c6b9f35b2dc10bf5790e7cb3e08c9:-2021732738,9f9872cb94ba9810b4531ca9aa6cf7d7:1734436466,47de0122e3625410bf78b65bc5c8071a:-1952101222,ee38cc1ec9e61c10728a96bbae9a881b:1703333101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 17:59:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>1f1b7e8f0be84be7b1fa5486ea6a6851</sys_id>
+        <sys_metadata>aa38cc1edbe61c1002085bd05b961918</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Start Control Implementation Workflow</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_script_aa38cc1edbe61c1002085bd05b961918</sys_update_name>
+        <sys_update_version display_value="sys_script_aa38cc1edbe61c1002085bd05b961918">d5b9939cdbaf10105ec19785ca9619e3</sys_update_version>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 17:59:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
