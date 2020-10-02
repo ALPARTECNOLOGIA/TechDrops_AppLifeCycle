@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_hosting_type" table="u_imp_tmpl_x_anbib_grc_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Hosting type</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Hosting type</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_hosting_type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>u_imp_tmpl_x_anbib_grc_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-03 19:34:35</sys_created_on>
+        <sys_id>0179dfd8dbaf10105ec19785ca96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hosting type</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_x_anbib_grc_entity_u_hosting_type</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 17:18:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_dictionary_u_imp_tmpl_x_anbib_grc_entity_u_hosting_type</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_hosting_type" table="u_imp_tmpl_x_anbib_grc_entity">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Hosting type</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Hosting type</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_hosting_type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>u_imp_tmpl_x_anbib_grc_entity</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-03 19:34:35</sys_created_on>
+        <sys_id>0179dfd8dbaf10105ec19785ca96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hosting type</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_x_anbib_grc_entity_u_hosting_type</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 17:18:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>-1459773592</payload_hash>
+        <record_name>Imp Tmpl X Anbib Grc Entity.Hosting type</record_name>
+        <reverted_from/>
+        <source>58ea53dedb2b58105ec19785ca9619be</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:36:43</sys_created_on>
+        <sys_id>d9fb9396db6b58105ec19785ca9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e64f7cd90000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:36:43</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>19fb9396466b581009d54ecaba6618d8</update_guid>
+        <update_guid_history>19fb9396466b581009d54ecaba6618d8:0,ef69db1e8f2b5810fd87685df4fd2cf9:598612894,2c99d35ca8af10106f379698b41d4528:0,75091f184eaf1010aacc40bd540b98e6:598612894,12f21b981e6f10105a1e518dba1d6fdd:0,95625794886f10100975a0433b544b74:598612894,a03b47d4c92f1010ef439709ea3d3413:0,549a47d06e2f1010977ace70026f19d7:598612894,0610a5ffaf5b9814d550000edac34246:0,8bfe1d77385b981437b7fd470b9ffcba:598612894,a69b43b654c75410e71b6ac5eb6eb60e:0,18facf72bec754104602ab3c0c9cb088:598612894,85c52ad9be839c50890e3a415b8d2388:256879314</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:40:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>06392a179b434d7290db921839de90e4</sys_id>
+        <sys_metadata>f5db1756db6b58105ec19785ca961991</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hosting type</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="">e4c5e6d9db839c5002085bd05b961925</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_x_anbib_grc_entity_u_hosting_type</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_u_imp_tmpl_x_anbib_grc_entity_u_hosting_type">d9fb9396db6b58105ec19785ca9619d8</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:40:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

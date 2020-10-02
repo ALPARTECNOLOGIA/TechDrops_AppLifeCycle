@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_mega_process" table="u_imp_tmpl_x_anbib_grc_control_template">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Mega Process</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Mega Process</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_mega_process</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <name>u_imp_tmpl_x_anbib_grc_control_template</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+        <sys_created_on>2020-09-14 19:18:09</sys_created_on>
+        <sys_id>d0795fd8dbaf10105ec19785ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mega Process</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_x_anbib_grc_control_template_u_mega_process</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 17:18:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_dictionary_u_imp_tmpl_x_anbib_grc_control_template_u_mega_process</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_mega_process" table="u_imp_tmpl_x_anbib_grc_control_template">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Mega Process</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Mega Process</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_mega_process</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <name>u_imp_tmpl_x_anbib_grc_control_template</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+        <sys_created_on>2020-09-14 19:18:09</sys_created_on>
+        <sys_id>d0795fd8dbaf10105ec19785ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mega Process</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_x_anbib_grc_control_template_u_mega_process</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-25 17:18:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>-1741921555</payload_hash>
+        <record_name>Imp Tmpl X Anbib Grc Control Template.Mega Process</record_name>
+        <reverted_from/>
+        <source>58ea53dedb2b58105ec19785ca9619be</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:36:38</sys_created_on>
+        <sys_id>4cfb1396db6b58105ec19785ca9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e64f698f0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:36:38</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>88fb1396616b581089b0e9d2f55934a3</update_guid>
+        <update_guid_history>88fb1396616b581089b0e9d2f55934a3:0,8eb89bda262b58102b205f314097006b:1414047439,db89135c9caf10109dea72eb392ddbda:0,28f8171837af10103d08046f472f6649:1414047439,c1f25798956f10104ad2730396917cbe:0,4852db54a96f1010eac836aef9391be9:1414047439,532bc3d4fb2f10109cbcaf823b18cb1c:0,b27a0f90bc2f10106b91ab8bcf6fcf12:1414047439,ac10e1ffc35b98141dbe84f8a3808e9e:0,a3ded937495b9814a1c13fd1d9a20876:1414047439,937b8bf8abdb5c5035b3c2e00403bbdd:-1380949989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:40:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>43df05665c3b4b4c8a606b82af0b3b84</sys_id>
+        <sys_metadata>7cdb9356db6b58105ec19785ca9619b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mega Process</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="">b27b4bf8dbdb5c5002085bd05b9619bc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_x_anbib_grc_control_template_u_mega_process</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_u_imp_tmpl_x_anbib_grc_control_template_u_mega_process">4cfb1396db6b58105ec19785ca9619a3</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:40:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

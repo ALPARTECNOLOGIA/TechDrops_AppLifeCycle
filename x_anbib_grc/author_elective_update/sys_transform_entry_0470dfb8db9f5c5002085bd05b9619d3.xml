@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="u_imp_tmpl_x_anbib_grc_control_template">bf601fb8db9f5c5002085bd05b96196d</map>
+        <reference_value_field/>
+        <source_field>u_l3___best_in_s__excellence_</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>u_imp_tmpl_x_anbib_grc_control_template</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:39:47</sys_created_on>
+        <sys_id>0470dfb8db9f5c5002085bd05b9619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_l3___best_in_s__excellence_</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_transform_entry_0470dfb8db9f5c5002085bd05b9619d3</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:39:47</sys_updated_on>
+        <target_field>excellence</target_field>
+        <target_table>x_anbib_grc_control_template</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_transform_entry_0470dfb8db9f5c5002085bd05b9619d3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;
+    &lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;
+        &lt;choice_action&gt;create&lt;/choice_action&gt;
+        &lt;coalesce&gt;false&lt;/coalesce&gt;
+        &lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;
+        &lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;
+        &lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;
+        &lt;map display_value="u_imp_tmpl_x_anbib_grc_control_template"&gt;bf601fb8db9f5c5002085bd05b96196d&lt;/map&gt;
+        &lt;reference_value_field/&gt;
+        &lt;source_field&gt;u_l3___best_in_s__excellence_&lt;/source_field&gt;
+        &lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;
+        &lt;source_table&gt;u_imp_tmpl_x_anbib_grc_control_template&lt;/source_table&gt;
+        &lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-09-14 19:39:47&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;0470dfb8db9f5c5002085bd05b9619d3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;u_l3___best_in_s__excellence_&lt;/sys_name&gt;
+        &lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_transform_entry_0470dfb8db9f5c5002085bd05b9619d3&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-09-14 19:39:47&lt;/sys_updated_on&gt;
+        &lt;target_field&gt;excellence&lt;/target_field&gt;
+        &lt;target_table&gt;x_anbib_grc_control_template&lt;/target_table&gt;
+        &lt;use_source_script&gt;false&lt;/use_source_script&gt;
+    &lt;/sys_transform_entry&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-362269738</payload_hash>
+        <record_name>u_l3___best_in_s__excellence_</record_name>
+        <reverted_from/>
+        <source>58ea53dedb2b58105ec19785ca9619be</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:37:33</sys_created_on>
+        <sys_id>a12c5bd6db6b58105ec19785ca961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e65040870000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:37:33</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>ed2c5bd60d6b58107196fcab1ba7c721</update_guid>
+        <update_guid_history>ed2c5bd60d6b58107196fcab1ba7c721:0,313b9752a96b5810c2164678828bd613:-686888000,f8c95f9c77af101027b44ffc89c2fd31:0,ec191358a4af10100745f969920085c5:-686888000,fa23d71c946f1010c041323edb69cc38:0,ff629b948f6f10103031663ddf6e8a3e:-686888000,0e6b8f18e12f10107b2eb89b432226be:0,479a8bd0372f10102e024a1339c9eeed:-686888000,3650e1b3949b98141ad893649d9973fb:0,fa0f95b73b5b9814a42df27d5bcf7f20:-686888000,c070dfb8809f5c50f9f38a6a4af3f3d4:-1296899636</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:42:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>122e1a38f8da4a89b3fb7a3e226a03f1</sys_id>
+        <sys_metadata>0470dfb8db9f5c5002085bd05b9619d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_l3___best_in_s__excellence_</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_0470dfb8db9f5c5002085bd05b9619d3</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_0470dfb8db9f5c5002085bd05b9619d3">a12c5bd6db6b58105ec19785ca961922</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:42:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

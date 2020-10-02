@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="" extends="sys_import_set_row" table="u_imp_tmpl_x_anbib_grc_risk">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Collection">collection</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>u_imp_tmpl_x_anbib_grc_risk</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass>0</sizeclass>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Gabriela.Gopfert-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-09-15 12:16:43</sys_created_on>
+        <sys_id>3579531cdbaf10105ec19785ca96192c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_anbib_grc_risk</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_x_anbib_grc_risk_null</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-09-26 08:59:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_dictionary_u_imp_tmpl_x_anbib_grc_risk_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_imp_tmpl_x_anbib_grc_risk">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Collection">collection</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>u_imp_tmpl_x_anbib_grc_risk</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass>0</sizeclass>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Gabriela.Gopfert-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-09-15 12:16:43</sys_created_on>
+        <sys_id>3579531cdbaf10105ec19785ca96192c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_anbib_grc_risk</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_x_anbib_grc_risk_null</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-09-26 08:59:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>-1551954590</payload_hash>
+        <record_name>Imp Tmpl X Anbib Grc Risk</record_name>
+        <reverted_from/>
+        <source>58ea53dedb2b58105ec19785ca9619be</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:36:48</sys_created_on>
+        <sys_id>2efb1796db6b58105ec19785ca9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e64f92350000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:36:48</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>6afb1796c06b5810a610ed705fc4c0d4</update_guid>
+        <update_guid_history>6afb1796c06b5810a610ed705fc4c0d4:0,e72b9352ec6b5810784b978a238de758:1960968170,4e99575c6aaf10100ce22ee16b396855:0,aff85b180faf10109fe8d9b6cadcb844:695923565,27f21f983d6f10109e4239bcd7717b7a:0,4f5253947b6f1010a0298177ff795da1:695923565,ca3bc7d4ee2f101013e4562209b1b2bc:0,428a43d0742f1010d6220d59bd0327b9:1960968170,3b10e9ff365b9814725bcfda87afe9ac:0,1cfe19776f5b9814c1f57255d4d24350:1960968170,ab947241145b9090f1be7722ef8f8064:-1268597855</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:40:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>9599b8fb6d3d4f3a9b5871116fd390b9</sys_id>
+        <sys_metadata>eadb9756db6b58105ec19785ca961919</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_anbib_grc_risk</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="">df943241db5b9090faa711494b96198f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_x_anbib_grc_risk_NULL</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_u_imp_tmpl_x_anbib_grc_risk_null">2efb1796db6b58105ec19785ca9619d4</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:40:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

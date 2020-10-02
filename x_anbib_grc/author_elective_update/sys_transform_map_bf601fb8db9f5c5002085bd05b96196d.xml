@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>u_imp_tmpl_x_anbib_grc_control_template</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>u_imp_tmpl_x_anbib_grc_control_template</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-09-14 19:39:46</sys_created_on>
+        <sys_id>bf601fb8db9f5c5002085bd05b96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_anbib_grc_control_template</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_transform_map_bf601fb8db9f5c5002085bd05b96196d</sys_update_name>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:39:46</sys_updated_on>
+        <target_table>x_anbib_grc_control_template</target_table>
+    </sys_transform_map>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_transform_map_bf601fb8db9f5c5002085bd05b96196d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;
+    &lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;
+        &lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;
+        &lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;
+        &lt;name&gt;u_imp_tmpl_x_anbib_grc_control_template&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;run_business_rules&gt;true&lt;/run_business_rules&gt;
+        &lt;run_script&gt;false&lt;/run_script&gt;
+        &lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;
+        &lt;source_table&gt;u_imp_tmpl_x_anbib_grc_control_template&lt;/source_table&gt;
+        &lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-09-14 19:39:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;bf601fb8db9f5c5002085bd05b96196d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;u_imp_tmpl_x_anbib_grc_control_template&lt;/sys_name&gt;
+        &lt;sys_package display_value="GRC" source="x_anbib_grc"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="GRC"&gt;1a6d93de1b6d58504aae202a2d4bcbdc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_transform_map_bf601fb8db9f5c5002085bd05b96196d&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;nathalia.zago@alparservice.com.br&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-09-14 19:39:46&lt;/sys_updated_on&gt;
+        &lt;target_table&gt;x_anbib_grc_control_template&lt;/target_table&gt;
+    &lt;/sys_transform_map&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-334111117</payload_hash>
+        <record_name>u_imp_tmpl_x_anbib_grc_control_template</record_name>
+        <reverted_from/>
+        <source>58ea53dedb2b58105ec19785ca9619be</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:37:34</sys_created_on>
+        <sys_id>712c5bd6db6b58105ec19785ca9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e650463b0000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:37:34</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>bd2c5bd66a6b5810480d3c3e22e682ed</update_guid>
+        <update_guid_history>bd2c5bd66a6b5810480d3c3e22e682ed:0,89ab5316486b58103cce5f0c905bb67b:-1810925045,59c95f9ca6af1010431010733c936ee9:0,db49db98f4af1010c093063a129d6e5d:-1810925045,1323d71ced6f10108fa3bb65cd6c35fd:0,adb21718496f101072fc89f413db9d80:-1810925045,9e6b0358892f1010cd0f52553c6fe638:0,c2eac354722f1010380c220de139e33d:-1810925045,1f5025b3069b98140c6a45cf354044d6:0,69af15fb305b98140bd9fd45c4964e0c:-1810925045,b7601fb8a19f5c50295736afcd8e7b6f:-1409525481</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:42:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>4476f66eae8d486780edcafbcec3f861</sys_id>
+        <sys_metadata>bf601fb8db9f5c5002085bd05b96196d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_anbib_grc_control_template</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_transform_map_bf601fb8db9f5c5002085bd05b96196d</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_bf601fb8db9f5c5002085bd05b96196d">712c5bd6db6b58105ec19785ca9619ee</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:42:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

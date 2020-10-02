@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Imp Tmpl X Anbib Grc Maturity Level" max_length="40" name="u_imp_tmpl_x_anbib_grc_maturity_level" sizeclass="0" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Control Template" label="Control Template" max_length="32" name="u_control_template" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="5000" name="u_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Level" label="Level" max_length="255" name="u_level" type="string"/>
-    </element>
-</database>

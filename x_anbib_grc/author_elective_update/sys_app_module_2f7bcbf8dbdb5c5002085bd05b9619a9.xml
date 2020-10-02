@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Imp Tmpl X Anbib Grc Control Template</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_imp_tmpl_x_anbib_grc_control_template</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+        <sys_created_on>2020-09-14 19:18:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2f7bcbf8dbdb5c5002085bd05b9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Anbib Grc Control Template</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_app_module_2f7bcbf8dbdb5c5002085bd05b9619a9</sys_update_name>
+        <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:18:11</sys_updated_on>
+        <timeline_page/>
+        <title>Imp Tmpl X Anbib Grc Control Template</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_app_module_2f7bcbf8dbdb5c5002085bd05b9619a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Imp Tmpl X Anbib Grc Control Template</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_imp_tmpl_x_anbib_grc_control_template</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+        <sys_created_on>2020-09-14 19:18:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2f7bcbf8dbdb5c5002085bd05b9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Anbib Grc Control Template</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_app_module_2f7bcbf8dbdb5c5002085bd05b9619a9</sys_update_name>
+        <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:18:11</sys_updated_on>
+        <timeline_page/>
+        <title>Imp Tmpl X Anbib Grc Control Template</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>-1299831745</payload_hash>
+        <record_name>Imp Tmpl X Anbib Grc Control Template</record_name>
+        <reverted_from/>
+        <source>58ea53dedb2b58105ec19785ca9619be</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:37:12</sys_created_on>
+        <sys_id>a41c9f96db6b58105ec19785ca961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e64fefe30000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:37:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e01c9f96566b58103089521ace195832</update_guid>
+        <update_guid_history>e01c9f96566b58103089521ace195832:0,59b85bda212b5810636bbdcf4be7a31b:262409834,67a99f5cc8af101010ded61578291384:0,ffe8d3183faf1010507f8db55ae8dc09:997592779,99139bd8cb6f10109d12ddb8245713a1:0,db429b54bd6f10106d927a2d0e2c27a9:997592779,cc5b0318d02f101080f4b83e4b453cd1:0,527a8b909b2f10105a21bef75086d07b:997592779,7b30ad33199b981467ad1b732df039e2:0,b6de59370a5b9814bf2334d339e64d37:997592779,277bcbf80fdb5c502b61c6a21e3cb9ab:-209222209</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Imp Tmpl X Anbib Grc Control Template">3cec1bdadb6b58105ec19785ca96194d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:40:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>545325b221b14f4cb53b01fb17dfd524</sys_id>
+        <sys_metadata>2f7bcbf8dbdb5c5002085bd05b9619a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Anbib Grc Control Template</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_app_module_2f7bcbf8dbdb5c5002085bd05b9619a9</sys_update_name>
+        <sys_update_version display_value="sys_app_module_2f7bcbf8dbdb5c5002085bd05b9619a9">a41c9f96db6b58105ec19785ca961932</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:40:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

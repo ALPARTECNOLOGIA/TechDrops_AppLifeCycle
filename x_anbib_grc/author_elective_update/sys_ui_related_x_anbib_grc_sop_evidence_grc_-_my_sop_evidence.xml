@@ -151,7 +151,7 @@
         <reverted_from/>
         <source>98f193d0db6f10105ec19785ca96190a</source>
         <source_table>sys_upgrade_history</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-25 16:50:38</sys_created_on>
         <sys_id>9d33db1cdb6f10105ec19785ca96199e</sys_id>

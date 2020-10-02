@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="90845bb0db539c5002085bd05b961977" sys_domain="global" table="u_imp_tmpl_x_anbib_grc_layer_control" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>10845bb0db539c5002085bd05b961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number</element>
+            <position>1</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>98845bb0db539c5002085bd05b961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>10845bb0db539c5002085bd05b96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_entity_type</element>
+            <position>3</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>94845bb0db539c5002085bd05b96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>1c845bb0db539c5002085bd05b96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name</element>
+            <position>5</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>90845bb0db539c5002085bd05b96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template_import_log.message</element>
+            <position>6</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>18845bb0db539c5002085bd05b96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>u_imp_tmpl_x_anbib_grc_layer_control</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90845bb0db539c5002085bd05b961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_imp_tmpl_x_anbib_grc_layer_control</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_ui_section_90845bb0db539c5002085bd05b961977</sys_update_name>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_ui_section_90845bb0db539c5002085bd05b961977</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="90845bb0db539c5002085bd05b961977" sys_domain="global" table="u_imp_tmpl_x_anbib_grc_layer_control" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>10845bb0db539c5002085bd05b961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number</element>
+            <position>1</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>98845bb0db539c5002085bd05b961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>10845bb0db539c5002085bd05b96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_entity_type</element>
+            <position>3</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>94845bb0db539c5002085bd05b96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>1c845bb0db539c5002085bd05b96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name</element>
+            <position>5</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>90845bb0db539c5002085bd05b96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template_import_log.message</element>
+            <position>6</position>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_id>18845bb0db539c5002085bd05b96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_anbib_grc_layer_control" sys_domain="global" view="Default view">90845bb0db539c5002085bd05b961977</sys_ui_section>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_imp_tmpl_x_anbib_grc_layer_control</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Fabio.Refundini@AB-inbev.com</sys_created_by>
+            <sys_created_on>2020-09-14 19:57:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90845bb0db539c5002085bd05b961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_imp_tmpl_x_anbib_grc_layer_control</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_ui_section_90845bb0db539c5002085bd05b961977</sys_update_name>
+            <sys_updated_by>Fabio.Refundini@AB-inbev.com</sys_updated_by>
+            <sys_updated_on>2020-09-14 19:57:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-2011874851</payload_hash>
+        <record_name>Imp Tmpl X Anbib Grc Layer Control</record_name>
+        <reverted_from/>
+        <source>58ea53dedb2b58105ec19785ca9619be</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:37:45</sys_created_on>
+        <sys_id>243c9fd6db6b58105ec19785ca9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e65071f60000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:37:45</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>603c9fd69e6b5810efc28cc95133b8ff</update_guid>
+        <update_guid_history>603c9fd69e6b5810efc28cc95133b8ff:0,0389935e372b58102b3427d3a3cf83a4:1642039066,b7c993dc56af10109e0a6a2f5a4d4ee1:0,88d897d440af1010f4895b92044fbbc5:1642039066,79331f1cdf6f1010bfd802f70b2195b9:0,6f225f14a16f1010850fd8a4af05e468:1642039066,117bc758ff2f101036e9c0a8d41dd857:0,7a5acb505e2f10100dffdec9418c63e8:1642039066,66606db35b9b9814ea223a885885843d:0,1cbe1db3aa5b9814255e23a8dc63e905:1642039066,14845bb0ce539c50b7b3099113f7227d:-1163649755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:40:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0398e9e524d6480b80ca4d53656579f9</sys_id>
+        <sys_metadata>90845bb0db539c5002085bd05b961977</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_anbib_grc_layer_control</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent display_value="">44841bb0db539c5002085bd05b9619c8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_ui_section_90845bb0db539c5002085bd05b961977</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_90845bb0db539c5002085bd05b961977">243c9fd6db6b58105ec19785ca9619ff</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:40:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Imp Tmpl X Anbib Grc Risk</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_imp_tmpl_x_anbib_grc_risk</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Gabriela.Gopfert-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-09-15 12:16:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3947241db5b9090faa711494b9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Anbib Grc Risk</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_app_module_e3947241db5b9090faa711494b9619b2</sys_update_name>
+        <sys_updated_by>Gabriela.Gopfert-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-09-15 12:16:44</sys_updated_on>
+        <timeline_page/>
+        <title>Imp Tmpl X Anbib Grc Risk</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</application>
+        <file_path/>
+        <instance_id>4eeecfdbdb57981c4b5c50b6f49619ed</instance_id>
+        <instance_name>abinbevwwdev</instance_name>
+        <name>sys_app_module_e3947241db5b9090faa711494b9619b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Imp Tmpl X Anbib Grc Risk</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_imp_tmpl_x_anbib_grc_risk</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Gabriela.Gopfert-ext@ab-Inbev.com</sys_created_by>
+        <sys_created_on>2020-09-15 12:16:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3947241db5b9090faa711494b9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Anbib Grc Risk</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_app_module_e3947241db5b9090faa711494b9619b2</sys_update_name>
+        <sys_updated_by>Gabriela.Gopfert-ext@ab-Inbev.com</sys_updated_by>
+        <sys_updated_on>2020-09-15 12:16:44</sys_updated_on>
+        <timeline_page/>
+        <title>Imp Tmpl X Anbib Grc Risk</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>-1343576670</payload_hash>
+        <record_name>Imp Tmpl X Anbib Grc Risk</record_name>
+        <reverted_from/>
+        <source>58ea53dedb2b58105ec19785ca9619be</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:37:13</sys_created_on>
+        <sys_id>ec1c9f96db6b58105ec19785ca961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e64ff2920000001</sys_recorded_at>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:37:13</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2c1c9f96336b58101e35c3a3e6e55976</update_guid>
+        <update_guid_history>2c1c9f96336b58101e35c3a3e6e55976:0,df2b9352ad6b58103893dd8afb692908:-1473197652,37a99f5c5aaf10102bd85b5f9ac273f0:0,ebf81b186caf1010f4dac6cd265a23e9:-1473197652,e513dbd8406f10103042daf589a76026:0,725253943f6f1010314eb5e8d5237f53:-1473197652,105b4318992f10104861b64dadebec18:0,7d8a43d0bc2f101041591f1c183aa944:-1473197652,c840ed33799b98143d08fbafc0d36491:0,37eed577ca5b981493aa85dc9e6c3fc6:-1473197652,6f947241d75b9090cfaf6605075c85b3:-26249056</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Imp Tmpl X Anbib Grc Risk">6dcc1f9adb6b58105ec19785ca961986</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-01 22:40:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1678e1a251d9435e972878649a828b44</sys_id>
+        <sys_metadata>e3947241db5b9090faa711494b9619b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Anbib Grc Risk</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_scope_delete display_value="">4282d7e0d78843f5a3fb6c4300e2df09</sys_scope_delete>
+        <sys_update_name>sys_app_module_e3947241db5b9090faa711494b9619b2</sys_update_name>
+        <sys_update_version display_value="sys_app_module_e3947241db5b9090faa711494b9619b2">ec1c9f96db6b58105ec19785ca961976</sys_update_version>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-01 22:40:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
