@@ -106,7 +106,7 @@
         <update_guid_history>e01c9f96566b58103089521ace195832:0,59b85bda212b5810636bbdcf4be7a31b:262409834,67a99f5cc8af101010ded61578291384:0,ffe8d3183faf1010507f8db55ae8dc09:997592779,99139bd8cb6f10109d12ddb8245713a1:0,db429b54bd6f10106d927a2d0e2c27a9:997592779,cc5b0318d02f101080f4b83e4b453cd1:0,527a8b909b2f10105a21bef75086d07b:997592779,7b30ad33199b981467ad1b732df039e2:0,b6de59370a5b9814bf2334d339e64d37:997592779,277bcbf80fdb5c502b61c6a21e3cb9ab:-209222209</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Imp Tmpl X Anbib Grc Control Template">3cec1bdadb6b58105ec19785ca96194d</sys_audit_delete>
+        <sys_audit_delete display_value="">3cec1bdadb6b58105ec19785ca96194d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-10-01 22:40:46</sys_created_on>

@@ -106,7 +106,7 @@
         <update_guid_history>e41c9f96556b5810017a5e1a5c1ee625:0,55691b1ef32b58101a8f8471136d7659:-1506159789,6ba99f5c94af10101e5b0a45bcd4f877:0,cc095b1804af1010a83734ee283708bb:-1310287316,59139bd8596f1010d83021242afe666f:0,5f529394b26f1010b45bdf57ad897b30:-1310287316,0c5b03185a2f1010531eb6cecf29b4b8:0,168a83d04b2f10104089a94555693817:-1310287316,b730ad33cd9b9814b9754c3fb155bfc9:0,e8fe1977435b9814234e2499ac25c4c4:-1310287316,e1bbcbb6f5c75410be2b395a00fabdcf:0,65ea8b7289c75410bbd2b62cc363519a:-1310287316,1dc56ad9c6839c50248b07993a7dcb2c:-1093593824</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Imp Tmpl X Anbib Grc Entity">05dc93dadb6b58105ec19785ca961977</sys_audit_delete>
+        <sys_audit_delete display_value="">05dc93dadb6b58105ec19785ca961977</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-10-01 22:40:31</sys_created_on>

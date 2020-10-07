@@ -60,7 +60,7 @@
         <update_guid_history>36b9d79c2daf1010b0e7902f177a70e3:0,eca8939443af1010bb7841c02a5bc19a:1779056969,ec23931c676f1010cc7a42a167d3bd8b:0,d102dbd0896f1010909e94fa86614abc:1779056969,086b4b18ef2f101004f04cffcdf35d77:0,562ac310e72f101008c6c5793b540ff4:1779056969,90506d73379b98142fe0ee148aa840ea:0,238ed933325b9814b8f466316567d746:1779056969,90cb03f6f3c75410cb64ae95d8dbbafa:0,7a9a87be06875410577583f3327e0613:1779056969,19875ed5b4039c50bf90c610b9bb5250:-2092348459</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=".x_anbib_grc.integrator">e4741542db2398102ebe5612f396194b</sys_audit_delete>
+        <sys_audit_delete display_value="">e4741542db2398102ebe5612f396194b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-30 18:06:10</sys_created_on>

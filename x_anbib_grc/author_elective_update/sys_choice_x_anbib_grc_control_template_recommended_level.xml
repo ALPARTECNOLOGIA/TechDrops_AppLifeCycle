@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="recommended_level" table="x_anbib_grc_control_template" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>recommended_level</element>
+            <name>x_anbib_grc_control_template</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-03 21:30:52</sys_created_on>
+            <sys_id>e10f9127db6b90105ec19785ca961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>recommended_level</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_choice_x_anbib_grc_control_template_recommended_level</sys_update_name>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-03 21:30:52</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>recommended_level</element>
@@ -38,21 +54,5 @@
             <sys_updated_on>2020-08-03 21:31:16</sys_updated_on>
             <value>zone_solutions</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>recommended_level</element>
-            <name>x_anbib_grc_control_template</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-03 21:30:52</sys_created_on>
-            <sys_id>205c1f1adb6b58105ec19785ca96197d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>recommended_level</sys_name>
-            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
-            <sys_policy/>
-            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
-            <sys_update_name>sys_choice_x_anbib_grc_control_template_recommended_level</sys_update_name>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-03 21:30:52</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

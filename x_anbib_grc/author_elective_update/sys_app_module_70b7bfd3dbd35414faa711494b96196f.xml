@@ -106,7 +106,7 @@
         <update_guid_history>f7a99f5c9daf1010bbf307b6d00903c5:0,45a8d39400af10107eb00ae26d135270:1303534601,d1139bd8416f1010d132fe5dcf6ad0ef:0,35021fd0276f1010c00eaf3901f0fb9e:1303534601,585b0318e12f101040576d91cc47a9ed:0,362a0710df2f1010f9c3944d57a22ece:1303534601,fb30ed33559b9814172a0212e235412d:0,109edd33ed5b981451fe459fdefd53d7:1303534601,a4d7bfd366d354145354b0e119a13201:-184967275</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Entities">3b3f97d1db23d4102ebe5612f3961956</sys_audit_delete>
+        <sys_audit_delete display_value="">3b3f97d1db23d4102ebe5612f3961956</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-28 20:17:09</sys_created_on>

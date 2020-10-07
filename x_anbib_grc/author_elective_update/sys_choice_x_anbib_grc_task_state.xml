@@ -19,7 +19,7 @@
             <sys_updated_on>2020-08-04 14:30:48</sys_updated_on>
             <value>-3</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+        <sys_choice_set action="DELETE">
             <element>state</element>
             <name>x_anbib_grc_task</name>
             <sys_class_name>sys_choice_set</sys_class_name>

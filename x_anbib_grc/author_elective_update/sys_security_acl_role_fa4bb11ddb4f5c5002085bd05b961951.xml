@@ -60,7 +60,7 @@
         <update_guid_history>88c99b9c24af1010364f44d0ab8904e6:0,70a8d394beaf101070f3b7afab54241b:-105335360,8a23571c466f1010e580e990c65b7eb4:0,e5021fd01f6f10105787ca5048a40623:-105335360,4d6b0f18242f10102a6b6139437a799f:0,622a07105f2f1010e8adbf520daa506d:-105335360,3950a1b34b9b98144b509a3957157159:0,3b8e5d33f45b98141e7255d551f6e1cc:-105335360,edcbc3f69dc75410b40d9883e54d5316:0,0f9ac7beb887541049b2832e376d1053:-105335360,5f37069df58f5c50b11c085d4da85a1d:1852035316,c517ce5d568f5c501b953532c5f18ca7:1682294080,020cf15d274f5c50165181d94e49657e:1732705112</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_anbib_grc_entity.status.x_anbib_grc.integrator">81745542db2398102ebe5612f3961932</sys_audit_delete>
+        <sys_audit_delete display_value="">81745542db2398102ebe5612f3961932</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-30 18:06:12</sys_created_on>

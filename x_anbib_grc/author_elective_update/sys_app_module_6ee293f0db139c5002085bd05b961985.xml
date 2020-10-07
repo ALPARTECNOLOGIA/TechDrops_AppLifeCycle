@@ -106,7 +106,7 @@
         <update_guid_history>6c1c9f96366b5810c54d52381ade484b:0,0989135e142b5810fcbaa5e98f58e6ef:1082726116,33a99f5c30af101019c7c5a355e2edc3:0,68d8d7d42aaf1010502b2b02e2f54c53:1166444269,1d139bd8e66f1010424e3088fb1f95ec:0,8c325f14936f1010c6f7adb62a472bdd:1166444269,905b0318022f10105098fc53a79f5beb:0,0b5a0f50b82f1010f117375dd2a80e76:1166444269,3730ed33d79b98141fe95d51f2edee2b:0,3cbe1db39c5b98143c773f5b207b90f2:1166444269,a6e293f0f7139c501d5e0857da649187:-341298719</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Imp Tmpl X Anbib Grc Maturity Level">a2cc9f9adb6b58105ec19785ca961927</sys_audit_delete>
+        <sys_audit_delete display_value="">a2cc9f9adb6b58105ec19785ca961927</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-10-01 22:40:21</sys_created_on>

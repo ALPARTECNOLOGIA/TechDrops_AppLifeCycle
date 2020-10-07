@@ -60,7 +60,7 @@
         <update_guid_history>3e5b815db9879c50fe4ee590d43d054c:0,e8fa459920879c50254e7f071abac417:1792575043,5063729814cf94507d633c80fe091f33:0,1463729822cf94502ab192caf41c6a31:-776071217</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_anbib_grc_entity_control.snc_internal">e6821f15dbef94102ebe5612f39619bc</sys_audit_delete>
+        <sys_audit_delete display_value="">e6821f15dbef94102ebe5612f39619bc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-28 19:21:38</sys_created_on>

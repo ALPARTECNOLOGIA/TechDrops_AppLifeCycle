@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="period_unit" table="x_anbib_grc_tier" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>period_unit</element>
+            <name>x_anbib_grc_tier</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-04 17:50:45</sys_created_on>
+            <sys_id>f10f9127db6b90105ec19785ca9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>period_unit</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_choice_x_anbib_grc_tier_period_unit</sys_update_name>
+            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-04 17:50:45</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>period_unit</element>
@@ -76,21 +92,5 @@
             <sys_updated_on>2020-08-04 17:50:45</sys_updated_on>
             <value>years</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>period_unit</element>
-            <name>x_anbib_grc_tier</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-04 17:50:45</sys_created_on>
-            <sys_id>355c135adb6b58105ec19785ca96192b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>period_unit</sys_name>
-            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
-            <sys_policy/>
-            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
-            <sys_update_name>sys_choice_x_anbib_grc_tier_period_unit</sys_update_name>
-            <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-04 17:50:45</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

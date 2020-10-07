@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_anbib_grc_issues" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_anbib_grc_issues</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+            <sys_created_on>2020-08-04 14:03:06</sys_created_on>
+            <sys_id>d43a36a7db9ad4d002085bd05b961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+            <sys_update_name>sys_choice_x_anbib_grc_issues_state</sys_update_name>
+            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+            <sys_updated_on>2020-08-04 14:03:06</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
@@ -19,21 +35,5 @@
             <sys_updated_on>2020-08-04 14:03:06</sys_updated_on>
             <value>4</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <name>x_anbib_grc_issues</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
-            <sys_created_on>2020-08-04 14:03:06</sys_created_on>
-            <sys_id>d43a36a7db9ad4d002085bd05b961956</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>state</sys_name>
-            <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
-            <sys_policy/>
-            <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
-            <sys_update_name>sys_choice_x_anbib_grc_issues_state</sys_update_name>
-            <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-            <sys_updated_on>2020-08-04 14:03:06</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

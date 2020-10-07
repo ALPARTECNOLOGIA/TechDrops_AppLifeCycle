@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="customer_contact">customer_contact</reference>
+        <reference display_value="">customer_contact</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-09-02 14:39:42</sys_created_on>
-        <sys_id>0adb5756db6b58105ec19785ca961987</sys_id>
+        <sys_id>5d0f5127db6b90105ec19785ca961975</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Supplier Service Name</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_dictionary_x_anbib_grc_entity_supplier_service_name</sys_update_name>
         <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-10-01 22:37:00</sys_updated_on>
+        <sys_updated_on>2020-10-05 10:43:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
