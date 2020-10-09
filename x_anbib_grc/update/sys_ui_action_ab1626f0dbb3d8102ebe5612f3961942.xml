@@ -7,12 +7,12 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>!current.isNewRecord() &amp;&amp; (new global.Workflow().hasWorkflow(current)) &amp;&amp; gs.hasRole('x_anbib_grc.admin')</condition>
+        <condition>current.active &amp;&amp; current.state == '30' &amp;&amp; current.status != '7' &amp;&amp; gs.getUserID() == current.assigned_to</condition>
         <form_action>true</form_action>
-        <form_button>false</form_button>
+        <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
-        <form_context_menu>false</form_context_menu>
-        <form_link>true</form_link>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
         <hint/>
@@ -25,31 +25,37 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Restart Workflow</name>
+        <name>Submit test and evidences parameters</name>
         <onclick/>
-        <order>100</order>
-        <script><![CDATA[new global.Workflow().restartWorkflow(current);
+        <order>800</order>
+        <script><![CDATA[current.status = '8';
 current.update();
-action.setRedirectURL(current);]]></script>
+redirect();
+
+function redirect() {
+	var isList = action.getGlideURI().get('sys_is_list');
+	if (!isList) //Not from list form
+		action.setRedirectURL(current);
+}]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
-        <sys_created_on>2020-09-01 20:43:15</sys_created_on>
+        <sys_created_on>2020-10-09 13:06:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>67a1ecb8dbc7585002085bd05b96199d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Restart Workflow</sys_name>
+        <sys_id>ab1626f0dbb3d8102ebe5612f3961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit test and evidences parameters</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
-        <sys_update_name>sys_ui_action_67a1ecb8dbc7585002085bd05b96199d</sys_update_name>
+        <sys_update_name>sys_ui_action_ab1626f0dbb3d8102ebe5612f3961942</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-10-09 13:22:48</sys_updated_on>
+        <sys_updated_on>2020-10-09 13:06:17</sys_updated_on>
         <table>x_anbib_grc_control</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

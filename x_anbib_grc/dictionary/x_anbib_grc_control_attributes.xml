@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Control Attributes" max_length="40" name="x_anbib_grc_control_attributes" type="collection">
+        <element label="Control" max_length="32" name="control" reference="x_anbib_grc_control" type="reference"/>
+        <element label="Description" max_length="10000" name="description" type="string"/>
+        <element label="Identifier" max_length="40" name="identifier" type="integer"/>
+        <element label="Active" max_length="40" name="is_active" read_only="true" type="boolean"/>
+        <index name="index">
+            <element name="identifier"/>
+        </index>
+        <index name="index2">
+            <element name="control"/>
+        </index>
+    </element>
+</database>

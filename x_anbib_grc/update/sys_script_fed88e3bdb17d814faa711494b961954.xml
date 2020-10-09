@@ -31,6 +31,7 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	gs.info('[ALP0910] br attach');
 	var fileName = current.file_name.toString();
 	var recordSysId = current.table_sys_id.toString();
 	var contextSysId = getSysIdContext(recordSysId);
@@ -38,12 +39,17 @@
 	var extension = fileName.match(/(\.\w{1,})/g);
 	var arrayName = fileName.split('.');
 	var rename = arrayName[0] + '_' + activitySysId + extension.toString();
+	gs.info('[ALP0910] br attach contextSysId ' + contextSysId);
+	gs.info('[ALP0910] br attach activitySysId ' + activitySysId);
+	gs.info('[ALP0910] br attach rename ' + rename);
 	var grAttach = new GlideRecord('sys_attachment');
 	grAttach.addQuery('sys_id', current.sys_id.toString());
 	grAttach.query();
 	grAttach.next();
 	grAttach.file_name = rename;
 	grAttach.update();
+	
+	gs.info('[ALP0910] br attach file name ' + grAttach.file_name);
 })(current, previous);
 function getSysIdContext(recordSysId){
 	var grContext = new GlideRecord('wf_context');
@@ -68,15 +74,15 @@ function getSysIdActivity(contextSysId){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fed88e3bdb17d814faa711494b961954</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>GRC - Rename attach with sys_id activity</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_script_fed88e3bdb17d814faa711494b961954</sys_update_name>
-        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-23 23:29:19</sys_updated_on>
+        <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-09 14:21:37</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

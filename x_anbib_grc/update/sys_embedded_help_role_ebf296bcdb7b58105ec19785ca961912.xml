@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_anbib_grc.control_attributes_user" name="x_anbib_grc.control_attributes_user">ebf252bcdb7b58105ec19785ca9619d4</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>marcos.michalski@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-09 11:42:44</sys_created_on>
+        <sys_id>ebf296bcdb7b58105ec19785ca961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ebf252bcdb7b58105ec19785ca9619d4</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ebf296bcdb7b58105ec19785ca961912</sys_update_name>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-09 11:42:44</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -46,8 +46,11 @@
                 <element inactive_on_update="false" label="SOP approved" sequence="4" value="4"/>
                 <element inactive_on_update="false" label="Application decommissioned" sequence="5" value="5"/>
                 <element inactive_on_update="false" label="Application out of scope" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Waiting for request list and attributes" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="Closed" sequence="8" value="8"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Test request list" max_length="4000" name="test_request_list" type="string"/>
         <element label="Weighting" max_length="40" name="weighting" type="integer"/>
     </element>
 </database>

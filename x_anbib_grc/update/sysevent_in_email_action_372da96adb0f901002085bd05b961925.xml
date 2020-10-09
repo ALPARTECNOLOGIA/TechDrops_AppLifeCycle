@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
     <sysevent_in_email_action action="INSERT_OR_UPDATE">
         <action>record_action</action>
-        <active>true</active>
+        <active>false</active>
         <assignment_operator/>
         <condition_script/>
         <description>This inbound email action is triggered when an email is sent to ServiceNow and:&#13;
@@ -155,7 +155,7 @@ Ref:MSG0000107&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>372da96adb0f901002085bd05b961925</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_name>GRC - Approve</sys_name>
         <sys_overrides/>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -163,7 +163,7 @@ Ref:MSG0000107&#13;
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sysevent_in_email_action_372da96adb0f901002085bd05b961925</sys_update_name>
         <sys_updated_by>victor.mantovani@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-09-09 19:45:45</sys_updated_on>
+        <sys_updated_on>2020-10-08 15:18:00</sys_updated_on>
         <table>sysapproval_approver</table>
         <template/>
         <type>reply</type>

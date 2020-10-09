@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_anbib_grc.grc.emailapproval</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>grc.emailapproval</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>bruno.silva@alparservice.com.br</sys_created_by>
+        <sys_created_on>2020-10-09 00:21:46</sys_created_on>
+        <sys_id>4707fbe4dbbf18105ec19785ca9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_anbib_grc.grc.emailapproval</sys_name>
+        <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
+        <sys_update_name>sysevent_register_4707fbe4dbbf18105ec19785ca9619bf</sys_update_name>
+        <sys_updated_by>bruno.silva@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-09 00:21:46</sys_updated_on>
+        <table/>
+    </sysevent_register>
+</record_update>
