@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Maturity Level" max_length="40" name="x_anbib_grc_maturity_level" sizeclass="102" type="collection">
+    <element label="Maturity Level" max_length="40" name="x_anbib_grc_maturity_level" type="collection">
         <element label="Control Template" max_length="32" name="control_template" reference="x_anbib_grc_control_template" type="reference"/>
         <element label="Description" max_length="5000" name="description" type="string"/>
         <element display="true" label="Level" max_length="255" name="level" type="string"/>
