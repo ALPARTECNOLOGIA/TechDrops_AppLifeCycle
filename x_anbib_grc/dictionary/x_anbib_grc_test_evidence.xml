@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_anbib_grc_task" label="Test Evidence" max_length="40" name="x_anbib_grc_test_evidence" type="collection">
+        <element label="Control" max_length="32" name="control" read_only="true" reference="x_anbib_grc_control" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Request List" max_length="4000" name="request_list" read_only="true" type="string"/>
+        <element label="SOP" max_length="32" name="sop" read_only="true" reference="x_anbib_grc_sop" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Waiting for test evidence" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="Waiting for validation and link to test" sequence="1" value="20"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="30"/>
+                <element inactive_on_update="false" label="Closed for lack of evidence" sequence="3" value="40"/>
+            </choice>
+        </element>
+    </element>
+</database>

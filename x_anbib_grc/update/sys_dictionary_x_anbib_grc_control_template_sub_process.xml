@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-08-03 20:20:57</sys_created_on>
-        <sys_id>c461c38edbfb50502ebe5612f39619b2</sys_id>
+        <sys_id>4431e822dbffd0502ebe5612f396195e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Sub Process</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_dictionary_x_anbib_grc_control_template_sub_process</sys_update_name>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-10-13 12:18:10</sys_updated_on>
+        <sys_updated_on>2020-10-14 13:55:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Tier Schedule" max_length="40" name="x_anbib_grc_tier_schedule" sizeclass="1" type="collection">
+        <element label="End day" max_length="40" name="end_day" type="integer"/>
+        <element choice="1" choice_field="start_month" choice_table="x_anbib_grc_tier_schedule" label="End month" max_length="40" name="end_month" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Start month" max_length="40" name="start_month" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="January" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="February" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="March" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="April" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="May" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="June" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="July" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="August" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="September" sequence="9" value="9"/>
+                <element inactive_on_update="false" label="October" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="November" sequence="11" value="11"/>
+                <element inactive_on_update="false" label="December" sequence="12" value="12"/>
+            </choice>
+        </element>
+        <element label="Tier" max_length="32" name="tier" reference="x_anbib_grc_tier" type="reference"/>
+        <index name="index">
+            <element name="tier"/>
+        </index>
+    </element>
+</database>

@@ -75,7 +75,7 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles/>
+        <roles>snc_internal</roles>
         <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -103,14 +103,14 @@
         <sys_created_by>Daniel.Dias-ext@ab-Inbev.com</sys_created_by>
         <sys_created_on>2020-07-28 21:06:30</sys_created_on>
         <sys_id>42f7d465dbda9c90faa711494b961987</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Approvals from change</sys_name>
         <sys_package display_value="GRC" source="x_anbib_grc">1a6d93de1b6d58504aae202a2d4bcbdc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC">1a6d93de1b6d58504aae202a2d4bcbdc</sys_scope>
         <sys_update_name>sys_report_42f7d465dbda9c90faa711494b961987</sys_update_name>
-        <sys_updated_by>Daniel.Dias-ext@ab-Inbev.com</sys_updated_by>
-        <sys_updated_on>2020-07-28 21:09:48</sys_updated_on>
+        <sys_updated_by>marcos.michalski@alparservice.com.br</sys_updated_by>
+        <sys_updated_on>2020-10-14 17:22:26</sys_updated_on>
         <table>sysapproval_approver</table>
         <title>Approvals from change</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

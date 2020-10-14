@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Import Transform Entities" max_length="40" name="x_anbib_grc_import_entity" type="collection">
+    <element extends="sys_import_set_row" label="Import Transform Entities" max_length="40" name="x_anbib_grc_import_entity" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Application type" max_length="100" name="u_application_type" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Area" max_length="100" name="u_area" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Business function" max_length="100" name="u_business_function" type="string"/>
