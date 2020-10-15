@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_anbib_grc_task" label="SOP Validation" max_length="40" name="x_anbib_grc_sop_validation" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Decision" max_length="40" name="decision" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Design fail" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="SOP document fail" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Decision description" max_length="4000" name="decision_description" type="string"/>
+        <element label="Entity" max_length="32" name="entity" reference="x_anbib_grc_entity" type="reference"/>
+        <element label="SOP" max_length="32" name="sop" reference="x_anbib_grc_sop" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status validation" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-TBDVALUE-0" sequence="0"/>
+                <element inactive_on_update="false" label="Valid" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Invalid" sequence="1" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>

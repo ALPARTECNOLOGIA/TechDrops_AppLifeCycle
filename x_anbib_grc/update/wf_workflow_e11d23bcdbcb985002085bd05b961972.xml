@@ -31,12 +31,12 @@
         <sys_created_by>nathalia.zago@alparservice.com.br</sys_created_by>
         <sys_created_on>2020-10-14 13:43:38</sys_created_on>
         <sys_id>d79e5ce2dbbfd0502ebe5612f3961916</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_updated_by>nathalia.zago@alparservice.com.br</sys_updated_by>
-        <sys_updated_on>2020-10-14 13:47:42</sys_updated_on>
+        <sys_updated_on>2020-10-15 12:51:38</sys_updated_on>
         <table>x_anbib_grc_control</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="GRC - Control Implementation">e11d23bcdbcb985002085bd05b961972</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
